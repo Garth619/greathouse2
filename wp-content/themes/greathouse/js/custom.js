@@ -99,13 +99,13 @@ var sticky = new Waypoint.Sticky({
 	
 	// Slidetoggle on mobile menu 
 	
-	jQuery('.mobile_dropdown_inner li.menu-item-has-children a').click(function(){
+	jQuery('.mobile_dropdown_inner ul#menu-menu-2 > li.menu-item-has-children > a').click(function(){
 		
 		jQuery(this).next('ul.sub-menu').slideToggle(200);
 		jQuery(this).toggleClass('active');
 		
 		
-		inner_drown_wrapper
+	
 		
 		
 		
