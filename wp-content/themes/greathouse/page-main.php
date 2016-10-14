@@ -34,7 +34,7 @@ get_header(); ?>
 	
 	<div class="single_product_square">
 		
-		<a href="">
+		<a href="<?php bloginfo('url');?>/furniture-cat/outdoor-patio">
 		
 			<div class="product_overlay">
 			
@@ -57,7 +57,7 @@ get_header(); ?>
 	
 	<div class="single_product_square">
 		
-		<a href="">
+		<a href="<?php bloginfo('url');?>/furniture-cat/sofas">
 		
 			<div class="product_overlay">
 			
@@ -80,7 +80,7 @@ get_header(); ?>
 	
 	<div class="single_product_square">
 		
-		<a href="">
+		<a href="<?php bloginfo('url');?>/furniture-cat/dining">
 		
 			<div class="product_overlay">
 			
@@ -103,7 +103,7 @@ get_header(); ?>
 	
 	<div class="single_product_square">
 		
-		<a href="">
+		<a href="<?php bloginfo('url');?>/furniture-cat/living-room">
 		
 			<div class="product_overlay">
 			
@@ -127,7 +127,7 @@ get_header(); ?>
 	<div class="single_product_square">
 		
 		
-		<a href="">
+		<a href="<?php bloginfo('url');?>/furniture-cat/accessories">
 		
 			<div class="product_overlay">
 			
@@ -150,7 +150,7 @@ get_header(); ?>
 	
 	<div class="single_product_square">
 		
-		<a href="">
+		<a href="<?php bloginfo('url');?>/furniture-cat/bedroom">
 		
 			<div class="product_overlay">
 				
@@ -174,7 +174,7 @@ get_header(); ?>
 	<div class="single_product_square">
 		
 		
-		<a href="">
+		<a href="<?php bloginfo('url');?>/furniture-cat/home-office">
 		
 			<div class="product_overlay">
 			
@@ -198,7 +198,7 @@ get_header(); ?>
 	<div class="single_product_square">
 		
 		
-		<a href="">
+		<a href="<?php bloginfo('url');?>/furniture-cat/rugs">
 		
 			<div class="product_overlay">
 			

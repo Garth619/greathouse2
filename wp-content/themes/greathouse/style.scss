@@ -1715,9 +1715,10 @@ img.aligncenter {
 		}
 		.ivpa_title {
 			color:$bluedark !important;
-			font-size:14px;
-			font-weight:none;
-			font-style:none;
+			font-size:14px !important;
+			font-weight:none !important;
+			font-style:none !important;
+			margin-bottom:10px !important;
 			strong {
 				font-weight:none;
 				font-style:none;
@@ -1729,6 +1730,23 @@ img.aligncenter {
 	
 		#ivpa-content .ivpa_attribute.ivpa_image .ivpa_term.ivpa_clicked {
     border:3px $bluedark solid !important;
+}
+
+
+
+html.yes-js.js_active.js body.single.single-product.postid-2586.logged-in.admin-bar.woocommerce.woocommerce-page.yith-wcan-pro.customize-support main div.product_wrapper div.inner_product_wrapper div#product-2586.post-2586.product.type-product.status-publish.has-post-thumbnail.product_cat-bedroom.product_cat-modern-bedroom-furniture.first.instock.taxable.shipping-taxable.purchasable.product-type-variable.has-children div.product_content_wrap div.summary.entry-summary div#ivpa-content.ivpa-register.ivpa_registered div.ivpa_attribute.ivpa_text.ivpa_background.ivpa_activated.ivpa_clicked span.ivpa_term.ivpa_active.ivpa_clicked.ivpa_instock {
+	background:$grey !important;
+	color:#fff !important;
+}
+
+.ivpa_term {
+	background:$greylight !important;
+	color:#000 !important;
+	text-shadow: none !important;
+	padding: 8px 16px !important;
+	-moz-box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	box-sizing: border-box !important;
 }
 	
 	
@@ -1824,11 +1842,26 @@ img.aligncenter {
 	/* Shop Page */
 
 
-/*
-.myfilter_wrapper {
-	display: none;
+
+
+
+body.post-type-archive-product, body.tax-product_cat {
+	h1:after {
+		content:"Under Development";
+		display: inline-block;
+		margin-left:10px;
+	}
+	.woocommerce-result-count {
+		display: none;
+	}
+	.yit-wcan-container {
+		display:none;
+	}
+	.page-numbers {
+		display: none;
+	}
 }
-*/
+
 
 
 body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter_wrapper {
@@ -3803,7 +3836,7 @@ header {
 					position:absolute;
 					opacity:0;
 					visibility: hidden; /* */
-					top:106px;
+					top:49px;
 					left:0;
 					background:rgba(47, 47, 47, 0.98);
 					z-index: 1000;
@@ -3845,7 +3878,7 @@ header {
 								a {
 									color:#fff;
 									border:none;
-									margin-top:20px;
+									margin-top:16px;
 									padding-bottom:0;
 									transition:all .2s ease-in-out;
 									text-decoration: none;

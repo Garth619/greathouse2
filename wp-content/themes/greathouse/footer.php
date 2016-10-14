@@ -21,11 +21,11 @@
 			<div class="footer_menu tablet">
 				
 				<ul>
-					<li><a href="">Shop</a></li>
-					<li><a href="">DESIGN SERVICES</a></li>
-					<li><a href="">contract sales</a></li>
-					<li><a href="">national shipping</a></li>
-					<li><a href="">blog</a></li>
+					<li><a href="<?php bloginfo('url');?>/all-products">Shop</a></li>
+					<li><a href="<?php bloginfo('url');?>/design-services/">DESIGN SERVICES</a></li>
+					<li><a href="<?php bloginfo('url');?>/sale">contract sales</a></li>
+					<li><a href="<?php bloginfo('url');?>/national-shipping">national shipping</a></li>
+					<li><a href="<?php bloginfo('url');?>/blog">blog</a></li>
 				</ul>
 				
 			</div><!-- footer_menu -->
