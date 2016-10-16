@@ -9,14 +9,7 @@ get_header(); ?>
 
 		
 		
-<div class="product_wrapper"> 
-	
-	
-	
-	
-	
-
-		<div class="myfilter_wrapper">
+<div class="myfilter_wrapper">
 	
 			<?php if ( is_active_sidebar('my-product-search-filter')):?>
 	
@@ -24,7 +17,7 @@ get_header(); ?>
 				
 					<h2 class="my_filter_title">Filter By</h2>
 				
-				</div>
+				</div><!-- myfilter_wrapper -->
 
 					<ul>
 					
@@ -34,19 +27,13 @@ get_header(); ?>
 				<?php endif; ?>
 	
 	
-		</div>
+		</div><!-- myfilter_wrapper -->
 
-		
+		<div class="product_wrapper"> 
 	
+			<?php woocommerce_content(); ?>
 	
-		<?php woocommerce_content(); ?>
-	
-	
-	
-	
-	
-			
-</div><!-- product_wrapper -->
+		</div><!-- product_wrapper -->
 
 
 <?php get_footer(); ?>

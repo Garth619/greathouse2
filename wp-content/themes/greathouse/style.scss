@@ -1870,6 +1870,9 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 	
 	display: block;
 // 	padding:0 20px;
+font-size:14px;
+text-transform: uppercase;
+font-family: $oswaldreg;
 	.filter_header_wrapper {
 		border-bottom: 4px solid #000;
 		padding:15px 25px;
@@ -1895,6 +1898,9 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 	}
 	> ul {
 			display: none;
+			> li:nth-last-of-type(-n+2) {
+					border:none;
+			}
 			> li {
 				padding:0 25px 25px;border-bottom: 1px solid #e1dddd;
 				h2 {
@@ -1917,6 +1923,40 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 
 .yith-wcan-sort-by ul.orderby li.orderby-wrapper a.active::before, a.yith-wcan-onsale-button.active::before, a.yith-wcan-instock-button.active::before, a.yith-wcan-price-link.active::before {
 	content:"x" !important;
+	background:#000 !important;
+	color:#fff !important;
+	font-family: $oswaldreg !important;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	width:19px !important;
+	height:19px !important;
+	display: inline-block !important;
+	font-size:14px !important;
+	cursor: pointer;
+	padding: 0 0 0 6.5px !important;
+	margin-right:5px !important;
+	position: relative;
+	top:-2px;
+	left:0;
+}
+
+
+li.yith-woo-ajax-reset-navigation {
+	background: $bluedark !important;
+	width:100% !important;
+	border:none !important;
+	padding:15px 0 !important;
+	text-align: center !important;
+.yith-wcan {
+	
+	a.yith-wcan-reset-navigation {
+		
+		color:#fff !important;
+		
+		display: block !important;
+	}
+}
 }
 
 
