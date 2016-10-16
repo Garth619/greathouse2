@@ -15,7 +15,7 @@ get_header(); ?>
 	
 	
 	
-<!--
+
 		<div class="myfilter_wrapper">
 	
 			<?php if ( is_active_sidebar('my-product-search-filter')):?>
@@ -35,7 +35,7 @@ get_header(); ?>
 	
 	
 		</div>
--->
+
 		
 	
 	

@@ -1845,6 +1845,7 @@ html.yes-js.js_active.js body.single.single-product.postid-2586.logged-in.admin-
 
 
 
+/*
 body.post-type-archive-product, body.tax-product_cat {
 	h1:after {
 		content:"Under Development";
@@ -1861,6 +1862,7 @@ body.post-type-archive-product, body.tax-product_cat {
 		display: none;
 	}
 }
+*/
 
 
 
@@ -1870,8 +1872,9 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 // 	padding:0 20px;
 	.filter_header_wrapper {
 		border-bottom: 4px solid #000;
-		padding:15px;
+		padding:15px 25px;
 		background:$greylight;
+		cursor: pointer;
 		h2.my_filter_title {
 			font-size:25px;
 			font-family: $voltagereg;
@@ -1883,8 +1886,40 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 				float:right;
 			}
 		}
+		h2.my_filter_title.open {
+			&:after {
+				content:"-";
+			}
+		}
+		
 	}
+	> ul {
+			display: none;
+			> li {
+				padding:0 25px 25px;border-bottom: 1px solid #e1dddd;
+				h2 {
+					font-size:14px;
+					padding:25px 0 10px;
+				}
+				 ul {
+				 	list-style: none;
+				 	li {
+					 	margin:12px 0;
+					 	font-size:14px;
+				 	}
+				}
+			}
+		}
 }
+
+
+
+
+.yith-wcan-sort-by ul.orderby li.orderby-wrapper a.active::before, a.yith-wcan-onsale-button.active::before, a.yith-wcan-instock-button.active::before, a.yith-wcan-price-link.active::before {
+	content:"x" !important;
+}
+
+
 
 .myproduct_archive_wrapper {
 	padding:0 30px;

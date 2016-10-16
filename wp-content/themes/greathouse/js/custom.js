@@ -126,9 +126,24 @@ var sticky = new Waypoint.Sticky({
 	});
 	
 	
-	// Adds a div around the content of the single product page
+ // Product Filter Suff
+ 
+ 	
+ //opens top level
+ 
+ 
+	 jQuery('.filter_header_wrapper').click(function(){
+	 
+	 	jQuery(this).next('ul').slideToggle(200);
+	 	jQuery('.my_filter_title').toggleClass('open');
+	 
+		});
+	
+
+
   
   
+    
 
 
 

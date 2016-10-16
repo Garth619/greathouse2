@@ -1339,23 +1339,31 @@ html.yes-js.js_active.js body.single.single-product.postid-2586.logged-in.admin-
     margin-bottom: 55px; }
 
 /* Shop Page */
-body.post-type-archive-product h1:after, body.tax-product_cat h1:after {
-  content: "Under Development";
-  display: inline-block;
-  margin-left: 10px; }
-body.post-type-archive-product .woocommerce-result-count, body.tax-product_cat .woocommerce-result-count {
-  display: none; }
-body.post-type-archive-product .yit-wcan-container, body.tax-product_cat .yit-wcan-container {
-  display: none; }
-body.post-type-archive-product .page-numbers, body.tax-product_cat .page-numbers {
-  display: none; }
-
+/*
+body.post-type-archive-product, body.tax-product_cat {
+	h1:after {
+		content:"Under Development";
+		display: inline-block;
+		margin-left:10px;
+	}
+	.woocommerce-result-count {
+		display: none;
+	}
+	.yit-wcan-container {
+		display:none;
+	}
+	.page-numbers {
+		display: none;
+	}
+}
+*/
 body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter_wrapper {
   display: block; }
   body.post-type-archive-product .myfilter_wrapper .filter_header_wrapper, body.tax-product_cat .myfilter_wrapper .filter_header_wrapper {
     border-bottom: 4px solid #000;
-    padding: 15px;
-    background: #f3f3f3; }
+    padding: 15px 25px;
+    background: #f3f3f3;
+    cursor: pointer; }
     body.post-type-archive-product .myfilter_wrapper .filter_header_wrapper h2.my_filter_title, body.tax-product_cat .myfilter_wrapper .filter_header_wrapper h2.my_filter_title {
       font-size: 25px;
       font-family: "Voltage W00 Regular", arial;
@@ -1365,6 +1373,24 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
       body.post-type-archive-product .myfilter_wrapper .filter_header_wrapper h2.my_filter_title:after, body.tax-product_cat .myfilter_wrapper .filter_header_wrapper h2.my_filter_title:after {
         content: "+";
         float: right; }
+    body.post-type-archive-product .myfilter_wrapper .filter_header_wrapper h2.my_filter_title.open:after, body.tax-product_cat .myfilter_wrapper .filter_header_wrapper h2.my_filter_title.open:after {
+      content: "-"; }
+  body.post-type-archive-product .myfilter_wrapper > ul, body.tax-product_cat .myfilter_wrapper > ul {
+    display: none; }
+    body.post-type-archive-product .myfilter_wrapper > ul > li, body.tax-product_cat .myfilter_wrapper > ul > li {
+      padding: 0 25px 25px;
+      border-bottom: 1px solid #e1dddd; }
+      body.post-type-archive-product .myfilter_wrapper > ul > li h2, body.tax-product_cat .myfilter_wrapper > ul > li h2 {
+        font-size: 14px;
+        padding: 25px 0 10px; }
+      body.post-type-archive-product .myfilter_wrapper > ul > li ul, body.tax-product_cat .myfilter_wrapper > ul > li ul {
+        list-style: none; }
+        body.post-type-archive-product .myfilter_wrapper > ul > li ul li, body.tax-product_cat .myfilter_wrapper > ul > li ul li {
+          margin: 12px 0;
+          font-size: 14px; }
+
+.yith-wcan-sort-by ul.orderby li.orderby-wrapper a.active::before, a.yith-wcan-onsale-button.active::before, a.yith-wcan-instock-button.active::before, a.yith-wcan-price-link.active::before {
+  content: "x" !important; }
 
 .myproduct_archive_wrapper {
   padding: 0 30px; }
