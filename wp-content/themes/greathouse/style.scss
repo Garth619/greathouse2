@@ -4390,6 +4390,7 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 		padding-right:30px;
 		h2.my_filter_title {
 			text-align: right;
+			cursor: pointer;
 			&:after {
 				display: none;
 			}
@@ -4409,6 +4410,12 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 			background: #fff;
 			> li:nth-last-of-type(-n+2) {
 					
+			}
+			> li:hover {
+				ul {
+					opacity: 1;
+					visibility: visible;
+				}
 			}
 			> li {
 				width:19%;
@@ -4438,6 +4445,14 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 				 	left:0;
 				 	background: #fff;
 				 	width:100%;
+				 	padding:15px 0 25px 25px;
+				 	z-index:500;
+				 	border-left:1px solid #000;
+				 	border-right:1px solid #000;
+				 	border-bottom:1px solid #000;
+				 	opacity: 0;
+				 	visibility: hidden;
+				 	transition:all .2s ease-in-out;
 				 	li {
 					 
 				 	}
@@ -4457,7 +4472,10 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 
 
 li.yith-woo-ajax-reset-navigation {
-	
+	width:20% !important;
+	float:left;
+	padding:20px !important;
+	border:none !important;
 .yith-wcan {
 	
 	a.yith-wcan-reset-navigation {
