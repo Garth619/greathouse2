@@ -7,17 +7,29 @@
 
 get_header(); ?>
 
+<?php include('banner.php');?>	
 		
-		
-<div class="myfilter_wrapper">
+
+
+<div class="outer_wrapper">
+
+	<div class="myfilter_wrapper">
 	
 			<?php if ( is_active_sidebar('my-product-search-filter')):?>
 	
-				<div class="filter_header_wrapper">
+				<div class="filter_header_wrapper desktop">
+				
+					<h2 class="my_filter_title">Filter By</h2>
+				
+				</div>
+				
+				<div class="filter_header_wrapper mobile">
 				
 					<h2 class="my_filter_title">Filter By</h2>
 				
 				</div><!-- myfilter_wrapper -->
+				
+				
 
 					<ul>
 					
@@ -28,6 +40,10 @@ get_header(); ?>
 	
 	
 		</div><!-- myfilter_wrapper -->
+		
+		<div style="clear:both;"></div>
+		
+	</div><!-- outer_wrapper -->
 
 		<div class="product_wrapper"> 
 	

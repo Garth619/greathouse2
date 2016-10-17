@@ -132,7 +132,7 @@ var sticky = new Waypoint.Sticky({
  //opens top level
  
  
-	 jQuery('.filter_header_wrapper').click(function(){
+	 jQuery('.filter_header_wrapper.mobile').click(function(){
 	 
 	 	jQuery(this).next('ul').slideToggle(200);
 	 	jQuery('.my_filter_title').toggleClass('open');

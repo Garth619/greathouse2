@@ -432,6 +432,8 @@ get_header(); ?>
 			
 		</div><!-- keyholder -->
 		
+		<a href="<?php bloginfo('url');?>/furniture-cat/accessories">
+		
 		<div class="shop_accessories">
 			
 			<div class="shop_bar">
@@ -442,6 +444,8 @@ get_header(); ?>
 			</div><!-- shop_bar -->
 			
 		</div><!-- shop_accessories -->
+		
+		</a>
 		
 		<div class="seasonal_features">
 			
