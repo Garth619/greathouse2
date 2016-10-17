@@ -1352,7 +1352,8 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked {
     margin-bottom: 55px; }
 
 /* Shop Page */
-body.single-product .myfilter_wrapper {
+/* Filters. unfortunaltely there are alot of !importants here as I needed to use the pluigns stylesheet */
+body.single-product .outer_wrapper {
   display: none; }
 
 .filter_header_wrapper.desktop {
@@ -1398,6 +1399,12 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
           margin: 12px 0;
           font-size: 14px; }
 
+li.yit-wcan-child-terms.level-1 {
+  padding: 0 !important; }
+
+li.yit-wcan-parent-terms a {
+  color: #000 !important; }
+
 .yith-wcan-sort-by ul.orderby li.orderby-wrapper a.active::before, a.yith-wcan-onsale-button.active::before, a.yith-wcan-instock-button.active::before, a.yith-wcan-price-link.active::before {
   content: "x" !important;
   background: #000 !important;
@@ -1418,13 +1425,14 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
   left: 0; }
 
 li.yith-woo-ajax-reset-navigation {
-  background: #79b7c0 !important;
   width: 100% !important;
   border: none !important;
-  padding: 15px 0 !important;
-  text-align: center !important; }
+  text-align: center !important;
+  padding: 0 !important; }
   li.yith-woo-ajax-reset-navigation .yith-wcan a.yith-wcan-reset-navigation {
+    padding: 15px 0 !important;
     color: #fff !important;
+    background: #79b7c0 !important;
     display: block !important; }
 
 .yit-wcan-container {
@@ -2790,7 +2798,7 @@ ul.woocommerce-error {
   .form_wrapper .form_inner ul li#field_1_5 {
     width: 100%; }
 
-  /* Filters */
+  /* Filters. unfortunaltely there are alot of !importants here as I needed to use the pluigns stylesheet */
   .filter_header_wrapper.mobile {
     display: none; }
 
@@ -2822,12 +2830,15 @@ ul.woocommerce-error {
       body.post-type-archive-product .myfilter_wrapper > ul > li:hover ul, body.tax-product_cat .myfilter_wrapper > ul > li:hover ul {
         opacity: 1;
         visibility: visible; }
+        body.post-type-archive-product .myfilter_wrapper > ul > li:hover ul li h2:after, body.tax-product_cat .myfilter_wrapper > ul > li:hover ul li h2:after {
+          content: "-"; }
       body.post-type-archive-product .myfilter_wrapper > ul > li, body.tax-product_cat .myfilter_wrapper > ul > li {
         width: 19%;
         float: left;
         padding: 0;
         position: relative;
-        border-bottom: none; }
+        border-bottom: none;
+        cursor: pointer; }
         body.post-type-archive-product .myfilter_wrapper > ul > li h2, body.tax-product_cat .myfilter_wrapper > ul > li h2 {
           width: 100%;
           padding: 22px 25px 19px;
@@ -2843,7 +2854,7 @@ ul.woocommerce-error {
             top: 3px; }
         body.post-type-archive-product .myfilter_wrapper > ul > li ul, body.tax-product_cat .myfilter_wrapper > ul > li ul {
           position: absolute;
-          top: 59px;
+          top: 55px;
           left: 0;
           background: #fff;
           width: 100%;
@@ -2854,13 +2865,18 @@ ul.woocommerce-error {
           border-bottom: 1px solid #000;
           opacity: 0;
           visibility: hidden;
-          transition: all .2s ease-in-out; }
+          transition: all .2s ease-in-out;
+          border-top: 4px solid #000; }
+          body.post-type-archive-product .myfilter_wrapper > ul > li ul li, body.tax-product_cat .myfilter_wrapper > ul > li ul li {
+            line-height: 1.2; }
 
   li.yith-woo-ajax-reset-navigation {
     width: 20% !important;
     float: left;
-    padding: 20px !important;
+    padding: 0px 0px !important;
     border: none !important; }
+    li.yith-woo-ajax-reset-navigation .yith-wcan a.yith-wcan-reset-navigation {
+      padding: 20px 0 21px !important; }
 
   /* Single Product Pages */
   .product_wrapper .woocommerce-breadcrumb {

@@ -1860,9 +1860,9 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked {
 	/* Shop Page */
 
 
+/* Filters. unfortunaltely there are alot of !importants here as I needed to use the pluigns stylesheet */
 
-
-body.single-product .myfilter_wrapper {
+body.single-product .outer_wrapper {
 	display: none;
 }
 
@@ -1925,7 +1925,15 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 		}
 }
 
+li.yit-wcan-child-terms.level-1 {
+	padding:0 !important;
+}
 
+li.yit-wcan-parent-terms {
+	a {
+		color:#000 !important;
+	}
+}
 
 
 .yith-wcan-sort-by ul.orderby li.orderby-wrapper a.active::before, a.yith-wcan-onsale-button.active::before, a.yith-wcan-instock-button.active::before, a.yith-wcan-price-link.active::before {
@@ -1950,17 +1958,16 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 
 
 li.yith-woo-ajax-reset-navigation {
-	background: $bluedark !important;
 	width:100% !important;
 	border:none !important;
-	padding:15px 0 !important;
 	text-align: center !important;
+	padding:0 !important;
 .yith-wcan {
 	
 	a.yith-wcan-reset-navigation {
-		
+		padding:15px 0 !important;
 		color:#fff !important;
-		
+		background: $bluedark !important;
 		display: block !important;
 	}
 }
@@ -4356,7 +4363,7 @@ footer {
 
 
 
-/* Filters */
+/* Filters. unfortunaltely there are alot of !importants here as I needed to use the pluigns stylesheet */
 
 
 
@@ -4415,6 +4422,13 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 				ul {
 					opacity: 1;
 					visibility: visible;
+					li {
+						h2 {
+							&:after {
+								content:"-";
+							}
+						}
+					}
 				}
 			}
 			> li {
@@ -4423,6 +4437,7 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 				padding:0;
 				position: relative;
 				border-bottom:none;
+				cursor: pointer;
 				h2 {
 					width:100%;
 					padding: 22px 25px 19px;
@@ -4441,7 +4456,7 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 				}
 				 ul {
 				 	position: absolute;
-				 	top:59px;
+				 	top:55px;
 				 	left:0;
 				 	background: #fff;
 				 	width:100%;
@@ -4453,8 +4468,9 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 				 	opacity: 0;
 				 	visibility: hidden;
 				 	transition:all .2s ease-in-out;
+				 	border-top:4px solid #000;
 				 	li {
-					 
+					 line-height:1.2;
 				 	}
 				}
 			}
@@ -4474,13 +4490,11 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 li.yith-woo-ajax-reset-navigation {
 	width:20% !important;
 	float:left;
-	padding:20px !important;
+	padding:0px 0px !important;
 	border:none !important;
 .yith-wcan {
-	
 	a.yith-wcan-reset-navigation {
-		
-		
+		padding: 20px 0 21px !important;
 	}
 }
 }
