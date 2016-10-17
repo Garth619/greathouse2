@@ -624,7 +624,6 @@ function woocommerce_header_add_to_cart_fragment( $fragments ) {
 }
 
 
-
 // Reordering of the Single Product Page 
 
 
@@ -640,6 +639,22 @@ function single_company_title()
 
 add_action( 'woocommerce_single_product_summary', 'single_company_title', 6 );
 
+
+// Changes the Home link breadcrumb to our custom All Products Page
+
+add_filter( 'woocommerce_breadcrumb_home_url', 'woo_custom_breadrumb_home_url' );
+function woo_custom_breadrumb_home_url() {
+    return get_bloginfo('url') . '/all-products';
+}
+
+// Changes the Breadcrumb Home to All Products
+
+add_filter( 'woocommerce_breadcrumb_defaults', 'jk_change_breadcrumb_home_text' );
+function jk_change_breadcrumb_home_text( $defaults ) {
+    // Change the breadcrumb home text from 'Home' to 'Appartment'
+	$defaults['home'] = 'All Products';
+	return $defaults;
+}
 
 
 // Removes the Variable Product Price Range

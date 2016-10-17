@@ -6,9 +6,9 @@
 				
 				<span class="sale_title">sale</span><!-- sale_title -->
 				<div class="blue_box"></div><!-- blue_box -->
-				<span class="discount_description">take 30% off bedding</span><!-- discount_description -->
+				<span class="discount_description">take 25s% off bedding</span><!-- discount_description -->
 				
-				<span class="blue_shop">Shop Now</span>
+				<a href="<?php bloginfo('url');?>/all-products" class="blue_shop">Shop Now</a>
 			
 			</a>
 			

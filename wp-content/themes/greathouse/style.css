@@ -574,6 +574,8 @@ footer {
   color: #777777;
   font-size: 13px;
   line-height: 1.4; }
+  .copyright a {
+    color: #7c786f; }
 
 .highrank_logo {
   display: none; }
@@ -730,7 +732,7 @@ footer {
     text-transform: uppercase;
     font-style: none;
     font-weight: 300;
-    margin-bottom: 6px; }
+    margin-bottom: 9px; }
   #content h2.blog_post_title a {
     color: #000;
     transition: all .2s ease-in-out; }
@@ -738,7 +740,7 @@ footer {
       color: #79b7c0;
       text-decoration: none; }
   #content p {
-    margin-bottom: 30px; }
+    margin-bottom: 20px; }
   #content a {
     color: #79b7c0;
     text-decoration: none; }
@@ -751,6 +753,8 @@ footer {
       list-style: none;
       padding: 0 0 0 13px;
       margin-bottom: 10px; }
+      #content ul li ul {
+        margin-top: 10px; }
   #content span.quote {
     font-family: "Voltage W00 Regular", arial;
     font-size: 40px;
@@ -2450,7 +2454,7 @@ ul.woocommerce-error {
       width: 70%;
       float: right;
       padding-left: 45px;
-      margin-top: -10px; }
+      margin-top: 0px; }
 
   .sidebar_wrapper.blog {
     display: block; }

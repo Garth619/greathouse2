@@ -802,6 +802,9 @@ footer {
 	color:$grey;
 	font-size:13px;
 	line-height:1.4;
+	a {
+		color:$greyfont;
+	}
 }
 
 .highrank_logo {
@@ -1015,7 +1018,7 @@ footer {
 		text-transform: uppercase;
 		font-style:none;
 		font-weight: 300;
-		margin-bottom:6px;
+		margin-bottom:9px;
 	}
 	h2.blog_post_title a {
 		color:$black;
@@ -1026,7 +1029,7 @@ footer {
 		}
 	}
 	p {
-		margin-bottom:30px;
+		margin-bottom:20px;
 	}
 	a {
 		color:$bluedark;
@@ -1042,6 +1045,9 @@ footer {
 			list-style: none;
 			padding: 0 0 0 13px;
 			margin-bottom:10px;
+			ul {
+				margin-top:10px;
+			}
 		} 
 	}
 	span.quote {
@@ -3665,7 +3671,7 @@ footer {
 		width:70%;
 		float:right;
 		padding-left:45px;
-		margin-top:-10px;
+		margin-top:0px;
 	
 	}
 }

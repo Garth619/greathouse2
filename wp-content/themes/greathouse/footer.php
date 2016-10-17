@@ -142,7 +142,7 @@
 
 <div class="copyright">
 	
-	<span>Copyright 2016&copy; Greathouse Furniture.<br class="copy_mobile"/>All rights reserved. Sitemap &nbsp;|&nbsp; Google+</span>
+	<span>Copyright 2016&copy; Greathouse Furniture. <br class="copy_mobile"/>All rights reserved. Sitemap &nbsp;|&nbsp; <a href="<?php bloginfo('url');?>/private-policy">Private Policy</a> &nbsp;|&nbsp; <a href="<?php bloginfo('url');?>/terms-and-conditions">Terms & Conditions</a></span>
 	
 	<a href="" target="_blank">
 		<img class="highrank_logo" src="<?php bloginfo('template_directory');?>/images/footer-highrank.png"/>
