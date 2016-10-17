@@ -1269,7 +1269,7 @@ form.variations_form table.variations {
 #ivpa-content .ivpa_attribute.ivpa_image .ivpa_term.ivpa_clicked {
   border: 3px #79b7c0 solid !important; }
 
-html.yes-js.js_active.js body.single.single-product.postid-2586.logged-in.admin-bar.woocommerce.woocommerce-page.yith-wcan-pro.customize-support main div.product_wrapper div.inner_product_wrapper div#product-2586.post-2586.product.type-product.status-publish.has-post-thumbnail.product_cat-bedroom.product_cat-modern-bedroom-furniture.first.instock.taxable.shipping-taxable.purchasable.product-type-variable.has-children div.product_content_wrap div.summary.entry-summary div#ivpa-content.ivpa-register.ivpa_registered div.ivpa_attribute.ivpa_text.ivpa_background.ivpa_activated.ivpa_clicked span.ivpa_term.ivpa_active.ivpa_clicked.ivpa_instock {
+div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked {
   background: #777777 !important;
   color: #fff !important; }
 
@@ -1348,6 +1348,9 @@ html.yes-js.js_active.js body.single.single-product.postid-2586.logged-in.admin-
     margin-bottom: 55px; }
 
 /* Shop Page */
+body.single-product .myfilter_wrapper {
+  display: none; }
+
 body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter_wrapper {
   display: block;
   font-size: 14px;
@@ -1420,10 +1423,37 @@ li.yith-woo-ajax-reset-navigation {
 }
 */
 .yit-wcan-container {
-  margin-top: 25px; }
-  .yit-wcan-container ul.products li img {
-    max-width: 100%;
-    height: auto; }
+  margin-top: 25px;
+  text-align: center; }
+  .yit-wcan-container ul.products {
+    list-style: none; }
+    .yit-wcan-container ul.products li a {
+      display: block; }
+    .yit-wcan-container ul.products li a.woocommerce-LoopProduct-link {
+      margin-bottom: 30px; }
+    .yit-wcan-container ul.products li img {
+      max-width: 100%;
+      height: auto; }
+    .yit-wcan-container ul.products li h3 {
+      font-size: 14px;
+      color: #000;
+      font-weight: 300;
+      font-style: none;
+      padding: 30px 30px 0; }
+    .yit-wcan-container ul.products li span.price, .yit-wcan-container ul.products li .product_type_variable {
+      color: #000;
+      font-size: 14px;
+      padding: 5px 0 0px;
+      display: block; }
+    .yit-wcan-container ul.products li span.price del {
+      color: red; }
+    .yit-wcan-container ul.products li .ajax_add_to_cart {
+      display: none; }
+    .yit-wcan-container ul.products li .onsale {
+      display: none; }
+
+.yith-wcan-reset-categories-link {
+  display: none; }
 
 /* My Table Styles */
 .my_table_wrapper {

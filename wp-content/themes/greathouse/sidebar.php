@@ -17,15 +17,15 @@
 		<div id="sidebar">
 			
 			<ul>
-				<li><a href="">Patio</a></li>
-				<li><a href="">Sofas</a></li>
-				<li><a href="">Accessories</a></li>
-				<li><a href="">Bedroom</a></li>
-				<li><a href="">Dining Room</a></li>
-				<li><a href="">Living Room</a></li>
-				<li><a href="">Office</a></li>
-				<li><a href="">Pool Tables</a></li>
-				<li><a href="">Rugs</a></li>
+				<li><a href="<?php bloginfo('url');?>/furniture-cat/outdoor-patio">Patio</a></li>
+				<li><a href="<?php bloginfo('url');?>/furniture-cat/sofas">Sofas</a></li>
+				<li><a href="<?php bloginfo('url');?>/furniture-cat/accessories">Accessories</a></li>
+				<li><a href="<?php bloginfo('url');?>//furniture-cat/bedroom">Bedroom</a></li>
+				<li><a href="<?php bloginfo('url');?>/furniture-cat/dining">Dining Room</a></li>
+				<li><a href="<?php bloginfo('url');?>/furniture-cat/living-room">Living Room</a></li>
+				<li><a href="<?php bloginfo('url');?>/furniture-cat/home-office">Office</a></li>
+				<li><a href="<?php bloginfo('url');?>/furniture-cat/pool-tables">Pool Tables</a></li>
+				<li><a href="<?php bloginfo('url');?>/furniture-cat/rugs">Rugs</a></li>
 			</ul>
 			
 		</div><!-- sidebar -->

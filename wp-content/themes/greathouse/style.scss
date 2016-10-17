@@ -1746,7 +1746,7 @@ img.aligncenter {
 
 
 
-html.yes-js.js_active.js body.single.single-product.postid-2586.logged-in.admin-bar.woocommerce.woocommerce-page.yith-wcan-pro.customize-support main div.product_wrapper div.inner_product_wrapper div#product-2586.post-2586.product.type-product.status-publish.has-post-thumbnail.product_cat-bedroom.product_cat-modern-bedroom-furniture.first.instock.taxable.shipping-taxable.purchasable.product-type-variable.has-children div.product_content_wrap div.summary.entry-summary div#ivpa-content.ivpa-register.ivpa_registered div.ivpa_attribute.ivpa_text.ivpa_background.ivpa_activated.ivpa_clicked span.ivpa_term.ivpa_active.ivpa_clicked.ivpa_instock {
+div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked {
 	background:$grey !important;
 	color:#fff !important;
 }
@@ -1856,7 +1856,9 @@ html.yes-js.js_active.js body.single.single-product.postid-2586.logged-in.admin-
 
 
 
-
+body.single-product .myfilter_wrapper {
+	display: none;
+}
 
 
 
@@ -1965,17 +1967,52 @@ li.yith-woo-ajax-reset-navigation {
 
 .yit-wcan-container {
 	margin-top:25px;
+	text-align: center;
 	ul.products {
+		list-style: none;
 		li {
+			a {
+				display: block;
+			}
+			a.woocommerce-LoopProduct-link {
+				margin-bottom: 30px;
+			}
 			img {
 				max-width:100%;
 				height:auto;
+			}
+			h3 {
+				font-size:14px;
+				color:#000;
+				font-weight:300;
+				font-style:none;
+ 				padding:30px 30px 0;
+			}
+			span.price, .product_type_variable {
+				color:#000;
+				font-size:14px;
+				padding:5px 0 0px;
+				display: block;
+			}
+			span.price {
+				del {
+					color:red;
+				}
+			}
+			.ajax_add_to_cart {
+				display: none;
+			}
+			.onsale {
+				display: none;
 			}
 		}
 	}
 }
 	
-	
+
+.yith-wcan-reset-categories-link {
+	display: none;
+}
 	
 	
 	/* My Table Styles */
