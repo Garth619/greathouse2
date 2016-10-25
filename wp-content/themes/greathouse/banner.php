@@ -12,6 +12,12 @@
 
 <?php endif;?>
 
+<?php if(is_product_category()):?>
+
+	<span style="color:#000;"><?php single_cat_title(); ?></span>
+
+<?php endif;?>
+
 <!-- Below is changing the color options for the banner text on inner pages -->
 
 

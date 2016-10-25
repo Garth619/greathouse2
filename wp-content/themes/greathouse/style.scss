@@ -1982,6 +1982,9 @@ li.yith-woo-ajax-reset-navigation {
 	ul.products {
 		list-style: none;
 		li {
+		
+			
+			
 			a {
 				display: block;
 			}
@@ -1991,6 +1994,7 @@ li.yith-woo-ajax-reset-navigation {
 			img {
 				max-width:100%;
 				height:auto;
+				
 			}
 			h3 {
 				font-size:14px;
@@ -1998,6 +2002,7 @@ li.yith-woo-ajax-reset-navigation {
 				font-weight:300;
 				font-style:none;
  				padding:30px 30px 0;
+ 				line-height: 1.3;
 			}
 			span.price, .product_type_variable {
 				color:#000;
@@ -2006,6 +2011,9 @@ li.yith-woo-ajax-reset-navigation {
 				display: block;
 			}
 			span.price {
+				color:$grey;
+				display:inline-block;
+				padding-top:10px;
 				del {
 					color:red;
 				}
@@ -3649,6 +3657,57 @@ footer {
 			  padding: 9px 65px;
 		}
 	}
+	
+	
+	
+	
+	/* Product Filters */
+	
+	
+.yit-wcan-container {
+
+	ul.products {
+		
+		li {
+			display:inline-block;
+			vertical-align: top;
+			width:370px;
+			height:485px;
+			
+			border-bottom: #cecece 1px solid;
+			margin:0 5px 70px;
+			a {
+				display: block;
+				
+			}
+			a.woocommerce-LoopProduct-link {
+				
+			}
+			img {
+				max-width:100%;
+			}
+			h3 {
+				
+			}
+			span.price, .product_type_variable {
+				
+			}
+			span.price {
+				
+				del {
+					
+				}
+			}
+			.ajax_add_to_cart {
+				
+			}
+			.onsale {
+				
+			}
+		}
+	}
+}
+
 
 
 
@@ -5921,7 +5980,7 @@ footer {
 .banner {
 	
 	span {
-		
+		font-size:120px;
 		
 	}
 }
