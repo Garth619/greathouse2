@@ -14,7 +14,26 @@
 
 <?php if(is_product_category()):?>
 
-	<span style="color:#000;"><?php single_cat_title(); ?></span>
+	
+
+<?php if( get_field('product_category_banner_font_color','option') == 'Black' ): ?>
+
+		<span style="color:#000;"><?php single_cat_title(); ?></span>
+		
+	<?php endif;?>
+	
+	<?php if( get_field('product_category_banner_font_color','option') == 'White' ): ?>
+
+		<span style="color:#fff"><?php single_cat_title(); ?></span>
+		
+	<?php endif;?>
+	
+	<?php if( get_field('product_category_banner_font_color','option') == 'Blue' ): ?>
+
+		<span style="color:#79b7c0"><?php single_cat_title(); ?></span>
+		
+	<?php endif;?>
+
 
 <?php endif;?>
 
