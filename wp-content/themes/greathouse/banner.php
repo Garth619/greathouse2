@@ -72,13 +72,12 @@ $catbannerimage = get_field('product_category_page_banners', $post_id); // My Ad
 ?>
 
 
-<img src="<?php echo get_field('product_category_page_banners', $post_id);?>"> 
 
 
-<!--
-<?php $catbanner = wp_get_attachment_image_src(get_field('product_category_page_banners', $post_id), 'innerbanner'); ?>
-		<div class="banner" style="background:url(<?php echo $catbanner[0]; ?>) top center no-repeat;background-size:cover;">
--->
+
+
+		<div class="banner" style="background:url(<?php echo get_field('product_category_page_banners', $post_id);?>) top center no-repeat;background-size:cover;">
+
 
 
 		
@@ -113,7 +112,7 @@ $catbannerimage = get_field('product_category_page_banners', $post_id); // My Ad
 		
 		
 		
-<!-- 		</div> --><!-- banner -->
+</div><!-- banner -->
 
 
 
