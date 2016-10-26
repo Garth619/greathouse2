@@ -1870,7 +1870,11 @@ body.single-product .outer_wrapper {
 	display:none;
 }
 
-
+.chosen {
+	a {
+		color:red;
+	}
+}
 
 body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter_wrapper {
 	display: block;
@@ -1889,13 +1893,13 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 			color:$bluedark;
 			width:100%;
 			&:after {
-				content:"+";
+				content:"-";
 				float:right;
 			}
 		}
 		h2.my_filter_title.open {
 			&:after {
-				content:"-";
+				content:"+";
 			}
 		}
 		
@@ -1904,7 +1908,7 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 		
 	}
 	> ul {
-			display: none;
+// 			display: none;
 			list-style: none;
 			> li:nth-last-of-type(-n+2) {
 					border:none;

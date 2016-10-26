@@ -1359,6 +1359,9 @@ body.single-product .outer_wrapper {
 .filter_header_wrapper.desktop {
   display: none; }
 
+.chosen a {
+  color: red; }
+
 body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter_wrapper {
   display: block;
   font-size: 14px;
@@ -1376,12 +1379,11 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
       color: #79b7c0;
       width: 100%; }
       body.post-type-archive-product .myfilter_wrapper .filter_header_wrapper h2.my_filter_title:after, body.tax-product_cat .myfilter_wrapper .filter_header_wrapper h2.my_filter_title:after {
-        content: "+";
+        content: "-";
         float: right; }
     body.post-type-archive-product .myfilter_wrapper .filter_header_wrapper h2.my_filter_title.open:after, body.tax-product_cat .myfilter_wrapper .filter_header_wrapper h2.my_filter_title.open:after {
-      content: "-"; }
+      content: "+"; }
   body.post-type-archive-product .myfilter_wrapper > ul, body.tax-product_cat .myfilter_wrapper > ul {
-    display: none;
     list-style: none; }
     body.post-type-archive-product .myfilter_wrapper > ul > li:nth-last-of-type(-n+2), body.tax-product_cat .myfilter_wrapper > ul > li:nth-last-of-type(-n+2) {
       border: none; }
