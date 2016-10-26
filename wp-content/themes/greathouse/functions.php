@@ -93,6 +93,7 @@ function twentyten_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => __( 'Primary Navigation', 'twentyten' ),
+// 		'sidebar' => __( 'Sidebar Navigation', 'twentyten' ),
 	) );
 
 	// This theme allows users to set a custom background.
@@ -423,6 +424,14 @@ function twentyten_widgets_init() {
 		'name' => __( 'Product Search Filter Area', 'twentyten' ),
 		'id' => 'my-product-search-filter',
 		'description' => __( 'Add widgets here to appear in product page.', 'twentyten' )
+	
+	) );
+	
+	
+	register_sidebar( array(
+		'name' => __( 'Sidebar Menu', 'twentyten' ),
+		'id' => 'my-sidebar-menu',
+		'description' => __( 'Add widgets here to list the products categories in the sidebar.', 'twentyten' )
 	
 	) );
 

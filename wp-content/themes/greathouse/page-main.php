@@ -18,7 +18,7 @@ get_header(); ?>
 			<span class="large_header">Colony Leather Sectional</span>
 			<span class="sub_header">by Elite Leather Company</span>
 		
-			<a class="white_button" href="">Shop Now</a><!-- grey_button -->
+			<a class="white_button" href="<?php bloginfo('url');?>/all-products">Shop Now</a><!-- grey_button -->
 			
 			 
 		
