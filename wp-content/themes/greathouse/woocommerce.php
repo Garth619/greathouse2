@@ -63,6 +63,7 @@ $filterreset = strtok($filterreset, '?'); ?>
 	</div><!-- outer_wrapper -->
 
 		<div class="product_wrapper"> 
+			
 	
 			<?php woocommerce_content(); ?>
 	

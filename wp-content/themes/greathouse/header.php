@@ -113,7 +113,11 @@
 								
 								<div class="cart_signin_wrapper">
 									
-									<img class="search_img" src="<?php bloginfo('template_directory');?>/images/search.png"/>
+									
+									
+										<img class="search_img" src="<?php bloginfo('template_directory');?>/images/search.png"/>
+										
+										
 									
 									
 									
