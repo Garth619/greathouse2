@@ -76,10 +76,31 @@ $catbannerimage = get_field('product_category_page_banners', $post_id); // My Ad
 
 
 
-		<div class="banner" style="background:url(<?php echo get_field('product_category_page_banners', $post_id);?>) top center no-repeat;background-size:cover;">
+		
+
+
+<?php if(get_field('product_category_page_banners', $post_id)) : ?>
 
 
 
+<div class="banner" style="background:url(<?php echo get_field('product_category_page_banners', $post_id);?>) top center no-repeat;background-size:cover;">
+
+
+
+
+
+
+
+
+
+<?php else: ?>
+
+
+<div class="banner">
+
+
+<?php endif;?>
+		
 		
 		
 		
@@ -106,7 +127,6 @@ $catbannerimage = get_field('product_category_page_banners', $post_id); // My Ad
 			
 			
 		<?php endif;?>
-		
 		
 		
 		
