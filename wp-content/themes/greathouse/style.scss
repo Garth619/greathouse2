@@ -1900,6 +1900,9 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 		}
 		
 	}
+	form {
+		
+	}
 	> ul {
 			display: none;
 			list-style: none;
@@ -1936,6 +1939,7 @@ li.yit-wcan-parent-terms {
 }
 
 
+/*
 .yith-wcan-sort-by ul.orderby li.orderby-wrapper a.active::before, a.yith-wcan-onsale-button.active::before, a.yith-wcan-instock-button.active::before, a.yith-wcan-price-link.active::before {
 	content:"x" !important;
 	background:#000 !important;
@@ -1955,22 +1959,23 @@ li.yit-wcan-parent-terms {
 	top:-2px;
 	left:0;
 }
+*/
 
 
-li.yith-woo-ajax-reset-navigation {
-	width:100% !important;
-	border:none !important;
-	text-align: center !important;
-	padding:0 !important;
-.yith-wcan {
+li.myreset {
+	width:100%;
+	border:none;
+	text-align: center;
+	padding:0;
+
 	
-	a.yith-wcan-reset-navigation {
-		padding:15px 0 !important;
-		color:#fff !important;
-		background: $bluedark !important;
-		display: block !important;
+	a {
+		padding:15px 0;
+		color:#fff;
+		background: $bluedark;
+		display: block;
 	}
-}
+
 }
 
 
@@ -4664,16 +4669,16 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 }
 
 
-li.yith-woo-ajax-reset-navigation {
-	width:20% !important;
+li.myreset {
+	width:20%;
 	float:left;
-	padding:0px 0px !important;
-	border:none !important;
-.yith-wcan {
-	a.yith-wcan-reset-navigation {
-		padding: 20px 0 21px !important;
+	padding:0px 0px;
+	border:none;
+
+	a {
+		padding: 22px 0 19px;
 	}
-}
+
 }
 
 

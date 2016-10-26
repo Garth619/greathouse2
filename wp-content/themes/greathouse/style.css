@@ -1405,35 +1405,37 @@ li.yit-wcan-child-terms.level-1 {
 li.yit-wcan-parent-terms a {
   color: #000 !important; }
 
+/*
 .yith-wcan-sort-by ul.orderby li.orderby-wrapper a.active::before, a.yith-wcan-onsale-button.active::before, a.yith-wcan-instock-button.active::before, a.yith-wcan-price-link.active::before {
-  content: "x" !important;
-  background: #000 !important;
-  color: #fff !important;
-  font-family: "oswaldregular", arial !important;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  width: 19px !important;
-  height: 19px !important;
-  display: inline-block !important;
-  font-size: 14px !important;
-  cursor: pointer;
-  padding: 0 0 0 6.5px !important;
-  margin-right: 5px !important;
-  position: relative;
-  top: -2px;
-  left: 0; }
-
-li.yith-woo-ajax-reset-navigation {
-  width: 100% !important;
-  border: none !important;
-  text-align: center !important;
-  padding: 0 !important; }
-  li.yith-woo-ajax-reset-navigation .yith-wcan a.yith-wcan-reset-navigation {
-    padding: 15px 0 !important;
-    color: #fff !important;
-    background: #79b7c0 !important;
-    display: block !important; }
+	content:"x" !important;
+	background:#000 !important;
+	color:#fff !important;
+	font-family: $oswaldreg !important;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	width:19px !important;
+	height:19px !important;
+	display: inline-block !important;
+	font-size:14px !important;
+	cursor: pointer;
+	padding: 0 0 0 6.5px !important;
+	margin-right:5px !important;
+	position: relative;
+	top:-2px;
+	left:0;
+}
+*/
+li.myreset {
+  width: 100%;
+  border: none;
+  text-align: center;
+  padding: 0; }
+  li.myreset a {
+    padding: 15px 0;
+    color: #fff;
+    background: #79b7c0;
+    display: block; }
 
 /*
 .yit-wcan-container {
@@ -2990,13 +2992,13 @@ ul.woocommerce-error {
           body.post-type-archive-product .myfilter_wrapper > ul > li ul li, body.tax-product_cat .myfilter_wrapper > ul > li ul li {
             line-height: 1.2; }
 
-  li.yith-woo-ajax-reset-navigation {
-    width: 20% !important;
+  li.myreset {
+    width: 20%;
     float: left;
-    padding: 0px 0px !important;
-    border: none !important; }
-    li.yith-woo-ajax-reset-navigation .yith-wcan a.yith-wcan-reset-navigation {
-      padding: 20px 0 21px !important; }
+    padding: 0px 0px;
+    border: none; }
+    li.myreset a {
+      padding: 22px 0 19px; }
 
   /* Single Product Pages */
   .product_wrapper .woocommerce-breadcrumb {

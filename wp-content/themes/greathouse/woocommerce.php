@@ -34,6 +34,8 @@ get_header(); ?>
 					<ul>
 					
 						<?php dynamic_sidebar('my-product-search-filter');?>
+						
+						<li class="myreset"><a href="">Reset Filter</a></li>
 					
 					</ul>
 				<?php endif; ?>
