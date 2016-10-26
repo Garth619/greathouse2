@@ -1435,40 +1435,97 @@ li.yith-woo-ajax-reset-navigation {
     background: #79b7c0 !important;
     display: block !important; }
 
+/*
 .yit-wcan-container {
-  margin-top: 25px;
-  text-align: center; }
-  .yit-wcan-container ul.products {
-    list-style: none; }
-    .yit-wcan-container ul.products li a {
-      display: block; }
-    .yit-wcan-container ul.products li a.woocommerce-LoopProduct-link {
-      margin-bottom: 30px; }
-    .yit-wcan-container ul.products li img {
-      max-width: 100%;
-      height: auto; }
-    .yit-wcan-container ul.products li h3 {
-      font-size: 14px;
-      color: #000;
-      font-weight: 300;
-      font-style: none;
-      padding: 30px 30px 0;
-      line-height: 1.3; }
-    .yit-wcan-container ul.products li span.price, .yit-wcan-container ul.products li .product_type_variable {
-      color: #000;
-      font-size: 14px;
-      padding: 5px 0 0px;
-      display: block; }
-    .yit-wcan-container ul.products li span.price {
-      color: #777777;
-      display: inline-block;
-      padding-top: 10px; }
-      .yit-wcan-container ul.products li span.price del {
-        color: red; }
-    .yit-wcan-container ul.products li .ajax_add_to_cart {
-      display: none; }
-    .yit-wcan-container ul.products li .onsale {
-      display: none; }
+	margin-top:25px;
+	text-align: center;
+	ul.products {
+		list-style: none;
+		li {
+		
+			
+			
+			a {
+				display: block;
+			}
+			a.woocommerce-LoopProduct-link {
+				margin-bottom: 30px;
+			}
+			img {
+				max-width:100%;
+				height:auto;
+				
+			}
+			h3 {
+				font-size:14px;
+				color:#000;
+				font-weight:300;
+				font-style:none;
+ 				padding:30px 30px 0;
+ 				line-height: 1.3;
+			}
+			span.price, .product_type_variable {
+				color:#000;
+				font-size:14px;
+				padding:5px 0 0px;
+				display: block;
+			}
+			span.price {
+				color:$grey;
+				display:inline-block;
+				padding-top:10px;
+				del {
+					color:red;
+				}
+			}
+			.ajax_add_to_cart {
+				display: none;
+			}
+			.onsale {
+				display: none;
+			}
+		}
+	}
+}
+	
+
+.yith-wcan-reset-categories-link {
+	display: none;
+}
+*/
+ul.products {
+  list-style: none;
+  text-align: center;
+  margin-top: 25px; }
+  ul.products li a {
+    display: block; }
+  ul.products li a.woocommerce-LoopProduct-link {
+    margin-bottom: 30px; }
+  ul.products li img {
+    max-width: 100%;
+    height: auto; }
+  ul.products li h3 {
+    font-size: 14px;
+    color: #000;
+    font-weight: 300;
+    font-style: none;
+    padding: 30px 30px 0;
+    line-height: 1.3; }
+  ul.products li span.price, ul.products li .product_type_variable {
+    color: #000;
+    font-size: 14px;
+    padding: 5px 0 0px;
+    display: block; }
+  ul.products li span.price {
+    color: #777777;
+    display: inline-block;
+    padding-top: 10px; }
+    ul.products li span.price del {
+      color: red; }
+  ul.products li .ajax_add_to_cart {
+    display: none; }
+  ul.products li .onsale {
+    display: none; }
 
 .yith-wcan-reset-categories-link {
   display: none; }
@@ -2458,16 +2515,61 @@ ul.woocommerce-error {
     padding: 9px 65px; }
 
   /* Product Filters */
-  .yit-wcan-container ul.products li {
+  /*
+  .yit-wcan-container {
+  
+  	ul.products {
+  		
+  		li {
+  			display:inline-block;
+  			vertical-align: top;
+  			width:370px;
+  			height:485px;
+  			
+  			border-bottom: #cecece 1px solid;
+  			margin:0 5px 70px;
+  			a {
+  				display: block;
+  				
+  			}
+  			a.woocommerce-LoopProduct-link {
+  				
+  			}
+  			img {
+  				max-width:100%;
+  			}
+  			h3 {
+  				
+  			}
+  			span.price, .product_type_variable {
+  				
+  			}
+  			span.price {
+  				
+  				del {
+  					
+  				}
+  			}
+  			.ajax_add_to_cart {
+  				
+  			}
+  			.onsale {
+  				
+  			}
+  		}
+  	}
+  }
+  */
+  ul.products li {
     display: inline-block;
     vertical-align: top;
     width: 370px;
     height: 485px;
     border-bottom: #cecece 1px solid;
     margin: 0 5px 70px; }
-    .yit-wcan-container ul.products li a {
+    ul.products li a {
       display: block; }
-    .yit-wcan-container ul.products li img {
+    ul.products li img {
       max-width: 100%; } }
 /* Media Query */
 @media screen and (min-width: 1000px) {

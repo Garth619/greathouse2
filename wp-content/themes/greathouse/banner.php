@@ -14,28 +14,43 @@
 
 <?php if(is_product_category()):?>
 
+<?php
+
+$term_id = get_queried_object()->term_id;
+$post_id = 'product_cat_'.$term_id;
+$catbannertitle = get_field('product_category_banner_font_color', $post_id); // My Advanced Custom Field Variable
+
+?>
+
+	<?php if( get_field('product_category_banner_font_color', $post_id) == 'Black' ): ?>
+
+				<span style="color:#000;"><?php single_cat_title(); ?></span>
+		
+			
+	
+			<?php elseif( get_field('product_category_banner_font_color', $post_id) == 'White' ): ?>
+
+				<span style="color:#fff"><?php single_cat_title(); ?></span>
+		
+		
+	
+			<?php elseif( get_field('product_category_banner_font_color', $post_id) == 'Blue' ): ?>
+
+				<span style="color:#79b7c0"><?php single_cat_title(); ?></span>
+		
+			<?php else:?>
+			
+			
+				<span style="color:#000;"><?php single_cat_title(); ?></span>
+			
+			
+			<?php endif;?>
+	
 	
 
-<?php if( get_field('product_category_banner_font_color','option') == 'Black' ): ?>
-
-		<span style="color:#000;"><?php single_cat_title(); ?></span>
-		
-	<?php endif;?>
 	
-	<?php if( get_field('product_category_banner_font_color','option') == 'White' ): ?>
 
-		<span style="color:#fff"><?php single_cat_title(); ?></span>
-		
-	<?php endif;?>
-	
-	<?php if( get_field('product_category_banner_font_color','option') == 'Blue' ): ?>
-
-		<span style="color:#79b7c0"><?php single_cat_title(); ?></span>
-		
-	<?php endif;?>
-
-
-<?php endif;?>
+<?php endif;?> <!-- product category -->
 
 <!-- Below is changing the color options for the banner text on inner pages -->
 
