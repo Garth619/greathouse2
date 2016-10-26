@@ -35,7 +35,11 @@ get_header(); ?>
 					
 						<?php dynamic_sidebar('my-product-search-filter');?>
 						
-						<li class="myreset"><a href="">Reset Filter</a></li>
+						<?php $filterreset = $_SERVER['REQUEST_URI'];
+$filterreset = strtok($filterreset, '?'); ?>
+
+						
+						<li class="myreset"><a href="<?php echo $filterreset; ?>">Reset Filter</a></li>
 					
 					</ul>
 				<?php endif; ?>
