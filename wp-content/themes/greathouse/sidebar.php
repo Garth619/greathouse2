@@ -19,7 +19,7 @@
 	<ul>
 		
 		
-		
+		Products need to be properly assigned to a parent and sub category. This list will dynamically reflect that and show the parent categories.<br/><br/> 
 		
 		<?php if ( is_active_sidebar('my-sidebar-menu')):?>
 	
