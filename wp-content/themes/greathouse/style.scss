@@ -4039,9 +4039,16 @@ header {
 .desktop_menu_wrapper {
 	display: block;
 	float:right;
+	.desktop_menu.hide {
+		opacity: 0;
+		visibility: hidden;
+	}
 	.desktop_menu {
 		float:left;
 		margin-right:20px;
+		transition:all .2s ease-in-out;
+		opacity: 1;
+		visibility: visible;
 		ul#menu-menu-1 {
 			list-style: none;
 			> li.current_page_item {
@@ -4168,11 +4175,19 @@ header {
 }
 
 
+.mysearch_wrapper.show {
+	opacity: 1;
+	visibility: visible;
+}
+
+
 .mysearch_wrapper {
 	position:absolute;
 	right: 256px;
   top: 14px;
-  display:none;
+  opacity: 0;
+  visibility: hidden;
+	transition:all .2s ease-in-out;
 	label {
 		display: none;
 	}
@@ -4248,6 +4263,9 @@ header {
 	text-transform: uppercase;
 	font-size:14px;
 	padding:6px 15px;
+	position: relative;
+	top:0;
+	left:-3px;
 }
 
 
@@ -4259,6 +4277,7 @@ header {
 	margin:19px 25px 0 0;
 // 	display: none;
 }
+
 
 
 

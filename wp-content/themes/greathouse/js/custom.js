@@ -141,12 +141,10 @@ var sticky = new Waypoint.Sticky({
 	
 
 
-// Search for Desktop Clicks
+// Searchbar for Desktop Click
 
 
 jQuery('.desktop_menu_wrapper img.search_img').click(function(){
-	
-	
 	
 	jQuery('.desktop_menu').toggleClass('hide');
 	jQuery('.mysearch_wrapper').toggleClass('show');
