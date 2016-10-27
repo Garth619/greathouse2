@@ -29,7 +29,7 @@
 
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>?v=7" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>?v=3" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/js/slick/slick/slick.css"/>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/js/slick/slick/slick-theme.css"/>
@@ -156,7 +156,11 @@
 					
 					<div class="mysearch_wrapper mobile">
 									
-								<?php  echo do_shortcode('[yith_woocommerce_ajax_search]'); ?>
+								<div class="mysearch_inner_wrapper">
+								
+									<?php  echo do_shortcode('[yith_woocommerce_ajax_search]'); ?>
+								
+								</div><!-- mysearch_inner_wrapper -->
 									
 							</div><!-- mysearch_wrapper -->
 					

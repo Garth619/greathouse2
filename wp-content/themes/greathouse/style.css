@@ -208,7 +208,14 @@ header {
     left: 0; }
   .mobile_fixed_wrapper.stuck .mysearch_wrapper.mobile {
     position: fixed;
-    top: 87px; }
+    top: 87px;
+    height: 100%;
+    overflow-y: scroll; }
+    .mobile_fixed_wrapper.stuck .mysearch_wrapper.mobile .mysearch_inner_wrapper .yith-ajaxsearchform-conainer {
+      width: 100%;
+      left: 0;
+      padding: 0 8%;
+      padding-bottom: 100px; }
 
 .mobile_fixed_wrapper .mysearch_wrapper.mobile {
   position: absolute;
@@ -247,7 +254,9 @@ header {
       border: none;
       width: 100%;
       padding: 0;
-      top: 130px; }
+      top: 00px;
+      margin: 85px 0 0;
+      position: relative !important; }
       .mobile_fixed_wrapper .mysearch_wrapper.mobile .yith-ajaxsearchform-container form .yith-ajaxsearchform-container .search-navigation .autocomplete-suggestions .link-result {
         font-size: 18px;
         background: #79b7c0;
@@ -293,7 +302,10 @@ header {
     padding: 3px 10px;
     letter-spacing: .7px;
     -webkit-appearance: none;
-    border-radius: 0; }
+    border-radius: 0;
+    position: absolute;
+    top: 80px;
+    left: 8%; }
 
 /* Fixed Mobile Menu and Dropdown */
 .mobile_dropdown_wrapper {
