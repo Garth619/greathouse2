@@ -206,6 +206,94 @@ header {
     top: 87px;
     position: fixed;
     left: 0; }
+  .mobile_fixed_wrapper.stuck .mysearch_wrapper.mobile {
+    position: fixed;
+    top: 87px; }
+
+.mobile_fixed_wrapper .mysearch_wrapper.mobile {
+  position: absolute;
+  top: 128px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2f2f2f;
+  z-index: 10000;
+  display: none;
+  text-align: center;
+  padding: 25px 8% 0; }
+  .mobile_fixed_wrapper .mysearch_wrapper.mobile .yith-ajaxsearchform-container form .yith-ajaxsearchform-container .search-navigation {
+    width: 100%;
+    font-family: "oswaldregular", arial;
+    background: #2f2f2f; }
+    .mobile_fixed_wrapper .mysearch_wrapper.mobile .yith-ajaxsearchform-container form .yith-ajaxsearchform-container .search-navigation label {
+      display: none; }
+    .mobile_fixed_wrapper .mysearch_wrapper.mobile .yith-ajaxsearchform-container form .yith-ajaxsearchform-container .search-navigation input[type="search"] {
+      display: block;
+      border-bottom: 1px solid #fff;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      background: transparent;
+      width: 100%;
+      color: #fff;
+      font-size: 18px;
+      font-family: "oswaldregular", arial;
+      text-transform: uppercase;
+      letter-spacing: .7px;
+      -webkit-appearance: none;
+      border-radius: 0; }
+    .mobile_fixed_wrapper .mysearch_wrapper.mobile .yith-ajaxsearchform-container form .yith-ajaxsearchform-container .search-navigation .autocomplete-suggestions {
+      background: transparent;
+      border: none;
+      width: 100%;
+      padding: 0;
+      top: 130px; }
+      .mobile_fixed_wrapper .mysearch_wrapper.mobile .yith-ajaxsearchform-container form .yith-ajaxsearchform-container .search-navigation .autocomplete-suggestions .link-result {
+        font-size: 18px;
+        background: #79b7c0;
+        padding: 9px 0; }
+        .mobile_fixed_wrapper .mysearch_wrapper.mobile .yith-ajaxsearchform-container form .yith-ajaxsearchform-container .search-navigation .autocomplete-suggestions .link-result a {
+          color: #fff;
+          text-transform: uppercase; }
+      .mobile_fixed_wrapper .mysearch_wrapper.mobile .yith-ajaxsearchform-container form .yith-ajaxsearchform-container .search-navigation .autocomplete-suggestions .autocomplete-suggestion {
+        background: transparent;
+        color: #fff;
+        padding: 0;
+        margin-bottom: 25px;
+        min-height: 75px; }
+        .mobile_fixed_wrapper .mysearch_wrapper.mobile .yith-ajaxsearchform-container form .yith-ajaxsearchform-container .search-navigation .autocomplete-suggestions .autocomplete-suggestion .yith_wcas_result_image {
+          margin-right: 15px; }
+          .mobile_fixed_wrapper .mysearch_wrapper.mobile .yith-ajaxsearchform-container form .yith-ajaxsearchform-container .search-navigation .autocomplete-suggestions .autocomplete-suggestion .yith_wcas_result_image img {
+            width: 75px;
+            height: 75px; }
+        .mobile_fixed_wrapper .mysearch_wrapper.mobile .yith-ajaxsearchform-container form .yith-ajaxsearchform-container .search-navigation .autocomplete-suggestions .autocomplete-suggestion .yith_wcas_result_content {
+          font-size: 15px;
+          text-transform: uppercase;
+          letter-spacing: .7px; }
+          .mobile_fixed_wrapper .mysearch_wrapper.mobile .yith-ajaxsearchform-container form .yith-ajaxsearchform-container .search-navigation .autocomplete-suggestions .autocomplete-suggestion .yith_wcas_result_content strong {
+            color: #79b7c0; }
+          .mobile_fixed_wrapper .mysearch_wrapper.mobile .yith-ajaxsearchform-container form .yith-ajaxsearchform-container .search-navigation .autocomplete-suggestions .autocomplete-suggestion .yith_wcas_result_content .title {
+            color: #fff;
+            margin-top: -3px;
+            margin-bottom: 0; }
+          .mobile_fixed_wrapper .mysearch_wrapper.mobile .yith-ajaxsearchform-container form .yith-ajaxsearchform-container .search-navigation .autocomplete-suggestions .autocomplete-suggestion .yith_wcas_result_content .badges {
+            left: 0 !important;
+            font-size: 13px;
+            top: 0px; }
+          .mobile_fixed_wrapper .mysearch_wrapper.mobile .yith-ajaxsearchform-container form .yith-ajaxsearchform-container .search-navigation .autocomplete-suggestions .autocomplete-suggestion .yith_wcas_result_content ins {
+            color: #79b7c0 !important; }
+  .mobile_fixed_wrapper .mysearch_wrapper.mobile .yith-ajaxsearchform-container form .yith-ajaxsearchform-container input[type="submit"] {
+    display: block;
+    background: #79b7c0;
+    color: #fff;
+    border: none;
+    font-family: "oswaldregular", arial;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    letter-spacing: .7px;
+    -webkit-appearance: none;
+    border-radius: 0; }
 
 /* Fixed Mobile Menu and Dropdown */
 .mobile_dropdown_wrapper {
@@ -972,6 +1060,10 @@ img.aligncenter {
       color: #79b7c0;
       text-decoration: none; }
 
+div.product_wrapper div.inner_product_wrapper p.price span.woocommerce-Price-amount.amount {
+  font-family: "oswaldregular", arial;
+  font-size: 35px; }
+
 .product_wrapper {
   font-family: "oswaldregular", arial;
   text-transform: uppercase;
@@ -1075,6 +1167,12 @@ img.aligncenter {
     font-size: 14px;
     padding: 8px 20px; }
 
+div.product_content_wrap div.summary.entry-summary div p {
+  font-family: "Didot- LP W01 Regular", arial;
+  font-size: 18px;
+  line-height: 1.2;
+  text-transform: none; }
+
 form.variations_form .single_variation_wrap .single_variation .woocommerce-variation-price {
   font-style: none;
   font-weight: 300;
@@ -1095,8 +1193,6 @@ form.variations_form .single_variation_wrap .single_variation .woocommerce-varia
     margin-bottom: 30px; }
   form.variations_form .single_variation_wrap .single_variation .woocommerce-variation-description p:first-of-type {
     margin-top: 30px; }
-  form.variations_form .single_variation_wrap .single_variation .woocommerce-variation-description p:last-of-type {
-    margin-bottom: 0; }
 form.variations_form table.variations {
   margin-bottom: 45px; }
   form.variations_form table.variations label {
@@ -2715,20 +2811,20 @@ ul.woocommerce-error {
       margin-top: 17px;
       padding-right: 7px; }
 
-  .mysearch_wrapper.show {
+  .mysearch_wrapper.desktop.show {
     opacity: 1;
     visibility: visible; }
 
-  .mysearch_wrapper {
+  .mysearch_wrapper.desktop {
     position: absolute;
     right: 256px;
     top: 14px;
     opacity: 0;
     visibility: hidden;
     transition: all .2s ease-in-out; }
-    .mysearch_wrapper label {
+    .mysearch_wrapper.desktop label {
       display: none; }
-    .mysearch_wrapper input[type="search"] {
+    .mysearch_wrapper.desktop input[type="search"] {
       width: 540px;
       border: none;
       font-family: "oswaldregular", arial;
@@ -2738,33 +2834,33 @@ ul.woocommerce-error {
       font-size: 14px;
       margin-bottom: 5px;
       margin-bottom: 12px; }
-    .mysearch_wrapper .autocomplete-suggestions {
+    .mysearch_wrapper.desktop .autocomplete-suggestions {
       border: none;
       padding-bottom: 0px;
       border-radius: 0px !important;
       position: relative !important;
       top: 0 !important; }
-      .mysearch_wrapper .autocomplete-suggestions img {
+      .mysearch_wrapper.desktop .autocomplete-suggestions img {
         width: 75px;
         height: 75px; }
-    .mysearch_wrapper .yith_wcas_result_content {
+    .mysearch_wrapper.desktop .yith_wcas_result_content {
       font-family: "oswaldregular", arial;
       text-transform: uppercase;
       font-size: 14px !important;
       letter-spacing: 1.1px;
       margin-right: 52px !important; }
-      .mysearch_wrapper .yith_wcas_result_content del {
+      .mysearch_wrapper.desktop .yith_wcas_result_content del {
         color: red !important; }
-      .mysearch_wrapper .yith_wcas_result_content .title {
+      .mysearch_wrapper.desktop .yith_wcas_result_content .title {
         color: #000 !important;
         line-height: 1.1 !important; }
-      .mysearch_wrapper .yith_wcas_result_content strong {
+      .mysearch_wrapper.desktop .yith_wcas_result_content strong {
         color: #79b7c0; }
-    .mysearch_wrapper .link-result {
+    .mysearch_wrapper.desktop .link-result {
       background: #000;
       color: #fff;
       text-align: center; }
-      .mysearch_wrapper .link-result a {
+      .mysearch_wrapper.desktop .link-result a {
         color: #fff;
         display: block;
         font-family: "oswaldregular", arial;

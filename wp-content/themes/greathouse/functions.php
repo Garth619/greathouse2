@@ -696,7 +696,7 @@ function custom_get_availability( $availability, $_product ) {
 
 // Product Excerpt 
 
-remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 ); // Product Excerpt 
+// remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 ); // Product Excerpt 
 
 
 

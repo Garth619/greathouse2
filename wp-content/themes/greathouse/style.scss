@@ -314,9 +314,130 @@ header {
 		position: fixed;
 		left:0;
 	}
+	.mysearch_wrapper.mobile {
+		position: fixed;
+		top:87px;
+	}
 }
 
 
+.mobile_fixed_wrapper {
+
+.mysearch_wrapper.mobile {
+	position:absolute;
+	top:128px;
+	left:0;
+	width:100%;
+	height:100%;
+	background:$blackmed;
+	z-index:10000;
+	display: none;
+	text-align: center;
+	padding:25px 8% 0;
+	
+	.yith-ajaxsearchform-container {
+		form {
+			.yith-ajaxsearchform-container {
+				.search-navigation {
+					width:100%;
+					font-family: $oswaldreg;
+					background:$blackmed;
+					label {
+						display: none;
+					}
+					input[type="search"] {
+						display: block;
+						border-bottom:1px solid #fff;
+						border-top:none;
+						border-left:none;
+						border-right:none;
+						background:transparent;
+						width:100%;
+						color:#fff;
+						font-size:18px;
+						font-family: $oswaldreg;
+						text-transform: uppercase;
+						letter-spacing: .7px;
+						-webkit-appearance: none;
+						border-radius:0;
+					}
+					.autocomplete-suggestions {
+						background: transparent;
+						border:none;
+						width:100%;
+						padding:0;
+						top:130px;
+						.link-result {
+							font-size:18px;
+							background:$bluedark;
+							padding:9px 0;
+							a {
+								color:#fff;
+								text-transform: uppercase;
+								
+							}
+						}
+						.autocomplete-suggestion {
+							background: transparent;
+							color:#fff;
+							padding:0;
+							margin-bottom:25px;
+							min-height:75px;
+							.yith_wcas_result_image {
+								margin-right:15px;
+								img {
+									width:75px;
+									height:75px;
+								}
+							}
+							.yith_wcas_result_content {
+								font-size:15px;
+								text-transform: uppercase;
+								letter-spacing: .7px;
+								strong {
+									color:$bluedark;
+								}
+								.title {
+									color:#fff;
+									margin-top:-3px;
+									margin-bottom: 0;
+								}
+								.badges {
+									left:0 !important;
+									font-size:13px;
+									
+									top:0px;
+									
+								}
+								del {
+// 									color:red !important;
+								}
+								ins {
+									color:$bluedark !important;
+								}
+							}
+						}
+					}
+					
+				}
+				input[type="submit"] {
+						display: block;
+						background:$bluedark;
+						color:#fff;
+						border:none;
+						font-family: $oswaldreg;
+						font-size:14px;
+						text-transform: uppercase;
+						padding:3px 10px;
+						letter-spacing: .7px;
+						-webkit-appearance: none;
+						border-radius: 0;
+					}
+			}
+		}
+	}
+}
+}
 
 
 /* Fixed Mobile Menu and Dropdown */
@@ -1335,6 +1456,13 @@ img.aligncenter {
 	}
 	
 	
+	div.product_wrapper div.inner_product_wrapper p.price span.woocommerce-Price-amount.amount {
+
+		font-family: $oswaldreg;
+		font-size: 35px;
+
+	}
+	
 	.product_wrapper {
 		font-family: $oswaldreg;
 		text-transform: uppercase;
@@ -1483,6 +1611,16 @@ img.aligncenter {
 	
 	
 	
+div.product_content_wrap div.summary.entry-summary div p {
+	font-family: $didot;
+	 font-size: 18px;
+    line-height: 1.2;
+    text-transform: none;
+}
+	
+	
+	
+	
 	form.variations_form {
 		.single_variation_wrap {
 			.single_variation {
@@ -1515,7 +1653,7 @@ img.aligncenter {
 						margin-top:30px;
 					}
 					p:last-of-type {
-						margin-bottom:0;
+// 						margin-bottom:0;
 					}
 				}
 			}
@@ -3176,7 +3314,9 @@ header {
 		position: fixed;
 		left:0;
 	}
+	
 }
+
 
 
 /* Main Banner */ 
@@ -4175,19 +4315,20 @@ header {
 }
 
 
-.mysearch_wrapper.show {
+.mysearch_wrapper.desktop.show {
 	opacity: 1;
 	visibility: visible;
 }
 
 
-.mysearch_wrapper {
+.mysearch_wrapper.desktop {
 	position:absolute;
 	right: 256px;
   top: 14px;
   opacity: 0;
   visibility: hidden;
 	transition:all .2s ease-in-out;
+	
 	label {
 		display: none;
 	}

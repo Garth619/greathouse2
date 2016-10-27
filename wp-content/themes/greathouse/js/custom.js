@@ -138,17 +138,28 @@ var sticky = new Waypoint.Sticky({
 	 	jQuery('.my_filter_title').toggleClass('open');
 	 
 		});
+
+
+// Searchbar for Mobile Click
+
 	
+jQuery('img.search_img.mobile').click(function(){
+	
+	jQuery('.mysearch_wrapper.mobile').slideToggle(200);
+	
+});
+
+
+
 
 
 // Searchbar for Desktop Click
 
 
-jQuery('.desktop_menu_wrapper img.search_img').click(function(){
+jQuery('img.search_img.desktop').click(function(){
 	
 	jQuery('.desktop_menu').toggleClass('hide');
-	jQuery('.mysearch_wrapper').toggleClass('show');
-	
+	jQuery('.mysearch_wrapper.desktop').toggleClass('show');
 	
 });
 

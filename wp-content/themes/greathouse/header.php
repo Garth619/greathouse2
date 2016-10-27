@@ -29,7 +29,7 @@
 
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>?v=6" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>?v=7" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/js/slick/slick/slick.css"/>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/js/slick/slick/slick-theme.css"/>
@@ -59,7 +59,7 @@
 							
 							<div class="header_options_inner">
 							
-								<img class="search_img" src="<?php bloginfo('template_directory');?>/images/search.png"/>
+								<img class="search_img mobile" src="<?php bloginfo('template_directory');?>/images/search.png"/>
 								
 								
 							
@@ -72,11 +72,7 @@
 								
 							</div><!-- cart_signin_wrapper -->
 							
-							<div class="mysearch_wrapper">
-									
-										<?php  echo do_shortcode('[yith_woocommerce_ajax_search]'); ?>
-									
-									</div><!-- mysearch_wrapper -->
+							
 							
 							
 						</div><!-- header_options -->
@@ -115,7 +111,7 @@
 									
 									
 									
-										<img class="search_img" src="<?php bloginfo('template_directory');?>/images/search.png"/>
+										<img class="search_img desktop" src="<?php bloginfo('template_directory');?>/images/search.png"/>
 										
 										
 									
@@ -131,7 +127,7 @@
 								
 								
 								
-								<div class="mysearch_wrapper">
+								<div class="mysearch_wrapper desktop">
 									
 										<?php  echo do_shortcode('[yith_woocommerce_ajax_search]'); ?>
 									
@@ -157,6 +153,14 @@
 				</div><!-- mobile_dropdown_wrapper -->
 						
 						
+					
+					<div class="mysearch_wrapper mobile">
+									
+								<?php  echo do_shortcode('[yith_woocommerce_ajax_search]'); ?>
+									
+							</div><!-- mysearch_wrapper -->
+					
+					
 					
 					</div><!-- mobile_fixed_wrapper -->
 				
