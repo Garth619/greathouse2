@@ -15,9 +15,9 @@ get_header(); ?>
 		
 		<div id="content">		
 						
-				<h1>Page Not Found</h1>
+				<h1>Page Not Found/Or Site is Closed</h1>
 						
-					<?php _e( 'Apologies, but the page you requested could not be found. Perhaps searching will help.', 'twentyten' ); ?></p>
+					<?php _e( 'Apologies, but the page you requested could not be found. Or the site is temporarily closed for development.', 'twentyten' ); ?></p>
 					<?php get_search_form(); ?>
 				
 	
