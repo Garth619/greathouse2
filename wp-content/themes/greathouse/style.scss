@@ -322,12 +322,13 @@ header {
 		overflow-y:scroll;
 		
 		.mysearch_inner_wrapper {
+			padding-bottom:200px;
 			.yith-ajaxsearchform-conainer {
 			
 				width:100%;
 				left:0;
 				padding:0 8%;
-				padding-bottom:100px;
+				
 			}
 		}
 	}
@@ -406,7 +407,7 @@ header {
 								}
 							}
 							.yith_wcas_result_content {
-								font-size:15px;
+								font-size:14px;
 								text-transform: uppercase;
 								letter-spacing: .7px;
 								strong {
@@ -3322,6 +3323,21 @@ header {
 }
 
 
+
+
+.mobile_fixed_wrapper {
+	.mysearch_wrapper.mobile {
+		top:171px;
+	}
+}
+
+
+
+
+
+
+
+
 .mobile_fixed_wrapper.stuck {
 	position: fixed;
 	top:0;
@@ -3333,8 +3349,14 @@ header {
 		position: fixed;
 		left:0;
 	}
+	.mysearch_wrapper.mobile {
+		top:113px;
+	}
 	
 }
+
+
+
 
 
 
@@ -4117,6 +4139,16 @@ header {
 
 .mobile_dropdown_wrapper {
 	display: none !important;
+	.mysearch_wrapper.mobile {
+		display: none !important;
+	}
+}
+
+
+.mobile_fixed_wrapper {
+	.mysearch_wrapper.mobile {
+		top:171px;
+	}
 }
 
 
