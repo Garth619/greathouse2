@@ -18,9 +18,9 @@ get_header(); ?>
 	
 	<div class="product_inner">
 	
-	<?php if(get_field('product_directory')): ?>
+	<?php if(get_field('sub_product_directory')): ?>
  
-		<?php while(has_sub_field('product_directory')): ?>
+		<?php while(has_sub_field('sub_product_directory')): ?>
  		
   	  	
 				

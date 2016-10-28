@@ -2312,7 +2312,8 @@ ul.woocommerce-error {
     .single_product_square:nth-of-type(2n + 2) {
       margin-left: 1%; }
     .single_product_square .product_overlay {
-      height: 355px; }
+      height: 355px;
+      padding: 0 5px; }
     .single_product_square .product_background {
       height: 355px; }
 
