@@ -948,6 +948,12 @@ footer {
 	ul {
 		list-style: none;
 		text-align: center;
+		/* Im using the top nav and manually hiding the other menu items I dont need, kinda hacky */
+		li.menu-item-2642, li.menu-item-2703, li.menu-item-2703, li.menu-item-2704, li.menu-item-2705, li.menu-item-2706, li.menu-item-2707  {
+			> a {
+				display: none;
+			}
+		}
 		li:last-of-type {
 			margin-bottom:0;
 		}
@@ -963,6 +969,13 @@ footer {
 				transition:all .2s ease-in-out;
 				&:hover {
 					color:$bluedark;
+				}
+			}
+			> ul.sub-menu {
+				> li {
+					> ul.sub-menu {
+ 						display: none;
+					}
 				}
 			}
 		}

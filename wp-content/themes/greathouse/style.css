@@ -672,7 +672,10 @@ footer {
   overflow: hidden; }
   #sidebar ul {
     list-style: none;
-    text-align: center; }
+    text-align: center;
+    /* Im using the top nav and manually hiding the other menu items I dont need, kinda hacky */ }
+    #sidebar ul li.menu-item-2642 > a, #sidebar ul li.menu-item-2703 > a, #sidebar ul li.menu-item-2703 > a, #sidebar ul li.menu-item-2704 > a, #sidebar ul li.menu-item-2705 > a, #sidebar ul li.menu-item-2706 > a, #sidebar ul li.menu-item-2707 > a {
+      display: none; }
     #sidebar ul li:last-of-type {
       margin-bottom: 0; }
     #sidebar ul li {
@@ -687,6 +690,8 @@ footer {
         transition: all .2s ease-in-out; }
         #sidebar ul li a:hover {
           color: #79b7c0; }
+      #sidebar ul li > ul.sub-menu > li > ul.sub-menu {
+        display: none; }
 
 /* No Sidebar Template */
 .no_sidebar_wrapper {
