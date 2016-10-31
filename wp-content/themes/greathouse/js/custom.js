@@ -123,6 +123,8 @@ var sticky = new Waypoint.Sticky({
 		jQuery(this).toggleClass('open');
 		jQuery('.menu_bar').toggleClass('open');
 		
+		jQuery('.mysearch_wrapper.mobile').fadeOut(200);
+		
 	});
 	
 	
@@ -146,6 +148,11 @@ var sticky = new Waypoint.Sticky({
 jQuery('img.search_img.mobile').click(function(){
 	
 	jQuery('.mysearch_wrapper.mobile').slideToggle(200);
+	
+
+	jQuery('.mobile_dropdown_wrapper').fadeOut(200);
+	jQuery('.mobile_menu_wrapper').removeClass('open');
+
 	
 });
 

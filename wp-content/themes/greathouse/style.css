@@ -2721,6 +2721,9 @@ ul.woocommerce-error {
   .mobile_fixed_wrapper .mysearch_wrapper.mobile {
     top: 171px; }
 
+  .mysearch_wrapper.mobile {
+    display: none !important; }
+
   /* Desktop Menu */
   .mobile_fixed_wrapper.stuck .desktop_menu_wrapper .desktop_menu ul#menu-menu-1 > li > ul.sub-menu {
     position: absolute;

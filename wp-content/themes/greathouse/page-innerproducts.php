@@ -34,6 +34,7 @@ get_header(); ?>
 				$related_terms = get_sub_field('link', $taxonomy . '_' . $term_id);
 			?>
 		
+			
 			<a href="<?php echo get_term_link($related_terms); ?>">
 			
 				
