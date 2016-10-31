@@ -9,7 +9,7 @@ get_header(); ?>
 
 
 	
-	<section class="main_banner_wrapper">
+	<section class="main_banner_wrapper" style="background: rgba(0, 0, 0, 0) url(<?php the_field('main_banner');?>) no-repeat scroll center top / cover ;">
 		
 		<div class="awards">Awards</div><!-- awards -->
 		
