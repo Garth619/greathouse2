@@ -35,15 +35,7 @@ get_header(); ?>
 					
 						<?php dynamic_sidebar('my-product-search-filter');?>
 						
-						
-						
-						
 
-
-
-						
-
-						
 						
 						
 						<?php $filterreset = $_SERVER['REQUEST_URI'];
