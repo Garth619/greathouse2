@@ -3149,7 +3149,7 @@ img.aligncenter {
 	
 	
 	.product_wrapper {
-		margin:75px auto 0;
+		margin:135px auto 0;
 		min-height: 300px;
 		p.woocommerce-result-count {
 			padding:0px 25px 25px;
@@ -5055,6 +5055,16 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 ul li#woocommerce_layered_nav_filters-2.widget.woocommerce.widget_layered_nav_filters ul {
 	opacity: 1;
 	visibility: visible;
+	li {
+		a:hover:after {
+			content: "Remove";
+			font-size:11px;
+			color:#000;
+			display: inline-block;
+			margin-left:5px;
+			letter-spacing: .7px;
+		}
+	}
 }
 
 
