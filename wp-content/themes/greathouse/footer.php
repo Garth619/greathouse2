@@ -20,13 +20,7 @@
 			
 			<div class="footer_menu tablet">
 				
-				<ul>
-					<li><a href="<?php bloginfo('url');?>/all-products">Shop</a></li>
-					<li><a href="<?php bloginfo('url');?>/design-services/">DESIGN SERVICES</a></li>
-					<li><a href="<?php bloginfo('url');?>/sale">contract sales</a></li>
-					<li><a href="<?php bloginfo('url');?>/national-shipping">national shipping</a></li>
-					<li><a href="<?php bloginfo('url');?>/blog">blog</a></li>
-				</ul>
+				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'footer' ) ); ?>
 				
 			</div><!-- footer_menu -->
 		
@@ -64,27 +58,27 @@
 			
 			<div class="social_icons">
 				
-				<a href="" target="_blank">
+				<a href="<?php the_field('facebook','option');?>" target="_blank">
 					<img class="social_icon" src="<?php bloginfo('template_directory');?>/images/social_fb.svg"/>
 				</a>
 				
-				<a href="" target="_blank">
+				<a href="<?php the_field('twitter','option');?>" target="_blank">
 					<img class="social_icon" src="<?php bloginfo('template_directory');?>/images/social_twitter.svg"/>
 				</a>
 				
-				<a href="" target="_blank">
+				<a href="<?php the_field('pinterest','option');?>" target="_blank">
 					<img class="social_icon" src="<?php bloginfo('template_directory');?>/images/social_pinterest.svg"/>
 				</a>
 				
-				<a href="" target="_blank">
+				<a href="<?php the_field('yelp','option');?>" target="_blank">
 					<img class="social_icon" src="<?php bloginfo('template_directory');?>/images/social_yelp.svg"/>
 				</a>
 				
-				<a href="" target="_blank">
+				<a href="<?php the_field('instagram','option');?>" target="_blank">
 					<img class="social_icon" src="<?php bloginfo('template_directory');?>/images/social_instagram.svg"/>
 				</a>
 				
-				<a href="" target="_blank">
+				<a href="<?php the_field('google_plus','option');?>" target="_blank">
 					<img class="social_icon" src="<?php bloginfo('template_directory');?>/images/social_google.svg"/>
 				</a>
 				
@@ -101,19 +95,19 @@
 			
 			<div class="location">
 				
-				<a href="https://www.google.com/maps/place/9050+Kenamar+Dr,+San+Diego,+CA+92121/@32.8869989,-117.1580936,17z/data=!3m1!4b1!4m5!3m4!1s0x80dbf8b3f559e50b:0xf8969d11a3f3e4a!8m2!3d32.8869989!4d-117.1559049" class="address" target="_blank">9050 KENAMAR DRIVE<br/>SAN DIEGO, CA 92121</a><!-- address -->
-				<a href="" class="phone">858.271.9400</a><!-- phone -->
+				<a href="<?php the_field('location_1_address_link','option');?>" class="address" target="_blank"><?php the_field('location_1_address','option');?></a><!-- address -->
+				<a href="tel:<?php the_field('phone_number','option');?>" class="phone"><?php the_field('phone_number','option');?></a><!-- phone -->
 				
-				<a href="https://www.google.com/maps/place/9050+Kenamar+Dr,+San+Diego,+CA+92121/@32.8869989,-117.1580936,17z/data=!3m1!4b1!4m5!3m4!1s0x80dbf8b3f559e50b:0xf8969d11a3f3e4a!8m2!3d32.8869989!4d-117.1559049" class="get_directions" target="_blank">Get Directions</a>
+				<a href="<?php the_field('location_1_address_link','option');?>" class="get_directions" target="_blank">Get Directions</a>
 				
 			</div><!-- location -->
 			
 			<div class="location">
 				
-				<a href="https://www.google.com/maps/place/7720+El+Camino+Real,+Carlsbad,+CA+92009/data=!4m2!3m1!1s0x80dc0b61c94063b3:0xa2e40bb5cdce4feb?sa=X&ved=0ahUKEwjl5oyHqY_PAhUYzWMKHY-UB2wQ8gEIHTAA" class="address" target="_blank">7720 EL CAMINO REAL<br/>CARLSBAD, CA 92009</a><!-- address -->
-				<a href="" class="phone">760.454.0013</a><!-- phone -->
+				<a href="<?php the_field('location_2_address_link','option');?>" class="address" target="_blank"><?php the_field('location_2_address','option');?></a><!-- address -->
+				<a href="tel:<?php the_field('phone_number_2','option');?>" class="phone"><?php the_field('phone_number_2','option');?></a><!-- phone -->
 				
-				<a href="https://www.google.com/maps/place/7720+El+Camino+Real,+Carlsbad,+CA+92009/data=!4m2!3m1!1s0x80dc0b61c94063b3:0xa2e40bb5cdce4feb?sa=X&ved=0ahUKEwjl5oyHqY_PAhUYzWMKHY-UB2wQ8gEIHTAA" class="get_directions" target="_blank">Get Directions</a>
+				<a href="<?php the_field('location_2_address_link','option');?>" class="get_directions" target="_blank">Get Directions</a>
 				
 			</div><!-- location -->
 			
@@ -126,13 +120,10 @@
 		
 		<div class="footer_menu mobile">
 			
-			<ul>
-				<li><a href="">Shop</a></li>
-				<li><a href="">DESIGN SERVICES</a></li>
-				<li><a href="">contract sales</a></li>
-				<li><a href="">national shipping</a></li>
-				<li><a href="">blog</a></li>
-			</ul>
+			
+			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'footer' ) ); ?>
+			
+
 			
 		</div><!-- footer_menu -->
 		
@@ -142,7 +133,7 @@
 
 <div class="copyright">
 	
-	<span>Copyright 2016&copy; Greathouse Furniture. <br class="copy_mobile"/>All rights reserved. Sitemap &nbsp;|&nbsp; <a href="<?php bloginfo('url');?>/private-policy">Private Policy</a> &nbsp;|&nbsp; <a href="<?php bloginfo('url');?>/terms-and-conditions">Terms & Conditions</a></span>
+	<span>Copyright 2016&copy; Greathouse Furniture. <br class="copy_mobile"/>All rights reserved. <!-- Sitemap --> &nbsp;|&nbsp; <a href="<?php bloginfo('url');?>/private-policy">Private Policy</a> &nbsp;|&nbsp; <a href="<?php bloginfo('url');?>/terms-and-conditions">Terms & Conditions</a></span>
 	
 	<a href="" target="_blank">
 		<img class="highrank_logo" src="<?php bloginfo('template_directory');?>/images/footer-highrank.png"/>
