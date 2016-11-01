@@ -2514,8 +2514,10 @@ ul.woocommerce-error {
         color: #000; }
 
   .seasonal_features {
-    background: url(images/grid_table.jpg) center center no-repeat;
-    background-size: cover;
+    /*
+    	background: url(images/grid_table.jpg) center center no-repeat;
+    	background-size:cover
+    */
     width: 100%;
     height: 400px;
     display: block;

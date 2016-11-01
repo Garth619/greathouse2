@@ -68,6 +68,17 @@ get_header(); ?>
 	
 </section><!-- product_categories_wrapper -->
 
+
+
+
+
+
+
+
+
+
+
+
 <section class="new_arrivals_wrapper">
 	
 	<span class="large_header">new Arrivals</span><!-- large_header -->
@@ -77,14 +88,37 @@ get_header(); ?>
 	
 	<div class="new_arrival_slideshow">
 		
-		<div class="slide">
+		
+<!--
+<?php 
+
+$posts = get_field('new_arrivals');
+
+if( $posts ): ?>
+	
+	<?php foreach( $posts as $p ): // variable must NOT be called $post (IMPORTANT) ?>
+	    
+	    	
+	 <div class="slide">
 			
 			<a href="">
 				<img src="<?php bloginfo('template_directory');?>/images/arrival_1.png"/>
+				<a href="<?php echo get_permalink( $p->ID ); ?>"><?php echo get_the_title( $p->ID ); ?><br/><?php echo wc_price( $p->ID );?></a>
 				<span>LOREM IPSUM DOLOR SIT<br/>$59</span>
 			</a>
 			
-		</div><!-- slide -->
+		</div>
+	    	
+		<?php endforeach; ?>
+	
+	<?php endif; ?>
+-->
+		
+		
+		
+		
+		
+		
 		
 		<div class="slide">
 			
@@ -205,15 +239,17 @@ get_header(); ?>
 	
 </section><!-- new_arrivals_wrapper -->
 
-<section class="custom_design_services">
+<section class="custom_design_services" style="background: rgba(0, 0, 0, 0) url(<?php the_field('personalize_your_space_banner');?>) repeat scroll center top / cover ;">
 	
-	<span class="sub_header">Custom DEsign Services</span><!-- large_header -->
+	
+	
+	<span class="sub_header"><?php the_field('personalize_section_top_header');?></span><!-- large_header -->
 		
 		<div class="blue_block"></div><!-- blue_block -->
 		
-		<span class="large_header">personalize your space</span><!-- large_header -->
+		<span class="large_header"><?php the_field('personalize_section_main_header');?></span><!-- large_header -->
 		
-		<a href="" class="white_button" style="border:1px solid #000;">Free Instore Design Consultation</a><!-- white_button -->
+		<a href="<?php the_field('personalize_section_button_link');?>" class="white_button" style="border:1px solid #000;"><?php the_field('personalize_section_button_text');?></a><!-- white_button -->
 		
 </section><!-- custom_design_services -->
 
@@ -225,22 +261,20 @@ get_header(); ?>
 		
 		<div class="desktop_wrapper">
 		
-			<span class="large_header">A Life Well Lived Begins <br class="tablet_break"/>With a GREATHOUSE</span><!-- large_header -->
+			<span class="large_header"><?php the_field('life_well_lived_title');?></span><!-- large_header -->
 		
 			<div class="life_well_lived_content">
+				
+				
+				<?php the_field('live_well_lived_content');?>
 		
-			<p>We invite you to visit one of our award winning showrooms (San Diego & Carlsbad) to discover a home of possibilities.</p> 
-	
-			<p>Greathouse features southern California's best selection of quality outdoor patio furniture. Whether you live along the coast or inland, we have the furnishings to create comfortable and customizable outdoor spaces.  Featuring brands such as: Mallin, Patio Republic, Lloyd Flanders, Ratana, Telescope, Alumont, Lane Venture and more.</p>
-	
-			<p>As you tour the showroom you will discover San Diego's most unique and diverse selection of custom upholstery, sofas and sectionals.  With over one thousand designer fabrics to choose from you are sure to find the look that is uniquely yours.  Highlighting the showroom are name brands such as: Lexington, Stanley, Jonathan Adler, Teodora, Cisco Brothers, Classic Home, Camerich along with many others.</p>
-		
-		</div><!-- life_well_lived_content -->
+					
+			</div><!-- life_well_lived_content -->
 		
 		
 		
 	
-	<span class="quote">“let yourself in”<br class="pull_quote_break"/>- greathouse</span>
+	<span class="quote"><?php the_field('live_well_lived_quote');?><br class="pull_quote_break"/>- greathouse</span>
 	
 	</div><!-- desktop_wrapper -->
 	
@@ -251,10 +285,10 @@ get_header(); ?>
 		
 		<div class="inner_keyholder">
 		
-			<span class="sub_header">become a member</span><!-- sub_header -->
-			<span class="large_header">Keyholder Club</span><!-- sub_header -->
+			<span class="sub_header"><?php the_field('keyholder_top_header');?></span><!-- sub_header -->
+			<span class="large_header"><?php the_field('keyholder_main_header');?></span><!-- sub_header -->
 			
-			<a href="" class="transparent_button">Sign Up Today</a>
+			<a href="<?php the_field('keyholder_button_link');?>" class="transparent_button"><?php the_field('keyholder_button_text');?></a>
 		
 		
 		</div><!-- inner_keyholder -->
@@ -264,27 +298,27 @@ get_header(); ?>
 
 	<section class="threeboxes_desktop">
 		
-		<div class="keyholder">
+		<div class="keyholder" style="background: rgba(0, 0, 0, 0) url(<?php the_field('keyholder_box_image');?>) no-repeat scroll center center / cover ;">
 			
 			<div class="inner_keyholder">
 			
-				<span class="sub_header">become a member</span><!-- sub_header -->
-				<span class="large_header">Keyholder<br/>Club</span><!-- sub_header -->
+				<span class="sub_header"><?php the_field('keyholder_top_header');?></span><!-- sub_header -->
+				<span class="large_header"><?php the_field('keyholder_main_header');?></span><!-- sub_header -->
 			
-				<a href="" class="transparent_button">Sign Up Today</a>
+				<a href="<?php the_field('keyholder_button_link');?>" class="transparent_button"><?php the_field('keyholder_button_text');?></a>
 				
 			</div><!-- inner_keyholder -->
 			
 		</div><!-- keyholder -->
 		
-		<a href="<?php bloginfo('url');?>/furniture-cat/accessories">
+		<a href="<?php the_field('shop_box_1_link');?>">
 		
-		<div class="shop_accessories">
+		<div class="shop_accessories" style="background: rgba(0, 0, 0, 0) url(<?php the_field('shop_box_1_image');?>) no-repeat scroll center center / cover ;">
 			
 			<div class="shop_bar">
 				
 				<div class="shop">Shop</div><!-- shop -->
-				<div class="shop_cta">Accessories</div><!-- shop_cta -->
+				<div class="shop_cta"><?php the_field('shop_box_1_title');?></div><!-- shop_cta -->
 				
 			</div><!-- shop_bar -->
 			
@@ -292,19 +326,22 @@ get_header(); ?>
 		
 		</a>
 		
-		<div class="seasonal_features">
+		
+		<a href="<?php the_field('shop_box_2_link');?>">
+		
+		<div class="seasonal_features" style="background: rgba(0, 0, 0, 0) url(<?php the_field('shop_box_2_image');?>) no-repeat scroll center center / cover ;">
 			
 			
 			<div class="shop_bar">
 				
 				<div class="shop">Shop</div><!-- shop -->
-				<div class="shop_cta">Seasonal Features</div><!-- shop_cta -->
+				<div class="shop_cta"><?php the_field('shop_box_2_title');?></div><!-- shop_cta -->
 				
 			</div><!-- shop_bar -->
 			
-			
-			
 		</div><!-- seasonal_features -->
+		
+		</a>
 		
 	
 	
