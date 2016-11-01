@@ -45,9 +45,13 @@
 					
 					<div class="header_special_deal">
 					
+					<?php the_field('header_discount_mobile_version','option');?>
+					<?php the_field('header_discount_desktop_version','option');?>
 						
+<!--
 						<span class="mobile_deal emphasis">GET UP TO 25% off with code <span style="color:#fff">megasale</span></span>
 						<span class="tablet_deal">Buy More, Save MorE <span class="emphasis">&nbsp;GET UP TO 25% off with code <span style="color:#fff">megasale</span></span></span>
+-->
 						
 					
 					</div><!-- header_special_deal -->
