@@ -34,19 +34,19 @@
 			
 			<div class="location">
 				
-				<a href="https://www.google.com/maps/place/9050+Kenamar+Dr,+San+Diego,+CA+92121/@32.8869989,-117.1580936,17z/data=!3m1!4b1!4m5!3m4!1s0x80dbf8b3f559e50b:0xf8969d11a3f3e4a!8m2!3d32.8869989!4d-117.1559049" class="address" target="_blank">9050 KENAMAR DRIVE<br/>SAN DIEGO, CA 92121</a><!-- address -->
-				<a href="" class="phone">858.271.9400</a><!-- phone -->
+				<a href="<?php the_field('location_1_address_link', 2436);?>" class="address" target="_blank"><?php the_field('location_1_address', 2436);?></a><!-- address -->
+				<a href="tel:<?php the_field('phone_number',2436);?>" class="phone"><?php the_field('phone_number',2436);?></a><!-- phone -->
 				
-				<a href="https://www.google.com/maps/place/9050+Kenamar+Dr,+San+Diego,+CA+92121/@32.8869989,-117.1580936,17z/data=!3m1!4b1!4m5!3m4!1s0x80dbf8b3f559e50b:0xf8969d11a3f3e4a!8m2!3d32.8869989!4d-117.1559049" class="get_directions" target="_blank">Get Directions</a>
+				<a href="<?php the_field('location_1_address_link', 2436);?>" class="get_directions" target="_blank">Get Directions</a>
 				
 			</div><!-- location -->
 			
 			<div class="location">
 				
-				<a href="https://www.google.com/maps/place/7720+El+Camino+Real,+Carlsbad,+CA+92009/data=!4m2!3m1!1s0x80dc0b61c94063b3:0xa2e40bb5cdce4feb?sa=X&ved=0ahUKEwjl5oyHqY_PAhUYzWMKHY-UB2wQ8gEIHTAA" class="address" target="_blank">7720 EL CAMINO REAL<br/>CARLSBAD, CA 92009</a><!-- address -->
-				<a href="" class="phone">760.454.0013</a><!-- phone -->
+				<a href="<?php the_field('location_2_address_link', 2436);?>" class="address" target="_blank"><?php the_field('location_2_address', 2436);?></a><!-- address -->
+				<a href="tel:<?php the_field('phone_number_2', 2436);?>" class="phone"><?php the_field('phone_number_2', 2436);?></a><!-- phone -->
 				
-				<a href="https://www.google.com/maps/place/7720+El+Camino+Real,+Carlsbad,+CA+92009/data=!4m2!3m1!1s0x80dc0b61c94063b3:0xa2e40bb5cdce4feb?sa=X&ved=0ahUKEwjl5oyHqY_PAhUYzWMKHY-UB2wQ8gEIHTAA" class="get_directions" target="_blank">Get Directions</a>
+				<a href="<?php the_field('location_2_address_link', 2436);?>" class="get_directions" target="_blank">Get Directions</a>
 				
 			</div><!-- location -->
 			
@@ -95,19 +95,19 @@
 			
 			<div class="location">
 				
-				<a href="<?php the_field('location_1_address_link','option');?>" class="address" target="_blank"><?php the_field('location_1_address','option');?></a><!-- address -->
-				<a href="tel:<?php the_field('phone_number','option');?>" class="phone"><?php the_field('phone_number','option');?></a><!-- phone -->
+				<a href="<?php the_field('location_1_address_link', 2436);?>" class="address" target="_blank"><?php the_field('location_1_address', 2436);?></a><!-- address -->
+				<a href="tel:<?php the_field('phone_number', 2436);?>" class="phone"><?php the_field('phone_number', 2436);?></a><!-- phone -->
 				
-				<a href="<?php the_field('location_1_address_link','option');?>" class="get_directions" target="_blank">Get Directions</a>
+				<a href="<?php the_field('location_1_address_link', 2436);?>" class="get_directions" target="_blank">Get Directions</a>
 				
 			</div><!-- location -->
 			
 			<div class="location">
 				
-				<a href="<?php the_field('location_2_address_link','option');?>" class="address" target="_blank"><?php the_field('location_2_address','option');?></a><!-- address -->
-				<a href="tel:<?php the_field('phone_number_2','option');?>" class="phone"><?php the_field('phone_number_2','option');?></a><!-- phone -->
+				<a href="<?php the_field('location_2_address_link', 2436);?>" class="address" target="_blank"><?php the_field('location_2_address', 2436);?></a><!-- address -->
+				<a href="tel:<?php the_field('phone_number_2', 2436);?>" class="phone"><?php the_field('phone_number_2', 2436);?></a><!-- phone -->
 				
-				<a href="<?php the_field('location_2_address_link','option');?>" class="get_directions" target="_blank">Get Directions</a>
+				<a href="<?php the_field('location_2_address_link', 2436);?>" class="get_directions" target="_blank">Get Directions</a>
 				
 			</div><!-- location -->
 			

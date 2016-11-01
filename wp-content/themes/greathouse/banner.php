@@ -1,7 +1,7 @@
 <!-- Banners for the Inner Staic Pages. -->
 
 
-<?php if(is_page_template( array('page-inner.php','page-locations.php','page-allproducts.php', 'page-nosidebar.php', 'page-innerproducts.php',))) { ?>
+<?php if(is_page_template( array('page-inner.php','page-locations.php','page-allproducts.php', 'page-designservices.php', 'page-innerproducts.php',))) { ?>
 
 	<?php if(get_field('inner_page_banners')): ?>
 

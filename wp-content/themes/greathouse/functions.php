@@ -601,6 +601,19 @@ $content = ' }, false );';
 return $content;
 }
 
+// Team Bio Shortcode
+
+
+function team_bios() {
+	  
+	  
+    return '';
+    
+    
+   
+}
+add_shortcode('team_bios', 'team_bios_shortcode');
+
 
 
 // Woocommerce
