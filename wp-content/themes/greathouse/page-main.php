@@ -15,10 +15,10 @@ get_header(); ?>
 		
 		<div class="vertical_align">
 		
-			<span class="large_header">Colony Leather Sectional</span>
-			<span class="sub_header">by Elite Leather Company</span>
+			<span class="large_header"><?php the_field('banner_main_header');?></span>
+			<span class="sub_header"><?php the_field('main_banner_sub_header');?></span>
 		
-			<a class="white_button" href="<?php bloginfo('url');?>/all-products">Shop Now</a><!-- grey_button -->
+			<a class="white_button" href="<?php the_field('shop_now_button');?>">Shop Now</a><!-- grey_button -->
 			
 			 
 		
@@ -32,193 +32,38 @@ get_header(); ?>
 	
 	<div class="product_inner">
 	
-	<div class="single_product_square">
+	<?php if( have_rows('product_directory', 2639) ): ?>
+
+		<?php while( have_rows('product_directory', 2639) ): the_row(); ?>
+
+			<div class="single_product_square">
 		
-		<a href="<?php bloginfo('url');?>/furniture-cat/outdoor-patio">
+				<a href="<?php the_sub_field('link');?>">
 		
-			<div class="product_overlay">
+				<div class="product_overlay">
 			
-				<div class="product_inner_wrapper">
+					<div class="product_inner_wrapper">
 				
-					<span class="large_header">Patio</span><!-- large_header -->
-					<span class="sub_header">shop now</span><!-- sub_header -->
+						<span class="large_header"><?php the_sub_field('category_title');?></span><!-- large_header -->
+						<span class="sub_header">shop now</span><!-- sub_header -->
 				
-				</div><!-- product_inner_wrapper -->
+					</div><!-- product_inner_wrapper -->
 			
-			</div><!-- product_overlay -->
-		
-			<div class="product_background" style="background: rgba(0, 0, 0, 0) url(<?php bloginfo('template_directory');?>/images/categories_patio.jpg) no-repeat scroll left top / cover ;"></div><!-- product_background -->
-		
-		
-		</a>
-	
-	</div><!-- single_product_square -->
-	
-	
-	<div class="single_product_square">
-		
-		<a href="<?php bloginfo('url');?>/furniture-cat/sofas">
-		
-			<div class="product_overlay">
+				</div><!-- product_overlay -->
 			
-				<div class="product_inner_wrapper">
-				
-					<span class="large_header">Sofas</span><!-- large_header -->
-					<span class="sub_header">shop now</span><!-- sub_header -->
-				
-				</div><!-- product_inner_wrapper -->
-			
-			</div><!-- product_overlay -->
+				<?php $allproducts = wp_get_attachment_image_src(get_sub_field('image'), 'allproducts'); ?>
 		
-			<div class="product_background" style="background: rgba(0, 0, 0, 0) url(<?php bloginfo('template_directory');?>/images/categories_sofa.jpg) no-repeat scroll left top / cover ;"></div><!-- product_background -->
+				<div class="product_background" style="background: rgba(0, 0, 0, 0) url(<?php echo $allproducts[0]; ?>) no-repeat scroll left top / cover ;"></div><!-- product_background -->
 		
-		
-		</a>
+				</a>
 	
-	</div><!-- single_product_square -->
-	
-	
-	<div class="single_product_square">
-		
-		<a href="<?php bloginfo('url');?>/furniture-cat/dining">
-		
-			<div class="product_overlay">
-			
-				<div class="product_inner_wrapper">
-				
-					<span class="large_header">Dining Room</span><!-- large_header -->
-					<span class="sub_header">shop now</span><!-- sub_header -->
-				
-				</div><!-- product_inner_wrapper -->
-			
-			</div><!-- product_overlay -->
-		
-			<div class="product_background" style="background: rgba(0, 0, 0, 0) url(<?php bloginfo('template_directory');?>/images/categories_dining.jpg) no-repeat scroll left top / cover ;"></div><!-- product_background -->
-		
-		
-		</a>
-	
-	</div><!-- single_product_square -->
-	
-	
-	<div class="single_product_square">
-		
-		<a href="<?php bloginfo('url');?>/furniture-cat/living-room">
-		
-			<div class="product_overlay">
-			
-				<div class="product_inner_wrapper">
-				
-					<span class="large_header">Living Room</span><!-- large_header -->
-					<span class="sub_header">shop now</span><!-- sub_header -->
-				
-				</div><!-- product_inner_wrapper -->
-			
-			</div><!-- product_overlay -->
-		
-			<div class="product_background" style="background: rgba(0, 0, 0, 0) url(<?php bloginfo('template_directory');?>/images/categories_living.jpg) no-repeat scroll left top / cover ;"></div><!-- product_background -->
-		
-		
-		</a>
-	
-	</div><!-- single_product_square -->
-	
-	
-	<div class="single_product_square">
-		
-		
-		<a href="<?php bloginfo('url');?>/furniture-cat/accessories">
-		
-			<div class="product_overlay">
-			
-				<div class="product_inner_wrapper">
-				
-					<span class="large_header">Accessories</span><!-- large_header -->
-					<span class="sub_header">shop now</span><!-- sub_header -->
-				
-				</div><!-- product_inner_wrapper -->
-			
-			</div><!-- product_overlay -->
-		
-			<div class="product_background" style="background: rgba(0, 0, 0, 0) url(<?php bloginfo('template_directory');?>/images/categories_accessories.jpg) no-repeat scroll left top / cover ;"></div><!-- product_background -->
-		
-		
-		</a>
-	
-	</div><!-- single_product_square -->
-	
-	
-	<div class="single_product_square">
-		
-		<a href="<?php bloginfo('url');?>/furniture-cat/bedroom">
-		
-			<div class="product_overlay">
-				
-				<div class="product_inner_wrapper">
-				
-					<span class="large_header">Bedroom</span><!-- large_header -->
-					<span class="sub_header">shop now</span><!-- sub_header -->
-				
-				</div><!-- product_inner_wrapper -->
-			
-			</div><!-- product_overlay -->
-		
-			<div class="product_background" style="background: rgba(0, 0, 0, 0) url(<?php bloginfo('template_directory');?>/images/categories_bedroom.jpg) no-repeat scroll left top / cover ;"></div><!-- product_background -->
-		
-		
-		</a>
-	
-	</div><!-- single_product_square -->
-	
-	
-	<div class="single_product_square">
-		
-		
-		<a href="<?php bloginfo('url');?>/furniture-cat/home-office">
-		
-			<div class="product_overlay">
-			
-				<div class="product_inner_wrapper">
-				
-					<span class="large_header">Office</span><!-- large_header -->
-					<span class="sub_header">shop now</span><!-- sub_header -->
-				
-				</div><!-- product_inner_wrapper -->
-			
-			</div><!-- product_overlay -->
-		
-			<div class="product_background" style="background: rgba(0, 0, 0, 0) url(<?php bloginfo('template_directory');?>/images/categories_office.jpg) no-repeat scroll left top / cover ;"></div><!-- product_background -->
-		
-		
-		</a>
-	
-	</div><!-- single_product_square -->
-	
-	
-	<div class="single_product_square">
-		
-		
-		<a href="<?php bloginfo('url');?>/furniture-cat/rugs">
-		
-			<div class="product_overlay">
-			
-				<div class="product_inner_wrapper">
-				
-					<span class="large_header">Rugs</span><!-- large_header -->
-					<span class="sub_header">shop now</span><!-- sub_header -->
-				
-				</div><!-- product_inner_wrapper -->
-			
-			</div><!-- product_overlay -->
-		
-			<div class="product_background" style="background: rgba(0, 0, 0, 0) url(<?php bloginfo('template_directory');?>/images/categories_rugs.jpg) no-repeat scroll left top / cover ;"></div><!-- product_background -->
-		
-		
-		</a>
-	
-	</div><!-- single_product_square -->
-	
-</div><!-- product_inner -->
+			</div><!-- single_product_square -->
+					
+		<?php endwhile; ?>
+
+	<?php endif; ?>
+
+	</div><!-- product_inner -->
 	
 	
 </section><!-- product_categories_wrapper -->
