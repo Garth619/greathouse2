@@ -2006,7 +2006,15 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked {
 	}
 
 
-	
+	.woo-social-buttons {
+		float:left;
+		&:before {
+			content:"Share";
+			float:left;
+			width:100%;
+			margin-bottom:10px;
+		}
+	}
 	
 	
 	
@@ -2314,7 +2322,18 @@ li.myreset {
 
 
 
-
+.woocommerce-pagination {
+	text-align: center;
+	margin-bottom:75px;
+	ul.page-numbers {
+		list-style: none;
+		margin:0;
+		li {
+			display: inline-block;
+			margin:0 3px;
+		}
+	}
+}
 
 
 	

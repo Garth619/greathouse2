@@ -1428,6 +1428,14 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked {
 .widget_price_filter .ui-slider-horizontal .ui-slider-range-max {
   right: -1px; }
 
+.woo-social-buttons {
+  float: left; }
+  .woo-social-buttons:before {
+    content: "Share";
+    float: left;
+    width: 100%;
+    margin-bottom: 10px; }
+
 /* member banner */
 .member_banner {
   width: 100%;
@@ -1644,6 +1652,16 @@ ul.products {
 
 .yith-wcan-reset-categories-link {
   display: none; }
+
+.woocommerce-pagination {
+  text-align: center;
+  margin-bottom: 75px; }
+  .woocommerce-pagination ul.page-numbers {
+    list-style: none;
+    margin: 0; }
+    .woocommerce-pagination ul.page-numbers li {
+      display: inline-block;
+      margin: 0 3px; }
 
 /* My Table Styles */
 .my_table_wrapper {
