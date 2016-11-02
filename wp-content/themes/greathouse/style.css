@@ -1435,6 +1435,8 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked {
     float: left;
     width: 100%;
     margin-bottom: 10px; }
+  .woo-social-buttons button#u_0_2 img {
+    display: none !important; }
 
 /* member banner */
 .member_banner {
