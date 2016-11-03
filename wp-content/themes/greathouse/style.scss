@@ -1879,7 +1879,7 @@ div.product_content_wrap div.summary.entry-summary div p {
 
 
 
-div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked {
+div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked, .ivpa_active {
 	background:$grey !important;
 	color:#fff !important;
 }
@@ -2065,6 +2065,32 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked {
 		}
 	}
 	
+	
+	
+	tr.cart-discount {
+		color:red !important;
+		font-size:40px !important;
+		td {
+			color:red !important;
+		}
+		
+	}	
+	
+	
+	a.woocommerce-remove-coupon {
+			color:red !important;
+			font-size:14px;
+		}
+
+
+.woocommerce .cart-collaterals tr td::before, .woocommerce-page .cart-collaterals tr td::before {
+	font-family: $voltagelight;
+	text-transform: lowercase;
+	font-size:26px;
+	font-weight: 300 !important;
+	font-style: none;
+	color:$bluedark;
+}
 	
 	
 	
@@ -2965,6 +2991,7 @@ form.checkout_coupon {
     line-height: 1;
     font-family: $oswaldreg;
     width:100%;
+    text-transform: uppercase;
 	}
 	.button {
 		background: #000;
@@ -3099,6 +3126,27 @@ ul.woocommerce-error {
 	font-size:16px;
 	padding: 10px;
 }
+
+
+
+/* Woocommerce Messages */
+
+
+/*
+.woocommerce-message, .woocommerce-error {
+	position: fixed;
+	z-index: 1000;
+	top:0;
+	left:0;
+	width:100%;
+	height:100vh;
+	background:$blackmed;
+	color:#fff;
+}
+*/
+
+
+
 
 
 @media screen and (min-width: 455px) {

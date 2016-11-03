@@ -712,6 +712,22 @@ function custom_get_availability( $availability, $_product ) {
 // remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 ); // Product Excerpt 
 
 
+// Add to Cart Message
+
+/*
+add_filter( 'wc_add_to_cart_message', 'custom_wc_add_to_cart_message', 10, 2 );
+
+function custom_wc_add_to_cart_message( $message, $product_id ) {
+
+  if ( 1001 === $product_id ) {
+    $message .= '<br/>Well done you!';
+  }
+
+  return $message;
+}
+*/
+
+
 
 // Remove the meta information
 
