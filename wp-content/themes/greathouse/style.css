@@ -1143,6 +1143,11 @@ div.product_wrapper div.inner_product_wrapper p.price span.woocommerce-Price-amo
         margin-bottom: 10px;
         display: block; }
 
+#ivpa-content .ivpa_title {
+  color: #79b7c0;
+  margin-bottom: 15px !important;
+  font-weight: 300 !important; }
+
 .simple_wishlist_wrapper {
   margin-top: 15px;
   clear: left; }
@@ -1155,6 +1160,9 @@ div.product_wrapper div.inner_product_wrapper p.price span.woocommerce-Price-amo
     border-radius: 0px !important;
     font-size: 14px;
     width: 152px; }
+
+div.up-sells.upsells.products ul.products li {
+  border-bottom: none; }
 
 .onsale {
   background: #79b7c0;
@@ -1434,9 +1442,15 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked {
     content: "Share";
     float: left;
     width: 100%;
-    margin-bottom: 10px; }
-  .woo-social-buttons button#u_0_2 img {
-    display: none !important; }
+    margin-bottom: 15px;
+    color: #79b7c0; }
+  .woo-social-buttons span.custom {
+    margin-right: 10px !important;
+    position: relative; }
+  .woo-social-buttons span.smsb_twitter {
+    top: 1px; }
+  .woo-social-buttons span.smsb_pinterest {
+    top: 3px; }
 
 /* member banner */
 .member_banner {

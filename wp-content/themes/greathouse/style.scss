@@ -1475,6 +1475,9 @@ img.aligncenter {
 	
 	
 	
+	
+	
+	
 	.woocommerce-page {
 		.entry-content {
 			padding:15px 30px 45px;
@@ -1578,6 +1581,15 @@ img.aligncenter {
 	}
 	
 	
+	#ivpa-content {
+		.ivpa_title	{
+    	color: $bluedark;
+    	margin-bottom:15px !important;
+    	font-weight:300 !important;
+    }
+  }
+	
+	
 	.simple_wishlist_wrapper {
 		margin-top:15px;
 		clear: left;
@@ -1599,6 +1611,10 @@ img.aligncenter {
 			}
 		}
 	
+	}
+	
+	div.up-sells.upsells.products ul.products li {
+		border-bottom: none;
 	}
 	
 	
@@ -2012,12 +2028,21 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked {
 			content:"Share";
 			float:left;
 			width:100%;
-			margin-bottom:10px;
+			margin-bottom:15px;
+			color:$bluedark;
 		}
-		button#u_0_2 {
-			img {
-				display: none !important;
-			}
+		span.custom {
+			margin-right:10px !important;
+			position: relative;
+		}
+		span.smsb_facebook {
+			
+		}
+		span.smsb_twitter {
+			top:1px;
+		}
+		span.smsb_pinterest {
+			top:3px;
 		}
 	}
 	
