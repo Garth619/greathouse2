@@ -145,9 +145,9 @@
 	
 	<div class="overlay_inner">
 		<img class="overlay_close mycookie_close" src="<?php bloginfo('template_directory');?>/images/x.png" />
-		<span class="sub_header">let yourself in.</span>
-		<span class="large_header">GET 15% off your next purchase</span>
-		<span class="additional">Plus, insider sales, invites + special offers.</span>
+		<span class="sub_header"><?php the_field('join_email_title','option');?></span>
+		<span class="large_header"><?php the_field('join_email_verbiage','option');?></span>
+		<span class="additional"><?php the_field('join_email_additional_verbiage','option');?>.</span>
 		
 		<?php gravity_form(2, false, false, false, '', true, 15); ?>
 		
@@ -161,11 +161,11 @@
 	
 	<div class="overlay_inner">
 		<img class="overlay_close discount_close" src="<?php bloginfo('template_directory');?>/images/x.png" />
-		<span class="sub_header">let yourself in.</span>
-		<span class="large_header">GET 25% off your next purchase</span>
-		<span class="additional">When checking out, use the Coupon Code: <span class="mycode">MEGASALE</span></span>
+		<span class="sub_header"><?php the_field('overlay_text','option');?></span>
+		<span class="large_header"><?php the_field('overlay_disocunt_verbiage','option');?></span>
+		<span class="additional"><?php the_field('disocunt_verbiage_additional_sub_text','option');?> <span class="mycode"><?php the_field('mycoupon_code','option');?></span></span>
 		
-		<a href="<?php bloginfo('url');?>/all-products" class="blue_shop" style="margin-top:25px;">Shop Now</a>
+		<a href="<?php the_field('disocunt_verbiage_shop_now_link','option');?>" class="blue_shop overlay_shop_button" style="margin-top:25px;"><?php the_field('disocunt_verbiageshop_now_button_text','option');?></a>
 		
 		<?php // gravity_form(2, false, false, false, '', true, 15); ?>
 		
@@ -178,9 +178,9 @@
 	
 	<div class="overlay_inner">
 		<img class="overlay_close join_email_close" src="<?php bloginfo('template_directory');?>/images/x.png" />
-		<span class="sub_header">let yourself in.</span>
-		<span class="large_header">GET 15% off your next purchase</span>
-		<span class="additional">Plus, insider sales, invites + special offers.</span>
+		<span class="sub_header"><?php the_field('join_email_title','option');?></span>
+		<span class="large_header"><?php the_field('join_email_verbiage','option');?></span>
+		<span class="additional"><?php the_field('join_email_additional_verbiage','option');?></span>
 		
 		<?php gravity_form(2, false, false, false, '', true, 15); ?>
 		

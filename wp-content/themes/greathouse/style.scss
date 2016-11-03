@@ -1399,6 +1399,9 @@ img.aligncenter {
 		margin:10% auto;
 		padding: 30px 5% 50px;
 		position: relative;
+		.overlay_shop_button {
+			display: inline-block;
+		}
 		.gform_confirmation_message_2 {
 			font-family: $oswaldreg;
 			text-transform: uppercase;
@@ -1433,6 +1436,7 @@ img.aligncenter {
 	span.additional {
 		font-size:19px;
 		line-height:1.2;
+		display: block;
 		span.mycode {
 			font-family: $oswaldreg;
 			text-transform: uppercase;

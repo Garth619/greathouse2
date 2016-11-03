@@ -1021,6 +1021,8 @@ img.aligncenter {
     margin: 10% auto;
     padding: 30px 5% 50px;
     position: relative; }
+    .overlay .overlay_inner .overlay_shop_button {
+      display: inline-block; }
     .overlay .overlay_inner .gform_confirmation_message_2 {
       font-family: "oswaldregular", arial;
       text-transform: uppercase;
@@ -1049,7 +1051,8 @@ img.aligncenter {
     letter-spacing: 1px; }
   .overlay span.additional {
     font-size: 19px;
-    line-height: 1.2; }
+    line-height: 1.2;
+    display: block; }
     .overlay span.additional span.mycode {
       font-family: "oswaldregular", arial;
       text-transform: uppercase;
