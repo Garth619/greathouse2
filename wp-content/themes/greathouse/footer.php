@@ -141,10 +141,10 @@
 
 </div><!-- copyright -->
 
-<div class="overlay">
+<div class="overlay mycookie">
 	
 	<div class="overlay_inner">
-		<img class="overlay_close" src="<?php bloginfo('template_directory');?>/images/x.png" />
+		<img class="overlay_close mycookie_close" src="<?php bloginfo('template_directory');?>/images/x.png" />
 		<span class="sub_header">let yourself in.</span>
 		<span class="large_header">GET 15% off your next purchase</span>
 		<span class="additional">Plus, insider sales, invites + special offers.</span>
@@ -154,6 +154,42 @@
 	</div><!-- overlay_inner -->
 	
 </div><!-- overlay -->
+
+
+
+<div class="overlay discount_verbiage">
+	
+	<div class="overlay_inner">
+		<img class="overlay_close discount_close" src="<?php bloginfo('template_directory');?>/images/x.png" />
+		<span class="sub_header">let yourself in.</span>
+		<span class="large_header">GET 25% off your next purchase</span>
+		<span class="additional">When checking out, use the Coupon Code: <span class="mycode">MEGASALE</span></span>
+		
+		<a href="<?php bloginfo('url');?>/all-products" class="blue_shop" style="margin-top:25px;">Shop Now</a>
+		
+		<?php // gravity_form(2, false, false, false, '', true, 15); ?>
+		
+	</div><!-- overlay_inner -->
+	
+</div><!-- overlay -->
+
+
+<div class="overlay join_email_verbiage">
+	
+	<div class="overlay_inner">
+		<img class="overlay_close join_email_close" src="<?php bloginfo('template_directory');?>/images/x.png" />
+		<span class="sub_header">let yourself in.</span>
+		<span class="large_header">GET 15% off your next purchase</span>
+		<span class="additional">Plus, insider sales, invites + special offers.</span>
+		
+		<?php gravity_form(2, false, false, false, '', true, 15); ?>
+		
+	</div><!-- overlay_inner -->
+	
+</div><!-- overlay -->
+
+
+
 	
 <?php wp_footer(); ?>
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/slick/slick/slick.min.js"></script>

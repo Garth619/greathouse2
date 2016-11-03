@@ -79,12 +79,49 @@ jQuery( "<a class='see_all_products' href='/all-products'>See All Products</a>" 
   
   if($.cookie('popup') != 'seen'){
     $.cookie('popup', 'seen', { expires: 365, path: '/' }); 
-    jQuery(".overlay").delay(2000).fadeIn();
-    jQuery('.overlay_close').click(function(e)
+    jQuery(".mycookie").delay(2000).fadeIn();
+    jQuery('.mycookie_close').click(function(e)
         {
-        jQuery('.overlay').fadeOut(); 
+        jQuery('.mycookie').fadeOut(); 
     });
    };
+   
+   
+   
+   // Special Deal Overlay
+   
+   jQuery('.header_special_deal').click(function() {
+	   
+	   jQuery('.discount_verbiage').fadeIn();
+	   
+	   
+   });
+   
+   jQuery('.discount_close').click(function() {
+	   
+	   jQuery('.discount_verbiage').fadeOut();
+	   
+	  });
+	  
+	  // Join Email (in top nav)
+	  
+	  jQuery('li.menu-item-7459').click(function() {
+	   
+	   jQuery('.join_email_verbiage').fadeIn();
+	   
+	  });
+	  
+	  
+	  jQuery('.join_email_close').click(function() {
+	   
+	   jQuery('.join_email_verbiage').fadeOut();
+	   
+	  });
+	  
+   
+   
+   
+   
    
    
    // Fixed Mobile Menu 

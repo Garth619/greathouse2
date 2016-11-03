@@ -175,6 +175,7 @@ body {
 	text-transform: uppercase;
 	padding:18px 55px;
 	display:inline-block;
+	color:#fff;
 }
 
 a.post-edit-link {
@@ -209,6 +210,7 @@ header {
 			text-align: center;
 			padding:10px 0;
 			line-height: 1.5;
+			cursor: pointer;
 			.tablet_deal {
 				display:none;
 			}
@@ -1397,7 +1399,13 @@ img.aligncenter {
 		margin:10% auto;
 		padding: 30px 5% 50px;
 		position: relative;
-		
+		.gform_confirmation_message_2 {
+			font-family: $oswaldreg;
+			text-transform: uppercase;
+			font-size:20px;
+			padding-top:18px;
+			letter-spacing: .7px;
+		}
 	}
 	.overlay_close {
 		position: absolute;
@@ -1424,6 +1432,13 @@ img.aligncenter {
 	}
 	span.additional {
 		font-size:19px;
+		line-height:1.2;
+		span.mycode {
+			font-family: $oswaldreg;
+			text-transform: uppercase;
+			letter-spacing:0.7px;
+			font-size:15px;
+		}
 	}
 	ul.gform_fields {
 		list-style: none;
@@ -4003,6 +4018,7 @@ footer {
 	}
 	span.additional {
 		font-size:20px;
+		
 	}
 	ul.gform_fields {
 		
