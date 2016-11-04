@@ -208,7 +208,6 @@ jQuery('img.search_img.desktop').click(function(){
 });
 
 
-
   
   
     

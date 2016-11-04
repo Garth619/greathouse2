@@ -684,7 +684,7 @@ footer {
     list-style: none;
     text-align: center;
     /* Im using the top nav and manually hiding the other menu items I dont need, kinda hacky */ }
-    #sidebar ul li.menu-item-2642 > a, #sidebar ul li.menu-item-2703 > a, #sidebar ul li.menu-item-2703 > a, #sidebar ul li.menu-item-2704 > a, #sidebar ul li.menu-item-2705 > a, #sidebar ul li.menu-item-2706 > a, #sidebar ul li.menu-item-2707 > a {
+    #sidebar ul li.menu-item-2642 > a, #sidebar ul li.menu-item-2703 > a, #sidebar ul li.menu-item-2703 > a, #sidebar ul li.menu-item-2704 > a, #sidebar ul li.menu-item-2705 > a, #sidebar ul li.menu-item-2706 > a, #sidebar ul li.menu-item-2707 > a, #sidebar ul li.menu-item-7459 > a {
       display: none; }
     #sidebar ul li:last-of-type {
       margin-bottom: 0; }
@@ -2045,7 +2045,7 @@ td.product-quantity {
     color: #000 !important; }
   .woocommerce .wc-proceed-to-checkout a,
   .woocommerce-page .wc-proceed-to-checkout a {
-    padding: 20px 0; }
+    padding: 19px 0; }
   .woocommerce .added_to_cart.wc-forward,
   .woocommerce-page .added_to_cart.wc-forward {
     display: none; }
@@ -2247,6 +2247,7 @@ ul.woocommerce-error {
 
 /* Woocommerce Messages */
 /*
+
 .woocommerce-message, .woocommerce-error {
 	position: fixed;
 	z-index: 1000;
@@ -2265,13 +2266,15 @@ ul.woocommerce-error {
     padding-bottom: 4px; }
     #sidebar ul {
       text-align: left;
-      overflow: hidden; }
+      overflow: hidden;
+      width: 100%; }
       #sidebar ul li:last-of-type {
         margin-bottom: 30px; }
-      #sidebar ul li {
-        width: 50%;
-        float: left;
-        padding-left: 10%; }
+      #sidebar ul li ul.sub-menu {
+        width: 100%; }
+        #sidebar ul li ul.sub-menu li {
+          float: left;
+          width: 50%; }
   .share_quantity_wrapper .mysingle_cart {
     overflow: hidden; }
   .share_quantity_wrapper .single_add_to_cart_button {
@@ -2365,9 +2368,9 @@ ul.woocommerce-error {
 /* Media Query */
 @media screen and (min-width: 670px) {
   /* Sidebar Template */
-  #sidebar ul li {
+  #sidebar ul li ul.sub-menu li {
     width: 33.33333%;
-    padding-left: 7%; } }
+    padding-left: 5%; } }
 
 /* Media Query */
 @media screen and (min-width: 750px) {
@@ -2794,7 +2797,7 @@ ul.woocommerce-error {
     float: left; }
   #sidebar ul {
     text-align: left; }
-    #sidebar ul li {
+    #sidebar ul li ul.sub-menu li {
       float: none;
       width: 100%;
       padding: 0; }
@@ -3503,7 +3506,10 @@ ul.woocommerce-error {
       color: #000 !important; }
     .woocommerce .wc-proceed-to-checkout,
     .woocommerce-page .wc-proceed-to-checkout {
-      margin-top: 44px; }
+      margin-top: 28px; }
+    .woocommerce .woocommerce-Price-amount,
+    .woocommerce-page .woocommerce-Price-amount {
+      font-weight: 300 !important; }
   #customer_details {
     overflow: hidden; }
   .col-1, .col-2 {

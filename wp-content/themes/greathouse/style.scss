@@ -951,7 +951,7 @@ footer {
 		list-style: none;
 		text-align: center;
 		/* Im using the top nav and manually hiding the other menu items I dont need, kinda hacky */
-		li.menu-item-2642, li.menu-item-2703, li.menu-item-2703, li.menu-item-2704, li.menu-item-2705, li.menu-item-2706, li.menu-item-2707  {
+		li.menu-item-2642, li.menu-item-2703, li.menu-item-2703, li.menu-item-2704, li.menu-item-2705, li.menu-item-2706, li.menu-item-2707, li.menu-item-7459  {
 			> a {
 				display: none;
 			}
@@ -2817,7 +2817,7 @@ li.myreset {
 			.wc-proceed-to-checkout {
 				
 				a {
-					padding:20px 0;
+					padding:19px 0;
 				}
 			}
 
@@ -3132,7 +3132,9 @@ ul.woocommerce-error {
 /* Woocommerce Messages */
 
 
+
 /*
+
 .woocommerce-message, .woocommerce-error {
 	position: fixed;
 	z-index: 1000;
@@ -3144,6 +3146,7 @@ ul.woocommerce-error {
 	color:#fff;
 }
 */
+
 
 
 
@@ -3162,13 +3165,18 @@ ul.woocommerce-error {
 	ul {
 		text-align: left;
 		overflow: hidden;
+		width:100%;
 		li:last-of-type {
 			margin-bottom:30px;
 		}
 		li {
-			width:50%;
-			float:left;
-			padding-left: 10%;
+			ul.sub-menu {
+				width:100%;
+				li {
+					float:left;
+					width:50%;
+				}
+			}
 		}
 	}
 }
@@ -3450,8 +3458,12 @@ img.aligncenter {
 #sidebar {
 	ul {
 		li {
-			width:33.33333%;
-			padding-left: 7%;
+			ul.sub-menu {
+				li {
+					width:33.33333%;
+					padding-left:5%;
+				}
+			}
 		}
 	}
 }
@@ -4255,9 +4267,14 @@ footer {
 		text-align: left;
 		li {
 			
-			float:none;
+			
+			ul.sub-menu {
+				li {
+					float:none;
 			width:100%;
 			padding:0;
+				}
+			}
 			a {
 				
 			}
@@ -5836,10 +5853,14 @@ width:9% !important;
 			
 			
 			.wc-proceed-to-checkout {
-				margin-top:44px;
+				margin-top:28px;
 				
 			}
 	
+	
+	.woocommerce-Price-amount {
+		font-weight:300 !important;
+	}
 	
 
 	/**
