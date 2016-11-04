@@ -575,6 +575,7 @@ header {
 				font-size:41px;
 				display: block;
 				margin-bottom: 10px;
+				line-height:1.1;
 			}
 			span.sub_header {
 				color:#fff;
@@ -1488,6 +1489,16 @@ img.aligncenter {
 		font-family: $oswaldreg;
 		color:$bluedark;
 	}
+	
+	
+	#breadcrumbs, .woocommerce-breadcrumb {
+		font-family: $oswaldreg;
+		text-transform: uppercase;
+		text-align: center !important;
+		margin:30px 0;
+	}
+	
+	
 	
 	
 	/* Single Product Pages */

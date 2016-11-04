@@ -56,6 +56,7 @@ $filterreset = strtok($filterreset, '?'); ?>
 
 		<div class="product_wrapper"> 
 			
+<!-- 			<?php woocommerce_breadcrumb(); ?> -->
 	
 			<?php woocommerce_content(); ?>
 	

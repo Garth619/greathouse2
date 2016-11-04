@@ -13,6 +13,17 @@ get_header(); ?>
 <div class="allproduct_wrapper">
 	
 	
+<!--
+	<?php
+if ( function_exists('yoast_breadcrumb') ) {
+yoast_breadcrumb('
+<p id="breadcrumbs">','</p>
+');
+}
+?>
+-->
+	
+	
 <section class="product_categories_wrapper">
 	
 	
