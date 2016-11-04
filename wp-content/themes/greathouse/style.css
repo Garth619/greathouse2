@@ -3763,6 +3763,9 @@ ul.woocommerce-error {
 @media screen and (min-width: 1670px) {
   .desktop_menu_wrapper .desktop_menu {
     margin-right: 80px; }
+    .desktop_menu_wrapper .desktop_menu ul#menu-menu-1 > li > a {
+      padding-left: 16px;
+      padding-right: 16px; }
   /* No Sidebar Template */
   .no_sidebar_wrapper .no_sidebar_inner {
     width: 66%; }
