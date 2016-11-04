@@ -42,6 +42,7 @@ if ( ! $product->is_purchasable() ) {
 
 	<div class="share_quantity_wrapper">
 	
+	<?php echo do_shortcode("[woocommerce_social_media_share_buttons]"); ?> 
 	
 	<form class="cart mysingle_cart" method="post" enctype='multipart/form-data'>
 	 	<?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>
