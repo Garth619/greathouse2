@@ -2879,7 +2879,7 @@ li.myreset {
 		text-align: center;
 		border: none;
 		position:relative;
-		top:-8px;
+		top:-3px;
 	}
 	
 	
@@ -3594,6 +3594,8 @@ header {
 		}
 	}
 }
+
+
 
 
 
@@ -4571,7 +4573,7 @@ header {
 					color:#000;
 					text-decoration: none;
 					display: block;
-					padding:17px 10px 18px;
+					padding:17px 6px 18px;
 					transition:all .2s ease-in-out;
 					cursor: pointer;
 					&:hover {
@@ -4659,7 +4661,7 @@ header {
 		width:19px;
 		margin-top:12px;
 		float:left;
-		margin-right:7px;
+		margin-right:11px;
 	}
 	a {
 		color:$greyfont;
@@ -4679,8 +4681,8 @@ header {
 
 .mysearch_wrapper.desktop {
 	position:absolute;
-	right: 256px;
-  top: 14px;
+	right: 265px;
+  top: 7px;
   opacity: 0;
   visibility: hidden;
 	transition:all .2s ease-in-out;
@@ -4689,14 +4691,14 @@ header {
 		display: none;
 	}
 	input[type="search"] {
-		width:540px;
+		width:382px;
 		border:none;
 		font-family: $oswaldreg;
 		text-transform: uppercase;
 		padding:7px 11px;
 		letter-spacing: 0.8px;
 		font-size:14px;
-		margin-bottom:5px;
+	
 		margin-bottom: 12px;
 	}
 	.autocomplete-suggestions {
@@ -6126,6 +6128,48 @@ header {
 
 
 
+.mysearch_wrapper.desktop {
+	
+  top: 12px;
+  right:280px;
+	
+	label {
+		
+	}
+	input[type="search"] {
+		
+	}
+	.autocomplete-suggestions {
+		
+		img {
+			
+		}
+	}
+	.yith_wcas_result_content {
+		
+		del {
+			
+		}
+		.title {
+			
+		}
+		strong {
+			
+		}
+	}
+	.link-result {
+		
+		a {
+			
+		}
+	}
+}
+
+
+
+
+
+
 .desktop_menu_wrapper {
 	
 	.desktop_menu {
@@ -6147,7 +6191,7 @@ header {
 			> li {
 				
 				 > a {
-				 	padding: 25px 15px 23px;
+				 	padding: 25px 6px 23px;
 					&:hover {
 						
 					}
@@ -6200,6 +6244,9 @@ header {
 	}
 	a {
 		margin-top:25px;
+	}
+	a.cart-contents {
+		padding-right:17px;
 	}
 }
 
@@ -6399,6 +6446,53 @@ header {
 		}
 	}
 }
+
+
+
+
+
+
+.mysearch_wrapper.desktop {
+	
+  top: 12px;
+  right:290px;
+	
+	label {
+		
+	}
+	input[type="search"] {
+		
+	}
+	.autocomplete-suggestions {
+		
+		img {
+			
+		}
+	}
+	.yith_wcas_result_content {
+		
+		del {
+			
+		}
+		.title {
+			
+		}
+		strong {
+			
+		}
+	}
+	.link-result {
+		
+		a {
+			
+		}
+	}
+}
+
+
+
+
+
 
 
 
