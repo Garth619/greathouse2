@@ -20331,23 +20331,23 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yoast-components-360-rtl.css": {
+	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yoast-components-371-rtl.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yoast-components-360-rtl-ck.css",
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yoast-components-371-rtl-ck.css",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yoast-components-360-rtl.min.css": {
+	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yoast-components-371-rtl.min.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yoast-components-360-rtl.min-ck.css",
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yoast-components-371-rtl.min-ck.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -20533,13 +20533,13 @@
 		"oAP": "\/wp-content\/plugins\/wordpress-seo\/css\/xml-sitemap-xsl.php",
 		"oF": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/yoast-components-360.min.css": {
+	"\/wp-content\/plugins\/wordpress-seo\/css\/yoast-components-371.min.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wordpress-seo\/css\/yoast-components-360.min-ck.css",
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wordpress-seo\/css\/yoast-components-371.min-ck.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -21043,11 +21043,11 @@
 		"oAP": "\/wp-content\/plugins\/wordpress-seo\/index.php",
 		"oF": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/configuration-wizard-370.min.js": {
+	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/configuration-wizard-371.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/configuration-wizard-370.min-min.js",
+		"oAP": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/configuration-wizard-371.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

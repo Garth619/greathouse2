@@ -228,6 +228,14 @@ header {
         left: 0;
         padding: 0 8%; }
 
+input#input_2_2, li#field_2_2 div.gfield_description, input#input_1_6, li#field_1_6 div.gfield_description {
+  display: none; }
+
+ul#gform_fields_1 {
+  overflow: hidden; }
+  ul#gform_fields_1 .gform_footer {
+    clear: both; }
+
 .mobile_fixed_wrapper .mysearch_wrapper.mobile {
   position: absolute;
   top: 128px;
@@ -1104,6 +1112,9 @@ img.aligncenter {
   text-align: center !important;
   margin: 30px 0; }
 
+.yith-wcwl-add-to-wishlist {
+  margin-top: 0px !important; }
+
 /* Single Product Pages */
 .woocommerce-page .entry-content p {
   margin-bottom: 20px; }
@@ -1183,7 +1194,6 @@ div.product_wrapper div.inner_product_wrapper p.price span.woocommerce-Price-amo
   font-weight: 300 !important; }
 
 .simple_wishlist_wrapper {
-  margin-top: 15px;
   float: left; }
   .simple_wishlist_wrapper .yith-wcwl-add-to-wishlist .yith-wcwl-add-button a {
     color: #fff;
@@ -1228,6 +1238,7 @@ div.up-sells.upsells.products ul.products li {
     font-size: 14px;
     padding: 8px 20px;
     margin-right: 15px;
+    margin-bottom: 15px;
     float: left; }
 
 .yith-wcwl-wishlistaddedbrowse, .yith-wcwl-wishlistexistsbrowse {
@@ -1301,7 +1312,8 @@ form.variations_form table.variations {
     font-family: "oswaldregular", arial;
     cursor: pointer;
     float: left;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    margin-right: 15px; }
 
 .woocommerce-tabs.wc-tabs-wrapper {
   border: 3px solid #f3f3f3;
@@ -1391,7 +1403,8 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked, .ivpa_active {
   box-sizing: border-box !important; }
 
 .woocommerce-page .entry-content {
-  line-height: 1.2; }
+  line-height: 1.2;
+  padding: 15px 30px 45px; }
 
 .suggestion_wrapper {
   text-align: center; }
@@ -2136,7 +2149,8 @@ td.product-quantity {
   font-family: "Voltage W00 Light", arial;
   font-size: 40px;
   text-transform: lowercase;
-  margin-bottom: 35px; }
+  margin-bottom: 35px;
+  color: #79b7c0; }
 
 .entry-content .woocommerce-checkout p {
   margin-bottom: 35px; }
