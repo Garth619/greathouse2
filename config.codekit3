@@ -5324,13 +5324,13 @@
 		},
 	"\/wp-content\/plugins\/better-wp-security\/better-wp-security.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/better-wp-security.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/css\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/css\/index.php",
 		"oF": 0
 		},
@@ -5339,26 +5339,26 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/css\/style-ck.css",
 		"oF": 0,
 		"oS": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/index.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/init.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/init.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/js\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/js\/index.php",
 		"oF": 0
 		},
@@ -5373,139 +5373,139 @@
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/module-settings.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/module-settings.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/page-go-pro.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/page-go-pro.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/page-logs.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/page-logs.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/page-security-check.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/page-security-check.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/page-settings.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/page-settings.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/sidebar-widget.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/admin-pages\/sidebar-widget.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/class-ithemes-sync-verb-itsec-get-everything.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/class-ithemes-sync-verb-itsec-get-everything.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/class-ithemes-sync-verb-itsec-get-lockouts.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/class-ithemes-sync-verb-itsec-get-lockouts.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/class-ithemes-sync-verb-itsec-get-temp-whitelist.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/class-ithemes-sync-verb-itsec-get-temp-whitelist.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/class-ithemes-sync-verb-itsec-release-lockout.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/class-ithemes-sync-verb-itsec-release-lockout.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/class-ithemes-sync-verb-itsec-set-temp-whitelist.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/class-ithemes-sync-verb-itsec-set-temp-whitelist.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-core.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-core.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-files.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-files.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-lib.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-lib.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-lockout.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-lockout.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-logger-all-logs.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-logger-all-logs.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-logger.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-logger.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-modules.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-modules.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-notify.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-notify.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-response.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-response.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-setup.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-setup.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-sync.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/class-itsec-sync.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/css\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/css\/index.php",
 		"oF": 0
 		},
@@ -5514,7 +5514,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/css\/ithemes-ck.css",
 		"oF": 0,
 		"oS": 0
@@ -5524,7 +5524,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/css\/itsec_notice-ck.css",
 		"oF": 0,
 		"oS": 0
@@ -5593,7 +5593,7 @@
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/img\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/img\/index.php",
 		"oF": 0
 		},
@@ -5607,7 +5607,7 @@
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/index.php",
 		"oF": 0
 		},
@@ -5658,7 +5658,7 @@
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/js\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/js\/index.php",
 		"oF": 0
 		},
@@ -5691,181 +5691,187 @@
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-config-file.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-config-file.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-directory.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-directory.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-file.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-file.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-ip-tools.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-ip-tools.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-user-activity.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-user-activity.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-utility.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-utility.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-mailer.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-mailer.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-wp-list-table.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-wp-list-table.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/form.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/form.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/index.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/details-box.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/details-box.html",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/divider.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/divider.html",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/footer.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/footer.html",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/header.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/header.html",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/index.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/info-box.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/info-box.html",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/large-text.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/large-text.html",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/lockouts-table.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/lockouts-table.html",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/module-button.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/module-button.html",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/pro-callout.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/pro-callout.html",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/section-heading-with-icon.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/section-heading-with-icon.html",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/section-heading.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/section-heading.html",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/text.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/text.html",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/settings.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/settings.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/storage.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/storage.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/validator.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/validator.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/active.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/active.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/class-itsec-four-oh-four-log.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/class-itsec-four-oh-four-log.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/class-itsec-four-oh-four.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/class-itsec-four-oh-four.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/index.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/init.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/init.php",
 		"oF": 0
 		},
@@ -5880,49 +5886,49 @@
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/js\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/js\/index.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/settings-page.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/settings-page.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/settings.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/settings.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/setup.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/setup.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/validator.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/404-detection\/validator.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/active.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/active.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/index.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/init.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/init.php",
 		"oF": 0
 		},
@@ -5937,55 +5943,55 @@
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/js\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/js\/index.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/settings-page.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/settings-page.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/settings.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/settings.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/validator.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/admin-user\/validator.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/active.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/active.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/class-ithemes-sync-verb-itsec-get-away-mode.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/class-ithemes-sync-verb-itsec-get-away-mode.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/class-ithemes-sync-verb-itsec-override-away-mode.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/class-ithemes-sync-verb-itsec-override-away-mode.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/class-itsec-away-mode.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/class-itsec-away-mode.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/images\/index.php",
 		"oF": 0
 		},
@@ -6079,7 +6085,7 @@
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/index.php",
 		"oF": 0
 		},
@@ -6088,7 +6094,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/jquery-ui.min-ck.css",
 		"oF": 0,
 		"oS": 0
@@ -6098,26 +6104,26 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/css\/jquery.datepicker-ck.css",
 		"oF": 0,
 		"oS": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/deactivate.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/deactivate.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/index.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/init.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/init.php",
 		"oF": 0
 		},
@@ -6132,7 +6138,7 @@
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/js\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/js\/index.php",
 		"oF": 0
 		},
@@ -6147,49 +6153,49 @@
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/settings-page.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/settings-page.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/settings.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/settings.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/setup.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/setup.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/utilities.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/utilities.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/validator.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/away-mode\/validator.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/active.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/active.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/class-itsec-backup.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/class-itsec-backup.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/css\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/css\/index.php",
 		"oF": 0
 		},
@@ -6198,7 +6204,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/css\/multi-select-ck.css",
 		"oF": 0,
 		"oS": 0
@@ -6208,14 +6214,14 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/css\/settings-page-ck.css",
 		"oF": 0,
 		"oS": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/img\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/img\/index.php",
 		"oF": 0
 		},
@@ -6229,19 +6235,19 @@
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/index.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/init.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/init.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/js\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/js\/index.php",
 		"oF": 0
 		},
@@ -6265,67 +6271,67 @@
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/settings-page.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/settings-page.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/settings.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/settings.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/setup.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/setup.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/validator.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/backup\/validator.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/activate.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/activate.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/active.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/active.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/class-itsec-ban-users.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/class-itsec-ban-users.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/config-generators.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/config-generators.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/deactivate.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/deactivate.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/index.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/init.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/init.php",
 		"oF": 0
 		},
@@ -6340,7 +6346,7 @@
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/js\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/js\/index.php",
 		"oF": 0
 		},
@@ -6364,61 +6370,61 @@
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/lists\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/lists\/index.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/settings-page.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/settings-page.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/settings.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/settings.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/setup.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/setup.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/validator.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/ban-users\/validator.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/active.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/active.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/class-itsec-brute-force-log.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/class-itsec-brute-force-log.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/class-itsec-brute-force.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/class-itsec-brute-force.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/index.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/init.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/init.php",
 		"oF": 0
 		},
@@ -6433,19 +6439,19 @@
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/js\/index.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/js\/index.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/settings-page.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/settings-page.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/settings.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/brute-force\/settings.php",
 		"oF": 0
 		},
@@ -7753,18 +7759,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/init.php",
-		"oF": 0
-		},
-	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/settings-page-multisite-tweaks.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/settings-page-multisite-tweaks.php",
-		"oF": 0
-		},
-	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/settings-page-system-tweaks.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/settings-page-system-tweaks.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/settings-page.php": {
@@ -10044,11 +10038,29 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/wp-content\/plugins\/gravityforms\/js\/jquery.json-1.3.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/gravityforms\/js\/min\/jquery.json-1.3.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/wp-content\/plugins\/gravityforms\/js\/jquery.json.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/js\/min\/jquery.json-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/gravityforms\/js\/jquery.json.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/gravityforms\/js\/min\/jquery.json.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -10076,6 +10088,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/gravityforms\/js\/min\/jquery.textareaCounter.plugin-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/gravityforms\/js\/jquery.textareaCounter.plugin.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/gravityforms\/js\/min\/jquery.textareaCounter.plugin.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -25739,62 +25760,62 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/css\/styles-ck.css",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/script-145.js": {
+	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/script-146.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/min\/script-145-min.js",
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/min\/script-146-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/script-145.min.js": {
+	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/script-146.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/min\/script-145.min-min.js",
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/min\/script-146.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/cli\/wpmdbpro-media-files-cli-bar.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/cli\/wpmdbpro-media-files-cli-bar.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/cli\/wpmdbpro-media-files-cli.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/cli\/wpmdbpro-media-files-cli.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/wpmdbpro-media-files-base.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/wpmdbpro-media-files-base.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/wpmdbpro-media-files-local.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/wpmdbpro-media-files-local.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/wpmdbpro-media-files-remote.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/wpmdbpro-media-files-remote.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/wpmdbpro-media-files.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/wpmdbpro-media-files.php",
 		"oF": 0
 		},
@@ -25806,25 +25827,25 @@
 		},
 	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/template\/migrate.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/template\/migrate.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/template\/select-subsites.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/template\/select-subsites.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/version.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/version.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/wp-migrate-db-pro-media-files.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/wp-migrate-db-pro-media-files.php",
 		"oF": 0
 		},
@@ -25902,92 +25923,92 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/common-161.js": {
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/common-17.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/min\/common-161-min.js",
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/min\/common-17-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/common-161.min.js": {
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/common-17.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/min\/common-161.min-min.js",
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/min\/common-17.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/hook-161.js": {
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/hook-17.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/min\/hook-161-min.js",
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/min\/hook-17-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/hook-161.min.js": {
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/hook-17.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/min\/hook-161.min-min.js",
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/min\/hook-17.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/multisite-161.js": {
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/multisite-17.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/min\/multisite-161-min.js",
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/min\/multisite-17-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/multisite-161.min.js": {
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/multisite-17.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/min\/multisite-161.min-min.js",
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/min\/multisite-17.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/plugin-update-161.js": {
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/plugin-update-17.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/min\/plugin-update-161-min.js",
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/min\/plugin-update-17-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/plugin-update-161.min.js": {
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/plugin-update-17.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/min\/plugin-update-161.min-min.js",
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/min\/plugin-update-17.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/script-161.js": {
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/script-17.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/min\/script-161-min.js",
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/min\/script-17-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/script-161.min.js": {
+	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/script-17.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/min\/script-161.min-min.js",
+		"oAP": "\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/dist\/js\/min\/script-17.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
