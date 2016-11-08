@@ -4657,8 +4657,8 @@ header {
 				}
 				> ul.sub-menu {
 					position:absolute;
-					opacity:1;
-					visibility: visible; /* */
+					opacity:0;
+					visibility: hidden; /* */
 					top:49px;
 					left:0;
 					background:rgba(47, 47, 47, 0.98);
