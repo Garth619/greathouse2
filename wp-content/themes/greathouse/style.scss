@@ -187,9 +187,7 @@ a.post-edit-link {
 a {
 	color:$bluedark;
 	text-decoration: none;
-	&:hover {
-		text-decoration: underline;
-	}
+	
 }
 
 
@@ -1863,11 +1861,14 @@ div.product_content_wrap div.summary.entry-summary div p {
 				display:none;
 			}
 			p {
-				margin-bottom:30px;
+				margin-bottom:25px;
 				
 			}
 			p:last-of-type {
-				margin-bottom:0;
+// 				margin-bottom:0;
+			}
+			ul {
+				margin-left:25px;
 			}
 			table.shop_attributes {
 				text-align: left;
@@ -5475,7 +5476,7 @@ width:9% !important;
 		}
 		}
 		.panel {
-			padding-bottom:100px;
+			padding-bottom:50px;
 			h2 {
 				
 			}
