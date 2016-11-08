@@ -123,6 +123,8 @@ a.post-edit-link {
 a {
   color: #79b7c0;
   text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
 
 /* Header */
 header {
@@ -1172,7 +1174,8 @@ div.product_wrapper div.inner_product_wrapper p.price span.woocommerce-Price-amo
       font-weight: 300;
       margin: 30px 0 15px;
       font-size: 40px;
-      line-height: 1.1; }
+      line-height: 1.1;
+      max-width: 375px; }
     .product_wrapper .entry-summary span.sub_title {
       font-family: "oswaldregular", arial;
       margin-bottom: 35px;
@@ -2385,7 +2388,7 @@ ul.woocommerce-error {
       padding: 0; }
       .product_wrapper .entry-summary p.price {
         position: absolute;
-        top: 34px;
+        top: 29px;
         right: 0; }
   form.variations_form .single_variation_wrap .single_variation .woocommerce-variation-price {
     position: absolute;
@@ -3358,7 +3361,7 @@ ul.woocommerce-error {
     padding-left: 60px; }
   .product_wrapper .entry-summary p.price {
     position: absolute;
-    top: 0;
+    top: -4px;
     right: 0; }
   .product_wrapper .entry-summary h1 {
     margin-top: 0;

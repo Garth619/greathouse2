@@ -165,7 +165,6 @@ body {
 	font-size:14px;
 	padding:11px 20px 9px;
 	letter-spacing: 1.1px;
-
 }
 
 .blue_shop {
@@ -188,6 +187,9 @@ a.post-edit-link {
 a {
 	color:$bluedark;
 	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
 }
 
 
@@ -1606,6 +1608,7 @@ img.aligncenter {
 				margin: 30px 0 15px;
 				font-size:40px;
 				line-height:1.1;
+				max-width:375px;
 			}
 			span.sub_title {
 				font-family: $oswaldreg;
@@ -3381,7 +3384,7 @@ img.aligncenter {
 			padding:0;
 				p.price {
 					position:absolute;
-					top:34px;
+					top:29px;
 					right:0;
 				}
 			h1 {
@@ -5367,7 +5370,7 @@ width:9% !important;
 		.entry-summary {
 			p.price {
 				position:absolute;
-				top:0;
+				top:-4px;
 				right:0;
 			}
 			h1 {
