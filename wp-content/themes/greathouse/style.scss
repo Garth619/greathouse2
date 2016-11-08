@@ -348,6 +348,14 @@ ul#gform_fields_1 {
 	}
 }
 
+
+body.logged-in {
+	.mobile_dropdown_wrapper {
+		top:174px;
+	}
+}
+
+
 .mobile_fixed_wrapper {
 
 .mysearch_wrapper.mobile {
@@ -3700,7 +3708,11 @@ header {
 
 
 
-
+body.logged-in {
+	.mobile_dropdown_wrapper {
+		top:202px;
+	}
+}
 
 
 

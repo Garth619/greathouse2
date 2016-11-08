@@ -236,6 +236,9 @@ ul#gform_fields_1 {
   ul#gform_fields_1 .gform_footer {
     clear: both; }
 
+body.logged-in .mobile_dropdown_wrapper {
+  top: 174px; }
+
 .mobile_fixed_wrapper .mysearch_wrapper.mobile {
   position: absolute;
   top: 128px;
@@ -2496,6 +2499,8 @@ ul.woocommerce-error {
     top: 170px; }
   .mobile_fixed_wrapper .mysearch_wrapper.mobile {
     top: 171px; }
+  body.logged-in .mobile_dropdown_wrapper {
+    top: 202px; }
   .mobile_fixed_wrapper.stuck {
     position: fixed;
     top: 0;
