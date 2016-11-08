@@ -4657,8 +4657,8 @@ header {
 				}
 				> ul.sub-menu {
 					position:absolute;
-					opacity:0;
-					visibility: hidden; /* */
+					opacity:1;
+					visibility: visible; /* */
 					top:49px;
 					left:0;
 					background:rgba(47, 47, 47, 0.98);
@@ -4672,6 +4672,7 @@ header {
 					height:100vh;
 					.inner_drown_wrapper {
 						overflow: hidden;
+						margin-bottom:100px;
 					}
 					 li {
 						font-size:12px;
@@ -4857,10 +4858,11 @@ header {
 .see_all_products {
 	color:#fff;
 	text-decoration: none;
-	position:absolute;
-	top:57px;
-	left:84px;
+	float:left;
+	width:100%;
 	font-size:12px;
+	margin-bottom: 30px;
+	margin-left:2.5%;
 }
 
 .see_all_products:hover {
