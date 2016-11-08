@@ -931,8 +931,11 @@ img.aligncenter {
   font-family: "oswaldregular", arial;
   text-transform: uppercase;
   font-size: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   display: block; }
+
+.hours_wrapper {
+  margin-bottom: 35px; }
 
 /* Form */
 .form_wrapper {
@@ -2870,7 +2873,7 @@ ul.woocommerce-error {
     padding-left: 35px; }
   .hours {
     padding-left: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     display: block; }
   .copyright {
     text-align: left;

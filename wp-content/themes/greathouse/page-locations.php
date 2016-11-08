@@ -54,8 +54,23 @@ get_header(); ?>
 				
 			</div><!-- locations_wrapper -->
 			
+			<div class="hours_wrapper">
+			
 			<span class="hours_title">Store Hours</span>
-			<span class="hours">mon - sun &nbsp;|&nbsp;  10am - 6pm</span>
+			
+			
+			<?php if(get_field('store_hours')): ?>
+ 
+				<?php while(has_sub_field('store_hours')): ?>
+ 
+					<span class="hours"><?php the_sub_field('days');?> &nbsp;|&nbsp;  <?php the_sub_field('hours');?></span>
+ 
+				<?php endwhile; ?>
+ 
+			<?php endif; ?>
+			
+			</div><!-- hours_wrapper -->
+			
 			
 		</div><!-- content -->
 		
