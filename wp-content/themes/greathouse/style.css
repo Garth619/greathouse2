@@ -630,11 +630,11 @@ footer {
   color: #777777;
   font-size: 13px;
   line-height: 1.4; }
+  .copyright span {
+    display: block;
+    margin-bottom: 10px; }
   .copyright a {
     color: #7c786f; }
-
-.highrank_logo {
-  display: none; }
 
 /* Internal */
 .banner {
@@ -2128,7 +2128,9 @@ td.product-quantity {
     float: none;
     width: 100%;
     box-sizing: border-box;
-    margin-bottom: 1em; }
+    margin-bottom: 1em;
+    -webkit-appearance: none;
+    border-radius: 0; }
   .woocommerce .lost_reset_password .form-row-first,
   .woocommerce .lost_reset_password .form-row-last,
   .woocommerce-page .lost_reset_password .form-row-first,
@@ -2729,19 +2731,6 @@ ul.woocommerce-error {
     clear: both;
     text-align: center;
     padding: 55px 0 0; }
-  .copyright {
-    text-align: left;
-    padding: 30px 55px;
-    overflow: hidden; }
-    .copyright span {
-      float: left;
-      margin-top: 10px; }
-    .copyright .copy_mobile {
-      display: none; }
-    .copyright img {
-      float: right; }
-  .highrank_logo {
-    display: block; }
   /* Team Pics */
   #content .team_wrapper {
     overflow: hidden; }
@@ -2882,6 +2871,19 @@ ul.woocommerce-error {
   .hours {
     padding-left: 35px;
     margin-bottom: 30px;
+    display: block; }
+  .copyright {
+    text-align: left;
+    padding: 30px 55px;
+    overflow: hidden; }
+    .copyright span {
+      float: left;
+      margin-top: 10px; }
+    .copyright .copy_mobile {
+      display: none; }
+    .copyright img {
+      float: right; }
+  .highrank_logo {
     display: block; } }
 
 /* Media Query */
@@ -3253,7 +3255,7 @@ ul.woocommerce-error {
   body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter_wrapper {
     margin: 0 auto; }
     body.post-type-archive-product .myfilter_wrapper .filter_header_wrapper, body.tax-product_cat .myfilter_wrapper .filter_header_wrapper {
-      width: 10%;
+      width: 12%;
       float: left;
       border: none;
       padding-right: 30px; }
@@ -3277,7 +3279,7 @@ ul.woocommerce-error {
       transition: all .2s ease-in-out; }
     body.post-type-archive-product .myfilter_wrapper > ul, body.tax-product_cat .myfilter_wrapper > ul {
       display: block !important;
-      width: 90%;
+      width: 88%;
       float: left;
       background: #fff; }
       body.post-type-archive-product .myfilter_wrapper > ul > li:hover ul, body.post-type-archive-product .myfilter_wrapper > ul > li:hover form, body.tax-product_cat .myfilter_wrapper > ul > li:hover ul, body.tax-product_cat .myfilter_wrapper > ul > li:hover form {
@@ -3286,7 +3288,7 @@ ul.woocommerce-error {
         body.post-type-archive-product .myfilter_wrapper > ul > li:hover ul li h2:after, body.post-type-archive-product .myfilter_wrapper > ul > li:hover form li h2:after, body.tax-product_cat .myfilter_wrapper > ul > li:hover ul li h2:after, body.tax-product_cat .myfilter_wrapper > ul > li:hover form li h2:after {
           content: "-"; }
       body.post-type-archive-product .myfilter_wrapper > ul > li, body.tax-product_cat .myfilter_wrapper > ul > li {
-        width: 13%;
+        width: 16%;
         float: left;
         padding: 0;
         position: relative;

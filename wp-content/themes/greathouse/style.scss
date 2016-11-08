@@ -879,13 +879,17 @@ footer {
 	color:$grey;
 	font-size:13px;
 	line-height:1.4;
+	span {
+		display: block;
+		margin-bottom:10px;
+	}
 	a {
 		color:$greyfont;
 	}
 }
 
 .highrank_logo {
-	display: none;
+// 	display: none;
 }
 
 
@@ -2957,6 +2961,8 @@ li.myreset {
 			width: 100%;
 			box-sizing: border-box;
 			margin-bottom: 1em;
+			-webkit-appearance: none;
+			border-radius: 0;
 		}
 	}
 
@@ -4100,25 +4106,7 @@ footer {
 
 
 
-.copyright {
-	text-align: left;
-	padding:30px 55px;
-	overflow: hidden;
-	span {
-		float:left;
-		margin-top:10px;
-	}
-	.copy_mobile {
-		display: none;
-	}
-	img {
-		float:right;
-	}
-}
 
-.highrank_logo {
-	display: block;
-}
 
 
 
@@ -4433,6 +4421,26 @@ footer {
 .hours {
 	padding-left:35px;
 	margin-bottom:30px;
+	display: block;
+}
+
+.copyright {
+	text-align: left;
+	padding:30px 55px;
+	overflow: hidden;
+	span {
+		float:left;
+		margin-top:10px;
+	}
+	.copy_mobile {
+		display: none;
+	}
+	img {
+		float:right;
+	}
+}
+
+.highrank_logo {
 	display: block;
 }
 
@@ -5186,7 +5194,7 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 	margin:0 auto;
 	
 	.filter_header_wrapper {
-		width:10%;
+		width:12%;
 		float:left;
 		border:none;
 		padding-right:30px;
@@ -5222,7 +5230,7 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 	}
 	> ul {
 			display:block !important;
-			width:90%;
+			width:88%;
 			float:left;
 			background: #fff;
 			> li:nth-last-of-type(-n+2) {
@@ -5242,7 +5250,7 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 				}
 			}
 			> li {
-				width:13%;
+				width:16%;
 				float:left;
 				padding:0;
 				position: relative;
