@@ -666,7 +666,8 @@ footer {
   background: url(images/sidebar-pic.jpg) center center no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 60px 10px; }
+  padding: 60px 10px;
+  color: #fff; }
   .discount_wrapper a {
     color: #fff;
     text-decoration: none; }
