@@ -4602,7 +4602,7 @@ header {
 				> ul.sub-menu {
 					position:absolute;
 					
-					top:59px;
+					top:49px;
 					li {
 						
 						a {
@@ -6350,6 +6350,76 @@ header {
 		}
 	}
 }
+
+
+.mobile_fixed_wrapper.stuck {
+
+.desktop_menu_wrapper {
+	
+	.desktop_menu {
+		ul#menu-menu-1 {
+			
+			> li.current_page_item {
+				
+				a {
+					
+				}
+			}
+			> li:hover > ul.sub-menu {
+				
+			}
+			> li:hover > a {
+				
+			}
+			> li {
+				
+				 > a {
+					
+					&:hover {
+						
+					}
+				}
+				> ul.sub-menu {
+					
+					
+					top:62px;
+					li {
+						
+						a {
+							
+							
+							&:hover {
+								
+							}
+						}
+						> ul.sub-menu {
+								
+							li.current_page_item {
+								a {
+									
+								}
+							}
+							li {
+								
+								a {
+									
+									&:hover {
+										
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+	
+}
+
 
 
 

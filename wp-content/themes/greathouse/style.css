@@ -2940,7 +2940,7 @@ ul.woocommerce-error {
   /* Desktop Menu */
   .mobile_fixed_wrapper.stuck .desktop_menu_wrapper .desktop_menu ul#menu-menu-1 > li > ul.sub-menu {
     position: absolute;
-    top: 59px; }
+    top: 49px; }
   .desktop_menu_wrapper {
     display: block;
     float: right; }
@@ -3638,6 +3638,8 @@ ul.woocommerce-error {
       padding: 25px 6px 23px; }
     .desktop_menu_wrapper .desktop_menu ul#menu-menu-1 > li > ul.sub-menu {
       top: 62px; }
+  .mobile_fixed_wrapper.stuck .desktop_menu_wrapper .desktop_menu ul#menu-menu-1 > li > ul.sub-menu {
+    top: 62px; }
   .cart_signin_wrapper img.search_img {
     margin-top: 19px; }
   .cart_signin_wrapper a {
