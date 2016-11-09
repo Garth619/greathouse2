@@ -787,6 +787,7 @@ footer {
 	background: url(images/footer_pattern.jpg) top left repeat;
 	width:100%;
 	padding: 55px 30px;
+	
 	.inner_footer {
 		span.large_header {
 			font-family: $voltagereg;
@@ -801,6 +802,12 @@ footer {
 .footer_logo, .footer_menu.tablet {
 	display: none;
 }
+
+
+.ssl_icon {
+		width:60px;
+		margin-bottom:10px;
+	}
 
 
 .locations.desktop {
@@ -4450,19 +4457,27 @@ footer {
 	overflow: hidden;
 	span {
 		float:left;
-		margin-top:10px;
+		margin-top:20px;
 	}
 	.copy_mobile {
 		display: none;
 	}
 	img {
-		float:right;
+		
 	}
 }
 
 .highrank_logo {
 	display: block;
+	float:right;
+	margin-top:10px;
 }
+
+.ssl_icon {
+  float: left;
+  margin-right:10px;
+  
+ }
 
 
 
@@ -5049,7 +5064,7 @@ footer {
 
 
 .copyright {
-	padding:15px 55px 25px;
+	padding: 15px 55px 5px;
 	max-width:2000px;
 	margin:0 auto;
 }

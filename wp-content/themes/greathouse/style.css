@@ -566,6 +566,10 @@ footer {
 .footer_logo, .footer_menu.tablet {
   display: none; }
 
+.ssl_icon {
+  width: 60px;
+  margin-bottom: 10px; }
+
 .locations.desktop {
   display: none; }
 
@@ -2887,13 +2891,16 @@ ul.woocommerce-error {
     overflow: hidden; }
     .copyright span {
       float: left;
-      margin-top: 10px; }
+      margin-top: 20px; }
     .copyright .copy_mobile {
       display: none; }
-    .copyright img {
-      float: right; }
   .highrank_logo {
-    display: block; } }
+    display: block;
+    float: right;
+    margin-top: 10px; }
+  .ssl_icon {
+    float: left;
+    margin-right: 10px; } }
 
 /* Media Query */
 @media screen and (min-width: 1150px) {
@@ -3204,7 +3211,7 @@ ul.woocommerce-error {
     clear: none;
     border-top: none; }
   .copyright {
-    padding: 15px 55px 25px;
+    padding: 15px 55px 5px;
     max-width: 2000px;
     margin: 0 auto; }
   .woocommerce-message, .woocommerce-error, .woocommerce-info {
