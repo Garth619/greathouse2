@@ -2587,7 +2587,7 @@ li.myreset {
 
 			p {
 				margin: 0;
-				padding: 8px 0;
+// 				padding: 8px 0;
 			}
 		}
 
@@ -5079,6 +5079,93 @@ footer {
 
 
 /* Internal */
+
+
+
+
+
+.woocommerce-message,
+.woocommerce-error,
+.woocommerce-info {
+	padding: 1em 2em 1em 3.5em !important;
+	margin: 0 0 10px 0em !important;
+	position: relative;
+	background-color: $greylight;
+	color: $black;
+	border-top: 3px solid $bluedark;
+	list-style: none outside !important;
+	width: auto;
+	word-wrap: break-word;
+	letter-spacing:.7px;
+	&:before {
+		
+		font-family: arial;
+		display: inline-block;
+		position: absolute;
+		top: 8;
+		left: 1.5em;
+		width:22px;
+		height:22px;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+		
+		color:#fff;
+		font-size:17px;
+		font-weight:bold;
+	}
+
+
+	.button {
+		float: right;
+	}
+
+	li {
+		list-style: none outside !important;
+		padding-left: 0 !important;
+		margin-left: 0 !important;
+	}
+}
+
+.woocommerce-message {
+	border-top-color: $bluedark;
+
+
+}
+
+.woocommerce-info {
+	border-top-color: $bluedark;
+
+	&:before {
+		content:"!";
+		background: $bluedark;
+		padding-left:8px;
+	}
+}
+
+.woocommerce-error {
+	border-top-color: red;
+	
+	&:before {
+		
+		content: "X";
+		padding-left:5px;
+		background: red;
+		
+		
+		
+		
+	}
+
+
+
+}
+
+
+
+
+
+
 
 
 
