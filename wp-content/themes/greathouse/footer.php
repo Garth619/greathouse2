@@ -193,6 +193,58 @@
 </div><!-- overlay -->
 
 
+<div class="overlay keyholder_verbiage">
+	
+	<div class="overlay_inner">
+		
+		<img class="overlay_close keyholder_close" src="<?php bloginfo('template_directory');?>/images/x.png" />
+		<span class="sub_header"><?php the_field('keyholder_overlay_small_header','options');?></span>
+		<span class="large_header"><?php the_field('keyholder_overlay_large_header','options');?></span>
+		<span class="additional"><?php the_field('keyholder_overlay_additional','options');?></span>
+		
+		<div class="steps_wrapper">
+			
+			<div class="step">
+				
+				<span class="step_circle">1</span><!-- step_circle -->
+				
+				<span class="step_content">Access to Private Sales not available to the General Public</span><!-- step_content -->
+				
+			</div><!-- step -->
+			
+			<div class="step">
+				
+				<span class="step_circle">2</span><!-- step_circle -->
+				
+				<span class="step_content">Undivided access to preview the latest additions & collections</span><!-- step_content -->
+				
+			</div><!-- step -->
+			
+			<div class="step">
+				
+				<span class="step_circle">3</span><!-- step_circle -->
+				
+				<span class="step_content">Access to certain <strong>SALE PRICING</strong> before and after major sales events</span><!-- step_content -->
+				
+			</div><!-- step -->
+			
+			<div class="step">
+				
+				<span class="step_circle">4</span><!-- step_circle -->
+				
+				<span class="step_content">Invitations to Special Events including: guest speakers, “How To” seminars, happy hour beverages & much more</span><!-- step_content -->
+				
+			</div><!-- step -->
+			
+		</div><!-- steps -->
+		
+		<?php gravity_form(2, false, false, false, '', true, 15); ?>
+		
+	</div><!-- overlay_inner -->
+	
+</div><!-- overlay -->
+
+
 
 	
 <?php wp_footer(); ?>

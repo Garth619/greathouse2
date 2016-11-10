@@ -118,6 +118,23 @@ jQuery( "<a class='see_all_products' href='/all-products'>See All Products</a>" 
 	   
 	  });
 	  
+	  
+	  // Keyholder Overlay 
+	  
+	  
+	  jQuery('.keyholder span.transparent_button, .member_banner span.transparent_button').click(function() {
+	   
+	   jQuery('.keyholder_verbiage').fadeIn();
+	   
+	  });
+	  
+	  
+	  jQuery('.keyholder_close').click(function() {
+	   
+	   jQuery('.keyholder_verbiage').fadeOut();
+	   
+	  });
+	  
    
    
    

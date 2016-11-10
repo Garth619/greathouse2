@@ -288,7 +288,7 @@ if( $posts ): ?>
 			<span class="sub_header"><?php the_field('keyholder_top_header');?></span><!-- sub_header -->
 			<span class="large_header"><?php the_field('keyholder_main_header');?></span><!-- sub_header -->
 			
-			<a href="<?php the_field('keyholder_button_link');?>" class="transparent_button"><?php the_field('keyholder_button_text');?></a>
+			<span class="transparent_button"><?php the_field('keyholder_button_text');?></span>
 		
 		
 		</div><!-- inner_keyholder -->
@@ -305,7 +305,7 @@ if( $posts ): ?>
 				<span class="sub_header"><?php the_field('keyholder_top_header');?></span><!-- sub_header -->
 				<span class="large_header"><?php the_field('keyholder_main_header');?></span><!-- sub_header -->
 			
-				<a href="<?php the_field('keyholder_button_link');?>" class="transparent_button"><?php the_field('keyholder_button_text');?></a>
+				<span class="transparent_button"><?php the_field('keyholder_button_text');?></span>
 				
 			</div><!-- inner_keyholder -->
 			

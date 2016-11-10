@@ -109,7 +109,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<span class="sub_header">become a member</span><!-- sub_header -->
 		<span class="large_header">keyholder club</span><!-- large_header -->
 		
-		<a href="<?php the_field('keyholder_banner_on_single_pages','option');?>" class="transparent_button">Sign Up Today</a>
+		<span class="transparent_button">Sign Up Today</span>
 		
 	</div><!-- inner_banner_content -->
 	
