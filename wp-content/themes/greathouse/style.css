@@ -656,6 +656,87 @@ footer {
     text-transform: lowercase;
     font-size: 60px; }
 
+.back_to_cart {
+  margin-left: 15px; }
+
+.woocommerce-message,
+.woocommerce-error,
+.woocommerce-info {
+  padding: 18px 25px 18px 41px !important;
+  margin: 0 0 30px 0em !important;
+  position: relative;
+  background-color: #f3f3f3;
+  color: #000;
+  border-top: 3px solid #79b7c0;
+  list-style: none outside !important;
+  width: auto;
+  word-wrap: break-word;
+  letter-spacing: .7px;
+  display: block;
+  line-height: 1.2; }
+  .woocommerce-message:before,
+  .woocommerce-error:before,
+  .woocommerce-info:before {
+    font-family: georgia;
+    display: inline-block;
+    position: absolute;
+    top: 8;
+    left: 11px;
+    width: 22px;
+    height: 22px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-transform: lowercase;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold; }
+  .woocommerce-message .button,
+  .woocommerce-error .button,
+  .woocommerce-info .button {
+    float: right; }
+  .woocommerce-message li,
+  .woocommerce-error li,
+  .woocommerce-info li {
+    list-style: none outside !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important; }
+
+.woocommerce-message, .woocommerce-info {
+  border-top-color: #79b7c0; }
+  .woocommerce-message:before, .woocommerce-info:before {
+    content: "i";
+    background: #79b7c0;
+    padding-left: 9px;
+    padding-top: 1px; }
+
+.woocommerce-error {
+  border-top-color: red; }
+  .woocommerce-error:before {
+    content: "X";
+    padding-left: 7px;
+    padding-top: 0px;
+    background: red;
+    font-family: arial;
+    font-size: 16px; }
+
+form.login {
+  margin: 35px 0;
+  /*
+	p {
+	font-family: $didot;
+	text-transform: none;
+	}
+*/ }
+
+/*
+.customer_details {
+	margin-top:20px;
+}
+*/
+form.woocommerce-checkout {
+  margin-top: 60px; }
+
 /* Sidebar Template */
 .container_wrapper {
   margin: 45px 20px 28px; }
@@ -3216,59 +3297,6 @@ ul.woocommerce-error {
   .woocommerce-message, .woocommerce-error, .woocommerce-info {
     text-align: left; }
   /* Internal */
-  .woocommerce-message,
-  .woocommerce-error,
-  .woocommerce-info {
-    padding: 1em 2em 1em 3.5em !important;
-    margin: 0 0 10px 0em !important;
-    position: relative;
-    background-color: #f3f3f3;
-    color: #000;
-    border-top: 3px solid #79b7c0;
-    list-style: none outside !important;
-    width: auto;
-    word-wrap: break-word;
-    letter-spacing: .7px; }
-    .woocommerce-message:before,
-    .woocommerce-error:before,
-    .woocommerce-info:before {
-      font-family: arial;
-      display: inline-block;
-      position: absolute;
-      top: 8;
-      left: 1.5em;
-      width: 22px;
-      height: 22px;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      border-radius: 50%;
-      color: #fff;
-      font-size: 17px;
-      font-weight: bold; }
-    .woocommerce-message .button,
-    .woocommerce-error .button,
-    .woocommerce-info .button {
-      float: right; }
-    .woocommerce-message li,
-    .woocommerce-error li,
-    .woocommerce-info li {
-      list-style: none outside !important;
-      padding-left: 0 !important;
-      margin-left: 0 !important; }
-  .woocommerce-message {
-    border-top-color: #79b7c0; }
-  .woocommerce-info {
-    border-top-color: #79b7c0; }
-    .woocommerce-info:before {
-      content: "!";
-      background: #79b7c0;
-      padding-left: 8px; }
-  .woocommerce-error {
-    border-top-color: red; }
-    .woocommerce-error:before {
-      content: "X";
-      padding-left: 5px;
-      background: red; }
   .banner {
     padding: 120px 0; }
     .banner span {
@@ -3649,7 +3677,7 @@ ul.woocommerce-error {
   #customer_details {
     overflow: hidden; }
   .col-1, .col-2 {
-    width: 48%; }
+    width: 100%; }
   .col-1 {
     float: left; }
   .col-2 {
@@ -3657,9 +3685,7 @@ ul.woocommerce-error {
   .woocommerce-invalid input {
     border: 1px solid red !important; }
   .woocommerce-validated input {
-    border: 1px solid green !important; }
-  .back_to_cart {
-    margin-left: 30px; } }
+    border: 1px solid green !important; } }
 
 /* Media Query */
 @media screen and (min-width: 1200px) {
