@@ -997,8 +997,8 @@ footer {
 	
 	&:before {
 		
-		content: "X";
-		padding-left:7px;
+		content: "!";
+		padding-left:9px;
 		padding-top:0px;
 		background: red;
 		font-family: arial;
@@ -3138,8 +3138,15 @@ li.myreset {
 		margin-bottom:35px;
 		color:$bluedark;
 	}
+	p#billing_country_field {
+		height:50px;
+		margin-bottom:60px;
+	}
+	
 	p {
 		margin-bottom:35px;
+		width:50%;
+		float:left;
 		label {
 			width:100%;
 			display:block;

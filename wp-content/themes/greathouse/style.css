@@ -713,8 +713,8 @@ footer {
 .woocommerce-error {
   border-top-color: red; }
   .woocommerce-error:before {
-    content: "X";
-    padding-left: 7px;
+    content: "!";
+    padding-left: 9px;
     padding-top: 0px;
     background: red;
     font-family: arial;
@@ -2246,8 +2246,14 @@ td.product-quantity {
   margin-bottom: 35px;
   color: #79b7c0; }
 
+.entry-content .woocommerce-checkout p#billing_country_field {
+  height: 50px;
+  margin-bottom: 60px; }
+
 .entry-content .woocommerce-checkout p {
-  margin-bottom: 35px; }
+  margin-bottom: 35px;
+  width: 50%;
+  float: left; }
   .entry-content .woocommerce-checkout p label {
     width: 100%;
     display: block;
