@@ -2246,14 +2246,21 @@ td.product-quantity {
   margin-bottom: 35px;
   color: #79b7c0; }
 
-.entry-content .woocommerce-checkout p#billing_country_field {
-  height: 50px;
-  margin-bottom: 60px; }
+.entry-content .woocommerce-checkout p#billing_address_2_field {
+  margin-top: 29px; }
+
+.entry-content .woocommerce-checkout p.create-account {
+  width: 100%; }
+
+.entry-content .woocommerce-checkout p:nth-of-type(2n + 1) {
+  float: left; }
+
+.entry-content .woocommerce-checkout p:nth-of-type(2n + 2) {
+  float: right; }
 
 .entry-content .woocommerce-checkout p {
   margin-bottom: 35px;
-  width: 50%;
-  float: left; }
+  width: 49%; }
   .entry-content .woocommerce-checkout p label {
     width: 100%;
     display: block;
@@ -2274,7 +2281,7 @@ td.product-quantity {
   .entry-content .woocommerce-checkout p .select2-choice {
     border: 1px solid #a6a6a6;
     border-radius: 0;
-    padding: 14px 10px; }
+    padding: 13px 10px; }
   .entry-content .woocommerce-checkout p textarea {
     width: 100%;
     border: 1px solid #a6a6a6;

@@ -3138,15 +3138,26 @@ li.myreset {
 		margin-bottom:35px;
 		color:$bluedark;
 	}
-	p#billing_country_field {
-		height:50px;
-		margin-bottom:60px;
+	p#billing_address_2_field {
+		margin-top:29px;
+	}
+	p.create-account {
+		width:100%;
+	}
+	p#billing_postcode_field {
+		
+	}
+	p:nth-of-type(2n + 1) {
+		float:left;
+	}
+	p:nth-of-type(2n + 2) {
+		float:right;
 	}
 	
 	p {
 		margin-bottom:35px;
-		width:50%;
-		float:left;
+		width:49%;
+		
 		label {
 			width:100%;
 			display:block;
@@ -3177,7 +3188,7 @@ li.myreset {
 		.select2-choice {
 			border: 1px solid #a6a6a6;
 			border-radius:0;
-			padding:14px 10px;
+			padding:13px 10px;
 			#select2-chosen-1 {
 			
 			
