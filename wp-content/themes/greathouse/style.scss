@@ -1649,9 +1649,7 @@ img.aligncenter {
 
 
 
-.overlay.keyholder_verbiage .overlay_inner {
-	width:900px
-}
+
 
 
 .steps_wrapper {
@@ -1659,7 +1657,7 @@ img.aligncenter {
 	text-align: center;
 	.step {
 		margin:15px 5px 25px;
-		max-width:300px;
+		max-width:220px;
 		display: inline-block;
 		vertical-align: top;
 		
@@ -1681,8 +1679,16 @@ img.aligncenter {
 			font-size:19px;
 			margin-top:10px;
 			display: block;
+			line-height:1.1;
 		}
 	}
+}
+
+.fill_out {
+	color:$bluedark;
+	font-family: $voltagereg;
+	text-transform: lowercase;
+	font-size:30px;
 }
 	
 	
@@ -2036,6 +2042,7 @@ div.product_content_wrap div.summary.entry-summary div p {
 			}
 			ul {
 				margin-left:25px;
+				margin-bottom:25px;
 			}
 			table.shop_attributes {
 				text-align: left;
@@ -7441,7 +7448,7 @@ footer {
 		font-size:65px;
 	}
 	span.additional {
-		
+		font-size:22px;
 	}
 	ul.gform_fields {
 		margin-top:55px;
@@ -7459,6 +7466,42 @@ footer {
 			  
 		}
 	}
+	
+	.overlay.keyholder_verbiage .overlay_inner {
+		max-width:950px;
+		padding-left:2%;
+		padding-right:2%;
+		}
+
+
+
+
+
+.steps_wrapper {
+	margin-top:30px;
+	.step {
+		margin:15px 8px 25px;
+		max-width:170px;
+		
+		
+		.step_circle {
+			
+			font-size:32px;
+			width:50px;
+			height:50px;
+			margin-bottom:45px;
+			
+		}
+		.step_content {
+			font-size:18px;
+			margin-top:10px;
+			display: block;
+		}
+	}
+}
+
+
+
 
 	
 	/* My Table Styles */

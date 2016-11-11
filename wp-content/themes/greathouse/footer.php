@@ -238,7 +238,11 @@
 			
 		</div><!-- steps -->
 		
-		<?php gravity_form(2, false, false, false, '', true, 15); ?>
+		<span class="fill_out">Fill out the form below</span>
+		<br/><br/>
+		form goes here
+		
+		<?php // gravity_form(2, false, false, false, '', true, 15); ?>
 		
 	</div><!-- overlay_inner -->
 	
