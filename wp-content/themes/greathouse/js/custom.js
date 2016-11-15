@@ -77,6 +77,7 @@ jQuery( "<a class='see_all_products' href='/all-products'>See All Products</a>" 
   
   // Cookie that displays a special offer to first time users 
   
+/*
   if($.cookie('popup') != 'seen'){
     $.cookie('popup', 'seen', { expires: 365, path: '/' }); 
     jQuery(".mycookie").delay(2000).fadeIn();
@@ -85,6 +86,7 @@ jQuery( "<a class='see_all_products' href='/all-products'>See All Products</a>" 
         jQuery('.mycookie').fadeOut(); 
     });
    };
+*/
    
    
    
