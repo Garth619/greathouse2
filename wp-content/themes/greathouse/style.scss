@@ -1026,6 +1026,39 @@ form.woocommerce-checkout {
 
 
 
+/* Wish List Table */
+
+
+
+.woocommerce .wishlist-title {
+	h2 {
+		color:#000 !important;
+		font-family: $voltagereg !important;
+		text-transform: lowercase !important;
+		font-size:40px !important;
+		margin-bottom:35px !important;
+		text-align: center !important;
+		
+	}
+}
+
+
+
+.woocommerce table.wishlist_table {
+	font-size:40px !important;
+	thead {
+		display: none !important;
+	}
+	tbody {
+		td {
+			display: block;
+			border:none;
+		}
+	}
+}
+
+
+
 
 
 /* Sidebar Template */

@@ -712,6 +712,23 @@ form.woocommerce-checkout {
   margin-top: 60px; }
 
 /* Checkout Tabs */
+/* Wish List Table */
+.woocommerce .wishlist-title h2 {
+  color: #000 !important;
+  font-family: "Voltage W00 Regular", arial !important;
+  text-transform: lowercase !important;
+  font-size: 40px !important;
+  margin-bottom: 35px !important;
+  text-align: center !important; }
+
+.woocommerce table.wishlist_table {
+  font-size: 40px; }
+  .woocommerce table.wishlist_table thead {
+    display: none !important; }
+  .woocommerce table.wishlist_table tbody td {
+    display: block;
+    border: none; }
+
 /* Sidebar Template */
 .container_wrapper {
   margin: 45px 20px 28px; }
