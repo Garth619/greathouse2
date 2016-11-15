@@ -57,12 +57,23 @@ get_header(); ?>
 		<?php endwhile; ?>
  
 		<?php endif; ?>
-	
+		
+
 	
 	</div><!-- product_inner -->
 	
 	
+		
+	
 </section><!-- product_categories_wrapper -->
+
+
+<!--
+<div class="product_template_feed">
+		<?php echo do_shortcode('[product_category category="sofas-sectionals" per_page="12"]'); ?>
+	</div>
+--><!-- product_template_feed -->
+
 
 	
 	

@@ -11120,6 +11120,24 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/wp-content\/plugins\/shortcode-pagination-for-woocommerce\/inc\/admin\/vendor\/class-dashboard.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/shortcode-pagination-for-woocommerce\/inc\/admin\/vendor\/class-dashboard.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/shortcode-pagination-for-woocommerce\/jck-woo-shortcode-pagination.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/shortcode-pagination-for-woocommerce\/jck-woo-shortcode-pagination.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/shortcode-pagination-for-woocommerce\/ReadMe.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/shortcode-pagination-for-woocommerce\/ReadMe.txt",
+		"oF": 0
+		},
 	"\/wp-content\/plugins\/simple-history\/bin\/install-wp-tests.sh": {
 		"ft": 8192,
 		"oA": 2,
@@ -13091,6 +13109,168 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/wp-content\/plugins\/simple-image-sizes\/templates\/options-media.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/includes\/admin\/class-wppp-admin-settings.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/includes\/admin\/class-wppp-admin-settings.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/includes\/class-wppp-dropdown.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/includes\/class-wppp-dropdown.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/includes\/class-wppp-front-end.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/includes\/class-wppp-front-end.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-da_DK.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-da_DK.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-da_DK.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-da_DK.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-de_DE.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-de_DE.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-de_DE.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-de_DE.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-es_ES.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-es_ES.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-es_ES.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-es_ES.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-fa_IR.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-fa_IR.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-fa_IR.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-fa_IR.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-fr_FR.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-fr_FR.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-fr_FR.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-fr_FR.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-he_IL.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-he_IL.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-he_IL.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-he_IL.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-nl_NL.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-nl_NL.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-nl_NL.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-nl_NL.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-pt_BR.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-pt_BR.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-pt_BR.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-pt_BR.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-ru_RU.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-ru_RU.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-ru_RU.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/languages\/woocommerce-products-per-page-ru_RU.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/readme.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/readme.txt",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/screenshot-1.png": {
+		"ft": 32768,
+		"iS": 58424,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/screenshot-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/screenshot-2.png": {
+		"ft": 32768,
+		"iS": 1321,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/screenshot-2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/screenshot-3.png": {
+		"ft": 32768,
+		"iS": 62659,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/screenshot-3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-products-per-page\/woocommerce-products-per-page.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-products-per-page\/woocommerce-products-per-page.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/woocommerce-social-media-share-buttons\/img\/email-share-button-big.png": {
@@ -20181,23 +20361,23 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/metabox-370-rtl.css": {
+	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/metabox-380-rtl.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/metabox-370-rtl-ck.css",
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/metabox-380-rtl-ck.css",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/metabox-370-rtl.min.css": {
+	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/metabox-380-rtl.min.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/metabox-370-rtl.min-ck.css",
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/metabox-380-rtl.min-ck.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -20351,23 +20531,23 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_plugin_tools-370-rtl.css": {
+	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_plugin_tools-380-rtl.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_plugin_tools-370-rtl-ck.css",
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_plugin_tools-380-rtl-ck.css",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_plugin_tools-370-rtl.min.css": {
+	"\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_plugin_tools-380-rtl.min.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_plugin_tools-370-rtl.min-ck.css",
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wordpress-seo\/css\/dist\/yst_plugin_tools-380-rtl.min-ck.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -20447,13 +20627,13 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/metabox-370.min.css": {
+	"\/wp-content\/plugins\/wordpress-seo\/css\/metabox-380.min.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wordpress-seo\/css\/metabox-370.min-ck.css",
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wordpress-seo\/css\/metabox-380.min-ck.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -20543,13 +20723,13 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/css\/yst_plugin_tools-370.min.css": {
+	"\/wp-content\/plugins\/wordpress-seo\/css\/yst_plugin_tools-380.min.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wordpress-seo\/css\/yst_plugin_tools-370.min-ck.css",
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wordpress-seo\/css\/yst_plugin_tools-380.min-ck.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -21043,11 +21223,11 @@
 		"oAP": "\/wp-content\/plugins\/wordpress-seo\/index.php",
 		"oF": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/configuration-wizard-371.min.js": {
+	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/configuration-wizard-380.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/configuration-wizard-371.min-min.js",
+		"oAP": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/configuration-wizard-380.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -21493,11 +21673,11 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-admin-370.min.js": {
+	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-admin-380.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-admin-370.min-min.js",
+		"oAP": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-admin-380.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -21556,47 +21736,47 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-metabox-370.min.js": {
+	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-metabox-380.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-metabox-370.min-min.js",
+		"oAP": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-metabox-380.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-metabox-category-350.min.js": {
+	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-metabox-category-380.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-metabox-category-350.min-min.js",
+		"oAP": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-metabox-category-380.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-post-scraper-370.min.js": {
+	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-post-scraper-380.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-post-scraper-370.min-min.js",
+		"oAP": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-post-scraper-380.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-recalculate-370.min.js": {
+	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-recalculate-380.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-recalculate-370.min-min.js",
+		"oAP": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-recalculate-380.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-replacevar-plugin-370.min.js": {
+	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-replacevar-plugin-380.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-replacevar-plugin-370.min-min.js",
+		"oAP": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-replacevar-plugin-380.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -21610,11 +21790,11 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-term-scraper-370.min.js": {
+	"\/wp-content\/plugins\/wordpress-seo\/js\/dist\/wp-seo-term-scraper-380.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-term-scraper-370.min-min.js",
+		"oAP": "\/wp-content\/plugins\/wordpress-seo\/js\/dist\/min\/wp-seo-term-scraper-380.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
