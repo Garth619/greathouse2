@@ -75,6 +75,8 @@ yoast_breadcrumb('
 		<?php endwhile; ?>
  
 		<?php endif; ?>
+		
+
 	
 	
 	</div><!-- product_inner -->

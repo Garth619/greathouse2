@@ -186,7 +186,7 @@
 		<span class="large_header"><?php the_field('join_email_verbiage','option');?></span>
 		<span class="additional"><?php the_field('join_email_additional_verbiage','option');?></span>
 		
-		<?php gravity_form(2, false, false, false, '', true, 15); ?>
+		<?php gravity_form(2, false, false, false, '', true, 45); ?>
 		
 	</div><!-- overlay_inner -->
 	
@@ -239,10 +239,9 @@
 		</div><!-- steps -->
 		
 		<span class="fill_out">Fill out the form below</span>
-		<br/><br/>
-		form goes here
 		
-		<?php // gravity_form(2, false, false, false, '', true, 15); ?>
+		
+		<?php gravity_form(3, false, false, false, '', true, 25); ?>
 		
 	</div><!-- overlay_inner -->
 	

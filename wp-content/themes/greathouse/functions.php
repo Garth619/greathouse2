@@ -662,6 +662,9 @@ function single_company_title()
 add_action( 'woocommerce_single_product_summary', 'single_company_title', 6 );
 
 
+
+
+
 // Changes the Home link breadcrumb to our custom All Products Page
 
 add_filter( 'woocommerce_breadcrumb_home_url', 'woo_custom_breadrumb_home_url' );

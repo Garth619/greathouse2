@@ -57,11 +57,6 @@
 <?php if(is_product_category()):?>
 
 
-
-
-
-
-
 <?php
 
 $term_id = get_queried_object()->term_id;
@@ -72,25 +67,11 @@ $catbannerimage = get_field('product_category_page_banners', $post_id); // My Ad
 ?>
 
 
-
-
-
-
-		
-
-
 <?php if(get_field('product_category_page_banners', $post_id)) : ?>
 
 
 
 <div class="banner" style="background:url(<?php echo get_field('product_category_page_banners', $post_id);?>) top center no-repeat;background-size:cover;">
-
-
-
-
-
-
-
 
 
 <?php else: ?>
@@ -101,15 +82,10 @@ $catbannerimage = get_field('product_category_page_banners', $post_id); // My Ad
 
 <?php endif;?>
 		
-		
-		
-		
 		<?php if( get_field('product_category_banner_font_color', $post_id) == 'Black' ): ?>
 
 				<span style="color:#000;"><?php single_cat_title(); ?></span>
 		
-			
-	
 			<?php elseif( get_field('product_category_banner_font_color', $post_id) == 'White' ): ?>
 
 				<span style="color:#fff"><?php single_cat_title(); ?></span>
@@ -129,10 +105,7 @@ $catbannerimage = get_field('product_category_page_banners', $post_id); // My Ad
 		<?php endif;?>
 		
 		
-		
-		
-		
-</div><!-- banner -->
+	</div><!-- banner -->
 
 
 
