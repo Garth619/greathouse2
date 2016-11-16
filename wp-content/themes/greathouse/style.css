@@ -1596,6 +1596,9 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked, .ivpa_active {
     padding: 11px 18px;
     text-align: center; }
 
+.stock {
+  display: none; }
+
 /* Price Widget */
 /**
 	 * Price filter widget
