@@ -1649,6 +1649,9 @@ body.page-template-page-locations {
 		list-style: none;
 		margin-top:25px;
 		text-align: left;
+		li#field_3_6 {
+			display: none;
+		}
 		li#field_2_1 {
 			text-align: center;
 			max-width:450px;

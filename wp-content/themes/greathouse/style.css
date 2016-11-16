@@ -1174,6 +1174,8 @@ body.page-template-page-locations .form_wrapper {
     list-style: none;
     margin-top: 25px;
     text-align: left; }
+    .overlay ul.gform_fields li#field_3_6 {
+      display: none; }
     .overlay ul.gform_fields li#field_2_1 {
       text-align: center;
       max-width: 450px;
