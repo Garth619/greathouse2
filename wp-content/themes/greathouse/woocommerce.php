@@ -88,13 +88,13 @@ get_header(); ?>
 				
 					<h2 class="my_filter_title">Filter By</h2>
 				
-				</div>
+				</div><!-- filter_header_wrapper -->
 				
 				<div class="filter_header_wrapper mobile">
 				
 					<h2 class="my_filter_title">Filter By</h2>
 				
-				</div><!-- myfilter_wrapper -->
+				</div><!-- filter_header_wrapper -->
 				
 				
 
@@ -102,24 +102,54 @@ get_header(); ?>
 					
 						<?php dynamic_sidebar('my-product-search-filter');?>
 						
-
 						
-						
-						<?php $filterreset = $_SERVER['REQUEST_URI'];
-$filterreset = strtok($filterreset, '?'); ?>
-
-						
-						<li class="myreset"><a href="<?php echo $filterreset; ?>">Reset Filter</a></li>
 					
 					</ul>
+		
+				
 				<?php endif; ?>
+				
+				
+				
 	
 	
 		</div><!-- myfilter_wrapper -->
 		
+		
+		
+		
+		
+		
+		
 		<div style="clear:both;"></div>
 		
 	</div><!-- outer_wrapper -->
+	
+	
+	
+	<?php if ( is_active_sidebar('my-product-active-reset')):?>
+		
+		
+			<ul>
+				
+				
+				<?php dynamic_sidebar('my-product-active-reset');?>
+				
+<!--
+				<?php $filterreset = $_SERVER['REQUEST_URI'];
+$filterreset = strtok($filterreset, '?'); ?>
+
+				<li class="myreset"><a href="<?php echo $filterreset; ?>">Reset Filter</a></li>
+-->
+				
+				
+			</ul>
+		
+		
+		<?php endif;?>
+	
+	
+	
 
 		<div class="product_wrapper"> 
 			

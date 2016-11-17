@@ -429,6 +429,14 @@ function twentyten_widgets_init() {
 	
 	
 	register_sidebar( array(
+		'name' => __( 'Product Active Reset Area', 'twentyten' ),
+		'id' => 'my-product-active-reset',
+		'description' => __( 'Add Active Reset Button here to appear in product page.', 'twentyten' )
+	
+	) );
+	
+	
+	register_sidebar( array(
 		'name' => __( 'Sidebar Menu', 'twentyten' ),
 		'id' => 'my-sidebar-menu',
 		'description' => __( 'Add widgets here to list the products categories in the sidebar.', 'twentyten' )

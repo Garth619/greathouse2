@@ -2504,6 +2504,9 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 	font-size:14px;
 	text-transform: uppercase;
 	font-family: $oswaldreg;
+	h2.widgettitle {
+		font-size:19px;
+	}
 	.filter_header_wrapper {
 		border-bottom: 4px solid #000;
 		padding:15px 25px;
@@ -2516,13 +2519,20 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 			color:$bluedark;
 			width:100%;
 			&:after {
-				content:"-";
+				content:"Close X";
 				float:right;
+				font-family: $oswaldreg;
+				font-size:16px;
+				color:red;
+				font-weight: 300;
+				margin-top:4px;
 			}
 		}
 		h2.my_filter_title.open {
 			&:after {
-				content:"+";
+				content:"Open +";
+				color:#000;
+				
 			}
 		}
 		
@@ -2534,7 +2544,7 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 // 			display: none;
 			list-style: none;
 			> li:nth-last-of-type(-n+2) {
-					border:none;
+// 					border:none;
 			}
 			> li {
 				padding:0 25px 25px;border-bottom: 1px solid #e1dddd;
@@ -2564,6 +2574,61 @@ li.yit-wcan-parent-terms {
 		color:#000 !important;
 	}
 }
+
+
+
+#woocommerce_layered_nav_filters-2 {
+	padding:25px;
+	.widgettitle {
+		font-family: $oswaldreg;
+		text-transform: uppercase;
+		font-size:19px;
+		font-weight: 300;
+		font-style: none;
+	}
+	ul {
+		li {
+			display: inline-block;
+			background: $bluedark;
+			font-family: $oswaldreg;
+			margin:20px 10px 0 0;
+			a {
+				color:#fff;
+				display: block;
+				padding: 12px 10px;
+				letter-spacing: .7px;
+				font-size:15px;
+				&:before {
+					content:"X";
+					width:25px;
+					height:25px;
+					border:#fff solid 2px;
+					float:left;
+					margin-right:15px;
+					-webkit-border-radius: 50%;
+					-moz-border-radius: 50%;
+					border-radius: 50%;
+					padding: 5px 0 0 7px;
+					font-size:12px;
+					position: relative;
+					top:-5px;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+	
+}
+
+
+
+ul li#woocommerce_layered_nav_filters-2.widget.woocommerce.widget_layered_nav_filters ul li a:hover::after {
+    
+    content: "" !important;
+    margin-left:0px !important;
+    
+}
+
 
 
 /*
@@ -2608,7 +2673,7 @@ li.myreset {
 
 
 
-/*
+
 .yit-wcan-container {
 	margin-top:25px;
 	text-align: center;
@@ -2665,7 +2730,7 @@ li.myreset {
 .yith-wcan-reset-categories-link {
 	display: none;
 }
-*/
+
 
 
 
@@ -4540,7 +4605,7 @@ footer {
 	/* Product Filters */
 	
 	
-/*
+
 .yit-wcan-container {
 
 	ul.products {
@@ -4584,7 +4649,7 @@ footer {
 		}
 	}
 }
-*/
+
 
 
 
@@ -5551,7 +5616,9 @@ body.page-template-page-locations {
 body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter_wrapper {
 // 	overflow: hidden;
 	margin:0 auto;
-	
+	h2.widgettitle {
+		font-size:14px;
+	}
 	.filter_header_wrapper {
 		width:12%;
 		float:left;
