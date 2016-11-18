@@ -1762,6 +1762,8 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
   font-size: 14px;
   text-transform: uppercase;
   font-family: "oswaldregular", arial; }
+  body.post-type-archive-product .myfilter_wrapper .filter_title_desktop, body.tax-product_cat .myfilter_wrapper .filter_title_desktop {
+    display: none; }
   body.post-type-archive-product .myfilter_wrapper h2.widgettitle, body.tax-product_cat .myfilter_wrapper h2.widgettitle {
     font-size: 19px; }
   body.post-type-archive-product .myfilter_wrapper .filter_header_wrapper, body.tax-product_cat .myfilter_wrapper .filter_header_wrapper {
@@ -1820,7 +1822,8 @@ li.yit-wcan-parent-terms a {
     display: inline-block;
     background: #79b7c0;
     font-family: "oswaldregular", arial;
-    margin: 20px 10px 0 0; }
+    margin: 20px 10px 0 0;
+    text-transform: uppercase; }
     #woocommerce_layered_nav_filters-2 ul li a {
       color: #fff;
       display: block;
@@ -3483,7 +3486,7 @@ ul.woocommerce-error {
       transition: all .2s ease-in-out; }
     body.post-type-archive-product .myfilter_wrapper > ul, body.tax-product_cat .myfilter_wrapper > ul {
       display: block !important;
-      width: 88%;
+      width: 100%;
       float: left;
       background: #fff; }
       body.post-type-archive-product .myfilter_wrapper > ul > li:hover ul, body.post-type-archive-product .myfilter_wrapper > ul > li:hover form, body.tax-product_cat .myfilter_wrapper > ul > li:hover ul, body.tax-product_cat .myfilter_wrapper > ul > li:hover form {
@@ -3491,13 +3494,25 @@ ul.woocommerce-error {
         visibility: visible; }
         body.post-type-archive-product .myfilter_wrapper > ul > li:hover ul li h2:after, body.post-type-archive-product .myfilter_wrapper > ul > li:hover form li h2:after, body.tax-product_cat .myfilter_wrapper > ul > li:hover ul li h2:after, body.tax-product_cat .myfilter_wrapper > ul > li:hover form li h2:after {
           content: "-"; }
+      body.post-type-archive-product .myfilter_wrapper > ul li.filter_title_desktop, body.tax-product_cat .myfilter_wrapper > ul li.filter_title_desktop {
+        background: #f3f3f3;
+        font-family: "Voltage W00 Regular", arial;
+        text-transform: lowercase;
+        color: #79b7c0;
+        text-align: right;
+        padding: 15px 22px;
+        font-size: 25px;
+        display: block;
+        cursor: default;
+        width: 130px; }
       body.post-type-archive-product .myfilter_wrapper > ul > li, body.tax-product_cat .myfilter_wrapper > ul > li {
-        width: 16%;
+        width: 17%;
         float: left;
         padding: 0;
         position: relative;
         border-bottom: none;
-        cursor: pointer; }
+        cursor: pointer;
+        max-width: 200px; }
         body.post-type-archive-product .myfilter_wrapper > ul > li h2, body.tax-product_cat .myfilter_wrapper > ul > li h2 {
           width: 100%;
           padding: 22px 25px 19px;

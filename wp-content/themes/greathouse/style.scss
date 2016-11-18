@@ -2504,6 +2504,9 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 	font-size:14px;
 	text-transform: uppercase;
 	font-family: $oswaldreg;
+	.filter_title_desktop {
+		display: none;
+	}
 	h2.widgettitle {
 		font-size:19px;
 	}
@@ -2592,6 +2595,7 @@ li.yit-wcan-parent-terms {
 			background: $bluedark;
 			font-family: $oswaldreg;
 			margin:20px 10px 0 0;
+			text-transform: uppercase;
 			a {
 				color:#fff;
 				display: block;
@@ -5614,6 +5618,10 @@ body.page-template-page-locations {
 
 
 body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter_wrapper {
+	
+	
+	
+	
 // 	overflow: hidden;
 	margin:0 auto;
 	h2.widgettitle {
@@ -5656,7 +5664,7 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 	}
 	> ul {
 			display:block !important;
-			width:88%;
+			width:100%;
 			float:left;
 			background: #fff;
 			> li:nth-last-of-type(-n+2) {
@@ -5675,13 +5683,26 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 					}
 				}
 			}
+			li.filter_title_desktop {
+				background: $greylight;
+				font-family: $voltagereg;
+				text-transform: lowercase;
+				color:$bluedark;
+				text-align: right;
+				padding: 15px 22px;
+				font-size:25px;
+				display: block;
+				cursor: default;
+				width:130px;
+	}
 			> li {
-				width:16%;
+				width:17%;
 				float:left;
 				padding:0;
 				position: relative;
 				border-bottom:none;
 				cursor: pointer;
+				max-width:200px;
 				h2 {
 					width:100%;
 					padding: 22px 25px 19px;

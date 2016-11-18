@@ -84,11 +84,13 @@ get_header(); ?>
 	
 			<?php if ( is_active_sidebar('my-product-search-filter')):?>
 	
+<!--
 				<div class="filter_header_wrapper desktop">
 				
 					<h2 class="my_filter_title">Filter By</h2>
 				
-				</div><!-- filter_header_wrapper -->
+				</div>
+--><!-- filter_header_wrapper -->
 				
 				<div class="filter_header_wrapper mobile">
 				
@@ -100,6 +102,10 @@ get_header(); ?>
 
 					<ul>
 					
+						
+						<li class="filter_title_desktop">Filter By</li><!-- filter_title_desktop -->
+						
+						
 						<?php dynamic_sidebar('my-product-search-filter');?>
 						
 						
