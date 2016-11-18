@@ -1796,7 +1796,8 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
     list-style: none; }
     body.post-type-archive-product .myfilter_wrapper > ul > li, body.tax-product_cat .myfilter_wrapper > ul > li {
       padding: 0 25px 25px;
-      border-bottom: 1px solid #e1dddd; }
+      border-bottom: 1px solid #e1dddd;
+      width: 100%; }
       body.post-type-archive-product .myfilter_wrapper > ul > li h2, body.tax-product_cat .myfilter_wrapper > ul > li h2 {
         font-size: 14px;
         padding: 25px 0 10px;

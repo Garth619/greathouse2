@@ -2560,7 +2560,9 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 // 					border:none;
 			}
 			> li {
-				padding:0 25px 25px;border-bottom: 1px solid #e1dddd;
+				padding:0 25px 25px;
+				border-bottom: 1px solid #e1dddd;
+				width:100%;
 				h2 {
 					font-size:14px;
 					padding:25px 0 10px;
