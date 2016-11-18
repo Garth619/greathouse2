@@ -3477,19 +3477,14 @@ ul.woocommerce-error {
   body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter_wrapper {
     text-align: center; }
     body.post-type-archive-product .myfilter_wrapper > ul > li, body.tax-product_cat .myfilter_wrapper > ul > li {
-      border-right: #000 solid 1px;
       padding-bottom: 10px;
       margin-right: -2px; }
     body.post-type-archive-product .myfilter_wrapper > ul li, body.tax-product_cat .myfilter_wrapper > ul li {
-      display: inline-block;
+      padding: 0;
       position: relative;
       overflow: visible;
-      background: #fff;
       border-bottom: none;
-      max-width: 250px;
-      width: 100%;
       cursor: pointer;
-      vertical-align: top;
       text-align: left;
       /*
 			h2.widgettitle:hover:after {
@@ -3497,7 +3492,12 @@ ul.woocommerce-error {
 			}
 */ }
       body.post-type-archive-product .myfilter_wrapper > ul li h2.widgettitle, body.tax-product_cat .myfilter_wrapper > ul li h2.widgettitle {
-        font-size: 14px; }
+        font-size: 14px;
+        width: 250px;
+        display: inline-block;
+        padding: 24px 0 24px 24px;
+        border-right: #000 solid 1px;
+        background: #fff; }
         body.post-type-archive-product .myfilter_wrapper > ul li h2.widgettitle:after, body.tax-product_cat .myfilter_wrapper > ul li h2.widgettitle:after {
           content: "+";
           position: absolute;
@@ -3510,7 +3510,7 @@ ul.woocommerce-error {
           transition: all .2s ease-in-out; }
       body.post-type-archive-product .myfilter_wrapper > ul li nav, body.tax-product_cat .myfilter_wrapper > ul li nav {
         position: absolute;
-        top: 59px;
+        top: 62px;
         left: 0;
         border-top: 4px solid #000;
         border-left: 1px solid #000;
@@ -3526,7 +3526,7 @@ ul.woocommerce-error {
         padding: 20px 25px;
         padding: 15px 25px 19px; }
         body.post-type-archive-product .myfilter_wrapper > ul li nav .ajax-layered ul li, body.tax-product_cat .myfilter_wrapper > ul li nav .ajax-layered ul li {
-          margin: 7px 0; }
+          margin: 8px 0; }
     body.post-type-archive-product .myfilter_wrapper > ul li:hover > nav, body.tax-product_cat .myfilter_wrapper > ul li:hover > nav {
       opacity: 1;
       visibility: visible; }

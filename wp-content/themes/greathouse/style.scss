@@ -5666,23 +5666,24 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 	> ul {
 		
 		> li {
-			border-right:#000 solid 1px;
+			
 			padding-bottom:10px;
 			margin-right:-2px;
 		}
 		li {
-			display:inline-block;
+			padding:0;
 			position: relative;
 			overflow: visible;
-			background:#fff;
 			border-bottom: none;
-			max-width:250px;
-			width:100%;
 			cursor: pointer;
-			vertical-align: top;
 			text-align: left;
 			h2.widgettitle {
 				font-size:14px;
+				width:250px;
+				display:inline-block;
+				padding: 24px 0 24px 24px;
+				border-right:#000 solid 1px;
+				background:#fff;
 				&:after {
 					content:"+";
 					position: absolute;
@@ -5702,7 +5703,7 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 */
 			nav {
 				position: absolute;
-				top:59px;
+				top:62px;
 				left: 0;
 				border-top:4px solid #000;
 				border-left:1px solid #000;
@@ -5720,7 +5721,7 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 					
 					ul {
 						li {
-							margin:7px 0;
+							margin:8px 0;
 						}
 					}
 				}
