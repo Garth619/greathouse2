@@ -3478,7 +3478,8 @@ ul.woocommerce-error {
     text-align: center; }
     body.post-type-archive-product .myfilter_wrapper > ul > li, body.tax-product_cat .myfilter_wrapper > ul > li {
       border-right: #000 solid 1px;
-      padding-bottom: 10px; }
+      padding-bottom: 10px;
+      margin-right: -2px; }
     body.post-type-archive-product .myfilter_wrapper > ul li, body.tax-product_cat .myfilter_wrapper > ul li {
       display: inline-block;
       position: relative;
