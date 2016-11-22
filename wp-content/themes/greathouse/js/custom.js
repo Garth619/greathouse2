@@ -160,11 +160,6 @@ var sticky = new Waypoint.Sticky({
 		jQuery(this).next('ul.sub-menu').slideToggle(200);
 		jQuery(this).toggleClass('active');
 		
-		
-	
-		
-		
-		
 	});
 	
 	

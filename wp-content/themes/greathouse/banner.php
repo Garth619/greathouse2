@@ -47,7 +47,56 @@
 
 
 	
+<!-- Shop Archive Page -->
 
+<?php if(is_post_type_archive('product')):?>
+
+
+		
+		
+		
+	<?php if(get_field('shop_page_banner','option')): ?>
+		
+		<?php $innerbanner = wp_get_attachment_image_src(get_field('shop_page_banner','option'), 'innerbanner'); ?>
+		<div class="banner" style="background:url(<?php echo $innerbanner[0]; ?>) top center no-repeat;background-size:cover;">
+
+		<?php else:?>
+
+		<div class="banner">
+
+
+		<?php endif;?>
+		
+		<!-- Below is changing the color options for the banner text on inner pages -->
+
+
+		<?php if( get_field('shop_banner_font_color','option') == 'Black' ): ?>
+
+			<span style="color:#000;">Let Yourself In</span>
+		
+			<?php elseif( get_field('shop_banner_font_color','option') == 'White' ): ?>
+
+				<span style="color:#fff">Let Yourself In</span>
+		
+			<?php elseif( get_field('shop_banner_font_color','option') == 'Blue' ): ?>
+
+				<span style="color:#79b7c0">Let Yourself In</span>
+		
+			<?php else:?>
+			
+				<span style="color:#000;">Let Yourself In</span>
+		
+		<?php endif;?>
+
+	</div><!-- banner -->
+		
+
+
+
+
+
+
+<?php endif;?>
 	
 
 
@@ -107,24 +156,10 @@ $catbannerimage = get_field('product_category_page_banners', $post_id); // My Ad
 		
 	</div><!-- banner -->
 
-
-
-
-
-
-
-
-
-
-	
-	
-	
-
 	
 
 <?php endif;?>
 
 
 <!-- End Banners for the Product Category Pages. -->
-
 

@@ -428,7 +428,7 @@ body.logged-in .mobile_dropdown_wrapper {
     left: 0; }
 
 .single_product_square:last-of-type {
-  margin-bottom: 12px; }
+  margin-bottom: 0px; }
 
 /* New Arrivals */
 .new_arrivals_wrapper {
@@ -1751,7 +1751,7 @@ a.woocommerce-remove-coupon {
     margin-bottom: 55px; }
 
 /* Shop Page */
-/* Filters. unfortunaltely there are alot of !importants here as I needed to use the pluigns stylesheet */
+/* Filters */
 body.single-product .outer_wrapper {
   display: none; }
 
@@ -1760,6 +1760,9 @@ body.single-product .outer_wrapper {
 
 .widget_layered_nav_filters .chosen a {
   color: red; }
+
+.outer_wrapper {
+  clear: both; }
 
 body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter_wrapper {
   display: block;
@@ -1793,7 +1796,8 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
       content: "Open +";
       color: #000; }
   body.post-type-archive-product .myfilter_wrapper > ul, body.tax-product_cat .myfilter_wrapper > ul {
-    list-style: none; }
+    list-style: none;
+    border-top: 1px solid #7c786f; }
     body.post-type-archive-product .myfilter_wrapper > ul > li, body.tax-product_cat .myfilter_wrapper > ul > li {
       padding: 0 25px 25px;
       border-bottom: 1px solid #e1dddd;
@@ -3363,6 +3367,11 @@ ul.woocommerce-error {
     overflow: hidden; }
     .product_categories_wrapper .product_inner {
       overflow: hidden; }
+  body.tax-product_cat .product_inner {
+    padding: 2% 0;
+    overflow: hidden;
+    max-width: 1600px;
+    margin: 0 auto; }
   /* New Arrivals */
   .new_arrivals_wrapper {
     padding-top: 0; }
@@ -4040,7 +4049,9 @@ ul.woocommerce-error {
   .woocommerce-tabs.wc-tabs-wrapper .panel table.shop_attributes th {
     display: inline-block; }
   .woocommerce-tabs.wc-tabs-wrapper .panel table.shop_attributes tr td {
-    display: inline-block; } }
+    display: inline-block; }
+  body.tax-product_cat .product_inner {
+    padding: 145px 0; } }
 
 /* Media Query */
 @media screen and (min-width: 1670px) {

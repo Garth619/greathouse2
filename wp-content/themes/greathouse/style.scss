@@ -615,7 +615,7 @@ body.logged-in {
 }
 
 .single_product_square:last-of-type {
-	margin-bottom:12px;
+	margin-bottom:0px;
 }
 
 
@@ -2490,7 +2490,7 @@ padding: 15px 30px 45px;
 	/* Shop Page */
 
 
-/* Filters. unfortunaltely there are alot of !importants here as I needed to use the pluigns stylesheet */
+/* Filters */
 
 body.single-product .outer_wrapper {
 	display: none;
@@ -2508,6 +2508,13 @@ body.single-product .outer_wrapper {
 	}
 }
 }
+
+
+.outer_wrapper {
+	
+	clear:both;
+}
+
 
 body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter_wrapper {
 	display: block;
@@ -2556,6 +2563,7 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 	> ul {
 // 			display: none;
 			list-style: none;
+			border-top:1px solid $greyfont;
 			> li:nth-last-of-type(-n+2) {
 // 					border:none;
 			}
@@ -5391,6 +5399,16 @@ header {
 	}
 }
 
+
+body.tax-product_cat {
+	.product_inner {
+		padding:2% 0;
+		overflow: hidden;
+		max-width: 1600px;
+		margin:0 auto;
+	}
+}
+
 /* New Arrivals */
 
 .new_arrivals_wrapper {
@@ -7528,7 +7546,12 @@ footer {
 	}
 
 
-
+body.tax-product_cat {
+	.product_inner {
+		padding:145px 0;
+		
+	}
+}
 
 
 
