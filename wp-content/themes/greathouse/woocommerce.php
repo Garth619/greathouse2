@@ -9,18 +9,15 @@ get_header(); ?>
 
 <?php include('banner.php');?>
 
-
-
-
-
+<!-- Shop Page Product Directory -->
 
 <?php if(is_post_type_archive('product')):?>
 
 
-	
-			
-<?php if(get_field('shop_page_product_directory','option')): ?>
+	<?php if(get_field('shop_page_product_directory','option')): ?>
  
+	<div class="product_inner">
+	
 	<?php while(has_sub_field('shop_page_product_directory','option')): ?>
  
 		<?php 
@@ -60,32 +57,17 @@ get_header(); ?>
 	 		</div><!-- single_product_square -->
 		
 		
+		<?php endwhile; ?>
 		
-    
-	<?php endwhile; ?>
+	</div><!-- product_inner -->
  
 <?php endif; ?>
 	
 
-
-
-
-
-
 <?php endif;?>
 
 
-
-
-
-
-
-
-
-
-
-
-
+<!-- Product Category Directory Pages -->
 		
 <?php if(is_product_category()):?>
 
@@ -96,9 +78,11 @@ get_header(); ?>
 	
 	?>
 	
-	<div class="product_inner">
+	
 	
 	<?php if(get_field('sub_product_directory', $titlepost_id)): ?>
+	
+	<div class="product_inner">
  
 	<?php while(has_sub_field('sub_product_directory', $titlepost_id)): ?>
  		
@@ -120,7 +104,10 @@ get_header(); ?>
 				
 						<div class="product_inner_wrapper">
 					
-							<span class="large_header"><?php the_sub_field('category_title', $titlepost_id);?></span><!-- large_header -->
+							
+							<?php the_sub_field($related_terms);?>
+							
+							<span class="large_header"><?php the_sub_field('category_title');?></span><!-- large_header -->
 							<span class="sub_header">shop now</span><!-- sub_header -->
 					
 						</div><!-- product_inner_wrapper -->
@@ -128,7 +115,7 @@ get_header(); ?>
 					</div><!-- product_overlay -->
 				
 				
-					<?php $allnewproducts = wp_get_attachment_image_src(get_sub_field('image', $titlepost_id), 'allproducts'); ?>
+					<?php $allnewproducts = wp_get_attachment_image_src(get_sub_field('image'), 'allproducts'); ?>
   	    
 					<div class="product_background" style="background: rgba(0, 0, 0, 0) url(<?php echo $allnewproducts[0]; ?>) no-repeat scroll left top / cover ;">
 						
@@ -139,17 +126,19 @@ get_header(); ?>
 	 		
 	 		</div><!-- single_product_square -->
 	 	
+ 		<?php endwhile; ?>
  		
-  	  	
-	<?php endwhile; ?>
- 
-<?php endif; ?>
+	</div><!-- single_product_square -->
+ 	
+ 	<?php endif; ?>
 
 </div><!-- product_inner -->
 		
 
 	
 <?php endif;?>
+
+<!-- Atrribute Filters -->
 
 <div class="outer_wrapper">
 
@@ -171,36 +160,19 @@ get_header(); ?>
 				
 				</div><!-- filter_header_wrapper -->
 				
-				
-
-					<ul>
+				<ul>
 					
-						
 						<li class="filter_title_desktop">Filter By</li><!-- filter_title_desktop -->
-						
-						
 						<?php dynamic_sidebar('my-product-search-filter');?>
 						
-						
-					
 					</ul>
 		
 				
 				<?php endif; ?>
 				
-				
-				
-	
-	
-		</div><!-- myfilter_wrapper -->
+			</div><!-- myfilter_wrapper -->
 		
-		
-		
-		
-		
-		
-		
-		<div style="clear:both;"></div>
+			<div style="clear:both;"></div>
 		
 	</div><!-- outer_wrapper -->
 	
@@ -226,17 +198,15 @@ $filterreset = strtok($filterreset, '?'); ?>
 		
 		
 		<?php endif;?>
-	
-	
-	
 
-		<div class="product_wrapper"> 
+
+<!-- Product Feed Loop -->
+	
+	<div class="product_wrapper"> 
 			
-
+		<?php woocommerce_content(); ?>
 	
-			<?php woocommerce_content(); ?>
-	
-		</div><!-- product_wrapper -->
+	</div><!-- product_wrapper -->
 
 
 <?php get_footer(); ?>

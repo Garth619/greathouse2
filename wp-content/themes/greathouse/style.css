@@ -3367,7 +3367,7 @@ ul.woocommerce-error {
     overflow: hidden; }
     .product_categories_wrapper .product_inner {
       overflow: hidden; }
-  body.tax-product_cat .product_inner {
+  body.tax-product_cat .product_inner, body.post-type-archive-product .product_inner {
     padding: 2% 0;
     overflow: hidden;
     max-width: 1600px;
@@ -4050,7 +4050,7 @@ ul.woocommerce-error {
     display: inline-block; }
   .woocommerce-tabs.wc-tabs-wrapper .panel table.shop_attributes tr td {
     display: inline-block; }
-  body.tax-product_cat .product_inner {
+  body.tax-product_cat .product_inner, body.post-type-archive-product .product_inner {
     padding: 145px 0; } }
 
 /* Media Query */

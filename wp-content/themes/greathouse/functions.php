@@ -677,7 +677,7 @@ add_action( 'woocommerce_single_product_summary', 'single_company_title', 6 );
 
 add_filter( 'woocommerce_breadcrumb_home_url', 'woo_custom_breadrumb_home_url' );
 function woo_custom_breadrumb_home_url() {
-    return get_bloginfo('url') . '/all-products';
+    return get_bloginfo('url') . '/shop';
 }
 
 // Changes the Breadcrumb Home to All Products

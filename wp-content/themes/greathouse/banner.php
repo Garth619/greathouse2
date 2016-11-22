@@ -72,19 +72,19 @@
 
 		<?php if( get_field('shop_banner_font_color','option') == 'Black' ): ?>
 
-			<span style="color:#000;">Let Yourself In</span>
+			<span style="color:#000;"><?php the_field('shop_banner_title','option');?></span>
 		
 			<?php elseif( get_field('shop_banner_font_color','option') == 'White' ): ?>
 
-				<span style="color:#fff">Let Yourself In</span>
+				<span style="color:#fff"><?php the_field('shop_banner_title','option');?></span>
 		
 			<?php elseif( get_field('shop_banner_font_color','option') == 'Blue' ): ?>
 
-				<span style="color:#79b7c0">Let Yourself In</span>
+				<span style="color:#79b7c0"><?php the_field('shop_banner_title','option');?></span>
 		
 			<?php else:?>
 			
-				<span style="color:#000;">Let Yourself In</span>
+				<span style="color:#000;"><?php the_field('shop_banner_title','option');?></span>
 		
 		<?php endif;?>
 
