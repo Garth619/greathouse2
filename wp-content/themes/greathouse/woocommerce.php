@@ -22,10 +22,16 @@ get_header(); ?>
  
 		<?php 
 			
+			// Gets Link
+			
 			$queried_object = get_queried_object(); 
 			$taxonomy = $queried_object->taxonomy;
 			$term_id = $queried_object->term_id;  
 			$related_terms = get_sub_field('link', $taxonomy . '_' . $term_id);
+			
+			// A step further and gets the name
+				
+			$term = get_term_by( 'id', $related_terms, 'product_cat' );		
 		
 		?>
 		
@@ -37,7 +43,7 @@ get_header(); ?>
 				
 						<div class="product_inner_wrapper">
 					
-							<span class="large_header"><?php the_sub_field('category_title');?></span><!-- large_header -->
+							<span class="large_header"><?php echo $term->name;?></span><!-- large_header -->
 							<span class="sub_header">shop now</span><!-- sub_header -->
 					
 						</div><!-- product_inner_wrapper -->
@@ -87,11 +93,19 @@ get_header(); ?>
 	<?php while(has_sub_field('sub_product_directory', $titlepost_id)): ?>
  		
  		
- 		<?php 
+ 			<?php 
+				
+				// Gets Link
+				
 				$queried_object = get_queried_object(); 
 				$taxonomy = $queried_object->taxonomy;
-				$term_id = $queried_object->term_id;  
+				$term_id = $queried_object->term_id; 
 				$related_terms = get_sub_field('link', $taxonomy . '_' . $term_id);
+			
+				// A step further and gets the name
+				
+				$term = get_term_by( 'id', $related_terms, 'product_cat' );			
+		
 			?>
 	
 		
@@ -105,9 +119,9 @@ get_header(); ?>
 						<div class="product_inner_wrapper">
 					
 							
-							<?php the_sub_field($related_terms);?>
 							
-							<span class="large_header"><?php the_sub_field('category_title');?></span><!-- large_header -->
+							
+							<span class="large_header"><?php echo $term->name;?></span><!-- large_header -->
 							<span class="sub_header">shop now</span><!-- sub_header -->
 					
 						</div><!-- product_inner_wrapper -->
