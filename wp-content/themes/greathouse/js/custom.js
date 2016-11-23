@@ -152,6 +152,26 @@ var sticky = new Waypoint.Sticky({
   element: jQuery('.mobile_fixed_wrapper')[0]
 })
 
+
+
+/*
+var waypoints = jQuery('.outer_wrapper').waypoint(function(direction) {
+  notify(this.element.id + ' hit 25% from top of window') 
+}, {
+  offset: '25%'
+})
+*/
+
+
+
+
+
+var sticky = new Waypoint.Sticky({
+  element: jQuery('.outer_wrapper')[0],
+  offset:62
+})
+
+
 	
 	// Slidetoggle on mobile menu 
 	

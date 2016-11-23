@@ -2565,12 +2565,13 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 		
 	}
 	form {
-		
+
 	}
 	> ul {
 // 			display: none;
 			list-style: none;
-			border-top:1px solid $greyfont;
+			border-top:1px solid #000;
+			
 			> li:nth-last-of-type(-n+2) {
 // 					border:none;
 			}
@@ -2578,6 +2579,7 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 				padding:0 25px 25px;
 				border-bottom: 1px solid #e1dddd;
 				width:100%;
+				
 				h2 {
 					font-size:14px;
 					padding:25px 0 10px;
@@ -2586,9 +2588,11 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 				}
 				 ul {
 				 	list-style: none;
+				 	
 				 	li {
 					 	margin:12px 0;
 					 	font-size:14px;
+					 	
 					 	input {
 						 	display:inline-block;
 						 	margin-right:8px;
@@ -2621,12 +2625,14 @@ li.yit-wcan-parent-terms {
 		font-style: none;
 	}
 	ul {
+		
 		li {
 			display: inline-block;
 			background: $bluedark;
 			font-family: $oswaldreg;
 			margin:20px 10px 0 0;
 			text-transform: uppercase;
+			
 			a {
 				color:#fff;
 				display: block;
@@ -5696,6 +5702,12 @@ body.page-template-page-locations {
 	border-bottom:#000 solid 4px;
 }
 
+.outer_wrapper.stuck {
+	position:fixed;
+	top:62px;
+	z-index: 500;
+}
+
 
 
 body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter_wrapper {
@@ -5757,6 +5769,7 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 				text-align: left;
 				padding:20px 25px;
 				padding: 15px 25px 19px;
+				background: #fff;
 				.ajax-layered {
 					
 					ul {
