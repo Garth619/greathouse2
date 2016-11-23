@@ -5843,7 +5843,12 @@ width:9% !important;
 	
 	
 	
-	
+	.single_product_breadcrumb {
+		.woocommerce-breadcrumb {
+			text-align: left;
+		}
+	}
+
 	
 	
 	.product_wrapper {
@@ -7583,7 +7588,6 @@ body.tax-product_cat, body.post-type-archive-product  {
 }
 
 }
-
 
 
 
