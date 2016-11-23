@@ -165,11 +165,13 @@ var waypoints = jQuery('.outer_wrapper').waypoint(function(direction) {
 
 
 
+/*
 
 var sticky = new Waypoint.Sticky({
   element: jQuery('.outer_wrapper')[0],
   offset:62
 })
+*/
 
 
 	
