@@ -77,6 +77,9 @@ get_header(); ?>
 		
 <?php if(is_product_category()):?>
 
+
+	
+
 	<?php 
 		
 		$titleterm_id = get_queried_object()->term_id;
@@ -88,8 +91,19 @@ get_header(); ?>
 	
 	<?php if(get_field('sub_product_directory', $titlepost_id)): ?>
 	
+	
+
+
+	<div class="category_breadcrumb">
+			
+		<?php woocommerce_breadcrumb(); ?>
+		
+	</div><!-- category_breadcrumb -->
+	
+	
+	
 	<div class="product_inner">
- 
+		
 	<?php while(has_sub_field('sub_product_directory', $titlepost_id)): ?>
  		
  		
@@ -217,6 +231,38 @@ $filterreset = strtok($filterreset, '?'); ?>
 <!-- Product Feed Loop -->
 	
 	<div class="product_wrapper"> 
+		
+		
+	<?php 
+		
+		$titleterm_id = get_queried_object()->term_id;
+		$titlepost_id = 'product_cat_'.$titleterm_id;
+	
+	?>
+	
+	
+	
+	
+	
+	<?php if(is_product_category()):?>
+	
+	
+		<?php if(!get_field('sub_product_directory', $titlepost_id)): ?>
+	
+	
+
+		<div class="productfeed_breadcrumb">
+			
+			<?php woocommerce_breadcrumb(); ?>
+		
+		</div><!-- category_breadcrumb -->
+	
+	
+		<?php endif;?>
+		
+		
+	<?php endif;?>	
+		
 			
 		<?php woocommerce_content(); ?>
 	

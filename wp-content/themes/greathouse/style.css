@@ -737,6 +737,10 @@ form.woocommerce-checkout {
   overflow: hidden;
   margin-top: 45px; }
 
+.category_breadcrumb .woocommerce-breadcrumb {
+  margin: 30px 0 15px;
+  text-align: center; }
+
 /* Sidebar Template */
 .container_wrapper {
   margin: 45px 20px 28px; }
@@ -1236,7 +1240,6 @@ body.page-template-page-locations .form_wrapper {
 #breadcrumbs, .woocommerce-breadcrumb {
   font-family: "oswaldregular", arial;
   text-transform: uppercase;
-  text-align: center !important;
   margin: 30px 0; }
 
 .yith-wcwl-add-to-wishlist {
@@ -3573,8 +3576,8 @@ ul.woocommerce-error {
       padding: 22px 0 19px; }
   /* Single Product Pages */
   .product_wrapper .woocommerce-breadcrumb {
-    text-align: left !important;
-    padding-left: 0; }
+    padding-left: 0;
+    margin-bottom: 65px; }
   .product_wrapper .inner_product_wrapper {
     max-width: 1350px;
     overflow: hidden;
@@ -4051,7 +4054,11 @@ ul.woocommerce-error {
   .woocommerce-tabs.wc-tabs-wrapper .panel table.shop_attributes tr td {
     display: inline-block; }
   body.tax-product_cat .product_inner, body.post-type-archive-product .product_inner {
-    padding: 145px 0; } }
+    padding: 145px 0; }
+  .category_breadcrumb .woocommerce-breadcrumb {
+    margin: 30px 0 15px;
+    position: relative;
+    top: 115px; } }
 
 /* Media Query */
 @media screen and (min-width: 1670px) {
