@@ -13661,6 +13661,127 @@
 		"oAP": "\/wp-content\/plugins\/woocommerce-ajax-layered-nav\/woo-includes\/woo-functions.php",
 		"oF": 0
 		},
+	"\/wp-content\/plugins\/woocommerce-dropdown-cart\/css\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-dropdown-cart\/css\/style-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-dropdown-cart\/css\/style.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-dropdown-cart\/css\/style.css.map",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-dropdown-cart\/css\/style.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-dropdown-cart\/css\/style.min-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-dropdown-cart\/css\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/woocommerce-dropdown-cart\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/wp-content\/plugins\/woocommerce-dropdown-cart\/images\/cart.png": {
+		"ft": 32768,
+		"iS": 2029,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/woocommerce-dropdown-cart\/images\/cart.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-dropdown-cart\/js\/main.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/woocommerce-dropdown-cart\/js\/min\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-dropdown-cart\/js\/main.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/woocommerce-dropdown-cart\/js\/min\/main.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-dropdown-cart\/languages\/woocommerce-ddc-en_US.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-dropdown-cart\/languages\/woocommerce-ddc-en_US.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-dropdown-cart\/languages\/woocommerce-ddc-en_US.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-dropdown-cart\/languages\/woocommerce-ddc-en_US.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-dropdown-cart\/languages\/woocommerce-ddc-vi.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-dropdown-cart\/languages\/woocommerce-ddc-vi.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-dropdown-cart\/languages\/woocommerce-ddc-vi.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-dropdown-cart\/languages\/woocommerce-ddc-vi.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-dropdown-cart\/languages\/woocommerce-ddc-vi_VN.mo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-dropdown-cart\/languages\/woocommerce-ddc-vi_VN.mo",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-dropdown-cart\/languages\/woocommerce-ddc-vi_VN.po": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-dropdown-cart\/languages\/woocommerce-ddc-vi_VN.po",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-dropdown-cart\/readme.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-dropdown-cart\/readme.txt",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-dropdown-cart\/screenshot-1.jpg": {
+		"ft": 16384,
+		"iS": 180557,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/woocommerce-dropdown-cart\/screenshot-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/plugins\/woocommerce-dropdown-cart\/woocommerce-dropdown-cart.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/woocommerce-dropdown-cart\/woocommerce-dropdown-cart.php",
+		"oF": 0
+		},
 	"\/wp-content\/plugins\/woocommerce-products-per-page\/includes\/admin\/class-wppp-admin-settings.php": {
 		"ft": 8192,
 		"oA": 2,
