@@ -181,6 +181,7 @@
 <div class="overlay join_email_verbiage">
 	
 	<div class="overlay_inner">
+		
 		<img class="overlay_close join_email_close" src="<?php bloginfo('template_directory');?>/images/x.png" />
 		<span class="sub_header"><?php the_field('join_email_title','option');?></span>
 		<span class="large_header"><?php the_field('join_email_verbiage','option');?></span>
@@ -246,7 +247,25 @@
 	</div><!-- overlay_inner -->
 	
 </div><!-- overlay -->
+
+
+<div class="overlay zipcode_checker">
+	
+	<div class="overlay_inner">
+		
+		<img class="overlay_close join_email_close" src="<?php bloginfo('template_directory');?>/images/x.png" />
+		<span class="sub_header">Test</span>
+		<span class="large_header">Test</span>
+		<span class="additional">Test</span>
+		
+		<?php // gravity_form(2, false, false, false, '', true, 45); ?>
+		
+	</div><!-- overlay_inner -->
+
+
+
 <?php wp_footer(); ?>
+
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/slick/slick/slick.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/custom-min.js"></script>
 <script src="<?php bloginfo('template_directory');?>/js/waypoints/lib/jquery.waypoints.min.js"></script>

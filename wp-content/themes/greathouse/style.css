@@ -3390,6 +3390,9 @@ ul.woocommerce-error {
         border: #000 solid 1px;
         width: 280px;
         right: 0px; }
+        ul.mycart li#widget_shopping_mini_cart-2 #widget_shopping_mini_cart-2-content .dropdown-cart-button .dropdown li.empty {
+          border: none;
+          padding-top: 18px; }
         ul.mycart li#widget_shopping_mini_cart-2 #widget_shopping_mini_cart-2-content .dropdown-cart-button .dropdown li.mini_cart_item {
           padding: 20px 0;
           font-size: 14px;
