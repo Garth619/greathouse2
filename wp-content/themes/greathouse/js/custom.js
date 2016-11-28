@@ -34,16 +34,8 @@ jQuery('.dropdown-total').click(function(){
 	jQuery('.desktop_menu').removeClass('hide');
 	jQuery('.mysearch_wrapper.desktop').removeClass('show');
 	
-/*
-		
-	jQuery('.desktop_menu').toggleClass('show');
-	jQuery('.mysearch_wrapper.desktop').toggleClass('hide');
-*/
-	
-	
-	 
-	
-});
+
+	});
 
 jQuery('html').click(function(event){
 	
@@ -181,33 +173,19 @@ jQuery('html').click(function(event){
    
    
 
+
 var sticky = new Waypoint.Sticky({
   element: jQuery('.mobile_fixed_wrapper')[0]
 })
 
 
 
-/*
-var waypoints = jQuery('.outer_wrapper').waypoint(function(direction) {
-  notify(this.element.id + ' hit 25% from top of window') 
-}, {
-  offset: '25%'
+var stickytwo = new Waypoint.Sticky({
+  element: jQuery('#outer_wrapper_id')[0],
+  offset:63
 })
-*/
 
 
-
-
-/*
-
-var sticky = new Waypoint.Sticky({
-  element: jQuery('.outer_wrapper')[0],
-  offset:62
-})
-*/
-
-
-	
 	// Slidetoggle on mobile menu 
 	
 	jQuery('.mobile_dropdown_inner ul#menu-menu-2 > li.menu-item-has-children > a').click(function(){

@@ -5645,6 +5645,12 @@ footer {
 	
 }
 
+body.single {
+	.woocommerce-message {
+		margin-bottom: 125px !important;
+	}
+}
+
 
 
 /* Internal */
@@ -5799,7 +5805,7 @@ body.page-template-page-locations {
 
 .outer_wrapper.stuck {
 	position:fixed;
-	top:62px;
+	top:49px;
 	z-index: 500;
 }
 
@@ -7103,7 +7109,7 @@ ul.mycart {
 				}
 			}
 			.dropdown {
-				top:62px;
+				top:63px;
 				li.mini_cart_item {
 					
 					a {
@@ -7136,7 +7142,11 @@ ul.mycart {
 	}
 }
 
-
+.outer_wrapper.stuck {
+	position:fixed;
+	top:63px;
+	z-index: 500;
+}
 
 
 

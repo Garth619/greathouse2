@@ -169,7 +169,7 @@ get_header(); ?>
 
 <!-- Atrribute Filters -->
 
-<div class="outer_wrapper">
+<div id="outer_wrapper_id" class="outer_wrapper">
 
 	<div class="myfilter_wrapper">
 	
