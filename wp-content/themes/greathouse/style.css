@@ -3132,7 +3132,7 @@ ul.woocommerce-error {
       header .inner_header .header_logo_nav_wrapper .logo_wrapper {
         background: #000 none repeat scroll 0 0;
         float: left;
-        padding: 17px 15px 10px;
+        padding: 17px 15px 11px;
         width: 230px; }
         header .inner_header .header_logo_nav_wrapper .logo_wrapper img.logo {
           max-width: 90%; }
@@ -3190,7 +3190,7 @@ ul.woocommerce-error {
             color: #000;
             text-decoration: none;
             display: block;
-            padding: 17px 6px 18px;
+            padding: 17px 6px 19px;
             transition: all .2s ease-in-out;
             cursor: pointer; }
             .desktop_menu_wrapper .desktop_menu ul#menu-menu-1 > li > a:hover {
@@ -3266,7 +3266,7 @@ ul.woocommerce-error {
       padding-right: 7px; }
     .cart_signin_wrapper a.mylogin {
       margin-top: 0;
-      padding: 17px 6px 18px;
+      padding: 17px 6px 19px;
       transition: all .2s ease-in-out; }
       .cart_signin_wrapper a.mylogin:hover {
         background: #000;
@@ -3906,15 +3906,13 @@ ul.woocommerce-error {
   .desktop_menu_wrapper .desktop_menu {
     margin-right: 10px; }
   .cart_signin_wrapper {
-    margin-right: 30px; }
-    .cart_signin_wrapper a.mylogin {
-      padding: 25px 6px 23px; } }
+    margin-right: 30px; } }
 
 /* Media Query */
 @media screen and (min-width: 1300px) {
   /* Header */
   header .inner_header .header_logo_nav_wrapper {
-    height: 62px; }
+    height: 63px; }
     header .inner_header .header_logo_nav_wrapper .logo_wrapper {
       width: 374px; }
       header .inner_header .header_logo_nav_wrapper .logo_wrapper img.logo {
@@ -3927,7 +3925,7 @@ ul.woocommerce-error {
   .desktop_menu_wrapper .desktop_menu {
     margin-right: 25px; }
     .desktop_menu_wrapper .desktop_menu ul#menu-menu-1 > li > a {
-      padding: 25px 6px 23px; }
+      padding: 25px 6px 24px; }
     .desktop_menu_wrapper .desktop_menu ul#menu-menu-1 > li > ul.sub-menu {
       top: 62px; }
   .mobile_fixed_wrapper.stuck .desktop_menu_wrapper .desktop_menu ul#menu-menu-1 > li > ul.sub-menu {
@@ -3938,6 +3936,8 @@ ul.woocommerce-error {
     margin-top: 25px; }
   .cart_signin_wrapper a.cart-contents {
     padding-right: 17px; }
+  .cart_signin_wrapper a.mylogin {
+    padding: 25px 6px 24px; }
   /* Dropdown Cart, Overriding the Stylesheet */
   ul.mycart li#widget_shopping_mini_cart-2 #widget_shopping_mini_cart-2-content .dropdown-cart-button a.dropdown-total {
     padding: 19px 16px 18px; }

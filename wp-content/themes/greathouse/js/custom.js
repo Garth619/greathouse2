@@ -26,7 +26,7 @@ jQuery( "<a class='see_all_products' href='/shop'>See All Products</a>" ).insert
 
 jQuery('.dropdown-total').click(function(){
 	
-	jQuery(this).addClass('open');
+	jQuery(this).toggleClass('open');
 	
 	// Disables Search if its open
 	

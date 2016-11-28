@@ -4981,7 +4981,7 @@ header {
 			.logo_wrapper {
 				background: #000 none repeat scroll 0 0;
 				float: left;
-				padding: 17px 15px 10px;
+				padding: 17px 15px 11px;
 				width: 230px;
 				
 				
@@ -5148,7 +5148,7 @@ header {
 					color:#000;
 					text-decoration: none;
 					display: block;
-					padding:17px 6px 18px;
+					padding:17px 6px 19px;
 					transition:all .2s ease-in-out;
 					cursor: pointer;
 					&:hover {
@@ -5248,7 +5248,7 @@ header {
 	}
 	a.mylogin {
 		margin-top:0;
-		padding: 17px 6px 18px;
+		padding: 17px 6px 19px;
 		transition: all .2s ease-in-out;
 		&:hover {
 			background: #000;
@@ -6826,8 +6826,7 @@ width:100%;
 	}
 	a.mylogin {
 		
-		padding: 25px 6px 23px;
-		
+				
 	}
 }
 
@@ -6862,7 +6861,7 @@ header {
 			
 		}
 		.header_logo_nav_wrapper {
-			height:62px;
+			height:63px;
 			.logo_wrapper {
 				
 				width: 374px;
@@ -6947,7 +6946,7 @@ header {
 			> li {
 				
 				 > a {
-				 	padding: 25px 6px 23px;
+				 	padding: 25px 6px 24px;
 					&:hover {
 						
 					}
@@ -7074,6 +7073,12 @@ header {
 	a.cart-contents {
 		padding-right:17px;
 	}
+	a.mylogin {
+		
+		padding: 25px 6px 24px;
+		
+	}
+
 }
 
 
