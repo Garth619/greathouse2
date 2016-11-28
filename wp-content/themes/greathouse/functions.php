@@ -436,6 +436,15 @@ function twentyten_widgets_init() {
 	) );
 	
 	
+	
+	register_sidebar( array(
+		'name' => __( 'Cart Area', 'twentyten' ),
+		'id' => 'cart-area',
+		'description' => __( 'Cart Widget Dropdown', 'twentyten' )
+	
+	) );
+	
+	
 	register_sidebar( array(
 		'name' => __( 'Sidebar Menu', 'twentyten' ),
 		'id' => 'my-sidebar-menu',

@@ -3953,6 +3953,7 @@ img.aligncenter {
 .woocommerce-error,
 .woocommerce-info {
 	text-align: left;
+	max-width:800px;
 	&:before {
 		
 		font-family: georgia;
@@ -4115,6 +4116,7 @@ header {
 		.header_logo_nav_wrapper {
 			background: #fff;
 			height:60px;
+			border-bottom: 1px solid #ccc;
 			.logo_wrapper {
 				background: #000 none repeat scroll 0 0;
 				float: left;
@@ -4975,6 +4977,7 @@ header {
 		.header_logo_nav_wrapper {
 			background:$greylight;
 			height:49px;
+			border: none;
 			.logo_wrapper {
 				background: #000 none repeat scroll 0 0;
 				float: left;
@@ -5243,6 +5246,15 @@ header {
 		margin-top: 17px;
 		padding-right:7px;
 	}
+	a.mylogin {
+		margin-top:0;
+		padding: 17px 6px 18px;
+		transition: all .2s ease-in-out;
+		&:hover {
+			background: #000;
+			color:#fff;
+		}
+	}
 }
 
 
@@ -5275,7 +5287,7 @@ header {
 		margin-bottom: 12px;
 	}
 	.autocomplete-suggestions {
-		border:none;
+		border:#000 solid 1px;
 		padding-bottom:0px ;
 		border-radius: 0px !important;
 		position:relative !important;
@@ -5377,6 +5389,89 @@ header {
 
 .menu_col:last-of-time {
 	margin-right:0;
+}
+
+
+/* Dropdown Cart, Overriding the Stylesheet */
+
+
+
+ul.mycart {
+	list-style: none;
+	float: left;
+	margin:0px 10px 0 0;
+	
+	li#widget_shopping_mini_cart-2 {
+
+		#widget_shopping_mini_cart-2-content {
+	
+			.dropdown-cart-button {
+			background: transparent;
+			border:none;
+			padding:0;
+			a.dropdown-total.open {
+					background: $black;
+					color:#fff;
+				}
+			a.dropdown-total {
+				margin-top:0;
+				background: none;
+				
+				transition: all .2s ease-in-out;
+				padding: 11px 6px 13px;
+				&:hover {
+					background: $black;
+					color:#fff;
+				}
+			}
+			.dropdown {
+				top:49px;
+				padding:0 15px 0;
+				border:#000 solid 1px;
+				width:280px;
+				right:0px;
+				li.mini_cart_item {
+					padding:20px 0;
+					font-size:14px;
+					color:#000;
+					a {
+						margin: 0;
+						line-height: 1.2;
+						width:60%;
+						color:$bluedark;
+						
+						img {
+							margin-right:12px;
+							
+						}
+					}
+					dl.variation {
+						margin-top:15px;
+					}
+					span.quantity {
+						width:40%;
+						 text-align: right;
+					}
+				}
+				p.total {
+					margin-top:5px;
+				}
+				p.buttons {
+					text-align: center;
+					margin-bottom: 15px;
+				
+					a {
+						background: $bluedark;
+						padding:10px 15px;
+						float:none;
+						display: inline-block;
+						margin-top:6px;
+					}
+				}
+			}
+		}
+	}
+	}
 }
 
 
@@ -6729,6 +6824,11 @@ width:100%;
 	a {
 		
 	}
+	a.mylogin {
+		
+		padding: 25px 6px 23px;
+		
+	}
 }
 
 
@@ -6977,6 +7077,59 @@ header {
 }
 
 
+
+/* Dropdown Cart, Overriding the Stylesheet */
+
+
+
+ul.mycart {
+		
+	li#widget_shopping_mini_cart-2 {
+
+		#widget_shopping_mini_cart-2-content {
+	
+			
+			.dropdown-cart-button {
+				
+				a.dropdown-total {
+					padding: 19px 16px 18px;
+					&:hover {
+						
+				}
+			}
+			.dropdown {
+				top:62px;
+				li.mini_cart_item {
+					
+					a {
+						
+						
+						img {
+							
+							
+						}
+					}
+					dl.variation {
+						
+					}
+					span.quantity {
+						
+					}
+				}
+				p.total {
+					
+				}
+				p.buttons {
+					
+					a {
+						
+					}
+				}
+			}
+		}
+	}
+	}
+}
 
 
 

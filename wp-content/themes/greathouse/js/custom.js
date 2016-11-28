@@ -18,7 +18,40 @@ for(var i = 0; i < divs.length; i+=2) {
 // This adds a see all link inside the wordpress menu, without messing up the function up above
 
 jQuery( "<a class='see_all_products' href='/shop'>See All Products</a>" ).insertBefore( ".menu_col:first-of-type" );
- 
+
+
+
+// Dropdown Cart 
+
+
+jQuery('.dropdown-total').click(function(){
+	
+	jQuery(this).addClass('open');
+	
+	// Disables Search if its open
+	
+	
+	jQuery('.desktop_menu').removeClass('hide');
+	jQuery('.mysearch_wrapper.desktop').removeClass('show');
+	
+/*
+		
+	jQuery('.desktop_menu').toggleClass('show');
+	jQuery('.mysearch_wrapper.desktop').toggleClass('hide');
+*/
+	
+	
+	 
+	
+});
+
+jQuery('html').click(function(event){
+	
+	jQuery('.dropdown-total').removeClass('open');
+
+});
+
+
 
   // New Arrivals
   
