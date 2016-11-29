@@ -38,33 +38,6 @@
 
 <body <?php body_class(); ?>>
 
-
-
-		
-		<?php
-			
-			$ip = $_SERVER['REMOTE_ADDR'];
-			$url = "http://freegeoip.net/json/" . $ip;
-			$json = file_get_contents($url);
-			$data = json_decode($json, TRUE);
-			$city = print_r($data['city'], true);
-			$state = print_r($data['region_code'], true);
-			
-			$san_diego_cities_in_50_mile_radius = "Addison Allen Alvarado Anna Argyle Arlington Aubrey Azle Bailey Balch Springs Bedford Benbrook Blue Ridge Boyd Burleson Caddo Mills Carrollton Carswell Afb Cedar Hill Celeste Celina Cockrell Hill Colleyville Collinsville Copeville Coppell Crandall Crowley Dallas De Soto Decatur Denton Duncanville Ennis Era Euless Everman Farmers Branch Farmersville Fate Ferris Flower Mound Forney Forreston Fort Worth Frisco Garland Grand Prairie Grapevine Greenville Gunter Haltom City Haslet Heath Highland Village Howe Hurst Hutchins Irving Josephine Joshua Justin Kaufman Keller Kennedale Krum Lake Dallas Lakewood Village Lancaster Lavon Leonard Lewisville Lillian Lindsay Mansfield Maypearl Mc Kinney Melissa Mesquite Midlothian Murphy Nevada Newark North Richland H Ovilla Palmer Pilot Point Plano Ponder Princeton Prosper Quinlan Randolph Rhome Rice Richardson River Oaks Rockwall Rowlett Royse City Sachse Saginaw Sanger Scurry Seagoville Sherman Southmayd Terrell The Colony Tioga Tom Bean Trenton Trophy Club Valley View Van Alstyne Venus Village Watauga Waxahachie Westminster White Settlement Whitewright Wilmer Wylie";
- 
-if ((strpos($san_diego_cities_in_50_mile_radius, $city) !== false) AND ($state == "CA")) {
-    echo 'Visitor is within 50 miles of SAN DIEGO';
-}
-else {
-    echo 'Visitor is not within 50 miles of SAN DIEGO';
-}
-
-	?>
-
-
-
-
-	
 		<header>
 				
 				<div class="inner_header">

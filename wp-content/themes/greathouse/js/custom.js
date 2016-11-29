@@ -164,11 +164,30 @@ jQuery('html').click(function(event){
 	  
    
    
+   // Zip Code Validation 
+   
+   jQuery(function(){
+    var zipCodes = ['92056', '90210', '92121', '92101','19148'];
+    jQuery('#id_div_one, #id_div_two').hide();
+    
+    jQuery('#zip_form').submit(function(){
+        jQuery('#id_div_one, #id_div_two').hide();
+        
+        
+        if(jQuery.inArray(jQuery('#id_zip_code').val(), zipCodes) > -1) {
+            jQuery('#id_div_one').css('display', 'inline');
+        } else {
+            jQuery('#id_div_two').css('display', 'inline');
+        }
+        
+        return false;
+    });
+    
+		});
    
    
    
-   
-   // Fixed Mobile Menu 
+// Fixed Mobile Menu 
    
    
    

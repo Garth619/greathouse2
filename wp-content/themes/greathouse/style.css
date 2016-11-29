@@ -1160,7 +1160,8 @@ body.page-template-page-locations .form_wrapper {
     font-family: "Voltage W00 Regular", arial;
     color: #79b7c0;
     display: block;
-    margin: 30px 5px 20px; }
+    margin: 30px 5px 20px;
+    text-transform: lowercase; }
   .overlay span.large_header {
     font-family: "oswaldregular", arial;
     font-size: 33px;
