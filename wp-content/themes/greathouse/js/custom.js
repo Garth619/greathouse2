@@ -199,10 +199,12 @@ var sticky = new Waypoint.Sticky({
 
 
 
+/*
 var stickytwo = new Waypoint.Sticky({
   element: jQuery('#outer_wrapper_id')[0],
   offset:63
 })
+*/
 
 
 	// Slidetoggle on mobile menu 

@@ -260,7 +260,14 @@
 		
 		<form  id="zip_form">
     	
-    	<input type="text" name="zipcode" id="id_zip_code"/><input type="submit" value="Submit"/>
+    	<ul>
+	    	<li>
+    	
+					<label>enter your email address</label>
+					<input type="text" name="zipcode" id="id_zip_code"/><input type="submit" value="Submit"/>
+    	
+	    	</li>
+    	</ul>
 		
 		</form>
 
