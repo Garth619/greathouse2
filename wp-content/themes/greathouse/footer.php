@@ -249,11 +249,11 @@
 </div><!-- overlay -->
 
 
-<div class="overlay zipcode_checker" style="display:block;">
+<div class="overlay zipcode_checker">
 	
 	<div class="overlay_inner">
 		
-		<img class="overlay_close join_email_close" src="<?php bloginfo('template_directory');?>/images/x.png" />
+<!-- 		<img class="overlay_close join_email_close" src="<?php bloginfo('template_directory');?>/images/x.png" /> -->
 		<span class="sub_header">let yourself in</span>
 		<span class="large_header">zip code title</span>
 		<span class="additional">Lem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
