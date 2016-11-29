@@ -249,25 +249,6 @@
 </div><!-- overlay -->
 
 
-<div class="overlay zipcode_checker" style="display:none;">
-	
-	<div class="overlay_inner">
-		
-<!-- 		<img class="overlay_close join_email_close" src="<?php bloginfo('template_directory');?>/images/x.png" /> -->
-		<span class="sub_header">let yourself in</span>
-		<span class="large_header">zip code title</span>
-		<span class="additional">Lem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
-		
-		<form  id="zip_form">
-    	
-    	<input type="text" name="zipcode" id="id_zip_code"/><input type="submit" value="Submit"/>
-		
-		</form>
-
-		<div id="id_div_one">We Deliver Here!</div>
-		<div id="id_div_two">Please call our office for a quote</div>
-		
-	</div><!-- overlay_inner -->
 
 
 

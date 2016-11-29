@@ -166,6 +166,7 @@ jQuery('html').click(function(event){
    
    // Zip Code Validation 
    
+/*
    jQuery(function(){
     var zipCodes = ['92056', '90210', '92121', '92101','19148'];
     jQuery('#id_div_one, #id_div_two').hide();
@@ -184,6 +185,7 @@ jQuery('html').click(function(event){
     });
     
 		});
+*/
    
    
    
