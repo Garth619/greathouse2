@@ -701,6 +701,7 @@ function jk_change_breadcrumb_home_text( $defaults ) {
 
 // Removes the Variable Product Price Range
 
+
 add_filter( 'woocommerce_variable_sale_price_html', 'bbloomer_remove_variation_price', 10, 2 );
 add_filter( 'woocommerce_variable_price_html', 'bbloomer_remove_variation_price', 10, 2 );
  
@@ -708,6 +709,7 @@ function bbloomer_remove_variation_price( $price ) {
 $price = '';
 return $price;
 }
+
 
 
 // Shows instock on the single product page
@@ -746,6 +748,16 @@ function custom_wc_add_to_cart_message( $message, $product_id ) {
   return $message;
 }
 */
+
+
+// Remove the Product Short Description on the back end of single product pages
+
+
+function remove_short_description() {
+     remove_meta_box( 'postexcerpt', 'product', 'normal');
+}
+
+add_action('add_meta_boxes', 'remove_short_description', 999);
 
 
 
@@ -858,10 +870,6 @@ else {
 }
 
 
-// Removes the Extras in the Additonal Information Tab
-
-
-// add_filter( 'wc_product_enable_dimensions_display', '__return_false' );
 
 
 // Related Products 
