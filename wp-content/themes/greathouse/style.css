@@ -1246,6 +1246,57 @@ body.page-template-page-locations .form_wrapper {
 .yith-wcwl-add-to-wishlist {
   margin-top: 0px !important; }
 
+.zipcode_checker .overlay_inner {
+  transition: all .2s ease-in-out; }
+  .zipcode_checker .overlay_inner form {
+    margin-top: 25px; }
+    .zipcode_checker .overlay_inner form ul {
+      list-style: none;
+      text-align: center; }
+      .zipcode_checker .overlay_inner form ul li label {
+        color: #777777;
+        font-size: 16px;
+        text-transform: lowercase;
+        display: block;
+        font-family: "Didot- LP W01 Regular", arial; }
+      .zipcode_checker .overlay_inner form ul li input[type="text"] {
+        border-radius: 0;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid #79b7c0;
+        padding: 12px 10px 13px 0;
+        font-size: 16px;
+        display: block;
+        width: 100%;
+        font-family: "Didot- LP W01 Regular", arial;
+        text-align: center;
+        margin-top: 4px;
+        transition: all .2s ease-in-out; }
+        .zipcode_checker .overlay_inner form ul li input[type="text"]:focus {
+          outline: none;
+          background: transparent; }
+      .zipcode_checker .overlay_inner form ul li input[type="submit"] {
+        font-family: "oswaldregular", arial;
+        -webkit-appearance: none;
+        color: #fff;
+        background: #79b7c0;
+        font-size: 21px;
+        border: none;
+        border-radius: 0;
+        padding: 9px 55px;
+        text-transform: uppercase;
+        margin-top: 40px;
+        cursor: pointer; }
+
+#zip_code_confirmation .zip_code_button {
+  font-size: 21px;
+  margin-top: 35px;
+  cursor: pointer; }
+
+#zip_code_confirmation, #zip_code_no_access {
+  display: none; }
+
 .steps_wrapper {
   padding-top: 10px;
   text-align: center; }

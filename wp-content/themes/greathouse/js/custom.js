@@ -167,25 +167,64 @@ jQuery('html').click(function(event){
    // Zip Code Validation 
    
    jQuery(function(){
+    
     var zipCodes = ['92056', '90210', '92121', '92101','19148'];
-    jQuery('#id_div_one, #id_div_two').hide();
+    jQuery('#zip_code_confirmation, #zip_code_no_access').hide();
     
     jQuery('#zip_form').submit(function(){
-        jQuery('#id_div_one, #id_div_two').hide();
+        jQuery('#zip_code_confirmation, #zip_code_no_access').hide();
         
         
         if(jQuery.inArray(jQuery('#id_zip_code').val(), zipCodes) > -1) {
-            jQuery('#id_div_one').css('display', 'inline');
+            
+            
+            
+            jQuery('.zipcode_checker input[type="text"]').css('background', '#effaee');
+            
+            
+            jQuery('.inital_content, .overlay_inner').fadeOut();
+            
+            
+            jQuery('#zip_code_confirmation').delay(300).fadeIn();
+            
+            
+            
+            
+            
+            jQuery('.overlay_inner').fadeIn();
+            
+            
+            
+            jQuery('.zip_code_button').click(function(){
+	            
+	            jQuery('.overlay').fadeOut();
+	            
+            
+            });
+        
+        
         } else {
-            jQuery('#id_div_two').css('display', 'inline');
+            
+            jQuery('#zip_code_no_access').css('display', 'inline');
+            
+            jQuery('.zipcode_checker input[type="text"]').css('background', '#ebbbc3');
+            
         }
         
         return false;
     });
     
 		});
-   
-   
+		
+		
+		
+
+		var height = jQuery(".inital_content").height();
+    
+     jQuery(".overlay_inner").css("min-height", height+'px');
+
+    
+
    
 // Fixed Mobile Menu 
    

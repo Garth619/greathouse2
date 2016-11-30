@@ -249,31 +249,66 @@
 </div><!-- overlay -->
 
 
-<div class="overlay zipcode_checker" style="display:none;">
+<div class="overlay zipcode_checker" style="display:block;">
 	
 	<div class="overlay_inner">
 		
+		<div class="inital_content">
 
-		<span class="sub_header">let yourself in</span>
-		<span class="large_header">zip code title</span>
-		<span class="additional">Lem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+			<span class="sub_header">let yourself in</span>
+			<span class="large_header">zip code title</span>
+			
+			<span class="additional">Lem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
 		
-		<form  id="zip_form">
+			<form  id="zip_form">
     	
-    	<ul>
-	    	<li>
+    		<ul>
+	    		<li>
     	
-					<label>enter your email address</label>
-					<input type="text" name="zipcode" id="id_zip_code"/><input type="submit" value="Submit"/>
+						<label>enter your zip code</label>
+						<input type="text" name="zipcode" id="id_zip_code"/><input type="submit" value="Submit"/>
     	
-	    	</li>
-    	</ul>
+						</li>
+						</ul>
 		
-		</form>
+			</form>
+		
+		</div><!-- inital_content -->
 
-		<div id="id_div_one">We Deliver Here!</div>
-		<div id="id_div_two">Please call our office for a quote</div>
+		<div id="zip_code_confirmation">
+			
+			<span class="sub_header">let yourself in</span>
+			<span class="large_header">We Deliver Here!</span>
+			
+			<span class="additional">We deliver to this area verbiage.  Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+			
+			<span class="blue_shop zip_code_button">Continue Shopping</span>
+			
+		</div><!-- zip_code_confirmation -->
 		
+		
+		<div id="zip_code_no_access">
+			
+			<span>Apologies but we don't deliver to zip codes outside of San Diego. Please try another zip code within San Diego or call our office for a quote verbiage.</span>
+			
+			<a href="">5555555555</a>
+			
+			<span>If you like to browse products anyways, you can add products to your wishlist</span>
+			
+			<form>
+				
+				<input type="checkbox" name="nozipcode" id="no_zipcode"/>
+				<label>I understand that my zip code is outside the delivery zone</label>
+				
+				<input type="submit" value="Submit"/>
+			
+			</form>
+			
+			
+			
+		</div><!-- zip_code_no_access -->
+		
+	
 	</div><!-- overlay_inner -->
 	
 </div><!-- overlay -->
