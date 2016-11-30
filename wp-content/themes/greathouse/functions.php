@@ -702,7 +702,7 @@ function jk_change_breadcrumb_home_text( $defaults ) {
 // Removes the Variable Product Price Range
 
 
-/*
+
 add_filter( 'woocommerce_variable_sale_price_html', 'bbloomer_remove_variation_price', 10, 2 );
 add_filter( 'woocommerce_variable_price_html', 'bbloomer_remove_variation_price', 10, 2 );
  
@@ -710,7 +710,37 @@ function bbloomer_remove_variation_price( $price ) {
 $price = '';
 return $price;
 }
+
+
+
+// Starting at
+
+// Change this to the up sells and the shop pages
+
+
+/*
+function wc_ninja_custom_variable_price( $price, $product ) {
+    
+    $prices = array( $product->get_variation_price( 'min', true ), $product->get_variation_price( 'max', true ) );
+    $price = $prices[0] !== $prices[1] ? sprintf( __( 'Starting At: %1$s', 'woocommerce' ), wc_price( $prices[0] ) ) : wc_price( $prices[0] );
+
+   
+    $prices = array( $product->get_variation_regular_price( 'min', true ), $product->get_variation_regular_price( 'max', true ) );
+    sort( $prices );
+    $saleprice = $prices[0] !== $prices[1] ? sprintf( __( 'Starting At: %1$s', 'woocommerce' ), wc_price( $prices[0] ) ) : wc_price( $prices[0] );
+
+    if ( $price !== $saleprice ) {
+        $price = '' . $saleprice . ' ' . $price . '';
+    }
+    
+    return $price;
+}
+
+
+add_filter( 'woocommerce_variable_sale_price_html', 'wc_ninja_custom_variable_price', 10, 2 ); 
+add_filter( 'woocommerce_variable_price_html', 'wc_ninja_custom_variable_price', 10, 2 );
 */
+
 
 
 
