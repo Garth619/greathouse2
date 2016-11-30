@@ -1929,6 +1929,14 @@ ul li#woocommerce_layered_nav_filters-2.widget.woocommerce.widget_layered_nav_fi
   content: "" !important;
   margin-left: 0px !important; }
 
+.count {
+  color: #79b7c0;
+  font-size: 14px; }
+  .count:before {
+    content: "("; }
+  .count:after {
+    content: ")"; }
+
 /*
 .yith-wcan-sort-by ul.orderby li.orderby-wrapper a.active::before, a.yith-wcan-onsale-button.active::before, a.yith-wcan-instock-button.active::before, a.yith-wcan-price-link.active::before {
 	content:"x" !important;

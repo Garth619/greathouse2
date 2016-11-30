@@ -2775,7 +2775,16 @@ ul li#woocommerce_layered_nav_filters-2.widget.woocommerce.widget_layered_nav_fi
     
 }
 
-
+.count {
+	color:$bluedark;
+	font-size:14px;
+	&:before {
+		content:"(";
+	}
+	&:after {
+		content:")";
+	}
+}
 
 
 
