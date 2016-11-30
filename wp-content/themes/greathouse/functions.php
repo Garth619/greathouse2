@@ -702,6 +702,7 @@ function jk_change_breadcrumb_home_text( $defaults ) {
 // Removes the Variable Product Price Range
 
 
+/*
 add_filter( 'woocommerce_variable_sale_price_html', 'bbloomer_remove_variation_price', 10, 2 );
 add_filter( 'woocommerce_variable_price_html', 'bbloomer_remove_variation_price', 10, 2 );
  
@@ -709,6 +710,7 @@ function bbloomer_remove_variation_price( $price ) {
 $price = '';
 return $price;
 }
+*/
 
 
 
@@ -868,8 +870,6 @@ else {
 
 	
 }
-
-
 
 
 // Related Products 

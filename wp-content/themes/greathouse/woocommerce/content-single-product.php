@@ -106,6 +106,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 </div><!-- inner_product_wrapper -->
 
+
+<?php do_action( 'woocommerce_after_single_product' ); ?>
+
 <div class="member_banner">
 	
 	<div class="inner_banner_content">
@@ -119,6 +122,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 	
 </div><!-- member_banner -->
 
-<?php do_action( 'woocommerce_after_single_product' ); ?>
 
 
