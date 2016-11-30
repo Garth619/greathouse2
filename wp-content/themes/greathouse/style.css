@@ -1582,6 +1582,8 @@ form.variations_form table.variations {
       .woocommerce-tabs.wc-tabs-wrapper .panel table.shop_attributes th {
         border: none;
         display: block; }
+      .woocommerce-tabs.wc-tabs-wrapper .panel table.shop_attributes tr:not(:nth-of-type(-n + 2)) {
+        display: none; }
       .woocommerce-tabs.wc-tabs-wrapper .panel table.shop_attributes tr {
         vertical-align: top; }
         .woocommerce-tabs.wc-tabs-wrapper .panel table.shop_attributes tr td {

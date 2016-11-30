@@ -818,6 +818,9 @@ else {
 
 
 
+
+
+
 add_filter( 'woocommerce_product_tabs', 'woo_new_product_tab_two' );
 function woo_new_product_tab_two( $tabs ) {
 	
@@ -853,6 +856,12 @@ else {
 
 	
 }
+
+
+// Removes the Extras in the Additonal Information Tab
+
+
+// add_filter( 'wc_product_enable_dimensions_display', '__return_false' );
 
 
 // Related Products 

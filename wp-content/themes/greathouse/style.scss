@@ -2232,6 +2232,9 @@ div.product_content_wrap div.summary.entry-summary div p {
 					border:none;
 					display: block;
 				}
+				tr:not(:nth-of-type(-n + 2)) {
+					display: none;
+				}
 				tr {
 					vertical-align: top;
 					td {
@@ -2245,6 +2248,12 @@ div.product_content_wrap div.summary.entry-summary div p {
 			}
 		}
 	}
+	
+	
+	
+	
+	
+	
 	
 
 	#ivpa-content {

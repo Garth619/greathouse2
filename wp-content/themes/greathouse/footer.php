@@ -249,7 +249,7 @@
 </div><!-- overlay -->
 
 
-<div class="overlay zipcode_checker" style="display:block;">
+<div class="overlay zipcode_checker" style="display:none;">
 	
 	<div class="overlay_inner">
 		
