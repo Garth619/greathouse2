@@ -1593,6 +1593,9 @@ form.variations_form table.variations {
           padding: 8px;
           display: block; }
 
+#ivpa-content .ivpa_attribute.ivpa_image .ivpa_term {
+  margin-bottom: 2px !important; }
+
 #ivpa-content {
   margin-top: 20px !important; }
   #ivpa-content .ivpa_attribute.ivpa_image .ivpa_term.variation_seperator {
