@@ -711,6 +711,10 @@ $price = '';
 return $price;
 }
 
+// Allows for variations to have all of the price on the single price page
+
+
+   add_filter('woocommerce_show_variation_price',      function() { return TRUE;});
 
 
 // Starting at
