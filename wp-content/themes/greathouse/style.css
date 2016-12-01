@@ -1595,6 +1595,19 @@ form.variations_form table.variations {
 
 #ivpa-content {
   margin-top: 20px !important; }
+  #ivpa-content .ivpa_attribute.ivpa_image .ivpa_term.variation_seperator {
+    display: none;
+    /*
+			opacity: 0 !important;
+			visibility: hidden !important;
+			width:100% !important;
+*/
+    /*
+			&:before {
+				content:"Quick Ship Fabrics";
+				display: block;
+			}
+*/ }
   #ivpa-content .ivpa_attribute.ivpa_image .ivpa_term {
     padding: 0 !important;
     border: none !important;

@@ -1877,7 +1877,7 @@ li#field_2_2 label.gfield_label {
 	
 	
 	
-	
+
 	
 	
 	.woocommerce-page {
@@ -2260,6 +2260,24 @@ div.product_content_wrap div.summary.entry-summary div p {
 		margin-top:20px !important;
 		.ivpa_attribute.ivpa_image {
 		
+		
+		.ivpa_term.variation_seperator {
+			display:none;
+/*
+			opacity: 0 !important;
+			visibility: hidden !important;
+			width:100% !important;
+*/
+/*
+			&:before {
+				content:"Quick Ship Fabrics";
+				display: block;
+			}
+*/
+		}
+		
+		
+		
 		.ivpa_term {
 			padding:0 !important;
 			border:none !important;
@@ -2304,9 +2322,16 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked, .ivpa_active {
 	
 	
 	
+	
+		
+	
+	
+	
+	
+	
 	.woocommerce-page .entry-content {
     line-height: 1.2;
-padding: 15px 30px 45px;
+		padding: 15px 30px 45px;
 	}
 	
 	
