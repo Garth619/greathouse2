@@ -318,7 +318,7 @@ jQuery('img.search_img.desktop').click(function(){
 // Gives the Illusion of two separate Variation titles on the single product page
 
 
- jQuery('[data-term="quck-ship-fabric-skip-this-one"]').addClass('variation_seperator');
+ jQuery('[data-term="start-of-quick-ship-fabric"]').addClass('variation_seperator');
 
 
   
