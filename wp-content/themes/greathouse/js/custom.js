@@ -302,8 +302,6 @@ jQuery('img.search_img.mobile').click(function(){
 
 
 
-
-
 // Searchbar for Desktop Click
 
 
