@@ -322,5 +322,19 @@
 <script src="<?php bloginfo('template_directory');?>/js/waypoints/lib/jquery.waypoints.min.js"></script>
 <script src="<?php bloginfo('template_directory');?>/js/waypoints/lib/shortcuts/sticky.min.js"></script>
 
+<?php if(get_field('turn_off_dimensions_tabe')):?>
+	
+	<script type="text/javascript">
+
+		jQuery(document).ready(function(){
+
+			jQuery('.additional_information_tab').hide();
+		
+		});
+
+	</script>
+
+<?php endif;?>
+
 </body>
 </html>
