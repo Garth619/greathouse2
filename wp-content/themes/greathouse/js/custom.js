@@ -316,12 +316,12 @@ jQuery('img.search_img.desktop').click(function(){
 // Gives the Illusion of two separate Variation titles on the single product page
 
 
- jQuery('[data-term="start-of-quick-ship-fabric"]').addClass('variation_seperator');
+ jQuery('[data-term="start-of-quick-ship-fabrics"]').addClass('variation_seperator');
 
 
   
 
- jQuery('.variation_seperator').before("<strong style='margin-top:15px' class='ivpa_title'>Quick Ship Fabric</strong>")
+ jQuery('.variation_seperator').before("<strong style='margin-top:15px' class='ivpa_title'>Quick Ship Fabrics</strong>")
     
 
 
