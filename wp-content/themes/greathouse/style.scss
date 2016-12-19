@@ -2479,7 +2479,9 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked, .ivpa_active {
 
 
 	.woo-social-buttons {
-		float:left;
+// 		float:left;
+	clear:left;
+	padding-bottom:25px;
 		&:before {
 			content:"Share";
 			float:left;

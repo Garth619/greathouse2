@@ -1747,7 +1747,8 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked, .ivpa_active {
   right: -1px; }
 
 .woo-social-buttons {
-  float: left; }
+  clear: left;
+  padding-bottom: 25px; }
   .woo-social-buttons:before {
     content: "Share";
     float: left;
