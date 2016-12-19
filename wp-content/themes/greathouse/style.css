@@ -1384,8 +1384,7 @@ div.product_wrapper div.inner_product_wrapper p.price span.woocommerce-Price-amo
     display: block; }
   .product_wrapper .entry-summary {
     position: relative;
-    padding: 0 30px;
-    overflow: hidden; }
+    padding: 0 30px; }
     .product_wrapper .entry-summary h1 {
       letter-spacing: 0.4px;
       font-style: none;
@@ -1627,7 +1626,7 @@ form.variations_form table.variations {
       font-style: none; }
 
 #ivpa-content .ivpa_attribute.ivpa_image .ivpa_term.ivpa_clicked {
-  border: 3px #79b7c0 solid !important; }
+  border: 3px red solid !important; }
 
 div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked, .ivpa_active {
   background: #777777 !important;

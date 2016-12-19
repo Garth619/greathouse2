@@ -1950,7 +1950,7 @@ li#field_2_2 label.gfield_label {
 		.entry-summary {
 			position: relative;
 			padding:0 30px;
-			overflow:hidden;
+// 			overflow:hidden;
 			h1 {
 				letter-spacing:0.4px;
 				font-style: none;
@@ -2302,7 +2302,7 @@ div.product_content_wrap div.summary.entry-summary div p {
 	}
 	
 		#ivpa-content .ivpa_attribute.ivpa_image .ivpa_term.ivpa_clicked {
-    border:3px $bluedark solid !important;
+    border:3px red solid !important;
 }
 
 

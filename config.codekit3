@@ -7,7 +7,7 @@
 		"uuidString": "C0428DED-DA18-49E1-A622-D2C1C16BD91B"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25479",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -33,10 +33,10 @@
 		"oAP": "\/greathouse.com.key",
 		"oF": 0
 		},
-	"\/greathouse2-migrate-20161102204650.sql.gz": {
+	"\/gus-migrate-20161210001402.sql.gz": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/greathouse2-migrate-20161102204650.sql.gz",
+		"oAP": "\/gus-migrate-20161210001402.sql.gz",
 		"oF": 0
 		},
 	"\/index.php": {
@@ -101667,6 +101667,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -101830,6 +101834,10 @@
 		"max-statements": {
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
 			},
 		"multiline-ternary": {
 			"active": 0,
@@ -102195,6 +102203,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -102426,6 +102438,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -103259,6 +103275,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {
