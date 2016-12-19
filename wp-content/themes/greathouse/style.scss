@@ -2479,9 +2479,9 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked, .ivpa_active {
 
 
 	.woo-social-buttons {
-// 		float:left;
-	clear:left;
-	padding-bottom:25px;
+		float:left;
+		clear:left;
+		padding-bottom:25px;
 		&:before {
 			content:"Share";
 			float:left;
@@ -2921,7 +2921,7 @@ li.myreset {
 
 
 
-
+// This tweaks the product pages and the single pages 
 
 
 	ul.products {
@@ -2966,6 +2966,7 @@ li.myreset {
 			.add_to_cart_button {
 				position: relative;
 				top:-21px;
+				display: none;
 			}
 			span.price {
 				color:$grey;
@@ -2983,7 +2984,58 @@ li.myreset {
 			}
 		}
 	}
+	
+	
+	body.single-product {
+		ul.products {
+			li {
+				a.button {
+					display: inline-block;
+					background:$bluedark;
+					color:#fff;
+					padding: 11px 18px;
+					margin-top:20px;
+				}
+				a.add_to_cart_button {
+					display: inline-block;
+				}
+			}
+		}
+	}
+	
 
+// Turns off the variable price on variable pages but the leaves the price alone on the single pages
+	
+div.inner_product_wrapper .product-type-variable.has-children div.product_content_wrap div.summary.entry-summary div p.price {
+	display:none;
+}
+
+// Removes the underline on the upsell prices
+
+div.up-sells.upsells.products ul.products span.price ins {
+	text-decoration: none;
+}
+
+// Takes away the sales prices on the upsell products
+
+ div.up-sells.upsells.products ul.products span.price del {
+	 display:none;
+ }
+
+
+// Takes away the sales prices on the products pages 
+
+
+ul.products li  a.woocommerce-LoopProduct-link span.price del {
+	display: none;
+}
+
+
+// Removes the underline on the upsell prices
+	
+ul.products li a.woocommerce-LoopProduct-link span.price ins {
+	text-decoration: none;
+}
 	
 
 .yith-wcan-reset-categories-link {

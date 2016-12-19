@@ -1747,6 +1747,7 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked, .ivpa_active {
   right: -1px; }
 
 .woo-social-buttons {
+  float: left;
   clear: left;
   padding-bottom: 25px; }
   .woo-social-buttons:before {
@@ -2053,7 +2054,8 @@ ul.products {
     margin-top: -35px; }
   ul.products li .add_to_cart_button {
     position: relative;
-    top: -21px; }
+    top: -21px;
+    display: none; }
   ul.products li span.price {
     color: #777777;
     display: inline-block;
@@ -2064,6 +2066,31 @@ ul.products {
     display: none; }
   ul.products li .onsale {
     display: none; }
+
+body.single-product ul.products li a.button {
+  display: inline-block;
+  background: #79b7c0;
+  color: #fff;
+  padding: 11px 18px;
+  margin-top: 20px; }
+
+body.single-product ul.products li a.add_to_cart_button {
+  display: inline-block; }
+
+div.inner_product_wrapper .product-type-variable.has-children div.product_content_wrap div.summary.entry-summary div p.price {
+  display: none; }
+
+div.up-sells.upsells.products ul.products span.price ins {
+  text-decoration: none; }
+
+div.up-sells.upsells.products ul.products span.price del {
+  display: none; }
+
+ul.products li a.woocommerce-LoopProduct-link span.price del {
+  display: none; }
+
+ul.products li a.woocommerce-LoopProduct-link span.price ins {
+  text-decoration: none; }
 
 .yith-wcan-reset-categories-link {
   display: none; }
