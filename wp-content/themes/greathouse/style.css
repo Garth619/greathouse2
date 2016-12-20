@@ -3798,6 +3798,18 @@ ul.woocommerce-error {
     max-width: 100%; }
     .woocommerce-tabs.wc-tabs-wrapper .panel {
       padding-bottom: 50px; }
+  .overlay_pattern {
+    position: relative;
+    display: block; }
+    .overlay_pattern .overlay_pattern_inner {
+      left: -269px;
+      width: 250px;
+      top: 20px;
+      position: absolute;
+      z-index: 300; }
+      .overlay_pattern .overlay_pattern_inner img {
+        width: 250px;
+        display: none; }
   /* Checkout */
   .entry-content .woocommerce-checkout p:nth-of-type(2n + 1) {
     float: left; }

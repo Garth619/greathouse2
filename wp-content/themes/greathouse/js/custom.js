@@ -317,11 +317,34 @@ jQuery('img.search_img.desktop').click(function(){
 
 
  jQuery('[data-term="start-of-quick-ship-fabrics"]').addClass('variation_seperator');
+ jQuery('.variation_seperator').before("<strong style='margin-top:15px' class='ivpa_title'>Quick Ship Fabrics</strong>");
+ 
 
 
-  
+// Custom Overlays for the Color Pattern Variations on the single product page
 
- jQuery('.variation_seperator').before("<strong style='margin-top:15px' class='ivpa_title'>Quick Ship Fabrics</strong>")
+
+
+
+
+	jQuery('.ivpa_term').mouseenter(function() {
+		
+		jQuery(this).children('img').clone().appendTo( ".overlay_pattern_inner" );
+		
+		jQuery('.overlay_pattern').fadeIn(500);
+		
+		jQuery('.overlay_pattern_inner img').show();
+		
+	});
+	
+	
+	jQuery('.ivpa_term').mouseleave(function() {
+		
+		jQuery('.overlay_pattern').hide();
+
+		jQuery('.overlay_pattern_inner').find('img').remove().end().appendTo('.overlay_pattern_inner');
+		
+	});
     
 
 

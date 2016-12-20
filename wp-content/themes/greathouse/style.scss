@@ -6293,6 +6293,25 @@ width:9% !important;
 			}
 		}
 	}
+	
+	
+	
+	
+.overlay_pattern {
+	position:relative;
+	display:block;
+	.overlay_pattern_inner {
+		left: -269px;
+		width:250px;
+		top: 20px;
+		position:absolute;
+		z-index:300;
+		img {
+			width:250px;
+			display: none;
+		}
+	}
+}
 
 
 

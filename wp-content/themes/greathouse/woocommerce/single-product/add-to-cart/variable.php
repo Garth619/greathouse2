@@ -50,7 +50,15 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 
 		
 		
+		<div class="overlay_pattern">
 		
+		<div class="overlay_pattern_inner">
+			
+			
+			
+		</div><!-- overlay_pattern_inner -->
+			
+		</div><!-- overlay_pattern -->
 		
 		
 		<div class="single_variation_wrap">
