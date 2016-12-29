@@ -5841,6 +5841,51 @@ body.single {
 
 
 
+/* Product Feed */
+
+
+ul.products {
+		margin:25px auto 0;
+		overflow:hidden;
+		max-width:1150px;
+		li {
+		
+			float:left;
+			
+			a {
+				
+			}
+			a.woocommerce-LoopProduct-link {
+				
+			}
+			img {
+				
+				
+			}
+			h3 {
+				
+			}
+			span.price, .product_type_variable {
+							}
+			.product_type_variable {
+				
+			}
+			.add_to_cart_button {
+							}
+			span.price {
+				
+				del {
+									}
+			}
+			.ajax_add_to_cart {
+				
+			}
+			.onsale {
+				
+			}
+		}
+	}
+
 
 
 /* Team Pics */
@@ -8190,6 +8235,14 @@ body.tax-product_cat, body.post-type-archive-product  {
 		}
 		
 	}
+	
+	
+	
+	ul.products {
+		
+		max-width:1525px;
+		}			
+
 
 
 

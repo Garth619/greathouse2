@@ -3611,6 +3611,13 @@ ul.woocommerce-error {
     padding: 120px 0; }
     .banner span {
       font-size: 80px; }
+  /* Product Feed */
+  ul.products {
+    margin: 25px auto 0;
+    overflow: hidden;
+    max-width: 1150px; }
+    ul.products li {
+      float: left; }
   /* Team Pics */
   #content .team_wrapper {
     padding: 2% 0px;
@@ -4347,7 +4354,9 @@ ul.woocommerce-error {
     font-size: 14px; }
   /* My Table Styles */
   .my_table_wrapper .mytable_header {
-    font-size: 120px; } }
+    font-size: 120px; }
+  ul.products {
+    max-width: 1525px; } }
 
 /* Media Query */
 @media screen and (min-width: 2000px) {
@@ -4374,3 +4383,5 @@ ul.woocommerce-error {
     width: 32.5%; } }
 
 /* Media Query */
+
+/*# sourceMappingURL=style.css.map */
