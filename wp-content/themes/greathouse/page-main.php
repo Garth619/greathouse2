@@ -32,19 +32,37 @@ get_header(); ?>
 	
 	<div class="product_inner">
 	
-	<?php if( have_rows('product_directory', 2639) ): ?>
+	<?php if( have_rows('shop_page_product_directory', 'option') ): ?>
 
-		<?php while( have_rows('product_directory', 2639) ): the_row(); ?>
+		<?php while( have_rows('shop_page_product_directory', 'option') ): the_row(); ?>
 
+			
+			<?php 
+			
+			// Gets Link
+			
+			$queried_object = get_queried_object(); 
+			$taxonomy = $queried_object->taxonomy;
+			$term_id = $queried_object->term_id;  
+			$related_terms = get_sub_field('link', $taxonomy . '_' . $term_id);
+			
+			// A step further and gets the name
+				
+			$term = get_term_by( 'id', $related_terms, 'product_cat' );		
+		
+		?>
+			
+			
+			
 			<div class="single_product_square">
 		
-				<a href="<?php the_sub_field('link');?>">
+				<a href="<?php echo get_term_link($related_terms); ?>">
 		
 				<div class="product_overlay">
 			
 					<div class="product_inner_wrapper">
 				
-						<span class="large_header"><?php the_sub_field('category_title');?></span><!-- large_header -->
+						<span class="large_header"><?php echo $term->name;?></span><!-- large_header -->
 						<span class="sub_header">shop now</span><!-- sub_header -->
 				
 					</div><!-- product_inner_wrapper -->
