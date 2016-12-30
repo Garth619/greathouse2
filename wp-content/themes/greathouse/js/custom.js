@@ -74,11 +74,11 @@ jQuery('html').click(function(event){
   
   // Related Products 
   
+/*
   jQuery('.up-sells ul.products').slick({
-    //prevArrow: ".prev",
-    //nextArrow: ".next",
-    slidesToShow: 5,
-    slidesToScroll: 5,
+    
+    slidesToShow: 6,
+    slidesToScroll: 6,
     responsive: [
     {
       breakpoint: 1400,
@@ -96,6 +96,7 @@ jQuery('html').click(function(event){
     }
   ]
   });
+*/
   
   
   

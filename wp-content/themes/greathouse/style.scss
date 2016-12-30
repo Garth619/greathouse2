@@ -2598,6 +2598,10 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked, .ivpa_active {
 			font-size:40px;
 			margin-bottom:55px;
 		}
+		ul.products {
+			max-width:100%;
+			
+		}
 	}
 	
 	
@@ -5844,6 +5848,9 @@ body.single {
 /* Product Feed */
 
 
+
+
+
 ul.products {
 		margin:25px auto 0;
 		overflow:hidden;
@@ -5883,6 +5890,24 @@ ul.products {
 			.onsale {
 				
 			}
+		}
+	}
+	
+	
+	
+	/* Upsells Banner */
+	
+	
+	.up-sells {
+		
+		h2 {
+			
+		}
+		ul.products {
+			li {
+				float:none;
+			}
+			
 		}
 	}
 

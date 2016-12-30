@@ -1823,6 +1823,8 @@ a.woocommerce-remove-coupon {
     text-transform: lowercase;
     font-size: 40px;
     margin-bottom: 55px; }
+  .up-sells ul.products {
+    max-width: 100%; }
 
 /* Shop Page */
 /* Filters */
@@ -3618,6 +3620,9 @@ ul.woocommerce-error {
     max-width: 1150px; }
     ul.products li {
       float: left; }
+  /* Upsells Banner */
+  .up-sells ul.products li {
+    float: none; }
   /* Team Pics */
   #content .team_wrapper {
     padding: 2% 0px;
