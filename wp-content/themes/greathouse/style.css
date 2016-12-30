@@ -3422,7 +3422,8 @@ ul.woocommerce-error {
         color: red !important; }
       .mysearch_wrapper.desktop .yith_wcas_result_content .title {
         color: #000 !important;
-        line-height: 1.1 !important; }
+        line-height: 1.1 !important;
+        margin-top: 15px !important; }
       .mysearch_wrapper.desktop .yith_wcas_result_content strong {
         color: #79b7c0; }
     .mysearch_wrapper.desktop .link-result {
