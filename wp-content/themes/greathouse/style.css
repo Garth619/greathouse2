@@ -4070,6 +4070,8 @@ ul.woocommerce-error {
       top: 4px; }
   .mysearch_wrapper.desktop {
     top: 12px; }
+    .mysearch_wrapper.desktop input[type="search"] {
+      margin-bottom: 15px; }
   .desktop_menu_wrapper .desktop_menu {
     margin-right: 25px; }
     .desktop_menu_wrapper .desktop_menu ul#menu-menu-1 > li > a {
@@ -4170,8 +4172,6 @@ ul.woocommerce-error {
   .mysearch_wrapper.desktop {
     top: 12px;
     right: 315px; }
-    .mysearch_wrapper.desktop input[type="search"] {
-      margin-bottom: 15px; }
   .cart_signin_wrapper img.search_img {
     margin-right: 25px; }
   /* Main Banner */
