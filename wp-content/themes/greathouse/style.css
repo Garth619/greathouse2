@@ -1826,7 +1826,9 @@ a.woocommerce-remove-coupon {
   .up-sells ul.products {
     max-width: 100%; }
     .up-sells ul.products li {
-      display: inline-block; }
+      display: inline-block;
+      margin-left: 15px;
+      margin-right: 15px; }
 
 /* Shop Page */
 /* Filters */
