@@ -1825,6 +1825,8 @@ a.woocommerce-remove-coupon {
     margin-bottom: 55px; }
   .up-sells ul.products {
     max-width: 100%; }
+    .up-sells ul.products li {
+      display: inline-block; }
 
 /* Shop Page */
 /* Filters */
@@ -3621,8 +3623,11 @@ ul.woocommerce-error {
     ul.products li {
       float: left; }
   /* Upsells Banner */
-  .up-sells ul.products li {
-    float: none; }
+  .up-sells ul.products {
+    max-width: 1800px;
+    margin: 0 auto; }
+    .up-sells ul.products li {
+      float: none; }
   /* Team Pics */
   #content .team_wrapper {
     padding: 2% 0px;

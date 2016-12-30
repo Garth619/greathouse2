@@ -2600,7 +2600,9 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked, .ivpa_active {
 		}
 		ul.products {
 			max-width:100%;
-			
+			li {
+				display: inline-block;
+			}
 		}
 	}
 	
@@ -5904,6 +5906,8 @@ ul.products {
 			
 		}
 		ul.products {
+			max-width:1800px;
+			margin:0 auto;
 			li {
 				float:none;
 			}
