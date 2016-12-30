@@ -5451,8 +5451,8 @@ header {
 
 .mysearch_wrapper.desktop {
 	position:absolute;
-	right: 265px;
-  top: 7px;
+	right: 295px;
+  top: 6px;
   opacity: 0;
   visibility: hidden;
 	transition:all .2s ease-in-out;
@@ -5469,7 +5469,7 @@ header {
 		letter-spacing: 0.8px;
 		font-size:14px;
 	
-		margin-bottom: 15px;
+		margin-bottom: 7px;
 	}
 	.autocomplete-suggestions {
 		border:#000 solid 1px;
@@ -7172,7 +7172,7 @@ header {
 .mysearch_wrapper.desktop {
 	
   top: 12px;
-  right:280px;
+//   right:315px;
 	
 	label {
 		
@@ -7629,13 +7629,13 @@ ul.mycart {
 .mysearch_wrapper.desktop {
 	
   top: 12px;
-  right:290px;
+  right:315px;
 	
 	label {
 		
 	}
 	input[type="search"] {
-		
+		margin-bottom:15px;
 	}
 	.autocomplete-suggestions {
 		

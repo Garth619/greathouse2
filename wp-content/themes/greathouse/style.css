@@ -3392,8 +3392,8 @@ ul.woocommerce-error {
     visibility: visible; }
   .mysearch_wrapper.desktop {
     position: absolute;
-    right: 265px;
-    top: 7px;
+    right: 295px;
+    top: 6px;
     opacity: 0;
     visibility: hidden;
     transition: all .2s ease-in-out; }
@@ -3407,7 +3407,7 @@ ul.woocommerce-error {
       padding: 7px 11px;
       letter-spacing: 0.8px;
       font-size: 14px;
-      margin-bottom: 15px; }
+      margin-bottom: 7px; }
     .mysearch_wrapper.desktop .autocomplete-suggestions {
       border: #000 solid 1px;
       padding-bottom: 0px;
@@ -4069,8 +4069,7 @@ ul.woocommerce-error {
     header .inner_header .header_logo_nav_wrapper .logo_wrapper:after {
       top: 4px; }
   .mysearch_wrapper.desktop {
-    top: 12px;
-    right: 280px; }
+    top: 12px; }
   .desktop_menu_wrapper .desktop_menu {
     margin-right: 25px; }
     .desktop_menu_wrapper .desktop_menu ul#menu-menu-1 > li > a {
@@ -4170,7 +4169,9 @@ ul.woocommerce-error {
     margin-right: 40px; }
   .mysearch_wrapper.desktop {
     top: 12px;
-    right: 290px; }
+    right: 315px; }
+    .mysearch_wrapper.desktop input[type="search"] {
+      margin-bottom: 15px; }
   .cart_signin_wrapper img.search_img {
     margin-right: 25px; }
   /* Main Banner */
