@@ -466,7 +466,7 @@ body.logged-in .mobile_dropdown_wrapper {
         font-size: 15px;
         line-height: 28px; }
       .new_arrivals_wrapper .new_arrival_slideshow .slide span del {
-        color: red; }
+        display: none; }
       .new_arrivals_wrapper .new_arrival_slideshow .slide a {
         color: #000;
         text-decoration: none;
