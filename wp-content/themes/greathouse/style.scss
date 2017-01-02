@@ -657,12 +657,20 @@ body.logged-in {
 				height:auto;
 				display: inline-block;
 			}
-			span {
+			span.new_arrival_title {
 				display:block;
+				margin-top: 20px;
+				
+			}
+			span {
 				font-family: $oswaldreg;
 				font-size:15px;
-				margin-top: 20px;
-				line-height: 1.6;
+				line-height: 28px;
+			}
+			span {
+				del {
+					color:red;
+				}
 			}
 			a {
 				color:#000;

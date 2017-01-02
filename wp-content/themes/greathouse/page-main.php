@@ -122,8 +122,11 @@ if( $posts ): ?>
      <div class="slide">
 			
 			<a href="<?php the_permalink();?>">
+				
 				<?php the_post_thumbnail('shop_catalog');?>
-				<span><?php the_title();?><br/><?php echo $product->get_price_html(); ?></span>
+				<span class="new_arrival_title"><?php the_title();?></span>
+				<span><?php echo $product->get_price_html(); ?></span>
+			
 			</a>
 			
 		</div><!-- slide -->
