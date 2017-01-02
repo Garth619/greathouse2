@@ -913,21 +913,11 @@ else {
 
 remove_action('woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
 
-// Moved Upsell
+
+// Remove up-sells
+
 
 remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_upsell_display', 15 );
-add_action( 'woocommerce_after_single_product', 'woocommerce_upsell_display', 5 );
-
-
-// Control How many Upsells come in
-
-
-add_action( 'init', 'raison_product_up_related' );
-
-
-
-
- 
 
 
 // Remove cross-sells at cart

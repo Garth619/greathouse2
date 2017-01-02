@@ -1800,8 +1800,7 @@ a.woocommerce-remove-coupon {
   width: 100%;
   height: 485px;
   background: #abcdd2 url(images/member-graphic.png) center center no-repeat;
-  text-align: center;
-  margin-top: 100px; }
+  text-align: center; }
   .member_banner .inner_banner_content {
     position: relative;
     top: 50%;
@@ -1819,22 +1818,40 @@ a.woocommerce-remove-coupon {
       font-size: 16px; }
 
 /* Upsells Banner */
-.up-sells {
-  margin: 160px 0;
-  text-align: center; }
-  .up-sells h2 {
-    color: #79b7c0;
-    font-family: "Voltage W00 Light", arial;
-    text-transform: lowercase;
-    font-size: 40px;
-    margin-bottom: 55px; }
-  .up-sells ul.products {
-    max-width: 100%; }
-    .up-sells ul.products li {
-      display: inline-block;
-      margin-left: 15px;
-      margin-right: 15px; }
+body.single-product .new_arrivals_wrapper {
+  padding: 75px 20px; }
+  body.single-product .new_arrivals_wrapper a.button {
+    background: #79b7c0;
+    color: #fff;
+    font-family: "oswaldregular", arial;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 11px 18px;
+    margin-top: 25px; }
 
+/*
+	.up-sells {
+		margin:160px 0;
+		text-align: center;
+		h2 {
+			color:$bluedark;
+			font-family:$voltagelight;
+			text-transform: lowercase;
+			font-size:40px;
+			margin-bottom:55px;
+		}
+		ul.products {
+			max-width:100%;
+			li {
+				display: inline-block;
+				margin-left:15px;
+				margin-right:15px;
+				
+			}
+		}
+	}
+*/
 /* Shop Page */
 /* Filters */
 body.single-product .outer_wrapper {
@@ -3637,11 +3654,24 @@ ul.woocommerce-error {
     ul.products li {
       float: left; }
   /* Upsells Banner */
-  .up-sells ul.products {
-    max-width: 1800px;
-    margin: 0 auto; }
-    .up-sells ul.products li {
-      float: none; }
+  body.single-product .new_arrivals_wrapper {
+    padding: 150px 20px; }
+  /*
+	.up-sells {
+		
+		h2 {
+			
+		}
+		ul.products {
+			max-width:1800px;
+			margin:0 auto;
+			li {
+				float:none;
+			}
+			
+		}
+	}
+*/
   /* Team Pics */
   #content .team_wrapper {
     padding: 2% 0px;

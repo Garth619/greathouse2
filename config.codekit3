@@ -115965,6 +115965,12 @@
 		"oAP": "\/wp-content\/uploads\/ithemes-security\/backups\/index.php",
 		"oF": 0
 		},
+	"\/wp-content\/uploads\/ithemes-security\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/ithemes-security\/index.php",
+		"oF": 0
+		},
 	"\/wp-content\/uploads\/ithemes-security\/logs": {
 		"ft": 65536,
 		"oA": 1,
