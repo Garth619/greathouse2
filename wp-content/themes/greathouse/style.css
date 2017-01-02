@@ -1829,6 +1829,10 @@ body.single-product .new_arrivals_wrapper {
     display: inline-block;
     padding: 11px 18px;
     margin-top: 25px; }
+  body.single-product .new_arrivals_wrapper a.added_to_cart {
+    font-family: "oswaldregular", arial;
+    font-size: 14px;
+    padding-top: 15px; }
 
 /*
 	.up-sells {
