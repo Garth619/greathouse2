@@ -107,151 +107,44 @@ get_header(); ?>
 	<div class="new_arrival_slideshow">
 		
 		
-<!--
 <?php 
 
 $posts = get_field('new_arrivals');
 
 if( $posts ): ?>
-	
-	<?php foreach( $posts as $p ): // variable must NOT be called $post (IMPORTANT) ?>
-	    
-	    	
-	 <div class="slide">
+    
+    
+    
+    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+        <?php setup_postdata($post); ?>
+        
+        
+     <div class="slide">
 			
-			<a href="">
-				<img src="<?php bloginfo('template_directory');?>/images/arrival_1.png"/>
-				<a href="<?php echo get_permalink( $p->ID ); ?>"><?php echo get_the_title( $p->ID ); ?><br/><?php echo wc_price( $p->ID );?></a>
-				<span>LOREM IPSUM DOLOR SIT<br/>$59</span>
-			</a>
-			
-		</div>
-	    	
-		<?php endforeach; ?>
-	
-	<?php endif; ?>
--->
-		
-		
-		
-		
-		
-		
-		
-		<div class="slide">
-			
-			<a href="">
-				<img src="<?php bloginfo('template_directory');?>/images/arrival_2.png"/>
-				<span>LOREM IPSUM DOLOR SIT<br/>$59</span>
+			<a href="<?php the_permalink();?>">
+				<?php the_post_thumbnail();?>
+				<span><?php the_title();?><br/><?php echo $product->get_price_html(); ?></span>
 			</a>
 			
 		</div><!-- slide -->
+        
+        
+        
+    <?php endforeach; ?>
+    
 		
-		<div class="slide">
-			
-			<a href="">
-				<img src="<?php bloginfo('template_directory');?>/images/arrival_3.png"/>
-				<span>LOREM IPSUM DOLOR SIT<br/>$59</span>
-			</a>
-			
-		</div><!-- slide -->
 		
-		<div class="slide">
-			
-			<a href="">
-				<img src="<?php bloginfo('template_directory');?>/images/arrival_4.png"/>
-				<span>LOREM IPSUM DOLOR SIT<br/>$59</span>
-			</a>
-			
-		</div><!-- slide -->
 		
-		<div class="slide">
-			
-			<a href="">
-				<img src="<?php bloginfo('template_directory');?>/images/arrival_5.png"/>
-				<span>LOREM IPSUM DOLOR SIT<br/>$59</span>
-			</a>
-			
-		</div><!-- slide -->
+		<?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+<?php endif; ?>
 		
 		
 		
 		
-		<div class="slide">
-			
-			<a href="">
-				<img src="<?php bloginfo('template_directory');?>/images/arrival_5.png"/>
-				<span>LOREM IPSUM DOLOR SIT<br/>$59</span>
-			</a>
-			
-		</div><!-- slide -->
 		
 		
 		
-		<div class="slide">
-			
-			<a href="">
-				<img src="<?php bloginfo('template_directory');?>/images/arrival_5.png"/>
-				<span>LOREM IPSUM DOLOR SIT<br/>$59</span>
-			</a>
-			
-		</div><!-- slide -->
-		
-		
-		
-		<div class="slide">
-			
-			<a href="">
-				<img src="<?php bloginfo('template_directory');?>/images/arrival_5.png"/>
-				<span>LOREM IPSUM DOLOR SIT<br/>$59</span>
-			</a>
-			
-		</div><!-- slide -->
-		
-		
-		
-		<div class="slide">
-			
-			<a href="">
-				<img src="<?php bloginfo('template_directory');?>/images/arrival_5.png"/>
-				<span>LOREM IPSUM DOLOR SIT<br/>$59</span>
-			</a>
-			
-		</div><!-- slide -->
-		
-		
-		
-		<div class="slide">
-			
-			<a href="">
-				<img src="<?php bloginfo('template_directory');?>/images/arrival_5.png"/>
-				<span>LOREM IPSUM DOLOR SIT<br/>$59</span>
-			</a>
-			
-		</div><!-- slide -->
-		
-		
-		
-		<div class="slide">
-			
-			<a href="">
-				<img src="<?php bloginfo('template_directory');?>/images/arrival_5.png"/>
-				<span>LOREM IPSUM DOLOR SIT<br/>$59</span>
-			</a>
-			
-		</div><!-- slide -->
-		
-		
-		
-		<div class="slide">
-			
-			<a href="">
-				<img src="<?php bloginfo('template_directory');?>/images/arrival_5.png"/>
-				<span>LOREM IPSUM DOLOR SIT<br/>$59</span>
-			</a>
-			
-		</div><!-- slide -->
-		
+				
 		
 	</div><!-- new_arrival_slideshow -->
 	
