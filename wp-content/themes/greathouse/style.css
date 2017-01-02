@@ -467,6 +467,8 @@ body.logged-in .mobile_dropdown_wrapper {
         line-height: 28px; }
       .new_arrivals_wrapper .new_arrival_slideshow .slide span del {
         display: none; }
+      .new_arrivals_wrapper .new_arrival_slideshow .slide span ins {
+        text-decoration: none; }
       .new_arrivals_wrapper .new_arrival_slideshow .slide a {
         color: #000;
         text-decoration: none;
