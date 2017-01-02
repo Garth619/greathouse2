@@ -482,6 +482,41 @@ body.logged-in {
 }
 }
 
+/* Password Reset */
+
+p.woocommerce-FormRow.woocommerce-FormRow--first.form-row.form-row-first label {
+	display: block;
+   margin-bottom: 10px;
+}
+
+input#user_login.woocommerce-Input.woocommerce-Input--text.input-text {
+	border: 1px solid #a6a6a6;
+	font-family: $oswaldreg;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+input.woocommerce-Button.button {
+	font-family: $oswaldreg;
+  font-size: 16px;
+  padding: 10px 30px;
+  border:none;
+  background: $bluedark;
+  color:#fff;
+  text-transform: uppercase;
+  
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Fixed Mobile Menu and Dropdown */
 
@@ -3810,6 +3845,7 @@ ul.woocommerce-error {
 	input[type="submit"]   {
 		margin-bottom: 25px;
 		-webkit-appearance: none;
+		width:150px;
 	}
 	input[type="checkbox"] {
 		
@@ -7108,6 +7144,26 @@ width:100%;
 		border:1px solid green !important;
 	}
 }
+
+
+
+
+
+
+/* Password Reset */
+
+p.woocommerce-FormRow.woocommerce-FormRow--first.form-row.form-row-first label {
+	}
+
+input#user_login.woocommerce-Input.woocommerce-Input--text.input-text {
+	max-width:400px;
+}
+
+input.woocommerce-Button.button {
+	
+  
+}
+
 
 
 

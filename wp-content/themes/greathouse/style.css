@@ -329,6 +329,27 @@ body.logged-in .mobile_dropdown_wrapper {
     top: 80px;
     left: 8%; }
 
+/* Password Reset */
+p.woocommerce-FormRow.woocommerce-FormRow--first.form-row.form-row-first label {
+  display: block;
+  margin-bottom: 10px; }
+
+input#user_login.woocommerce-Input.woocommerce-Input--text.input-text {
+  border: 1px solid #a6a6a6;
+  font-family: "oswaldregular", arial;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%; }
+
+input.woocommerce-Button.button {
+  font-family: "oswaldregular", arial;
+  font-size: 16px;
+  padding: 10px 30px;
+  border: none;
+  background: #79b7c0;
+  color: #fff;
+  text-transform: uppercase; }
+
 /* Fixed Mobile Menu and Dropdown */
 .mobile_dropdown_wrapper {
   width: 100%;
@@ -2638,7 +2659,8 @@ ul.woocommerce-error {
     border: 1px solid #a6a6a6; }
   .login input[type="submit"] {
     margin-bottom: 25px;
-    -webkit-appearance: none; }
+    -webkit-appearance: none;
+    width: 150px; }
   .login input {
     -webkit-appearance: none;
     border-radius: 0; }
@@ -4120,7 +4142,10 @@ ul.woocommerce-error {
   .woocommerce-invalid input {
     border: 1px solid red !important; }
   .woocommerce-validated input {
-    border: 1px solid green !important; } }
+    border: 1px solid green !important; }
+  /* Password Reset */
+  input#user_login.woocommerce-Input.woocommerce-Input--text.input-text {
+    max-width: 400px; } }
 
 /* Media Query */
 @media screen and (min-width: 1200px) {
