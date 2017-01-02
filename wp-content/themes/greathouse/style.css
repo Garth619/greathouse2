@@ -1341,6 +1341,13 @@ li#field_2_2 label.gfield_label {
   display: none; }
 
 /* Single Product Pages */
+.price.call_for_quote {
+  color: red;
+  font-family: "oswaldregular", arial !important;
+  text-transform: uppercase !important;
+  font-wieight: 300 !important;
+  font-size: 23px !important; }
+
 .woocommerce-page .entry-content p {
   margin-bottom: 20px; }
   .woocommerce-page .entry-content p a {
@@ -1801,7 +1808,8 @@ a.woocommerce-remove-coupon {
   width: 100%;
   height: 485px;
   background: #abcdd2 url(images/member-graphic.png) center center no-repeat;
-  text-align: center; }
+  text-align: center;
+  margin-top: 75px; }
   .member_banner .inner_banner_content {
     position: relative;
     top: 50%;
@@ -1820,7 +1828,7 @@ a.woocommerce-remove-coupon {
 
 /* Upsells Banner */
 body.single-product .new_arrivals_wrapper {
-  padding: 75px 20px;
+  padding: 75px 20px 0;
   max-width: 2200px;
   margin: 0 auto; }
   body.single-product .new_arrivals_wrapper a.button {
@@ -2753,6 +2761,8 @@ ul.woocommerce-error {
         position: absolute;
         top: 29px;
         right: 0; }
+      .product_wrapper .entry-summary p.call_for_quote {
+        top: 0; }
   form.variations_form .single_variation_wrap .single_variation .woocommerce-variation-price {
     position: absolute;
     top: 34px;
@@ -3661,7 +3671,7 @@ ul.woocommerce-error {
       float: left; }
   /* Upsells Banner */
   body.single-product .new_arrivals_wrapper {
-    padding: 150px 20px; }
+    padding: 150px 20px 0; }
   /*
 	.up-sells {
 		
@@ -3678,6 +3688,9 @@ ul.woocommerce-error {
 		}
 	}
 */
+  /* member banner */
+  .member_banner {
+    margin-top: 150px; }
   /* Team Pics */
   #content .team_wrapper {
     padding: 2% 0px;

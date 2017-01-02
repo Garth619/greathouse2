@@ -1887,7 +1887,13 @@ li#field_2_2 label.gfield_label {
 	/* Single Product Pages */
 	
 	
-	
+	.price.call_for_quote {
+		color:red;
+		font-family: $oswaldreg !important;
+		text-transform: uppercase !important;
+		font-wieight:300 !important;
+		font-size:23px !important;
+	}
 
 	
 	
@@ -2574,6 +2580,7 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked, .ivpa_active {
 		height:485px;
 		background: #abcdd2 url(images/member-graphic.png) center center no-repeat;
 		text-align: center;
+		margin-top:75px;
 // 		margin-top:100px;
 		.inner_banner_content {
 			position: relative;
@@ -2603,7 +2610,7 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked, .ivpa_active {
 	
 	body.single-product {
 		.new_arrivals_wrapper {
-			padding:75px 20px;
+			padding:75px 20px 0;
 			max-width:2200px;
 			margin:0 auto;
 			a.button {
@@ -4022,6 +4029,9 @@ img.aligncenter {
 					position:absolute;
 					top:29px;
 					right:0;
+				}
+				p.call_for_quote {
+					top:0;
 				}
 			h1 {
 				
@@ -5954,7 +5964,7 @@ ul.products {
 	
 	body.single-product {
 		.new_arrivals_wrapper {
-			padding:150px 20px;
+			padding:150px 20px 0;
 		}
 	}
 	
@@ -5975,6 +5985,13 @@ ul.products {
 		}
 	}
 */
+
+/* member banner */
+	
+	
+	.member_banner {
+		margin-top:150px;
+	}
 
 
 

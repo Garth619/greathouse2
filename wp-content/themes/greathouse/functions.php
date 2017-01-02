@@ -744,10 +744,16 @@ return $price;
 }
 
 
+// If no price
 
+add_filter( 'woocommerce_get_price_html', 'custom_price_html', 10, 2 );
 
-
-
+function custom_price_html( $price, $product ) {
+  if( $product->get_price() == 0 ||  $product->get_price() == '') {
+  $custom_text = '<p class="price call_for_quote">Call for a Quote</p>';
+  }
+return $price . $custom_text;
+}
 
 
 
