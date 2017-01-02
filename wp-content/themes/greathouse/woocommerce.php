@@ -268,6 +268,86 @@ $filterreset = strtok($filterreset, '?'); ?>
 		<?php woocommerce_content(); ?>
 	
 	</div><!-- product_wrapper -->
+	
+	
+<?php if(is_product()):?>
+
+
+<?php 
+
+$posts = get_field('my_additional_products');
+
+if( $posts ): ?>
+
+
+
+<section class="new_arrivals_wrapper">
+	
+	<span class="large_header">you'll also love</span><!-- large_header -->
+	
+	<img class="prev" src="<?php bloginfo('template_directory');?>/images/arrivals_prev.svg"/>
+	<img class="next" src="<?php bloginfo('template_directory');?>/images/arrivals_next.svg"/>
+	
+	<div class="new_arrival_slideshow">
+    
+    
+    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+        <?php setup_postdata($post); ?>
+        
+        
+     <div class="slide">
+			
+			<a href="<?php the_permalink();?>">
+				
+				<?php the_post_thumbnail('shop_catalog');?>
+				<span class="new_arrival_title"><?php the_title();?></span>
+				<span><?php echo $product->get_price_html(); ?></span>
+				<?php woocommerce_template_loop_add_to_cart(); //output the woocommerce loop add to cart button ?>
+			
+			</a>
+			
+		</div><!-- slide -->
+        
+        
+        
+    <?php endforeach; ?>
+    
+			</div><!-- new_arrival_slideshow -->
+	
+</section><!-- new_arrivals_wrapper -->
+		
+		
+		<?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+<?php endif; ?>
+
+
+
+
+<div class="member_banner">
+	
+	<div class="inner_banner_content">
+		
+		<span class="sub_header">become a member</span><!-- sub_header -->
+		<span class="large_header">keyholder club</span><!-- large_header -->
+		
+		<span class="transparent_button">Sign Up Today</span>
+		
+	</div><!-- inner_banner_content -->
+	
+</div><!-- member_banner -->
+
+
+
+
+
+
+<?php endif;?> <!-- end of if single profuct -->
+	
+	
+	
+	
+	
+	
 
 
 <?php get_footer(); ?>

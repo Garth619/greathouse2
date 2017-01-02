@@ -109,18 +109,18 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>
 
-<div class="member_banner">
-	
-	<div class="inner_banner_content">
+
+
+
 		
-		<span class="sub_header">become a member</span><!-- sub_header -->
-		<span class="large_header">keyholder club</span><!-- large_header -->
 		
-		<span class="transparent_button">Sign Up Today</span>
+
+					
 		
-	</div><!-- inner_banner_content -->
-	
-</div><!-- member_banner -->
+
+
+
+
 
 
 

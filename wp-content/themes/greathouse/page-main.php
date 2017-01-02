@@ -127,6 +127,7 @@ if( $posts ): ?>
 				<span class="new_arrival_title"><?php the_title();?></span>
 				<span><?php echo $product->get_price_html(); ?></span>
 			
+			
 			</a>
 			
 		</div><!-- slide -->
