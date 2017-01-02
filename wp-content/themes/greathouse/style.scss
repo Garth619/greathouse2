@@ -2181,6 +2181,7 @@ div.product_content_wrap div.summary.entry-summary div p {
 		border:3px solid $greylight;
 		max-width:480px;
 		margin:0 30px 30px;
+		clear:both;
 		ul.tabs.wc-tabs {
 			list-style: none;
 			margin:0;
@@ -2603,6 +2604,8 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked, .ivpa_active {
 	body.single-product {
 		.new_arrivals_wrapper {
 			padding:75px 20px;
+			max-width:2200px;
+			margin:0 auto;
 			a.button {
 				background: $bluedark;
 				color:#fff;
@@ -4112,7 +4115,7 @@ img.aligncenter {
 	
 	
 	.woocommerce-tabs.wc-tabs-wrapper {
-		clear:both;
+		
 		margin:0px 0 30px;
 		max-width:540px;
 	

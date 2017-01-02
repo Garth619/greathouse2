@@ -1543,7 +1543,8 @@ form.variations_form table.variations {
 .woocommerce-tabs.wc-tabs-wrapper {
   border: 3px solid #f3f3f3;
   max-width: 480px;
-  margin: 0 30px 30px; }
+  margin: 0 30px 30px;
+  clear: both; }
   .woocommerce-tabs.wc-tabs-wrapper ul.tabs.wc-tabs {
     list-style: none;
     margin: 0;
@@ -1819,7 +1820,9 @@ a.woocommerce-remove-coupon {
 
 /* Upsells Banner */
 body.single-product .new_arrivals_wrapper {
-  padding: 75px 20px; }
+  padding: 75px 20px;
+  max-width: 2200px;
+  margin: 0 auto; }
   body.single-product .new_arrivals_wrapper a.button {
     background: #79b7c0;
     color: #fff;
@@ -2774,7 +2777,6 @@ ul.woocommerce-error {
     margin-top: 20px !important;
     width: 40%; }
   .woocommerce-tabs.wc-tabs-wrapper {
-    clear: both;
     margin: 0px 0 30px;
     max-width: 540px; }
     .woocommerce-tabs.wc-tabs-wrapper ul.tabs.wc-tabs {
