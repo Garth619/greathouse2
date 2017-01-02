@@ -1887,14 +1887,15 @@ li#field_2_2 label.gfield_label {
 	/* Single Product Pages */
 	
 	.my_variation_quote {
-		position: absolute;
-		top:0;
-		right:0;
+// 		position: absolute;
+// 		top:0;
+// 		right:0;
 		color:red;
 		font-family: $oswaldreg !important;
 		text-transform: uppercase !important;
 		font-wieight:300 !important;
 		font-size:23px !important;
+		margin-bottom:30px;
 	}
 	
 	
@@ -4040,6 +4041,13 @@ img.aligncenter {
 
 /* Single Product Pages */
 	
+	
+	
+	.my_variation_quote {
+position: absolute;
+top:0;
+right:0;
+	}
 	
 	.product_wrapper {
 		margin:135px auto 0;
