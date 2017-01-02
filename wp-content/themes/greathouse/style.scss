@@ -1886,6 +1886,17 @@ li#field_2_2 label.gfield_label {
 	
 	/* Single Product Pages */
 	
+	.my_variation_quote {
+		position: absolute;
+		top:0;
+		right:0;
+		color:red;
+		font-family: $oswaldreg !important;
+		text-transform: uppercase !important;
+		font-wieight:300 !important;
+		font-size:23px !important;
+	}
+	
 	
 	.price.call_for_quote {
 		color:red;
@@ -1894,6 +1905,25 @@ li#field_2_2 label.gfield_label {
 		font-wieight:300 !important;
 		font-size:23px !important;
 	}
+	
+	
+	
+	.new_arrival_slideshow {
+		.price.call_for_quote {
+			font-size: 15px !important;
+			color:#000;
+		}
+	}
+	
+	
+	
+	ul.products {
+		.price.call_for_quote {
+			font-size: 15px !important;
+			color:#000;
+		}
+	}
+	
 
 	
 	
