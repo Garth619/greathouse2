@@ -735,7 +735,7 @@ $price = $prices[0] !== $prices[1] ? sprintf( __( 'Starts At: %1$s', 'woocommerc
 // Sale Price
 $prices = array( $product->get_variation_regular_price( 'min', true ), $product->get_variation_regular_price( 'max', true ) );
 sort( $prices );
-$saleprice = $prices[0] !== $prices[1] ? sprintf( __( 'Starts At: %1$s', 'woocommerce' ), wc_price( $prices[0] ) ) : wc_price( $prices[0] );
+$saleprice = $prices[0] !== $prices[1] ? sprintf( __( 'STARTS AT: %1$s', 'woocommerce' ), wc_price( $prices[0] ) ) : wc_price( $prices[0] );
  
 if ( $price !== $saleprice ) {
 $price = '<del>' . $saleprice . '</del> <ins>' . $price . '</ins>';
