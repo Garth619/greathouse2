@@ -2529,14 +2529,19 @@ td.product-quantity {
   .woocommerce-page #payment .terms {
     text-align: left;
     padding: 0; }
+  .woocommerce #payment p.wc-terms-and-conditions,
+  .woocommerce-page #payment p.wc-terms-and-conditions {
+    width: 100%; }
   .woocommerce #payment #place_order,
   .woocommerce-page #payment #place_order {
-    float: none;
-    width: 100%;
+    width: auto;
     box-sizing: border-box;
     margin-bottom: 1em;
     -webkit-appearance: none;
-    border-radius: 0; }
+    border-radius: 0;
+    clear: left;
+    padding-left: 30px;
+    padding-right: 30px; }
   .woocommerce .lost_reset_password .form-row-first,
   .woocommerce .lost_reset_password .form-row-last,
   .woocommerce-page .lost_reset_password .form-row-first,

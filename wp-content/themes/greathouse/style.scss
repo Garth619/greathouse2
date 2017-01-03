@@ -3649,14 +3649,20 @@ ul.products li a.woocommerce-LoopProduct-link span.price ins {
 			text-align: left;
 			padding: 0;
 		}
+		p.wc-terms-and-conditions {
+			width:100%;
+		}
 
 		#place_order {
-			float: none;
-			width: 100%;
+// 			float: none;
+			width: auto;
 			box-sizing: border-box;
 			margin-bottom: 1em;
 			-webkit-appearance: none;
 			border-radius: 0;
+			clear:left;
+			padding-left:30px;
+			padding-right:30px;
 		}
 	}
 
