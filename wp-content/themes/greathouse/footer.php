@@ -300,7 +300,9 @@
 				<input type="checkbox" name="nozipcode" id="no_zipcode"/>
 				<label>I understand that my zip code is outside the delivery zone</label>
 				
-				<input type="submit" value="Submit"/>
+				
+				
+<!-- 				<input type="submit" value="Submit"/> -->
 			
 			</form>
 			

@@ -105,12 +105,13 @@ jQuery('html').click(function(event){
   
 
   if($.cookie('popup') != 'seen'){
-    $.cookie('popup', 'seen', { expires: 365, path: '/' }); 
+    $.cookie('popup', 'seen', { expires: 7, path: '/' }); 
     jQuery(".mycookie").delay(2000).fadeIn();
     jQuery('.mycookie_close').click(function(e)
         {
         jQuery('.mycookie').fadeOut(); 
     });
+    
    };
 
    
