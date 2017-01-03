@@ -478,7 +478,7 @@ input.woocommerce-Button.button {
     .new_arrivals_wrapper .new_arrival_slideshow .slide {
       text-align: center; }
       .new_arrivals_wrapper .new_arrival_slideshow .slide img {
-        max-width: 100%;
+        max-width: 90%;
         height: auto;
         display: inline-block; }
       .new_arrivals_wrapper .new_arrival_slideshow .slide span.new_arrival_title {
