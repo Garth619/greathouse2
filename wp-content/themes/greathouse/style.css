@@ -757,12 +757,37 @@ form.woocommerce-checkout {
   text-align: center !important; }
 
 .woocommerce table.wishlist_table {
-  font-size: 40px !important; }
+  font-size: 18px !important; }
   .woocommerce table.wishlist_table thead {
     display: none !important; }
   .woocommerce table.wishlist_table tbody td {
     display: block;
     border: none; }
+  .woocommerce table.wishlist_table tbody td.product-add-to-cart {
+    border-bottom: 1px solid #ccc; }
+    .woocommerce table.wishlist_table tbody td.product-add-to-cart a.button {
+      background: #79b7c0;
+      color: #fff;
+      display: inline-block !important;
+      margin: 25px 0;
+      border-radius: 0 !important; }
+  .woocommerce table.wishlist_table tbody td.product-remove a.remove {
+    font-size: 45px;
+    color: red; }
+  .woocommerce table.wishlist_table tbody td.product-name {
+    text-align: center; }
+  .woocommerce table.wishlist_table tbody td.product-thumbnail {
+    display: block;
+    text-align: center; }
+    .woocommerce table.wishlist_table tbody td.product-thumbnail a {
+      max-width: 100%; }
+      .woocommerce table.wishlist_table tbody td.product-thumbnail a img {
+        width: auto !important; }
+  .woocommerce table.wishlist_table .yith-wcwl-share {
+    text-align: center !important; }
+
+table.shop_table tfoot td {
+  border: none !important; }
 
 /* All Product Feeds */
 .product_template_feed {
@@ -4258,7 +4283,23 @@ div.woocommerce-MyAccount-content form fieldset {
     clear: left;
     display: block;
     margin-top: 29px;
-    width: 150px; } }
+    width: 150px; }
+  /* Wishlist */
+  .woocommerce .wishlist-title h2 {
+    font-size: 120px !important; }
+  .woocommerce table.wishlist_table tbody td {
+    display: table-cell !important;
+    border-bottom: 1px solid #ccc !important;
+    padding: 40px 0 !important; }
+  .woocommerce table.wishlist_table tbody td.product-add-to-cart {
+    width: 250px !important; }
+  .woocommerce table.wishlist_table tbody td.product-thumbnail {
+    width: 260px; }
+    .woocommerce table.wishlist_table tbody td.product-thumbnail a {
+      max-width: 235px !important; }
+  .woocommerce table.wishlist_table .yith-wcwl-share {
+    text-align: left !important;
+    margin-top: 40px; } }
 
 /* Media Query */
 @media screen and (min-width: 1200px) {

@@ -5737,12 +5737,6 @@
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-mail.php",
 		"oF": 0
 		},
-	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-mailer.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-mailer.php",
-		"oF": 0
-		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-wp-list-table.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -116218,6 +116212,182 @@
 		"iS": 907302,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-18-at-4.24.19-PM.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.25.47-PM-1024x575.png": {
+		"ft": 32768,
+		"iS": 757883,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.25.47-PM-1024x575.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.25.47-PM-150x150.png": {
+		"ft": 32768,
+		"iS": 39594,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.25.47-PM-150x150.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.25.47-PM-180x180.png": {
+		"ft": 32768,
+		"iS": 55699,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.25.47-PM-180x180.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.25.47-PM-2000x400.png": {
+		"ft": 32768,
+		"iS": 842015,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.25.47-PM-2000x400.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.25.47-PM-300x169.png": {
+		"ft": 32768,
+		"iS": 82002,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.25.47-PM-300x169.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.25.47-PM-45x45.png": {
+		"ft": 32768,
+		"iS": 4400,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.25.47-PM-45x45.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.25.47-PM-540x540.png": {
+		"ft": 32768,
+		"iS": 412043,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.25.47-PM-540x540.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.25.47-PM-600x600.png": {
+		"ft": 32768,
+		"iS": 494085,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.25.47-PM-600x600.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.25.47-PM-768x431.png": {
+		"ft": 32768,
+		"iS": 455687,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.25.47-PM-768x431.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.25.47-PM-940x198.png": {
+		"ft": 32768,
+		"iS": 247791,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.25.47-PM-940x198.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.25.47-PM.png": {
+		"ft": 32768,
+		"iS": 3525016,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.25.47-PM.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.42.42-PM-1024x573.png": {
+		"ft": 32768,
+		"iS": 969779,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.42.42-PM-1024x573.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.42.42-PM-150x150.png": {
+		"ft": 32768,
+		"iS": 52746,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.42.42-PM-150x150.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.42.42-PM-180x180.png": {
+		"ft": 32768,
+		"iS": 74030,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.42.42-PM-180x180.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.42.42-PM-2000x400.png": {
+		"ft": 32768,
+		"iS": 1067506,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.42.42-PM-2000x400.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.42.42-PM-300x168.png": {
+		"ft": 32768,
+		"iS": 108879,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.42.42-PM-300x168.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.42.42-PM-45x45.png": {
+		"ft": 32768,
+		"iS": 5425,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.42.42-PM-45x45.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.42.42-PM-540x540.png": {
+		"ft": 32768,
+		"iS": 524476,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.42.42-PM-540x540.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.42.42-PM-600x600.png": {
+		"ft": 32768,
+		"iS": 626455,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.42.42-PM-600x600.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.42.42-PM-768x430.png": {
+		"ft": 32768,
+		"iS": 592683,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.42.42-PM-768x430.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.42.42-PM-940x198.png": {
+		"ft": 32768,
+		"iS": 302128,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.42.42-PM-940x198.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.42.42-PM.png": {
+		"ft": 32768,
+		"iS": 3433863,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/11\/Screen-Shot-2016-12-30-at-9.42.42-PM.png",
 		"oF": 0,
 		"opt": 0
 		},
