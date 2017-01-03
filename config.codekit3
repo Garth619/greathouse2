@@ -5731,6 +5731,12 @@
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-lib-utility.php",
 		"oF": 0
 		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-mail.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-mail.php",
+		"oF": 0
+		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/class-itsec-mailer.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -5959,6 +5965,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/large-text.html",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/lockouts-entry.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/lockouts-entry.html",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/lockouts-summary.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/lockouts-summary.html",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/lib\/mail-templates\/lockouts-table.html": {
@@ -7929,6 +7947,42 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/init.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/js\/blankshield\/blankshield.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/js\/blankshield\/blankshield.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/js\/blankshield\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/js\/blankshield\/index.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/js\/blankshield\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/js\/blankshield\/LICENSE",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/js\/block-tabnapping.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/js\/block-tabnapping-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/js\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/js\/index.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/better-wp-security\/core\/modules\/wordpress-tweaks\/settings-page.php": {
