@@ -455,7 +455,9 @@ input.woocommerce-Button.button {
 .new_arrivals_wrapper {
   text-align: center;
   padding: 56px 20px;
-  position: relative; }
+  position: relative;
+  max-width: 2200px;
+  margin: 0 auto; }
   .new_arrivals_wrapper span.large_header {
     font-family: "Voltage W00 Regular", arial;
     color: #79b7c0;
