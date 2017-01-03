@@ -730,7 +730,7 @@ function bbloomer_variation_price_format( $price, $product ) {
  
 // Main Price
 $prices = array( $product->get_variation_price( 'min', true ), $product->get_variation_price( 'max', true ) );
-$price = $prices[0] !== $prices[1] ? sprintf( __( 'Starts At: %1$s', 'woocommerce' ), wc_price( $prices[0] ) ) : wc_price( $prices[0] );
+$price = $prices[0] !== $prices[1] ? sprintf( __( 'STARTS AT: %1$s', 'woocommerce' ), wc_price( $prices[0] ) ) : wc_price( $prices[0] );
  
 // Sale Price
 $prices = array( $product->get_variation_regular_price( 'min', true ), $product->get_variation_regular_price( 'max', true ) );
