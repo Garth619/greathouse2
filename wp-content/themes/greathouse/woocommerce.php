@@ -283,7 +283,16 @@ if( $posts ): ?>
 
 <section class="new_arrivals_wrapper">
 	
-	<span class="large_header">you'll also love</span><!-- large_header -->
+	
+	<?php if(get_field('additional_products_title')):?>
+	
+		<span class="large_header"><?php the_field('additional_products_title');?></span><!-- large_header -->
+	
+		<?php else:?>
+	
+		<span class="large_header">you'll also love</span><!-- large_header -->
+	
+	<?php endif;?>
 	
 	<img class="prev" src="<?php bloginfo('template_directory');?>/images/arrivals_prev.svg"/>
 	<img class="next" src="<?php bloginfo('template_directory');?>/images/arrivals_next.svg"/>
