@@ -875,9 +875,6 @@ else {
 
 
 
-
-
-
 add_filter( 'woocommerce_product_tabs', 'woo_new_product_tab_two' );
 function woo_new_product_tab_two( $tabs ) {
 	

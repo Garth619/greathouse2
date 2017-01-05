@@ -343,5 +343,39 @@
 
 <?php endif;?>
 
+
+<?php if( get_field('turn_on_shipping_tab_two') == 'on' ): ?>
+
+
+<script type="text/javascript">
+
+		jQuery(document).ready(function(){
+
+			jQuery('.test_tab_tab').show();
+		
+		});
+
+	</script>
+
+<?php endif;?>
+
+<?php if( get_field('turn_on_product_care_tab') == 'on' ): ?>
+
+
+<script type="text/javascript">
+
+		jQuery(document).ready(function(){
+
+			jQuery('.testtwo_tab_tab').show();
+		
+		});
+
+	</script>
+
+<?php endif;?>
+
+
+
+
 </body>
 </html>

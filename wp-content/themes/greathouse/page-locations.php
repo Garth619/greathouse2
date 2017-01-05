@@ -24,9 +24,9 @@ get_header(); ?>
 					<div class="location_content">
 					
 						<span class="large_header"><?php the_field('city_title_1');?></span>
-						<a class="sub_header" href="<?php the_field('location_1_address_link');?>"><?php the_field('location_1_address');?></a>
+						<a class="sub_header" href="<?php the_field('location_1_address_link');?>" target="_blank"><?php the_field('location_1_address');?></a>
 						<a class="locations_phone" href="tel:<?php the_field('phone_number');?>"><?php the_field('phone_number');?></a>
-						<a href="<?php the_field('location_1_address_link');?>" class="locations_directions">Get Directions</a><!-- locations_directions -->
+						<a href="<?php the_field('location_1_address_link');?>" class="locations_directions" target="_blank">Get Directions</a><!-- locations_directions -->
 					
 					</div><!-- location_content -->
 					
@@ -42,9 +42,9 @@ get_header(); ?>
 					<div class="location_content">
 					
 						<span class="large_header"><?php the_field('city_title_2');?></span>
-						<a class="sub_header" href="<?php the_field('location_2_address_link');?>"><?php the_field('location_2_address');?></a>
+						<a class="sub_header" href="<?php the_field('location_2_address_link');?>" target="_blank"><?php the_field('location_2_address');?></a>
 						<a class="locations_phone" href="tel:<?php the_field('phone_number_2');?>"><?php the_field('phone_number_2');?></a>
-						<a href="<?php the_field('location_2_address_link');?>" class="locations_directions">Get Directions</a><!-- locations_directions -->
+						<a href="<?php the_field('location_2_address_link');?>" class="locations_directions" target="_blank">Get Directions</a><!-- locations_directions -->
 					
 					</div><!-- location_content -->
 					
