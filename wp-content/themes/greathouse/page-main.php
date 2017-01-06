@@ -14,9 +14,49 @@ get_header(); ?>
 		<div class="awards">Awards</div><!-- awards -->
 		
 		<div class="vertical_align">
+			
+			
+			
+			
+			
+			<!-- Below is changing the color options for the banner text on inner pages -->
+
+
+		<?php if( get_field('main_image_color_options') == 'Black' ): ?>
+
+				<span class="large_header" style="color:#000;"><?php the_field('banner_main_header');?></span>
+				<span class="sub_header" style="color:#000;"><?php the_field('main_banner_sub_header');?></span>
+		
+			<?php elseif( get_field('main_image_color_options') == 'White' ): ?>
+
+				<span class="large_header" style="color:#fff;"><?php the_field('banner_main_header');?></span>
+				<span class="sub_header" style="color:#fff;"><?php the_field('main_banner_sub_header');?></span>
+		
+			<?php elseif( get_field('main_image_color_options') == 'Blue' ): ?>
+
+				<span class="large_header" style="color:#79b7c0;"><?php the_field('banner_main_header');?></span>
+				<span class="sub_header" style="color:#79b7c0;"><?php the_field('main_banner_sub_header');?></span>
+		
+			<?php else:?>
+			
+				<span class="large_header" style="color:#000;"><?php the_field('banner_main_header');?></span>
+				<span class="sub_header" style="color:#000;"><?php the_field('main_banner_sub_header');?></span>
+		
+		<?php endif;?>
+
+
+<!-- End of Banners for the Inner Staic Pages. -->
+
+			
+			
+			
+			
+			
+<!--
 		
 			<span class="large_header"><?php the_field('banner_main_header');?></span>
 			<span class="sub_header"><?php the_field('main_banner_sub_header');?></span>
+-->
 		
 			<a class="white_button" href="<?php the_field('shop_now_button');?>">Shop Now</a><!-- grey_button -->
 			
