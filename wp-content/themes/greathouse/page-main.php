@@ -9,7 +9,7 @@ get_header(); ?>
 
 
 	
-	<section class="main_banner_wrapper" style="background: rgba(0, 0, 0, 0) url(<?php the_field('main_banner');?>) no-repeat scroll center top / cover ;">
+	<section class="main_banner_wrapper" style="background: linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.15)), url(<?php the_field('main_banner');?>) no-repeat scroll center top / cover ;">
 		
 		<div class="awards">Awards</div><!-- awards -->
 		
@@ -19,7 +19,7 @@ get_header(); ?>
 			
 			
 			
-			<!-- Below is changing the color options for the banner text on inner pages -->
+<!-- Below is changing the color options for the banner text on inner pages -->
 
 
 		<?php if( get_field('main_image_color_options') == 'Black' ): ?>
@@ -47,22 +47,10 @@ get_header(); ?>
 
 <!-- End of Banners for the Inner Staic Pages. -->
 
-			
-			
-			
-			
-			
-<!--
-		
-			<span class="large_header"><?php the_field('banner_main_header');?></span>
-			<span class="sub_header"><?php the_field('main_banner_sub_header');?></span>
--->
-		
 			<a class="white_button" href="<?php the_field('shop_now_button');?>">Shop Now</a><!-- grey_button -->
 			
 			 
-		
-		</div><!-- vertical_align -->
+	</div><!-- vertical_align -->
 		
 	</section><!-- main_banner_wrapper -->
 	
