@@ -33,7 +33,7 @@
 		
 			<?php else:?>
 			
-				<span style="color:#000;"><?php the_title();?></span>
+				<span style="color:#fff;"><?php the_title();?></span>
 		
 		<?php endif;?>
 
@@ -84,7 +84,7 @@
 		
 			<?php else:?>
 			
-				<span style="color:#000;"><?php the_field('shop_banner_title','option');?></span>
+				<span style="color:#fff;"><?php the_field('shop_banner_title','option');?></span>
 		
 		<?php endif;?>
 
@@ -148,7 +148,7 @@ $catbannerimage = get_field('product_category_page_banners', $post_id); // My Ad
 			<?php else:?>
 			
 			
-				<span style="color:#000;"><?php single_cat_title(); ?></span>
+				<span style="color:#fff;"><?php single_cat_title(); ?></span>
 			
 			
 		<?php endif;?>
