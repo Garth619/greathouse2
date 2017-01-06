@@ -58,7 +58,7 @@
 	<?php if(get_field('shop_page_banner','option')): ?>
 		
 		<?php $innerbanner = wp_get_attachment_image_src(get_field('shop_page_banner','option'), 'innerbanner'); ?>
-		<div class="banner" style="background:url(<?php echo $innerbanner[0]; ?>) top center no-repeat;background-size:cover;">
+		<div class="banner" style="background:linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),url(<?php echo $innerbanner[0]; ?>) top center no-repeat;background-size:cover;">
 
 		<?php else:?>
 
@@ -120,7 +120,7 @@ $catbannerimage = get_field('product_category_page_banners', $post_id); // My Ad
 
 
 
-<div class="banner" style="background:url(<?php echo get_field('product_category_page_banners', $post_id);?>) top center no-repeat;background-size:cover;">
+<div class="banner" style="background:linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),url(<?php echo get_field('product_category_page_banners', $post_id);?>) top center no-repeat;background-size:cover;">
 
 
 <?php else: ?>
