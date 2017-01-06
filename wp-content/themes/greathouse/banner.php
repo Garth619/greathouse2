@@ -148,6 +148,7 @@ $catbannerimage = get_field('product_category_page_banners', $post_id); // My Ad
 			<?php else:?>
 			
 			
+			
 				<span style="color:#fff;"><?php single_cat_title(); ?></span>
 			
 			
