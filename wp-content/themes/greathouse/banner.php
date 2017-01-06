@@ -6,7 +6,7 @@
 	<?php if(get_field('inner_page_banners')): ?>
 
 		<?php $innerbanner = wp_get_attachment_image_src(get_field('inner_page_banners'), 'innerbanner'); ?>
-		<div class="banner" style="background: linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.15)), url(<?php echo $innerbanner[0]; ?>) top center no-repeat;background-size:cover;">
+		<div class="banner" style="background: linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.25)), url(<?php echo $innerbanner[0]; ?>) top center no-repeat;background-size:cover;">
 
 		<?php else:?>
 
