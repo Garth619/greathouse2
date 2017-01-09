@@ -23,7 +23,11 @@ get_header(); ?>
 			<div id="content">
 			
 				
-					<?php get_template_part( 'loop', 'page' ); ?>
+					<?php // get_template_part( 'loop', 'page' ); ?>
+					
+					<span class="designer_title">designer</span><!-- designer_title -->
+					
+					<div class="profile_pic"></div><!-- profile_pic -->
 				
 								
 			</div><!-- content -->

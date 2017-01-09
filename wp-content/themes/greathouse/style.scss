@@ -1309,6 +1309,44 @@ table.shop_table tfoot td {
 	}
 }
 
+body.page-template-page-designbios {
+	.no_sidebar_wrapper {
+		margin:98px 0;
+		overflow: hidden;
+	.no_sidebar_inner {
+		width:92%;
+		float:left;
+		span.large_header_no_sidebar {
+			font-family:$oswaldreg;
+			text-transform: uppercase;
+			font-size:50px;
+			display:inline-block;
+			padding-top:60px;
+			padding-bottom:0px;
+			line-height:1.1;
+			border-top:$bluedark 1px solid;
+			width:100%;
+		}
+		span.designer_title {
+			font-family: $voltagelight;
+			color:$bluedark;
+			font-size:50px;
+		}
+	}
+	.no_sidebar_spacer {
+ 		border-top:$bluedark 1px solid;
+ 		float:left;
+ 		width:4%;
+ 		height:1px;
+ 		
+	}
+	.no_sidebar_spacer:last-of-type {
+		border-top:none;
+		
+	}
+}
+}
+
 
 /* Team Pics */
 
