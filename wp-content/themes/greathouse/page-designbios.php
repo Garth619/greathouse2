@@ -20,88 +20,58 @@ get_header(); ?>
 		
 		<div class="no_sidebar_content">
 	
-			<?php // get_template_part( 'loop', 'page' ); ?>
+			
 					
-					<span class="designer_title">designer</span><!-- designer_title -->
+					<span class="designer_title"><?php the_field('designer_bios_job_title');?></span><!-- designer_title -->
 					
 					<div class="profile_pic">
 						
-						<img src="<?php bloginfo('template_directory');?>/images/sandi.jpg"/>
+						<img src="<?php the_field('designer_image');?>"/>
 						
 					</div><!-- profile_pic -->
 					
 					<div id="content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dapibus neque bibendum est vehicula, ut pulvinar orci scelerisque. Fusce ac dolor quis lorem feugiat sollicitudin. Quisque hendrerit molestie volutpat. Donec semper aliquam tempor. In placerat sapien in metus mattis, quis pulvinar orci porta. Sed leo ante, vehicula et nunc in, tristique pharetra ex. In porta quis mi a fringilla. Etiam nec enim feugiat nibh congue iaculis at non ligula. Vivamus at odio et eros convallis feugiat at eget enim. Mauris vitae massa eu quam pellentesque sagittis. Mauris sed commodo arcu. Maecenas malesuada laoreet risus. Sed nec venenatis nisl, non porttitor risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dapibus neque bibendum est vehicula, ut pulvinar orci scelerisque. Fusce ac dolor quis lorem feugiat sollicitudin.</p>
 					
-					<h2>Lorem Ipsum</h2>
+					<?php the_field('designer_bio_genernal_content');?>
 					
-					<p>Quisque hendrerit molestie volutpat. Donec semper aliquam tempor. In placerat sapien in metus mattis, quis pulvinar orci porta. Sed leo ante, vehicula et nunc in, tristique pharetra ex. In porta quis mi a fringilla. Etiam nec enim feugiat nibh congue iaculis at non ligula. Vivamus at odio et eros convallis feugiat at eget enim. Mauris vitae massa eu quam pellentesque sagittis. Mauris sed commodo arcu. Maecenas malesuada laoreet risus. Sed nec venenatis nisl, non porttitor risus:</p>
-					
-					<ul>
-						<li>Quisque hendrerit molestie volutpat</li>
-						<li>Quisque hendrerit molestie volutpat</li>
-						<li>Quisque hendrerit molestie volutpat</li>
-						<li>Quisque hendrerit molestie volutpat</li>
-					</ul>
-					
-					<div class="design_projects">
-						
-						<h1>Design Projects</h1>
-						
-						<span class="designer_title">before + afters</span>
-						
-						
-						<div class="before_after_wrapper">
-						
-								<div class="single">
-								
-									<img src="<?php bloginfo('template_directory');?>/images/before_1.jpg"/>
-									<img src="<?php bloginfo('template_directory');?>/images/before_1.jpg"/>
-								
-								</div><!-- single -->
-								
-								<h2>Name of Project</h2>
-								
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dapibus neque bibendum est vehicula, ut pulvinar orci scelerisque. Fusce ac dolor quis lorem feugiat sollicitudin. Quisque hendrerit molestie volutpat. Donec semper aliquam tempor. In placerat sapien in metus mattis, quis pulvinar orci porta. Sed leo ante, vehicula et nunc in, tristique pharetra ex. In porta quis mi a fringilla. Etiam nec enim feugiat nibh congue iaculis at non ligula. Vivamus at odio et eros convallis feugiat at eget enim.</p>							
-								
-
-								
-							</div><!-- before_after_wrapper -->
+			
+							<?php if(get_field('before_and_afters')): ?>
 							
-							<div class="before_after_wrapper">
+								<div class="design_projects">
 						
-								<div class="single">
-								
-									<img src="<?php bloginfo('template_directory');?>/images/before_1.jpg"/>
-									<img src="<?php bloginfo('template_directory');?>/images/before_1.jpg"/>
-								
-								</div><!-- single -->
-								
-								<h2>Name of Project</h2>
-								
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dapibus neque bibendum est vehicula, ut pulvinar orci scelerisque. Fusce ac dolor quis lorem feugiat sollicitudin. Quisque hendrerit molestie volutpat. Donec semper aliquam tempor. In placerat sapien in metus mattis, quis pulvinar orci porta. Sed leo ante, vehicula et nunc in, tristique pharetra ex. In porta quis mi a fringilla. Etiam nec enim feugiat nibh congue iaculis at non ligula. Vivamus at odio et eros convallis feugiat at eget enim.</p>							
-								
-
-								
-							</div><!-- before_after_wrapper -->
+								<h1><?php the_field('before_and_after_title');?></h1>
+						
+								<span class="designer_title"> <?php the_field('before_and_after_sub_title');?></span>
+							 
+								<?php while(has_sub_field('before_and_afters')): ?>
+							 
+									<div class="before_after_wrapper">
 							
-							<div class="before_after_wrapper">
-						
-								<div class="single">
+										<?php if(get_sub_field('before_after_images')): ?>
+											
+											<div class="single">
+							 
+												<?php while(has_sub_field('before_after_images')): ?>
 								
-									<img src="<?php bloginfo('template_directory');?>/images/before_1.jpg"/>
-									<img src="<?php bloginfo('template_directory');?>/images/before_1.jpg"/>
+													<img src="<?php the_sub_field('before_after_image');?>"/>
+												
+												<?php endwhile; ?>
+												
+											</div><!-- single -->
+							 
+										<?php endif; ?>
+											
+											<h2><?php the_sub_field('project_title');?></h2>
 								
-								</div><!-- single -->
+											<?php the_sub_field('project_content');?>						
 								
-								<h2>Name of Project</h2>
-								
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dapibus neque bibendum est vehicula, ut pulvinar orci scelerisque. Fusce ac dolor quis lorem feugiat sollicitudin. Quisque hendrerit molestie volutpat. Donec semper aliquam tempor. In placerat sapien in metus mattis, quis pulvinar orci porta. Sed leo ante, vehicula et nunc in, tristique pharetra ex. In porta quis mi a fringilla. Etiam nec enim feugiat nibh congue iaculis at non ligula. Vivamus at odio et eros convallis feugiat at eget enim.</p>							
-								
+									</div><!-- before_after_wrapper -->
 
-								
-							</div><!-- before_after_wrapper -->
-						
+								<?php endwhile; ?>
+							 
+							<?php endif; ?>
+	
+					
 					</div><!-- design_projects -->
 				
 								

@@ -909,7 +909,8 @@ body.page-template-page-designbios .no_sidebar_wrapper {
     body.page-template-page-designbios .no_sidebar_wrapper .no_sidebar_inner span.designer_title {
       font-family: "Voltage W00 Light", arial;
       color: #79b7c0;
-      font-size: 50px; }
+      font-size: 50px;
+      text-transform: lowercase; }
   body.page-template-page-designbios .no_sidebar_wrapper .no_sidebar_spacer {
     border-top: #79b7c0 1px solid;
     float: left;
