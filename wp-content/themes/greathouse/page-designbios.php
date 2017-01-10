@@ -38,12 +38,30 @@ get_header(); ?>
 							<?php if(get_field('before_and_afters')): ?>
 							
 								<div class="design_projects">
+									
+									<?php if(get_field('before_and_after_title')):?>
+									
+										<h1><?php the_field('before_and_after_title');?></h1>
+										
+										<?php else:?>
+										
+										<h1>Design Services</h1>
+									
+									<?php endif;?>
+									
+									
+									<?php if(get_field('before_and_after_title')):?>
+									
+										<span class="designer_title"> <?php the_field('before_and_after_sub_title');?></span>
+										
+										<?php else:?>
+										
+										<span class="designer_title">Before + After</span>
+									
+									<?php endif;?>
 						
-								<h1><?php the_field('before_and_after_title');?></h1>
-						
-								<span class="designer_title"> <?php the_field('before_and_after_sub_title');?></span>
-							 
-								<?php while(has_sub_field('before_and_afters')): ?>
+								
+									<?php while(has_sub_field('before_and_afters')): ?>
 							 
 									<div class="before_after_wrapper">
 							
