@@ -1342,9 +1342,42 @@ body.page-template-page-designbios {
 	}
 	.no_sidebar_spacer:last-of-type {
 		border-top:none;
-		
+	}
+	.profile_pic {
+		margin-top:35px;
+		margin-bottom:40px;
+		img {
+			max-width: 100%;
+			height:auto;
+		}
 	}
 }
+}
+
+#content {
+	.design_projects {
+		margin-top:80px;
+		h1 {
+			margin-bottom: 0;
+			line-height: 1;
+		}
+		span.designer_title {
+			font-size:40px;
+		}
+		.before_after_wrapper {
+			margin-top:55px;
+			.single {
+				width:100%;
+				margin-bottom:40px;
+				img {
+					max-width: 100%;
+					height:auto;
+					display: block;
+					margin-bottom:2px;
+				}
+			}
+		}
+	}
 }
 
 
@@ -4526,6 +4559,62 @@ right:0;
 }
 
 
+body.page-template-page-designbios {
+	.no_sidebar_wrapper {
+		
+	.no_sidebar_inner {
+	
+		span.large_header_no_sidebar {
+			
+		}
+		span.designer_title {
+			
+		}
+	}
+	.no_sidebar_spacer {
+ 		
+ 		
+	}
+	.no_sidebar_spacer:last-of-type {
+		
+	}
+	.profile_pic {
+		
+		img {
+		
+		}
+	}
+}
+}
+
+#content {
+	.design_projects {
+		h1 {
+			
+		}
+		span.designer_title {
+			
+		}
+		.before_after_wrapper {
+			
+			.single {
+				overflow: hidden;
+				margin-bottom:40px;
+				img {
+					max-width: 100%;
+					height:auto;
+					display: block;
+					margin-bottom:2px;
+					width:49.8%;
+					float:left;
+					&:first-of-type {
+						margin-right:2px;
+					}
+				}
+			}
+		}
+	}
+}
 
 
 
@@ -5298,6 +5387,8 @@ footer {
 
 
 
+
+
 	
 	
 } /* Media Query */
@@ -5459,6 +5550,61 @@ footer {
   margin-right:10px;
   
  }
+ 
+ 
+ 
+ body.page-template-page-designbios {
+	.no_sidebar_wrapper {
+		
+	.no_sidebar_inner {
+		width: 61%;
+	 max-width: 506px;
+		span.large_header_no_sidebar {
+			
+		}
+		span.designer_title {
+			
+		}
+	}
+	.no_sidebar_spacer {
+ 		width:25%;
+ 		
+	}
+	.no_sidebar_spacer:last-of-type {
+		
+	}
+	.profile_pic {
+		
+		img {
+		
+		}
+	}
+}
+}
+
+#content {
+	.design_projects {
+		h1 {
+			
+		}
+		span.designer_title {
+			
+		}
+		.before_after_wrapper {
+			
+			.single {
+				
+				img {
+					
+					&:first-of-type {
+						
+					}
+				}
+			}
+		}
+	}
+}
+
 
 
 
@@ -7497,6 +7643,64 @@ table.shop_table tfoot td {
 
 
 
+
+
+
+body.page-template-page-designbios {
+	.no_sidebar_wrapper {
+		
+	.no_sidebar_inner {
+		width: 61%;
+		max-width:1050px;
+		span.large_header_no_sidebar {
+			
+		}
+		span.designer_title {
+		
+		}
+	}
+	.no_sidebar_spacer {
+ 		width:20%;
+ 		
+	}
+	.no_sidebar_spacer:last-of-type {
+		
+	}
+	.profile_pic {
+				img {
+		
+		}
+	}
+}
+}
+
+#content {
+	.design_projects {
+		h1 {
+			
+		}
+		span.designer_title {
+			
+		}
+		.before_after_wrapper {
+			
+			.single {
+				
+				img {
+										&:first-of-type {
+						
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
 	
 	
 } /* Media Query */
@@ -7930,6 +8134,18 @@ ul.mycart {
  		width:10%;
  	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Footer */
@@ -8634,6 +8850,7 @@ body.tax-product_cat, body.post-type-archive-product  {
 
 
 
+
 /* Overlay */
 
 
@@ -8772,7 +8989,72 @@ body.tax-product_cat, body.post-type-archive-product  {
 	ul.products {
 		
 		max-width:1525px;
-		}			
+		}	
+		
+		
+		
+		
+		
+body.page-template-page-designbios {
+	.no_sidebar_wrapper {
+		
+	.no_sidebar_inner {
+		
+		span.large_header_no_sidebar {
+			width:49%;
+			float:left;
+		}
+		span.designer_title {
+			display: block;
+			clear: both;
+			width:50%;
+		}
+	}
+	.no_sidebar_spacer {
+ 		width:20%;
+ 		
+	}
+	.no_sidebar_spacer:last-of-type {
+		
+	}
+	.profile_pic {
+		float:right;
+		margin-top: -166px;
+		img {
+		
+		}
+	}
+	#content {
+		margin-top:300px;
+	}
+}
+}
+
+#content {
+	.design_projects {
+		h1 {
+			
+		}
+		span.designer_title {
+			
+		}
+		.before_after_wrapper {
+			
+			.single {
+				
+				img {
+					
+					&:first-of-type {
+						
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
 
 
 
@@ -8799,6 +9081,20 @@ body.tax-product_cat, body.post-type-archive-product  {
  	}
 }
 
+
+body.page-template-page-designbios {
+	.no_sidebar_wrapper {
+		.no_sidebar_inner {
+		
+		}
+		.no_sidebar_spacer {
+ 			width:25%;
+ 		}
+	}
+}
+
+
+
 } /* Media Query */ 
 
 
@@ -8818,6 +9114,22 @@ body.tax-product_cat, body.post-type-archive-product  {
  		width:25%;
  	}
 }
+
+
+
+body.page-template-page-designbios {
+	.no_sidebar_wrapper {
+		.no_sidebar_inner {
+		
+		}
+		.no_sidebar_spacer {
+ 			width:30%;
+ 		}
+	}
+}
+
+
+
 
 } /* Media Query */ 
 
