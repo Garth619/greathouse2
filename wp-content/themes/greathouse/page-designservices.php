@@ -26,10 +26,7 @@ get_header(); ?>
 				
 				
 				<section class="team_wrapper">
-					
-					
-					
-					
+
 					 
 <?php $posts = get_field('team_bio_pictures');
 
@@ -38,10 +35,10 @@ if( $posts ): ?>
     <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
         <?php setup_postdata($post); ?>
         
-				
-				
-				
+
 						<div class="single_team_square">
+							
+							<a href="<?php the_permalink();?>">
 		
 								<div class="team_overlay">
 			
@@ -58,50 +55,17 @@ if( $posts ): ?>
 							
 						</div><!-- product_background -->
 		
+						</a>
+					
 					</div><!-- single_product_square -->
 				
-				
-				
-				
+
 				<?php endforeach; ?>
     
     <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
 <?php endif; ?>
 					
-					
-					
-					
-					<?php if(get_field('team_pictures')): ?>
- 
-						<?php while(has_sub_field('team_pictures')): ?>
- 
-    	
-							<div class="single_team_square">
-		
-								<div class="team_overlay">
-			
-									<div class="team_inner_wrapper">
-				
-									<span class="large_header"><?php the_sub_field('team_member_name');?></span><!-- large_header -->
-									<span class="sub_header"><?php the_sub_field('team_member_title');?></span><!-- sub_header -->
-				
-								</div><!-- product_inner_wrapper -->
-			
-							</div><!-- product_overlay -->
-		
-						<div class="team_background" style="background: rgba(0, 0, 0, 0) url(<?php the_sub_field('team_member_image');?>) no-repeat scroll left top / cover ;">
-							
-						</div><!-- product_background -->
-		
-					</div><!-- single_product_square -->
- 
-					
-				<?php endwhile; ?>
- 
-			<?php endif; ?>
-					
-					
-		</section><!-- team_wrapper -->
+				</section><!-- team_wrapper -->
 				
 				<?php the_field('bottom_content');?>
 							

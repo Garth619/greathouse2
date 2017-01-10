@@ -972,7 +972,8 @@ body.page-template-page-designbios .no_sidebar_wrapper {
         #content .team_wrapper .single_team_square .team_overlay .team_inner_wrapper span.sub_header {
           color: #79b7c0;
           font-family: "Voltage W00 Regular", arial;
-          font-size: 26px; }
+          font-size: 26px;
+          text-transform: lowercase; }
     #content .team_wrapper .single_team_square .team_background {
       width: 100%;
       height: 280px;
