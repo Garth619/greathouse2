@@ -957,24 +957,41 @@ body.page-template-page-designbios .no_sidebar_wrapper {
       background: rgba(0, 0, 0, 0.6);
       height: 280px;
       position: relative;
-      z-index: 5; }
+      z-index: 5;
+      transition: all .2s ease-in-out;
+      display: flex;
+      align-items: center; }
+      #content .team_wrapper .single_team_square .team_overlay:hover {
+        background: transparent; }
+        #content .team_wrapper .single_team_square .team_overlay:hover .team_inner_wrapper span.large_header, #content .team_wrapper .single_team_square .team_overlay:hover .team_inner_wrapper span.sub_header {
+          opacity: 0;
+          visibility: hidden; }
       #content .team_wrapper .single_team_square .team_overlay .team_inner_wrapper {
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%); }
+        width: 100%;
+        /*
+					position: relative;
+					top: 50%;
+					transform: translateY(-50%);
+*/ }
         #content .team_wrapper .single_team_square .team_overlay .team_inner_wrapper span.large_header {
           color: #fff;
           font-family: "oswaldregular", arial;
           text-transform: uppercase;
           font-size: 41px;
-          display: block; }
+          display: block;
+          transition: all .2s ease-in-out;
+          opacity: 1;
+          visibility: visible; }
         #content .team_wrapper .single_team_square .team_overlay .team_inner_wrapper span.sub_header {
           color: #79b7c0;
           font-family: "Voltage W00 Regular", arial;
           font-size: 26px;
           text-transform: lowercase;
           margin-top: -8px;
-          display: block; }
+          display: block;
+          transition: all .2s ease-in-out;
+          opacity: 1;
+          visibility: visible; }
     #content .team_wrapper .single_team_square .team_background {
       width: 100%;
       height: 280px;

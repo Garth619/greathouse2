@@ -1400,16 +1400,34 @@ body.page-template-page-designbios {
 				height:280px;
 				position: relative;
 				z-index:5;
+				transition: all .2s ease-in-out;
+				display: flex;
+				align-items: center;
+				&:hover {
+					background:transparent;
+					.team_inner_wrapper {
+						span.large_header, span.sub_header  {
+							opacity: 0;
+							visibility: hidden;
+						}
+					}
+				}
 				.team_inner_wrapper {
+					 width: 100%;
+/*
 					position: relative;
 					top: 50%;
 					transform: translateY(-50%);
+*/
 					span.large_header {
 						color:#fff;
 						font-family: $oswaldreg;
 						text-transform: uppercase;
 						font-size:41px;
 						display: block;
+						transition: all .2s ease-in-out;
+						opacity: 1;
+						visibility: visible;
 // 						margin-bottom: 10px;
 					}
 					span.sub_header {
@@ -1419,6 +1437,9 @@ body.page-template-page-designbios {
 						text-transform: lowercase;
 						margin-top:-8px;
 						display: block;
+						transition: all .2s ease-in-out;
+						opacity: 1;
+						visibility: visible;
 					}
 				}
 			}
