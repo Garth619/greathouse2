@@ -56,7 +56,7 @@ get_header(); ?>
 										
 										<?php else:?>
 										
-										<span class="designer_title">Before + After</span>
+										<span class="designer_title">Before + Afters</span>
 									
 									<?php endif;?>
 						
