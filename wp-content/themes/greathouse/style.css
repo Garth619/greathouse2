@@ -3071,6 +3071,8 @@ div.woocommerce-MyAccount-content form fieldset {
         margin-right: 2px; }
   /* Team Pics */
   #content .team_wrapper .single_team_square .team_overlay {
+    height: 350px; }
+  #content .team_wrapper .single_team_square .team_background {
     height: 350px; } }
 
 /* Media Query */
