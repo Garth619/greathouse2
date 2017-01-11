@@ -1110,6 +1110,8 @@ p#order_comments_field {
 
 
 .my_custom_checkout_field {
+	width:100%;
+	overflow:hidden;
 	p {
 		select {
 			-moz-appearance: none;
