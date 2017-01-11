@@ -1403,9 +1403,11 @@ body.page-template-page-designbios {
 				transition: all .2s ease-in-out;
 				display: flex;
 				align-items: center;
+				padding-top:95px;
 				&:hover {
 					background:transparent;
 					.team_inner_wrapper {
+						
 						span.large_header, span.sub_header  {
 							opacity: 0;
 							visibility: hidden;
@@ -4657,8 +4659,8 @@ body.page-template-page-designbios {
 			}
 			.team_overlay {
 				
-				height:350px;
-				
+				height:400px;
+				padding-top:255px;
 				.team_inner_wrapper {
 					
 					span.large_header {
@@ -4671,7 +4673,7 @@ body.page-template-page-designbios {
 			}
 			.team_background {
 				
-				height:350px;
+				height:400px;
 				
 			}
 		}
@@ -5286,6 +5288,7 @@ footer {
 
 			.team_overlay {
 				height:355px;
+				padding-top:200px;
 				.team_inner_wrapper {
 					
 					span.large_header {
@@ -6510,6 +6513,7 @@ ul.products {
 			}
 			.team_overlay {
 				height:210px;
+				padding-top:125px;
 				.team_inner_wrapper {
 					
 					span.large_header {

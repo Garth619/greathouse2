@@ -960,7 +960,8 @@ body.page-template-page-designbios .no_sidebar_wrapper {
       z-index: 5;
       transition: all .2s ease-in-out;
       display: flex;
-      align-items: center; }
+      align-items: center;
+      padding-top: 95px; }
       #content .team_wrapper .single_team_square .team_overlay:hover {
         background: transparent; }
         #content .team_wrapper .single_team_square .team_overlay:hover .team_inner_wrapper span.large_header, #content .team_wrapper .single_team_square .team_overlay:hover .team_inner_wrapper span.sub_header {
@@ -3089,9 +3090,10 @@ div.woocommerce-MyAccount-content form fieldset {
         margin-right: 2px; }
   /* Team Pics */
   #content .team_wrapper .single_team_square .team_overlay {
-    height: 350px; }
+    height: 400px;
+    padding-top: 255px; }
   #content .team_wrapper .single_team_square .team_background {
-    height: 350px; } }
+    height: 400px; } }
 
 /* Media Query */
 @media screen and (min-width: 670px) {
@@ -3414,7 +3416,8 @@ div.woocommerce-MyAccount-content form fieldset {
       #content .team_wrapper .single_team_square:nth-of-type(2n + 2) {
         margin-left: 1%; }
       #content .team_wrapper .single_team_square .team_overlay {
-        height: 355px; }
+        height: 355px;
+        padding-top: 200px; }
       #content .team_wrapper .single_team_square .team_background {
         height: 355px; }
   /* Overlay */
@@ -3968,7 +3971,8 @@ div.woocommerce-MyAccount-content form fieldset {
       #content .team_wrapper .single_team_square:nth-of-type(5n + 1) {
         margin-left: 0; }
       #content .team_wrapper .single_team_square .team_overlay {
-        height: 210px; }
+        height: 210px;
+        padding-top: 125px; }
         #content .team_wrapper .single_team_square .team_overlay .team_inner_wrapper span.large_header {
           font-size: 18px;
           margin-bottom: 0; }
