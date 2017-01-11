@@ -988,7 +988,7 @@ function custom_woocommerce_states( $states ) {
 
 add_action('woocommerce_before_order_notes', 'wps_add_select_checkout_field');
 function wps_add_select_checkout_field( $checkout ) {
-	echo '<div class="my_custom_checkout_field"><h2>'.__('Designer Referral').'</h2>';
+	echo '<div class="my_custom_checkout_field">';
 	woocommerce_form_field( 'daypart', array(
 	    'type'          => 'select',
 	    'class'         => array( 'wps-drop' ),

@@ -105,17 +105,55 @@ jQuery('html').click(function(event){
   
 
   if($.cookie('popup') != 'seen'){
+    
     $.cookie('popup', 'seen', { expires: 7, path: '/' }); 
+    
     jQuery(".mycookie").delay(2000).fadeIn();
-    jQuery('.mycookie_close').click(function(e)
-        {
+    
+    
+    jQuery('.mycookie_close').click(function(e) {
         jQuery('.mycookie').fadeOut(); 
     });
     
+   
    };
+  
+  
+
+
+// Cookie that hides all Add to Cart buttons on the site if the user confirms they are not in san diego 
+   
+   
+jQuery(function() {
+ 
+ 
+ if($.cookie('disablecart') == null) {
+ 
+ 	jQuery(".single_add_to_cart_button").show();
+ 
+ };
+ 
+ 
+ if($.cookie('disablecart') == 'activated') {
+ 
+ 	jQuery(".single_add_to_cart_button").hide();
+ 
+ };
+ 
+
+ jQuery(".ssl_icon").click(function() {
+ 	
+ 		jQuery(".single_add_to_cart_button").hide();
+ 	
+ 		$.cookie('disablecart', 'activated', { expires: 7, path: '/' }); 
+ 	
+ });
+
+
+});
 
    
-   
+
    
    // Special Deal Overlay
    
