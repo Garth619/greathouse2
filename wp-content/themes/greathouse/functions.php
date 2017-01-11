@@ -986,35 +986,51 @@ function custom_woocommerce_states( $states ) {
 
 
 
-
-add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
-
-
-function custom_override_checkout_fields( $fields ) {
-     $fields['billing']['designer_plug'] = array(
-        'label'     => __('Did you have a designer help you?', 'woocommerce'),
-				'placeholder'   => _x('Name of Designer', 'placeholder', 'woocommerce'),
-				'required'  => false,
-				'class'     => array('form-row-wide'),
-				'clear'     => true
-     );
-
-     return $fields;
+add_action('woocommerce_before_order_notes', 'wps_add_select_checkout_field');
+function wps_add_select_checkout_field( $checkout ) {
+	echo '<div class="my_custom_checkout_field"><h2>'.__('Designer Referral').'</h2>';
+	woocommerce_form_field( 'daypart', array(
+	    'type'          => 'select',
+	    'class'         => array( 'wps-drop' ),
+	    'label'         => __( 'Did one of our designers help you?' ),
+	    'options'       => array(
+	    	'blank'		=> __( 'Select a designer', 'wps' ),
+	        'brianredfern'	=> __( 'Brian Redfern', 'wps' ),
+	        'davidhorst'	=> __( 'David Horst', 'wps' ),
+	        'katemellon' 	=> __( 'Kate Mellon', 'wps' ),
+	        'kevinlittlefield' 	=> __( 'Kevin Littlefield', 'wps' ),
+	        'leslahage' 	=> __( 'Les Lahage', 'wps' ),
+	        'lisagall' 	=> __( 'Lisa Gall', 'wps' ),
+	        'sandilahage' 	=> __( 'Sandi Lahage', 'wps' ),
+	        'sherrigilmour' 	=> __( 'Sherri Gilmour', 'wps' ),
+	        'thomasziska' 	=> __( 'Thomas Ziska', 'wps' ),
+	        'travisburton' 	=> __( 'Travis Burton', 'wps' )
+	        
+	    )
+ ),
+	$checkout->get_value( 'daypart' ));
+	
+	echo '</div>';
+	
 }
 
-/**
- * Display field value on the order edit page
- */
- 
-add_action( 'woocommerce_admin_order_data_after_shipping_address', 'my_custom_checkout_field_display_admin_order_meta', 10, 1 );
 
-function my_custom_checkout_field_display_admin_order_meta($order){
-    echo '<p><strong>'.__('Name of Designer').':</strong> ' . get_post_meta( $order->id, '_designer_plug', true ) . '</p>';
+
+add_action('woocommerce_checkout_update_order_meta', 'wps_select_checkout_field_update_order_meta');
+ function wps_select_checkout_field_update_order_meta( $order_id ) {
+   if ($_POST['daypart']) update_post_meta( $order_id, 'daypart', esc_attr($_POST['daypart']));
+ }
+ 
+ 
+ 
+ add_action( 'woocommerce_admin_order_data_after_billing_address', 'wps_select_checkout_field_display_admin_order_meta', 10, 1 );
+function wps_select_checkout_field_display_admin_order_meta($order){
+	echo '<p><strong>'.__('Delivery option').':</strong> ' . get_post_meta( $order->id, 'daypart', true ) . '</p>';
 }
- 
-
-
-
-
-
-
+//* Add selection field value to emails
+add_filter('woocommerce_email_order_meta_keys', 'wps_select_order_meta_keys');
+function wps_select_order_meta_keys( $keys ) {
+	$keys['Daypart:'] = 'daypart';
+	return $keys;
+	
+}

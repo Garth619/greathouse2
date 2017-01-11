@@ -768,6 +768,20 @@ p#order_comments_field {
   width: 50% !important;
   float: left; }
 
+.my_custom_checkout_field p select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: none;
+  border: 1px solid #a6a6a6;
+  border-radius: 0;
+  font-size: 16px;
+  padding: 10px;
+  font-family: "oswaldregular", arial;
+  color: #767676;
+  width: 100%; }
+  .my_custom_checkout_field p select option {
+    padding-left: 10px; }
+
 /* Checkout Tabs */
 /* Wish List Table */
 .woocommerce .wishlist-title h2 {
