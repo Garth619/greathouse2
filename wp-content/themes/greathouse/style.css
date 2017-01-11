@@ -746,6 +746,28 @@ form.login {
 form.woocommerce-checkout {
   margin-top: 60px; }
 
+p#billing_country_field strong {
+  display: block;
+  font-weight: normal;
+  padding: 14px 0;
+  color: #79b7c0; }
+
+p#shipping_country_field strong {
+  display: block;
+  font-weight: normal;
+  padding: 14px 0 43px;
+  color: #79b7c0; }
+
+p#order_comments_field {
+  clear: both; }
+
+.create-account p {
+  width: 100% !important; }
+
+.create-account p#account_password_field {
+  width: 50% !important;
+  float: left; }
+
 /* Checkout Tabs */
 /* Wish List Table */
 .woocommerce .wishlist-title h2 {

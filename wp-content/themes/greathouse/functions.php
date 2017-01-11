@@ -982,7 +982,35 @@ function custom_woocommerce_states( $states ) {
 
 
 
+// Designer Plug
 
+
+
+
+add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
+
+
+function custom_override_checkout_fields( $fields ) {
+     $fields['billing']['designer_plug'] = array(
+        'label'     => __('Did you have a designer help you?', 'woocommerce'),
+				'placeholder'   => _x('Name of Designer', 'placeholder', 'woocommerce'),
+				'required'  => false,
+				'class'     => array('form-row-wide'),
+				'clear'     => true
+     );
+
+     return $fields;
+}
+
+/**
+ * Display field value on the order edit page
+ */
+ 
+add_action( 'woocommerce_admin_order_data_after_shipping_address', 'my_custom_checkout_field_display_admin_order_meta', 10, 1 );
+
+function my_custom_checkout_field_display_admin_order_meta($order){
+    echo '<p><strong>'.__('Name of Designer').':</strong> ' . get_post_meta( $order->id, '_designer_plug', true ) . '</p>';
+}
  
 
 

@@ -1071,6 +1071,44 @@ form.woocommerce-checkout {
 
 
 
+p#billing_country_field {
+	
+	strong {
+		display: block;
+    font-weight: normal;
+    padding: 14px 0;
+    color:$bluedark;
+	}
+}
+
+
+p#shipping_country_field {
+	
+	strong {
+		display: block;
+    font-weight: normal;
+    padding: 14px 0 43px;
+    color:$bluedark;
+	}
+}
+
+p#order_comments_field {
+	clear: both;
+}
+
+
+.create-account {
+	p {
+		width:100% !important;
+	}
+	p#account_password_field {
+		width:50% !important;
+		float:left;
+	}
+}
+
+
+
 /* Checkout Tabs */
 
 
