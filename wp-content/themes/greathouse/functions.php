@@ -951,6 +951,13 @@ function change_default_checkout_state() {
 add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 25;' ), 20 );
 
 
+// Checkout Form
+
+
+
+
+
+
 
 
 
