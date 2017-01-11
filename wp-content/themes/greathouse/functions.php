@@ -948,7 +948,7 @@ function change_default_checkout_state() {
     remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
 
 // Display products per page
-add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 25;' ), 20 );
+add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 28;' ), 20 );
 
 
 // Checkout Form
