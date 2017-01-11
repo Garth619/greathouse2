@@ -954,7 +954,36 @@ add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 28;' ), 20 )
 // Checkout Form
 
 
+// Adds only San Diego Cities as options
 
+add_filter( 'wc_city_select_cities', 'my_cities' );
+function my_cities( $cities ) {
+	$cities['US'] = array(
+		'City ',
+		'Another City'
+	);
+	return $cities;
+}
+
+
+// Limits US staes to just Califonia 
+
+
+add_filter( 'woocommerce_states', 'custom_woocommerce_states' );
+ 
+function custom_woocommerce_states( $states ) {
+  $states['US'] = array(
+    
+    'CA' => 'California'
+  );
+ 
+  return $states;
+}
+
+
+
+
+ 
 
 
 
