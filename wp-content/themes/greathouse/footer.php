@@ -282,6 +282,8 @@
 			
 			<span class="additional">We deliver to this area verbiage.  Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
 			
+			<span>Latest Discount and Coupon Code</span>
+			
 			<span class="blue_shop zip_code_button">Continue Shopping</span>
 			
 		</div><!-- zip_code_confirmation -->
@@ -289,7 +291,7 @@
 		
 		<div id="zip_code_no_access">
 			
-			<span>Apologies but we don't deliver to zip codes outside of San Diego. Please try another zip code within San Diego or call our office for a quote verbiage.</span>
+			<span>Apologies but we don't deliver to zip codes outside of San Diego. Please try another zip code within San Diego or call our store for a quote verbiage.</span>
 			
 			<a href="">5555555555</a>
 			
@@ -298,11 +300,11 @@
 			<form>
 				
 				<input type="checkbox" name="nozipcode" id="no_zipcode"/>
-				<label>I understand that my zip code is outside the delivery zone</label>
+				<label>I understand that my zip code is outside the delivery zone and need to call for a quote.</label>
 				
 				
 				
-<!-- 				<input type="submit" value="Submit"/> -->
+				<span class="remove_add_to_cart blue_shop">Browse the Site</span>
 			
 			</form>
 			
@@ -316,18 +318,38 @@
 </div><!-- overlay -->
 
 
-
-
-
-
-
-
 <?php wp_footer(); ?>
 
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/slick/slick/slick.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/custom-min.js"></script>
 <script src="<?php bloginfo('template_directory');?>/js/waypoints/lib/jquery.waypoints.min.js"></script>
 <script src="<?php bloginfo('template_directory');?>/js/waypoints/lib/shortcuts/sticky.min.js"></script>
+
+<script type="text/javascript">
+
+		jQuery(document).ready(function(){
+
+			<?php if(is_cart() || is_product() || is_checkout()):?>
+			
+				jQuery('.mycookie').addClass('hide_overlay');
+				jQuery('.zipcode_checker').addClass('initial_show');
+			
+			<?php endif;?>
+			
+/*
+			<?php if(! array(is_cart() || is_product() || is_checkout())):?>
+			
+				jQuery('.mycookie').removeClass('hide_overlay');
+				jQuery('.zipcode_checker').removeClass('show_overlay');
+			
+			<?php endif;?>
+*/
+
+		});
+
+</script>
+
+
 
 <?php if(get_field('turn_off_dimensions_tabe')):?>
 	

@@ -125,6 +125,19 @@ a {
   color: #79b7c0;
   text-decoration: none; }
 
+.mycookie.hide_overlay {
+  /* hides the discount overlay on product, cart and checkout, function is in footer */
+  opacity: 0;
+  visibility: hidden; }
+
+.zipcode_checker.initial_show {
+  /* shows the discount overlay on product, cart and checkout, function is in footer */
+  display: block; }
+
+.remove_add_to_cart {
+  display: block;
+  margin-top: 45px; }
+
 /* Header */
 header {
   width: 100%; }

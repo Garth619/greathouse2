@@ -192,6 +192,22 @@ a {
 }
 
 
+.mycookie.hide_overlay { /* hides the discount overlay on product, cart and checkout, function is in footer */
+	opacity: 0;
+	visibility: hidden;
+}
+
+
+.zipcode_checker.initial_show { /* shows the discount overlay on product, cart and checkout, function is in footer */
+	display: block;
+}
+
+.remove_add_to_cart {
+	display: block;
+	margin-top:45px;
+}
+
+
 
 /* Header */
 

@@ -117,43 +117,7 @@ jQuery('html').click(function(event){
     
    
    };
-  
-  
-
-
-// Cookie that hides all Add to Cart buttons on the site if the user confirms they are not in san diego 
    
-   
-jQuery(function() {
- 
- 
- if($.cookie('disablecart') == null) {
- 
- 	jQuery(".single_add_to_cart_button").show();
- 
- };
- 
- 
- if($.cookie('disablecart') == 'activated') {
- 
- 	jQuery(".single_add_to_cart_button").hide();
- 
- };
- 
-
- jQuery(".ssl_icon").click(function() {
- 	
- 		jQuery(".single_add_to_cart_button").hide();
- 	
- 		$.cookie('disablecart', 'activated', { expires: 7, path: '/' }); 
- 	
- });
-
-
-});
-
-   
-
    
    // Special Deal Overlay
    
@@ -262,7 +226,79 @@ jQuery(function() {
 		var height = jQuery(".inital_content").height();
     
      jQuery(".overlay_inner").css("min-height", height+'px');
+     
+     
+     
+    // Cookie that hides all Add to Cart buttons on the site if the user confirms they are not in san diego 
+   
+   
+		jQuery(function() {
+ 
+ 
+		 if($.cookie('disablecart') == null) {
+ 
+		 	jQuery(".single_add_to_cart_button").show();
+ 
+		 	};
+ 
+ 
+		 	if($.cookie('disablecart') == 'activated') {
+ 
+		 		jQuery(".single_add_to_cart_button").hide();
+		 		jQuery(".zipcode_checker").hide();
+ 
+ 			};
+ 
 
+ 			jQuery(".remove_add_to_cart").click(function() {
+ 	
+ 				jQuery(".single_add_to_cart_button").hide();
+ 				jQuery('.zipcode_checker').fadeOut();
+ 	
+ 				$.cookie('disablecart', 'activated', { expires: 7, path: '/' }); 
+ 	
+ 		});
+
+
+	});
+	
+	
+	 // Cookie that hides hides the zip code overlay because the user correctly entered a zip code withn san diego 
+	 
+	 
+	 
+	 
+	 jQuery(function() {
+ 
+ 
+/*
+		 if($.cookie('zipcodesuccess') == null) {
+ 
+		 	jQuery(".zipcode_checker").show();
+ 
+		 	};
+*/
+ 
+ 
+		 	if($.cookie('zipcodesuccess') == 'success') {
+ 
+		 		
+		 		jQuery(".zipcode_checker").hide();
+ 
+ 			};
+ 
+
+ 			jQuery(".zip_code_button").click(function() {
+ 	
+ 				
+ 				jQuery('.zipcode_checker').fadeOut();
+ 	
+ 				$.cookie('zipcodesuccess', 'success', { expires: 7, path: '/' }); 
+ 	
+ 		});
+
+
+	});
     
 
    
