@@ -421,6 +421,13 @@ jQuery('img.search_img.desktop').click(function(){
 		jQuery('.overlay_pattern_inner').find('img').remove().end().appendTo('.overlay_pattern_inner');
 		
 	});
+	
+	
+	// Hacky fix that corrects a bug that doesn't show the dimensions tabs on simple products
+	
+	
+	jQuery('#tab-additional_information').hide();
+	jQuery('#tab-description').show();
     
 
 
