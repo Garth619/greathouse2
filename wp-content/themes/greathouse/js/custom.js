@@ -427,6 +427,7 @@ jQuery('img.search_img.desktop').click(function(){
 	
 	
 	jQuery('#tab-additional_information').hide();
+	
 	jQuery('#tab-description').show();
     
 
