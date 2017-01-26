@@ -425,6 +425,13 @@ input.woocommerce-Button.button {
       display: block;
       margin: 7px 0 33px 0; }
 
+/*
+#products {
+    margin-bottom: 140px;
+    min-height: 100px;
+    position: relative;
+}
+*/
 /* Product Overlays */
 .single_product_square:hover .product_overlay {
   background: transparent; }
@@ -861,7 +868,7 @@ table.shop_table tfoot td {
   margin-top: 45px; }
 
 .category_breadcrumb .woocommerce-breadcrumb {
-  margin: 30px 0 15px;
+  margin: 90px 0 15px;
   text-align: center; }
 
 /* Sidebar Template */
@@ -3922,7 +3929,7 @@ div.woocommerce-MyAccount-content form fieldset {
     .product_categories_wrapper .product_inner {
       overflow: hidden; }
   body.tax-product_cat .product_inner, body.post-type-archive-product .product_inner {
-    padding: 2% 0;
+    padding: 100px 0;
     overflow: hidden;
     max-width: 1600px;
     margin: 0 auto; }

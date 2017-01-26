@@ -619,6 +619,13 @@ input.woocommerce-Button.button {
 	}
 }
 
+/*
+#products {
+    margin-bottom: 140px;
+    min-height: 100px;
+    position: relative;
+}
+*/
 
 /* Product Overlays */
 
@@ -1274,7 +1281,7 @@ table.shop_table tfoot td {
 
 .category_breadcrumb {
 	.woocommerce-breadcrumb {
-		margin:30px 0 15px;
+		margin:90px 0 15px;
 		text-align: center;
 	}
 }
@@ -6360,7 +6367,7 @@ ul.mycart {
 
 body.tax-product_cat, body.post-type-archive-product {
 	.product_inner {
-		padding:2% 0;
+		padding:100px 0;
 		overflow: hidden;
 		max-width: 1600px;
 		margin:0 auto;
