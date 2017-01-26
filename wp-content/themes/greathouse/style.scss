@@ -623,6 +623,22 @@ input.woocommerce-Button.button {
 /* Product Overlays */
 
 
+
+.single_product_square {
+	&:hover {
+		.product_overlay {
+			background:transparent;
+			.product_inner_wrapper {
+				span.large_header, span.sub_header {
+					opacity: 0;
+					visibility: hidden;
+				}
+			}
+		}
+	}
+}
+
+
 .single_product_square {
 	width:100%;
 	text-align: center;
@@ -636,6 +652,7 @@ input.woocommerce-Button.button {
 		height:280px;
 		position: relative;
 		z-index:5;
+		transition: all .2s ease-in-out;
 		.product_inner_wrapper {
 			  position: relative;
 				top: 50%;
@@ -648,11 +665,17 @@ input.woocommerce-Button.button {
 				display: block;
 				margin-bottom: 10px;
 				line-height:1.1;
+				opacity: 1;
+				visibility: visible;
+				transition: all .2s ease-in-out;
 			}
 			span.sub_header {
 				color:#fff;
 				font-family: $voltagereg;
 				font-size:26px;
+				opacity: 1;
+				visibility: visible;
+				transition: all .2s ease-in-out;
 			}
 		}
 	}
@@ -3026,7 +3049,7 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 
 	}
 	> ul {
-// 			display: none;
+display: none;
 			list-style: none;
 			border-top:1px solid #000;
 			
@@ -4430,6 +4453,13 @@ img.aligncenter {
 position: absolute;
 top:0;
 right:0;
+	}
+	
+	
+	body.tax-product_cat {
+		.product_wrapper {
+			margin-top:00px;
+		}
 	}
 	
 	.product_wrapper {
@@ -6710,7 +6740,7 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 	text-align: center;
 	
 	> ul {
-		
+		display: block;
 		> li {
 			
 			padding-bottom:10px;

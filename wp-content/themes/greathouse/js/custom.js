@@ -353,7 +353,12 @@ var stickytwo = new Waypoint.Sticky({
  	
  //opens top level
  
+ jQuery('.my_filter_title').addClass('open');
+//  jQuery('div.myfilter_wrapper ul').hide();
  
+ 
+	 
+	 
 	 jQuery('.filter_header_wrapper.mobile').click(function(){
 	 
 	 	jQuery(this).next('ul').slideToggle(200);

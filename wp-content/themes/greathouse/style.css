@@ -426,6 +426,12 @@ input.woocommerce-Button.button {
       margin: 7px 0 33px 0; }
 
 /* Product Overlays */
+.single_product_square:hover .product_overlay {
+  background: transparent; }
+  .single_product_square:hover .product_overlay .product_inner_wrapper span.large_header, .single_product_square:hover .product_overlay .product_inner_wrapper span.sub_header {
+    opacity: 0;
+    visibility: hidden; }
+
 .single_product_square {
   width: 100%;
   text-align: center;
@@ -437,7 +443,8 @@ input.woocommerce-Button.button {
     background: rgba(0, 0, 0, 0.6);
     height: 280px;
     position: relative;
-    z-index: 5; }
+    z-index: 5;
+    transition: all .2s ease-in-out; }
     .single_product_square .product_overlay .product_inner_wrapper {
       position: relative;
       top: 50%;
@@ -449,11 +456,17 @@ input.woocommerce-Button.button {
         font-size: 41px;
         display: block;
         margin-bottom: 10px;
-        line-height: 1.1; }
+        line-height: 1.1;
+        opacity: 1;
+        visibility: visible;
+        transition: all .2s ease-in-out; }
       .single_product_square .product_overlay .product_inner_wrapper span.sub_header {
         color: #fff;
         font-family: "Voltage W00 Regular", arial;
-        font-size: 26px; }
+        font-size: 26px;
+        opacity: 1;
+        visibility: visible;
+        transition: all .2s ease-in-out; }
   .single_product_square .product_background {
     width: 100%;
     height: 280px;
@@ -2107,6 +2120,7 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
       content: "Open +";
       color: #000; }
   body.post-type-archive-product .myfilter_wrapper > ul, body.tax-product_cat .myfilter_wrapper > ul {
+    display: none;
     list-style: none;
     border-top: 1px solid #000; }
     body.post-type-archive-product .myfilter_wrapper > ul > li, body.tax-product_cat .myfilter_wrapper > ul > li {
@@ -3038,6 +3052,8 @@ div.woocommerce-MyAccount-content form fieldset {
     position: absolute;
     top: 0;
     right: 0; }
+  body.tax-product_cat .product_wrapper {
+    margin-top: 00px; }
   .product_wrapper {
     margin: 135px auto 0;
     min-height: 300px; }
@@ -4060,76 +4076,78 @@ div.woocommerce-MyAccount-content form fieldset {
     z-index: 500; }
   body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter_wrapper {
     text-align: center; }
-    body.post-type-archive-product .myfilter_wrapper > ul > li, body.tax-product_cat .myfilter_wrapper > ul > li {
-      padding-bottom: 10px;
-      margin-right: -2px;
-      max-width: 250px;
-      display: inline-block; }
-    body.post-type-archive-product .myfilter_wrapper > ul li, body.tax-product_cat .myfilter_wrapper > ul li {
-      padding: 0;
-      position: relative;
-      overflow: visible;
-      border-bottom: none;
-      cursor: pointer;
-      text-align: left;
-      /*
+    body.post-type-archive-product .myfilter_wrapper > ul, body.tax-product_cat .myfilter_wrapper > ul {
+      display: block; }
+      body.post-type-archive-product .myfilter_wrapper > ul > li, body.tax-product_cat .myfilter_wrapper > ul > li {
+        padding-bottom: 10px;
+        margin-right: -2px;
+        max-width: 250px;
+        display: inline-block; }
+      body.post-type-archive-product .myfilter_wrapper > ul li, body.tax-product_cat .myfilter_wrapper > ul li {
+        padding: 0;
+        position: relative;
+        overflow: visible;
+        border-bottom: none;
+        cursor: pointer;
+        text-align: left;
+        /*
 			h2.widgettitle:hover:after {
 				content:"-";
 			}
 */ }
-      body.post-type-archive-product .myfilter_wrapper > ul li h2.widgettitle, body.tax-product_cat .myfilter_wrapper > ul li h2.widgettitle {
-        font-size: 14px;
-        width: 250px;
-        display: inline-block;
-        padding: 24px 0 24px 24px;
-        border-right: #000 solid 1px;
-        background: #fff; }
-        body.post-type-archive-product .myfilter_wrapper > ul li h2.widgettitle:after, body.tax-product_cat .myfilter_wrapper > ul li h2.widgettitle:after {
-          content: "+";
+        body.post-type-archive-product .myfilter_wrapper > ul li h2.widgettitle, body.tax-product_cat .myfilter_wrapper > ul li h2.widgettitle {
+          font-size: 14px;
+          width: 250px;
+          display: inline-block;
+          padding: 24px 0 24px 24px;
+          border-right: #000 solid 1px;
+          background: #fff; }
+          body.post-type-archive-product .myfilter_wrapper > ul li h2.widgettitle:after, body.tax-product_cat .myfilter_wrapper > ul li h2.widgettitle:after {
+            content: "+";
+            position: absolute;
+            right: 16px;
+            top: 8px;
+            font-family: "oswaldregular", arial;
+            font-size: 35px;
+            font-weight: 300;
+            font-style: none;
+            transition: all .2s ease-in-out; }
+        body.post-type-archive-product .myfilter_wrapper > ul li nav, body.tax-product_cat .myfilter_wrapper > ul li nav {
           position: absolute;
-          right: 16px;
-          top: 8px;
-          font-family: "oswaldregular", arial;
-          font-size: 35px;
-          font-weight: 300;
-          font-style: none;
-          transition: all .2s ease-in-out; }
-      body.post-type-archive-product .myfilter_wrapper > ul li nav, body.tax-product_cat .myfilter_wrapper > ul li nav {
-        position: absolute;
-        top: 62px;
-        left: 0;
-        border-top: 4px solid #000;
-        border-left: 1px solid #000;
-        border-right: 1px solid #000;
-        border-bottom: 1px solid #000;
-        max-width: 300px;
-        width: 100%;
-        opacity: 0;
-        /* */
-        visibility: hidden;
-        transition: all .2s ease-in-out;
-        text-align: left;
-        padding: 20px 25px;
-        padding: 15px 25px 19px;
-        background: #fff;
-        z-index: 500; }
-        body.post-type-archive-product .myfilter_wrapper > ul li nav .ajax-layered ul li, body.tax-product_cat .myfilter_wrapper > ul li nav .ajax-layered ul li {
-          margin: 8px 0; }
-    body.post-type-archive-product .myfilter_wrapper > ul li:hover > nav, body.tax-product_cat .myfilter_wrapper > ul li:hover > nav {
-      opacity: 1;
-      visibility: visible; }
-    body.post-type-archive-product .myfilter_wrapper > ul li.filter_title_desktop, body.tax-product_cat .myfilter_wrapper > ul li.filter_title_desktop {
-      background: #f3f3f3;
-      font-family: "Voltage W00 Regular", arial;
-      text-transform: lowercase;
-      color: #79b7c0;
-      text-align: right;
-      padding: 17px 22px;
-      font-size: 25px;
-      display: inline-block;
-      cursor: default;
-      width: 130px;
-      border-right: none; }
+          top: 62px;
+          left: 0;
+          border-top: 4px solid #000;
+          border-left: 1px solid #000;
+          border-right: 1px solid #000;
+          border-bottom: 1px solid #000;
+          max-width: 300px;
+          width: 100%;
+          opacity: 0;
+          /* */
+          visibility: hidden;
+          transition: all .2s ease-in-out;
+          text-align: left;
+          padding: 20px 25px;
+          padding: 15px 25px 19px;
+          background: #fff;
+          z-index: 500; }
+          body.post-type-archive-product .myfilter_wrapper > ul li nav .ajax-layered ul li, body.tax-product_cat .myfilter_wrapper > ul li nav .ajax-layered ul li {
+            margin: 8px 0; }
+      body.post-type-archive-product .myfilter_wrapper > ul li:hover > nav, body.tax-product_cat .myfilter_wrapper > ul li:hover > nav {
+        opacity: 1;
+        visibility: visible; }
+      body.post-type-archive-product .myfilter_wrapper > ul li.filter_title_desktop, body.tax-product_cat .myfilter_wrapper > ul li.filter_title_desktop {
+        background: #f3f3f3;
+        font-family: "Voltage W00 Regular", arial;
+        text-transform: lowercase;
+        color: #79b7c0;
+        text-align: right;
+        padding: 17px 22px;
+        font-size: 25px;
+        display: inline-block;
+        cursor: default;
+        width: 130px;
+        border-right: none; }
   ul li#woocommerce_layered_nav_filters-2.widget.woocommerce.widget_layered_nav_filters ul {
     opacity: 1;
     visibility: visible; }
