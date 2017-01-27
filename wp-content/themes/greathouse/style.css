@@ -111,7 +111,7 @@ body {
   font-size: 14px;
   font-family: "oswaldregular", arial;
   text-transform: uppercase;
-  padding: 18px 55px;
+  padding: 18px 30px;
   display: inline-block;
   color: #fff; }
 
@@ -135,8 +135,9 @@ a {
   display: block; }
 
 .remove_add_to_cart {
-  display: block;
-  margin-top: 45px; }
+  display: inline-block;
+  margin-top: 15px;
+  cursor: pointer; }
 
 /* Header */
 header {
@@ -1498,6 +1499,25 @@ body.page-template-page-locations .form_wrapper {
   margin-top: 35px;
   cursor: pointer; }
 
+#zip_code_discount {
+  border-top: 1px #ccc solid;
+  margin-top: 45px;
+  padding-top: 40px;
+  /*
+	max-width:480px;
+	margin: 0 auto;
+*/ }
+  #zip_code_discount span.large_header {
+    font-size: 33px; }
+  #zip_code_discount span.zip_discount_content {
+    font-size: 21px;
+    line-height: 1.3; }
+  #zip_code_discount .coupon_code {
+    text-transform: uppercase;
+    font-family: "oswaldregular", arial;
+    letter-spacing: 1px;
+    font-size: 16px; }
+
 #zip_code_confirmation, #zip_code_no_access {
   display: none; }
 
@@ -1507,7 +1527,7 @@ body.page-template-page-locations .form_wrapper {
   padding-top: 40px;
   padding-bottom: 40px; }
   #zip_code_no_access span.large_header {
-    font-size: 40px; }
+    font-size: 33px; }
   #zip_code_no_access .no_zip_inner_wrapper {
     border-top: 1px #ccc solid;
     margin-top: 38px;
@@ -1515,11 +1535,11 @@ body.page-template-page-locations .form_wrapper {
   #zip_code_no_access span.no_zip_content {
     margin-top: 25px;
     display: block;
-    font-size: 21px;
-    line-height: 1.3;
+    font-size: 19px;
+    line-height: 1.2;
     max-width: 480px;
     margin: 0 auto; }
-  #zip_code_no_access a {
+  #zip_code_no_access a.phone_number {
     margin-top: 25px;
     font-size: 30px;
     font-family: "oswaldregular", arial;
@@ -2856,6 +2876,21 @@ ul.woocommerce-error {
 
 .woocommerce-info, .login, .woocommerce-info {
   line-height: 1.2; }
+
+form.register {
+  max-width: 500px;
+  margin-top: 35px; }
+  form.register label {
+    display: block;
+    margin-bottom: 10px; }
+  form.register input {
+    border: 1px solid #a6a6a6;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    font-family: "oswaldregular", arial; }
+  form.register input[type="submit"] {
+    width: 150px; }
 
 .login {
   max-width: 500px; }
@@ -4857,7 +4892,17 @@ div.woocommerce-MyAccount-content form fieldset {
     float: right;
     margin-top: -166px; }
   body.page-template-page-designbios .no_sidebar_wrapper #content {
-    margin-top: 300px; } }
+    margin-top: 300px; }
+  #zip_code_discount span.large_header {
+    font-size: 40px; }
+  #zip_code_discount span.zip_discount_content {
+    font-size: 22px;
+    line-height: 1.4; }
+  #zip_code_no_access span.large_header {
+    font-size: 40px; }
+  #zip_code_no_access span.no_zip_content {
+    font-size: 22px;
+    line-height: 1.4; } }
 
 /* Media Query */
 @media screen and (min-width: 2000px) {

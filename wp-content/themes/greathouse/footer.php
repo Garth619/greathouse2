@@ -249,7 +249,7 @@
 </div><!-- overlay -->
 
 
-<div class="overlay zipcode_checker" style="display:none">
+<div class="overlay zipcode_checker" style="display: none;">
 	
 	<div class="overlay_inner">
 		
@@ -265,7 +265,7 @@
     		<ul>
 	    		<li>
     	
-						<label>enter your zip code</label>
+						<label>enter your 5 digit zip code</label>
 						<input type="text" name="zipcode" id="id_zip_code"/>
 						<span id="myvalidation">zipcode needs to be within san diego</span>
 						<input type="submit" value="Submit"/>
@@ -283,28 +283,36 @@
 			<span class="sub_header">lorem ipsum</span>
 			<span class="large_header">We Deliver Here!</span>
 			
-			<span class="additional">We deliver to this area verbiage.  Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+			<span class="additional">We deliver to this area verbiage. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
 			
-			<span>Latest Discount and Coupon Code</span>
+			<div id="zip_code_discount">
+				
+					<span class="large_header">GET 15% off your next purchase</span>
+					
+					<span class="zip_discount_content">Use the Coupon Code <span class="coupon_code">MEGASALE</span> at Checkout</span>
+				
+			</div><!-- zip_code_discount -->
 			
 			<span class="blue_shop zip_code_button">Continue Shopping</span>
+			
+			
 			
 		</div><!-- zip_code_confirmation -->
 		
 		
 		<div id="zip_code_no_access">
 			
-			<span class="large_header">Outside of San Diego?</span>
+			<span class="large_header">Outside of San&nbsp;Diego?</span>
 			
 			<span class="no_zip_content">Apologies but we don't deliver to zip codes outside of San Diego. Please try another zip code within San Diego or call our store for a quote verbiage.</span>
 			
-			<a href="">5555555555</a>
+			<a href="tel:760.454.0013" class="phone_number">760.454.0013</a>
 			
 			<div class="no_zip_inner_wrapper">
 				
 				<span class="large_header">Continue Browsing</span><!-- large_header -->
 			
-				<span class="no_zip_content">If you like to browse products anyways, you can add products to your wishlist</span>
+				<span class="no_zip_content">If you like to browse products anyways, you can add products to your wishlist</a></span>
 			
 				<form>
 				
