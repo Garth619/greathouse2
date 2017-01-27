@@ -17,7 +17,7 @@ get_header(); ?>
 						
 				<h1>Site is Closed</h1>
 						
-					<?php _e( 'The site is temporarily closed for development. Please let me know if you need me to turn it back on - Garrett.', 'twentyten' ); ?></p>
+					<?php _e( 'Apologies but this page could not be found.', 'twentyten' ); ?></p>
 					<?php get_search_form(); ?>
 				
 	

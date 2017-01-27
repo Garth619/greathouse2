@@ -249,13 +249,13 @@
 </div><!-- overlay -->
 
 
-<div class="overlay zipcode_checker" style="display:none;">
+<div class="overlay zipcode_checker" style="display:none">
 	
 	<div class="overlay_inner">
 		
 		<div class="inital_content">
 
-			<span class="sub_header">let yourself in</span>
+			<span class="sub_header">lorem ipsum</span>
 			<span class="large_header">zip code title</span>
 			
 			<span class="additional">Lem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
@@ -266,7 +266,10 @@
 	    		<li>
     	
 						<label>enter your zip code</label>
-						<input type="text" name="zipcode" id="id_zip_code"/><input type="submit" value="Submit"/>
+						<input type="text" name="zipcode" id="id_zip_code"/>
+						<span id="myvalidation">zipcode needs to be within san diego</span>
+						<input type="submit" value="Submit"/>
+						
     	
 						</li>
 						</ul>
@@ -277,7 +280,7 @@
 
 		<div id="zip_code_confirmation">
 			
-			<span class="sub_header">let yourself in</span>
+			<span class="sub_header">lorem ipsum</span>
 			<span class="large_header">We Deliver Here!</span>
 			
 			<span class="additional">We deliver to this area verbiage.  Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
@@ -291,22 +294,30 @@
 		
 		<div id="zip_code_no_access">
 			
-			<span>Apologies but we don't deliver to zip codes outside of San Diego. Please try another zip code within San Diego or call our store for a quote verbiage.</span>
+			<span class="large_header">Outside of San Diego?</span>
+			
+			<span class="no_zip_content">Apologies but we don't deliver to zip codes outside of San Diego. Please try another zip code within San Diego or call our store for a quote verbiage.</span>
 			
 			<a href="">5555555555</a>
 			
-			<span>If you like to browse products anyways, you can add products to your wishlist</span>
+			<div class="no_zip_inner_wrapper">
+				
+				<span class="large_header">Continue Browsing</span><!-- large_header -->
 			
-			<form>
-				
-				<input type="checkbox" name="nozipcode" id="no_zipcode"/>
-				<label>I understand that my zip code is outside the delivery zone and need to call for a quote.</label>
-				
-				
-				
-				<span class="remove_add_to_cart blue_shop">Browse the Site</span>
+				<span class="no_zip_content">If you like to browse products anyways, you can add products to your wishlist</span>
 			
-			</form>
+				<form>
+				
+		<!-- 							<input type="checkbox" name="nozipcode" id="no_zipcode"/>
+	<label>I understand that my zip code is outside the delivery zone and need to call for a quote to purchase any products.</label> -->
+				
+				
+				
+					<span class="remove_add_to_cart blue_shop">Browse the Site</span>
+			
+				</form>
+			
+			</div><!-- no_zip_inner_wrapper -->
 			
 			
 			

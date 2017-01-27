@@ -189,6 +189,8 @@ jQuery('html').click(function(event){
             jQuery('.inital_content, .overlay_inner').fadeOut();
             
             
+            
+            
             jQuery('#zip_code_confirmation').delay(300).fadeIn();
             
             
@@ -209,9 +211,11 @@ jQuery('html').click(function(event){
         
         } else {
             
-            jQuery('#zip_code_no_access').css('display', 'inline');
+            jQuery('#zip_code_no_access').css('display', 'block');
             
             jQuery('.zipcode_checker input[type="text"]').css('background', '#ebbbc3');
+            
+             jQuery('#myvalidation').delay(300).fadeIn().css("display","block");
             
         }
         
