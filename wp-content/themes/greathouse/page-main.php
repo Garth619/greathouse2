@@ -204,7 +204,7 @@ if( $posts ): ?>
 		
 		<div class="desktop_wrapper">
 		
-			<span class="large_header"><?php the_field('life_well_lived_title');?></span><!-- large_header -->
+			<h1 class="large_header"><?php the_field('life_well_lived_title');?></h1><!-- large_header -->
 		
 			<div class="life_well_lived_content">
 				

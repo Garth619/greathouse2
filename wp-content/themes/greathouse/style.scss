@@ -150,8 +150,8 @@ body {
 	text-transform: uppercase;
 	text-decoration: none;
 	font-size:14px;
-	padding:15px 30px;
-	letter-spacing: 1.1px;
+	padding:13px 30px;
+	letter-spacing: 0.1px;
 }
 
 
@@ -235,8 +235,8 @@ header {
 			.emphasis {
 				color:#000;
 				font-family: $oswaldreg;
-				font-size:13px;
-				letter-spacing: 1.2px;
+				font-size:15px;
+				letter-spacing: 0.8px;
 			}
 		}
 		
@@ -246,17 +246,18 @@ header {
 			padding:10px;
 			overflow: hidden;
 			img.search_img {
-				width:12px;
+				width:18px;
 				float:left;
+				margin-left:4px;
 			}
 			.cart_signin_wrapper {
 				float:right;
 				color:$greyfont;
 				font-family: $oswaldreg;
-				font-size:11px;
+				font-size:14px;
 				text-transform: uppercase;
-				letter-spacing: 1.2px;
-				margin-top:2px;
+				letter-spacing: 0.4px;
+				margin:4px 0;
 				a {
 					color:$greyfont;
 					text-decoration: none;
@@ -676,6 +677,7 @@ input.woocommerce-Button.button {
 				opacity: 1;
 				visibility: visible;
 				transition: all .2s ease-in-out;
+				letter-spacing: 0.2px;
 			}
 			span.sub_header {
 				color:#fff;
@@ -709,7 +711,7 @@ input.woocommerce-Button.button {
 
 .new_arrivals_wrapper {
 	text-align: center;
-	padding:56px 20px;
+	padding:50px 20px;
 	position: relative;
 	max-width:2200px;
 	margin:0 auto;
@@ -745,12 +747,16 @@ input.woocommerce-Button.button {
 				display:block;
 				margin-top: 20px;
 				text-transform: uppercase;
+				font-size:15px;
+				letter-spacing: 0.2px;
 				
 			}
 			span {
 				font-family: $oswaldreg;
 				font-size:14px;
-				line-height: 28px;
+				line-height: 22px;
+				font-size:15px;
+				letter-spacing: 0.2px;
 			}
 			span {
 				del {
@@ -776,17 +782,17 @@ input.woocommerce-Button.button {
 	background:url(images/personalize_bg.jpg) top center;
 	background-size:cover;
 	width:100%;
-	padding:97px 0;
+	padding:97px 0 85px;
 	span.sub_header {
 		color:#fff;
 		font-family: $oswaldreg;
 		text-transform: uppercase;
 		font-size:18px;
-		letter-spacing: .4px;
+		letter-spacing: .2px;
 	}
 	.blue_block {
-		width: 100px;
-		height:4px;
+		width: 92px;
+		height:5px;
 		background:$bluelight;
 		display: block;
 		margin:30px auto 0;
@@ -797,8 +803,12 @@ input.woocommerce-Button.button {
 		font-size:58px;
 		margin:40px 0;
 		display: inline-block;
-		line-height:0.9;
+		line-height:48px;
 		
+	}
+	.white_button {
+		font-size:15px;
+		letter-spacing: 0.2px;
 	}
 }
 
@@ -806,13 +816,17 @@ input.woocommerce-Button.button {
 
 .life_well_lived {
 	padding:56px 35px;
-	span.large_header {
+	h1.large_header {
+		font-weight: 300;
 		font-family: $oswaldreg;
 		font-size: 42.5px;
 		text-transform: uppercase;
-		line-height:1.2;
+		line-height:48px;
 		margin-bottom:100px;
 		display: inline-block;
+		letter-spacing: 0.2px;
+		
+		font-style: normal;
 	}
 	.life_well_lived_content {
 		p {

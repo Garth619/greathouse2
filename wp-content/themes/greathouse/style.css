@@ -91,8 +91,8 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 14px;
-  padding: 15px 30px;
-  letter-spacing: 1.1px; }
+  padding: 13px 30px;
+  letter-spacing: 0.1px; }
 
 .transparent_button {
   border: 1px solid #000;
@@ -159,23 +159,24 @@ header {
     header .inner_header .header_special_deal .emphasis {
       color: #000;
       font-family: "oswaldregular", arial;
-      font-size: 13px;
-      letter-spacing: 1.2px; }
+      font-size: 15px;
+      letter-spacing: 0.8px; }
   header .inner_header .header_options {
     background: #f3f3f3;
     padding: 10px;
     overflow: hidden; }
     header .inner_header .header_options img.search_img {
-      width: 12px;
-      float: left; }
+      width: 18px;
+      float: left;
+      margin-left: 4px; }
     header .inner_header .header_options .cart_signin_wrapper {
       float: right;
       color: #7c786f;
       font-family: "oswaldregular", arial;
-      font-size: 11px;
+      font-size: 14px;
       text-transform: uppercase;
-      letter-spacing: 1.2px;
-      margin-top: 2px; }
+      letter-spacing: 0.4px;
+      margin: 4px 0; }
       header .inner_header .header_options .cart_signin_wrapper a {
         color: #7c786f;
         text-decoration: none; }
@@ -467,7 +468,8 @@ input.woocommerce-Button.button {
         line-height: 1.1;
         opacity: 1;
         visibility: visible;
-        transition: all .2s ease-in-out; }
+        transition: all .2s ease-in-out;
+        letter-spacing: 0.2px; }
       .single_product_square .product_overlay .product_inner_wrapper span.sub_header {
         color: #fff;
         font-family: "Voltage W00 Regular", arial;
@@ -488,7 +490,7 @@ input.woocommerce-Button.button {
 /* New Arrivals */
 .new_arrivals_wrapper {
   text-align: center;
-  padding: 56px 20px;
+  padding: 50px 20px;
   position: relative;
   max-width: 2200px;
   margin: 0 auto; }
@@ -518,11 +520,15 @@ input.woocommerce-Button.button {
       .new_arrivals_wrapper .new_arrival_slideshow .slide span.new_arrival_title {
         display: block;
         margin-top: 20px;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        font-size: 15px;
+        letter-spacing: 0.2px; }
       .new_arrivals_wrapper .new_arrival_slideshow .slide span {
         font-family: "oswaldregular", arial;
         font-size: 14px;
-        line-height: 28px; }
+        line-height: 22px;
+        font-size: 15px;
+        letter-spacing: 0.2px; }
       .new_arrivals_wrapper .new_arrival_slideshow .slide span del {
         display: none; }
       .new_arrivals_wrapper .new_arrival_slideshow .slide span ins {
@@ -538,16 +544,16 @@ input.woocommerce-Button.button {
   background: url(images/personalize_bg.jpg) top center;
   background-size: cover;
   width: 100%;
-  padding: 97px 0; }
+  padding: 97px 0 85px; }
   .custom_design_services span.sub_header {
     color: #fff;
     font-family: "oswaldregular", arial;
     text-transform: uppercase;
     font-size: 18px;
-    letter-spacing: .4px; }
+    letter-spacing: .2px; }
   .custom_design_services .blue_block {
-    width: 100px;
-    height: 4px;
+    width: 92px;
+    height: 5px;
     background: #7dccd8;
     display: block;
     margin: 30px auto 0; }
@@ -557,18 +563,24 @@ input.woocommerce-Button.button {
     font-size: 58px;
     margin: 40px 0;
     display: inline-block;
-    line-height: 0.9; }
+    line-height: 48px; }
+  .custom_design_services .white_button {
+    font-size: 15px;
+    letter-spacing: 0.2px; }
 
 /* A Life Well Lived */
 .life_well_lived {
   padding: 56px 35px; }
-  .life_well_lived span.large_header {
+  .life_well_lived h1.large_header {
+    font-weight: 300;
     font-family: "oswaldregular", arial;
     font-size: 42.5px;
     text-transform: uppercase;
-    line-height: 1.2;
+    line-height: 48px;
     margin-bottom: 100px;
-    display: inline-block; }
+    display: inline-block;
+    letter-spacing: 0.2px;
+    font-style: normal; }
   .life_well_lived .life_well_lived_content p {
     font-family: "Didot- LP W01 Regular", arial;
     font-size: 19px;
