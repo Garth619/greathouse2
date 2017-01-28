@@ -577,7 +577,7 @@ input.woocommerce-Button.button {
     font-size: 42.5px;
     text-transform: uppercase;
     line-height: 48px;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
     display: inline-block;
     letter-spacing: 0.2px;
     font-style: normal; }
@@ -590,10 +590,10 @@ input.woocommerce-Button.button {
       margin-bottom: 0; }
   .life_well_lived span.quote {
     font-family: "Voltage W00 Regular", arial;
-    font-size: 40px;
+    font-size: 38px;
     color: #79b7c0;
     display: block;
-    margin: 60px auto 0;
+    margin: 50px auto 0;
     text-align: left;
     width: 256px; }
 
@@ -619,9 +619,12 @@ br.tablet_break {
       font-family: "oswaldregular", arial;
       font-size: 30px;
       text-transform: uppercase;
-      letter-spacing: 1.2px;
+      letter-spacing: 0.4px;
       margin-bottom: 18px;
       display: block; }
+  .keyholder.mobile .transparent_button {
+    padding: 7px 20px;
+    letter-spacing: .85px; }
 
 .threeboxes_desktop {
   display: none; }
@@ -630,12 +633,12 @@ br.tablet_break {
 footer {
   background: url(images/footer_pattern.jpg) top left repeat;
   width: 100%;
-  padding: 55px 30px; }
+  padding: 55px 30px 45px; }
   footer .inner_footer span.large_header {
     font-family: "Voltage W00 Regular", arial;
     text-transform: lowercase;
     font-size: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     display: block; }
 
 .footer_logo, .footer_menu.tablet {
@@ -651,24 +654,24 @@ footer {
 .locations {
   border-bottom: 1px solid #a6a6a6; }
   .locations .location {
-    margin-bottom: 50px; }
+    margin-bottom: 46px; }
     .locations .location .address {
       font-family: "oswaldregular", arial;
       color: #777777;
       display: block;
-      margin-bottom: 15px;
-      line-height: 1.4;
+      margin-bottom: 11px;
+      line-height: 22px;
       text-decoration: none;
       font-size: 15px;
-      letter-spacing: 0.9px; }
+      letter-spacing: 0.2px; }
     .locations .location .phone {
       display: block;
       font-family: "oswaldregular", arial;
       font-size: 18px;
-      margin-bottom: 25px;
+      margin-bottom: 21px;
       color: #000;
       text-decoration: none;
-      letter-spacing: 1.1px; }
+      letter-spacing: 0.2px; }
     .locations .location .get_directions {
       font-family: "Voltage W00 Regular", arial;
       font-size: 20px;
@@ -679,6 +682,8 @@ footer {
 .follow_us {
   padding: 35px 0;
   border-bottom: 1px solid #a6a6a6; }
+  .follow_us span.large_header {
+    margin-bottom: 19px; }
   .follow_us .social_icons a {
     display: inline-block; }
     .follow_us .social_icons a .social_icon {
@@ -689,15 +694,15 @@ footer {
       margin: 0 2px 4px; }
 
 .footer_menu {
-  padding: 35px 0 0; }
+  padding: 45px 0 0; }
   .footer_menu ul {
     list-style: none; }
     .footer_menu ul li {
       font-family: "oswaldregular", arial;
       font-size: 12px;
       text-transform: uppercase;
-      letter-spacing: 1.2px;
-      margin-bottom: 22px; }
+      letter-spacing: 0.2px;
+      margin-bottom: 21px; }
       .footer_menu ul li a {
         color: #777777;
         text-decoration: none; }

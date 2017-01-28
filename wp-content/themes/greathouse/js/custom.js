@@ -63,8 +63,8 @@ jQuery('html').click(function(event){
     {
       breakpoint: 750,
       settings: {
-        slidesToShow: 1
-        
+        slidesToShow: 1,
+        slidesToScroll: 1
       }
     }
   ]
