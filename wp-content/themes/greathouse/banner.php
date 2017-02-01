@@ -21,19 +21,19 @@
 
 		<?php if( get_field('banner_font_color') == 'Black' ): ?>
 
-			<span style="color:#000;"><?php the_title();?></span>
+			<h1 style="color:#000;"><?php the_title();?></h1>
 		
 			<?php elseif( get_field('banner_font_color') == 'White' ): ?>
 
-				<span style="color:#fff"><?php the_title();?></span>
+				<h1 style="color:#fff"><?php the_title();?></h1>
 		
 			<?php elseif( get_field('banner_font_color') == 'Blue' ): ?>
 
-				<span style="color:#79b7c0"><?php the_title();?></span>
+				<h1 style="color:#79b7c0"><?php the_title();?></h1>
 		
 			<?php else:?>
 			
-				<span style="color:#fff;"><?php the_title();?></span>
+				<h1 style="color:#fff;"><?php the_title();?></h1>
 		
 		<?php endif;?>
 
@@ -72,19 +72,19 @@
 
 		<?php if( get_field('shop_banner_font_color','option') == 'Black' ): ?>
 
-			<span style="color:#000;"><?php the_field('shop_banner_title','option');?></span>
+			<h1 style="color:#000;"><?php the_field('shop_banner_title','option');?></h1>
 		
 			<?php elseif( get_field('shop_banner_font_color','option') == 'White' ): ?>
 
-				<span style="color:#fff"><?php the_field('shop_banner_title','option');?></span>
+				<h1 style="color:#fff"><?php the_field('shop_banner_title','option');?></h1>
 		
 			<?php elseif( get_field('shop_banner_font_color','option') == 'Blue' ): ?>
 
-				<span style="color:#79b7c0"><?php the_field('shop_banner_title','option');?></span>
+				<h1 style="color:#79b7c0"><?php the_field('shop_banner_title','option');?></h1>
 		
 			<?php else:?>
 			
-				<span style="color:#fff;"><?php the_field('shop_banner_title','option');?></span>
+				<h1 style="color:#fff;"><?php the_field('shop_banner_title','option');?></h1>
 		
 		<?php endif;?>
 

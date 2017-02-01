@@ -733,11 +733,13 @@ div.mysearch_wrapper.mobile div.mysearch_inner_wrapper div.yith-ajaxsearchform-c
   background-size: cover;
   text-align: center;
   padding: 100px 20px; }
-  .banner span {
+  .banner h1 {
     font-family: "Voltage W00 Light", arial;
     color: #000;
     text-transform: lowercase;
-    font-size: 60px; }
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300; }
 
 .back_to_cart {
   margin-left: 15px; }
@@ -925,6 +927,9 @@ table.shop_table tfoot td {
     font-size: 35px;
     line-height: 1.2;
     margin-bottom: 25px; }
+  .discount_wrapper .blue_shop {
+    padding: 18px 53px;
+    letter-spacing: 0.4px; }
 
 #sidebar {
   border-top: 4px #000 solid;
@@ -971,7 +976,8 @@ table.shop_table tfoot td {
       padding-top: 60px;
       padding-bottom: 30px;
       line-height: 1.1;
-      border-top: #79b7c0 1px solid; }
+      border-top: #79b7c0 1px solid;
+      letter-spacing: 0.2px; }
   .no_sidebar_wrapper .no_sidebar_spacer {
     border-top: #79b7c0 1px solid;
     float: left;
@@ -1051,7 +1057,7 @@ body.page-template-page-designbios .no_sidebar_wrapper {
       transition: all .2s ease-in-out;
       display: flex;
       align-items: center;
-      padding-top: 95px; }
+      padding: 95px 20px 0; }
       #content .team_wrapper .single_team_square .team_overlay:hover {
         background: transparent; }
         #content .team_wrapper .single_team_square .team_overlay:hover .team_inner_wrapper span.large_header, #content .team_wrapper .single_team_square .team_overlay:hover .team_inner_wrapper span.sub_header {
@@ -1092,8 +1098,8 @@ body.page-template-page-designbios .no_sidebar_wrapper {
 
 /* Inner Page Content */
 #content {
-  font-size: 19px;
-  line-height: 1.4; }
+  font-size: 20px;
+  line-height: 30px; }
   #content h1 {
     font-family: "oswaldregular", arial;
     font-size: 50px;
@@ -1103,11 +1109,12 @@ body.page-template-page-designbios .no_sidebar_wrapper {
     font-weight: 300; }
   #content h2 {
     font-family: "oswaldregular", arial;
-    font-size: 22px;
+    font-size: 25px;
     text-transform: uppercase;
     font-style: none;
     font-weight: 300;
-    margin-bottom: 9px; }
+    margin-bottom: 9px;
+    letter-spacing: 0.5px; }
   #content h2.blog_post_title a {
     color: #000;
     transition: all .2s ease-in-out; }
@@ -1136,7 +1143,8 @@ body.page-template-page-designbios .no_sidebar_wrapper {
     color: #79b7c0;
     display: block;
     margin: 30px auto;
-    text-align: left; }
+    text-align: left;
+    line-height: 46px; }
 
 /* Image Alignment */
 img.alignnone,
@@ -1196,15 +1204,17 @@ img.aligncenter {
   margin-top: 10px; }
   #content .locations_wrapper .location {
     margin-bottom: 25px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid #d3d3d3; }
+    padding-bottom: 45px;
+    border-bottom: 1px solid #d3d3d3;
+    margin-top: 45px; }
     #content .locations_wrapper .location span.large_header {
       text-transform: uppercase;
       font-family: "oswaldregular", arial;
       font-size: 25px;
       color: #79b7c0;
       display: block;
-      margin-bottom: 5px; }
+      margin-bottom: 5px;
+      padding-top: 10px; }
     #content .locations_wrapper .location a.sub_header {
       font-family: "oswaldregular", arial;
       text-transform: uppercase;
@@ -1233,7 +1243,7 @@ img.aligncenter {
     #content .locations_wrapper .location iframe {
       width: 100%;
       height: 315px;
-      margin-top: 25px; }
+      margin-top: 40px; }
 
 .hours_title {
   font-family: "Voltage W00 Regular", arial;
@@ -1298,8 +1308,8 @@ body.page-template-page-locations .form_wrapper {
           letter-spacing: 1.2px;
           border-radius: 0; }
         body.page-template-page-locations .form_wrapper .form_inner ul li input:focus, body.page-template-page-locations .form_wrapper .form_inner ul li textarea:focus {
-          border: 3px solid #000;
-          padding: 10px; }
+          border-bottom: 3px solid #000;
+          padding: 10px 10px 13px 10px; }
     body.page-template-page-locations .form_wrapper .form_inner .validation_message {
       position: relative;
       top: 0;
@@ -4086,8 +4096,8 @@ div.woocommerce-MyAccount-content form fieldset {
     margin-bottom: 125px !important; }
   /* Internal */
   .banner {
-    padding: 120px 0; }
-    .banner span {
+    padding: 140px 0; }
+    .banner h1 {
       font-size: 80px; }
   /* Product Feed */
   ul.products {
@@ -4802,7 +4812,7 @@ div.woocommerce-MyAccount-content form fieldset {
   .copyright {
     max-width: 2110px; }
   /* Internal */
-  .banner span {
+  .banner h1 {
     font-size: 120px; }
   .share_quantity_wrapper .mysingle_cart {
     width: 50%; }

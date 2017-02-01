@@ -1046,11 +1046,13 @@ div.mysearch_wrapper.mobile div.mysearch_inner_wrapper div.yith-ajaxsearchform-c
 	background-size:cover;
 	text-align: center;
 	padding:100px 20px;
-	span {
+	h1 {
 		font-family: $voltagelight;
 		color:$black;
 		text-transform: lowercase;
 		font-size:60px;
+		font-style: normal;
+		font-weight: 300;
 	}
 }
 
@@ -1354,6 +1356,10 @@ table.shop_table tfoot td {
 		line-height:1.2;
 		margin-bottom:25px;
 	}
+	.blue_shop {
+		padding:18px 53px;
+		letter-spacing: 0.4px;
+	}
 }
 
 
@@ -1424,6 +1430,7 @@ table.shop_table tfoot td {
 			padding-bottom:30px;
 			line-height:1.1;
 			border-top:$bluedark 1px solid;
+			letter-spacing:0.2px;
 		}
 	}
 	.no_sidebar_spacer {
@@ -1533,7 +1540,7 @@ body.page-template-page-designbios {
 				transition: all .2s ease-in-out;
 				display: flex;
 				align-items: center;
-				padding-top:95px;
+				padding: 95px 20px 0;
 				&:hover {
 					background:transparent;
 					.team_inner_wrapper {
@@ -1595,8 +1602,8 @@ body.page-template-page-designbios {
 
 
 #content {
-	font-size:19px;
-	line-height:1.4;
+	font-size:20px;
+	line-height:30px;
 	h1 {
 		font-family: $oswaldreg;
 		font-size:50px;
@@ -1607,11 +1614,12 @@ body.page-template-page-designbios {
 	}
 	h2 {
 		font-family: $oswaldreg;
-		font-size:22px;
+		font-size:25px;
 		text-transform: uppercase;
 		font-style:none;
 		font-weight: 300;
 		margin-bottom:9px;
+		letter-spacing: 0.5px;
 	}
 	h2.blog_post_title a {
 		color:$black;
@@ -1650,7 +1658,7 @@ body.page-template-page-designbios {
 		display:block;
 		margin: 30px auto;
 		text-align: left;
-	
+		line-height: 46px;
 		br.pull_quote_break {
 			
 		}
@@ -1736,8 +1744,9 @@ img.aligncenter {
 		margin-top:10px;
 		.location {
 			margin-bottom:25px;
-			padding-bottom:25px;
+			padding-bottom:45px;
 			border-bottom:1px solid #d3d3d3;
+			margin-top:45px;
 			span.large_header {
 				text-transform: uppercase;
 				font-family: $oswaldreg;
@@ -1745,6 +1754,7 @@ img.aligncenter {
 				color: $bluedark;
 				display: block;
 				margin-bottom:5px;
+				padding-top:10px;
 			}
 			a.sub_header {
 				font-family: $oswaldreg;
@@ -1780,7 +1790,7 @@ img.aligncenter {
 			iframe {
 				width:100%;
 				height:315px;
-				margin-top:25px;
+				margin-top:40px;
 			}
 		}
 	}
@@ -1863,8 +1873,8 @@ body.page-template-page-locations {
 					border-radius: 0;
 				}
 				input:focus, textarea:focus {
-					border:3px solid $black;
-					padding:10px;
+					border-bottom:3px solid $black;
+					padding:10px 10px 13px 10px;
 				}
 			}
 		}
@@ -6616,8 +6626,8 @@ body.single {
 
 
 .banner {
-	padding:120px 0;
-	span {
+	padding:140px 0;
+	h1 {
 		
 		font-size:80px;
 	}
@@ -8913,7 +8923,7 @@ footer {
 
 .banner {
 	
-	span {
+	h1 {
 		font-size:120px;
 		
 	}
