@@ -133,23 +133,23 @@ $catbannerimage = get_field('product_category_page_banners', $post_id); // My Ad
 		
 		<?php if( get_field('product_category_banner_font_color', $post_id) == 'Black' ): ?>
 
-				<span style="color:#000;"><?php single_cat_title(); ?></span>
+				<h1 style="color:#000;"><?php single_cat_title(); ?></h1>
 		
 			<?php elseif( get_field('product_category_banner_font_color', $post_id) == 'White' ): ?>
 
-				<span style="color:#fff"><?php single_cat_title(); ?></span>
+				<h1 style="color:#fff"><?php single_cat_title(); ?></h1>
 		
 		
 	
 			<?php elseif( get_field('product_category_banner_font_color', $post_id) == 'Blue' ): ?>
 
-				<span style="color:#79b7c0"><?php single_cat_title(); ?></span>
+				<h1 style="color:#79b7c0"><?php single_cat_title(); ?></h1>
 		
 			<?php else:?>
 			
 			
 			
-				<span style="color:#fff;"><?php single_cat_title(); ?></span>
+				<h1 style="color:#fff;"><?php single_cat_title(); ?></h1>
 			
 			
 		<?php endif;?>
