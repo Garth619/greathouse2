@@ -127,7 +127,7 @@ get_header(); ?>
 
 <section class="new_arrivals_wrapper">
 	
-	<span class="large_header">new Arrivals</span><!-- large_header -->
+	<span class="large_header"><?php the_field('product_slider_title');?></span><!-- large_header -->
 	
 	<img class="prev" src="<?php bloginfo('template_directory');?>/images/arrivals_prev.svg"/>
 	<img class="next" src="<?php bloginfo('template_directory');?>/images/arrivals_next.svg"/>

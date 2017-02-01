@@ -3343,13 +3343,13 @@ div.woocommerce-MyAccount-content form fieldset {
       display: block;
       position: absolute;
       top: 270px;
-      left: -47px;
+      left: -43px;
       color: #000;
       background: #fff;
       font-size: 19px;
       font-family: "Didot W01 Bold";
       text-transform: uppercase;
-      padding: 5px 15px;
+      padding: 10px 15px;
       letter-spacing: 1.2px;
       -ms-transform: rotate(-90deg);
       -webkit-transform: rotate(-90deg);
@@ -3360,6 +3360,8 @@ div.woocommerce-MyAccount-content form fieldset {
     .main_banner_wrapper .vertical_align span.sub_header {
       font-size: 39px;
       margin: 14px 0 50px; }
+    .main_banner_wrapper .vertical_align .white_button {
+      padding: 18px 58px; }
   /* Product Overlays */
   .single_product_square {
     margin-top: 2%;
@@ -3371,7 +3373,7 @@ div.woocommerce-MyAccount-content form fieldset {
       margin-left: 1%; }
     .single_product_square .product_overlay {
       height: 355px;
-      padding: 0 5px; }
+      padding: 0 25px; }
     .single_product_square .product_background {
       height: 355px; }
   .product_categories_wrapper {
@@ -3394,15 +3396,17 @@ div.woocommerce-MyAccount-content form fieldset {
       font-size: 25px; }
     .custom_design_services span.large_header {
       font-size: 100px;
-      margin-bottom: 60px; }
+      margin-bottom: 60px;
+      line-height: 68px; }
   /* A Life Well Lived */
   .life_well_lived {
     padding: 78px 0px; }
-    .life_well_lived span.large_header {
+    .life_well_lived h1.large_header {
       padding-left: 45px;
       margin-right: 45px;
       margin-bottom: 30px;
-      font-size: 52px; }
+      font-size: 52px;
+      line-height: 59px; }
     .life_well_lived .life_well_lived_content {
       border-top: 1px solid #7dccd8;
       padding-left: 45px;
@@ -3528,7 +3532,7 @@ div.woocommerce-MyAccount-content form fieldset {
       color: #000;
       font-family: "Didot W01 Bold";
       font-size: 20px;
-      margin-top: 23px; }
+      margin-top: 10px; }
   .footer_menu.tablet {
     display: block; }
   .footer_menu.mobile {
@@ -3562,6 +3566,10 @@ div.woocommerce-MyAccount-content form fieldset {
     clear: both;
     text-align: center;
     padding: 55px 0 0; }
+    .follow_us .social_icons a .social_icon {
+      width: 55px;
+      height: 53px;
+      padding: 14px; }
   /* Team Pics */
   #content .team_wrapper {
     overflow: hidden; }
@@ -4700,7 +4708,7 @@ div.woocommerce-MyAccount-content form fieldset {
       font-size: 30px;
       padding: 13px 27px;
       top: 420px;
-      lefT: -74px; }
+      left: -71px; }
     .main_banner_wrapper .vertical_align span.large_header {
       max-width: 1015px;
       font-size: 89px; }
@@ -4710,7 +4718,7 @@ div.woocommerce-MyAccount-content form fieldset {
   .single_product_square .product_overlay .product_inner_wrapper span.sub_header {
     font-size: 28px; }
   .product_categories_wrapper {
-    padding: 145px 0;
+    padding: 145px 0 115px;
     max-width: 1600px;
     margin: 0 auto; }
   /* New Arrivals */
@@ -4731,12 +4739,15 @@ div.woocommerce-MyAccount-content form fieldset {
       font-size: 34px; }
     .custom_design_services span.large_header {
       font-size: 168px;
-      margin-bottom: 115px;
-      margin-top: 45px;
+      margin-bottom: 160px;
+      margin-top: 78px;
       display: block; }
+    .custom_design_services .white_button {
+      font-size: 18px;
+      letter-spacing: 0.2px; }
   /* A Life Well Lived */
   .life_holder_wrapper {
-    padding: 115px 0; }
+    padding: 115px 0 155px; }
   .life_well_lived {
     overflow: hidden;
     margin-right: 6%;
@@ -4745,7 +4756,7 @@ div.woocommerce-MyAccount-content form fieldset {
       max-width: 680px;
       float: right;
       padding-right: 3%; }
-      .life_well_lived .desktop_wrapper span.large_header {
+      .life_well_lived .desktop_wrapper h1.large_header {
         display: block;
         margin: 0 0 61px; }
   /* Keyholder */
@@ -4769,7 +4780,7 @@ div.woocommerce-MyAccount-content form fieldset {
       padding-bottom: 10px; }
       footer .inner_footer span.large_header {
         font-size: 40px;
-        margin-bottom: 45px; }
+        margin-bottom: 32px; }
   .dekstop_logo_menu_wrapper .footer_logo {
     width: 50%;
     float: left;

@@ -5107,13 +5107,13 @@ body.logged-in {
 		display: block;
 		position: absolute;
 		top: 270px;
-		left: -47px;
+		left: -43px;
 		color:#000;
 		background:#fff;
 		font-size:19px;
 		font-family:$didotbold;
 		text-transform: uppercase;
-		padding:5px 15px;
+		padding:10px 15px;
 		letter-spacing: 1.2px;
 		-ms-transform: rotate(-90deg); 
     -webkit-transform: rotate(-90deg);
@@ -5128,6 +5128,9 @@ body.logged-in {
 		span.sub_header {
 			font-size:39px;
 			margin:14px 0 50px;
+		}
+		.white_button {
+			padding: 18px 58px;
 		}
 	}
 }
@@ -5149,7 +5152,7 @@ body.logged-in {
 	}
 	.product_overlay {
 		height:355px;
-		padding:0 5px;
+		padding:0 25px;
 		.product_inner_wrapper {
 			 
 			span.large_header {
@@ -5225,6 +5228,7 @@ body.logged-in {
 	span.large_header {
 		font-size:100px;
 		margin-bottom:60px;
+		line-height: 68px;
 	}
 }
 
@@ -5233,11 +5237,12 @@ body.logged-in {
 
 .life_well_lived {
 	padding: 78px 0px;
-	span.large_header {
+	h1.large_header {
 		padding-left:45px;
 		margin-right:45px;
 		 margin-bottom: 30px;
 		font-size:52px;
+		line-height:59px;
 	}
 	.life_well_lived_content {
 		border-top:1px solid $bluelight;
@@ -5417,7 +5422,7 @@ footer {
 		color:#000;
 		font-family:$didotbold;
 		font-size:20px;
-		margin-top:23px;
+		margin-top:10px;
 	}
 }
 
@@ -5476,7 +5481,9 @@ footer {
 		a {
 			
 			.social_icon {
-				
+				width:55px;
+				height:53px;
+				padding:14px;
 			}
 		}
 	}
@@ -8685,7 +8692,7 @@ ul.mycart {
 		font-size:30px;
 		padding:13px 27px;
 		top:420px;
-		lefT:-74px; 
+		left:-71px; 
 	}
 	.vertical_align {
 		 span.large_header {
@@ -8713,7 +8720,7 @@ ul.mycart {
 }
 
 .product_categories_wrapper {
-	padding: 145px 0;
+	padding: 145px 0 115px;
 	max-width:1600px;
 	margin:0 auto;
 }
@@ -8751,9 +8758,14 @@ ul.mycart {
 	}
 	span.large_header {
 		font-size:168px;
-		margin-bottom: 115px;
-		margin-top:45px;
+		margin-bottom: 160px;
+		margin-top: 78px;
 		display: block;
+	
+	}
+	.white_button {
+		font-size:18px;
+		letter-spacing: 0.2px;
 	}
 }
 
@@ -8762,7 +8774,7 @@ ul.mycart {
 
 
 .life_holder_wrapper {
-	padding:115px 0;
+	padding:115px 0 155px;
 
 }
 
@@ -8774,7 +8786,7 @@ ul.mycart {
 		max-width:680px;
 		float:right;
 		padding-right:3%;
-		span.large_header {
+		h1.large_header {
 			display: block;
 			margin:0 0 61px;
     }
@@ -8829,7 +8841,7 @@ footer {
 		padding-bottom:10px;
 		span.large_header {
 			font-size:40px;
-			margin-bottom:45px;
+			margin-bottom:32px;
 		}
 	}
 }
@@ -8876,6 +8888,7 @@ footer {
 	
 
 .follow_us {
+	
 	.social_icons {
 		a {
 			.social_icon {
