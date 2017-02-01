@@ -60,6 +60,7 @@
 				
 				<a href="<?php the_field('facebook','option');?>" target="_blank">
 					<img class="social_icon" src="<?php bloginfo('template_directory');?>/images/social_fb.svg"/>
+					<img class="social_icon_hover" src="<?php bloginfo('template_directory');?>/images/social_fb_hover.svg"/>
 				</a>
 				
 				<a href="<?php the_field('twitter','option');?>" target="_blank">

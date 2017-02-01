@@ -92,7 +92,11 @@ body {
   text-decoration: none;
   font-size: 14px;
   padding: 13px 30px;
-  letter-spacing: 0.1px; }
+  letter-spacing: 0.1px;
+  transition: all .2s ease-in-out; }
+  .white_button:hover {
+    background: #000;
+    color: #fff; }
 
 .transparent_button {
   border: 1px solid #000;
@@ -566,7 +570,11 @@ input.woocommerce-Button.button {
     line-height: 48px; }
   .custom_design_services .white_button {
     font-size: 15px;
-    letter-spacing: 0.2px; }
+    letter-spacing: 0.2px;
+    border: 1px #000 solid; }
+    .custom_design_services .white_button:hover {
+      background: transparent;
+      border: 1px #fff solid !important; }
 
 /* A Life Well Lived */
 .life_well_lived {
@@ -685,13 +693,21 @@ footer {
   .follow_us span.large_header {
     margin-bottom: 19px; }
   .follow_us .social_icons a {
-    display: inline-block; }
-    .follow_us .social_icons a .social_icon {
-      width: 46px;
-      height: 46px;
-      border: #777777 1px solid;
-      padding: 11px;
-      margin: 0 2px 4px; }
+    display: inline-block;
+    transition: all .2s ease-in-out;
+    margin: 0 2px 4px;
+    width: 46px;
+    height: 46px;
+    border: #777777 1px solid;
+    padding: 11px; }
+    .follow_us .social_icons a:hover {
+      background: #79b7c0;
+      border: 1px #79b7c0 solid; }
+    .follow_us .social_icons a .social_icon, .follow_us .social_icons a .social_icon_hover {
+      width: 25px;
+      height: 25px; }
+    .follow_us .social_icons a .social_icon_hover {
+      display: none; }
 
 .footer_menu {
   padding: 45px 0 0; }
@@ -3527,6 +3543,12 @@ div.woocommerce-MyAccount-content form fieldset {
         margin-bottom: 23px;
         display: block;
         line-height: 1.1; }
+      .keyholder .inner_keyholder .transparent_button {
+        transition: all .2s ease-in-out; }
+        .keyholder .inner_keyholder .transparent_button:hover {
+          background: #7dccd8;
+          color: #fff;
+          border: #7dccd8 1px solid; }
   .shop_accessories {
     width: 49%;
     float: left;
@@ -3541,7 +3563,11 @@ div.woocommerce-MyAccount-content form fieldset {
       width: 279px;
       right: 0; }
       .shop_accessories .shop_bar .shop {
-        background: #fff; }
+        background: #fff;
+        transition: all .2s ease-in-out; }
+        .shop_accessories .shop_bar .shop:hover {
+          background: #79b7c0;
+          color: #fff; }
       .shop_accessories .shop_bar .shop_cta {
         color: #000; }
   .seasonal_features {
@@ -3559,7 +3585,12 @@ div.woocommerce-MyAccount-content form fieldset {
       width: 325px;
       left: 0; }
       .seasonal_features .shop_bar .shop {
-        background: #000; }
+        background: #000;
+        transition: all .2s ease-in-out;
+        color: #79b7c0; }
+        .seasonal_features .shop_bar .shop:hover {
+          color: #fff;
+          background: #79b7c0; }
       .seasonal_features .shop_bar .shop_cta {
         color: #fff; }
   /* Footer */
