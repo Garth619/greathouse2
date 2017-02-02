@@ -1,6 +1,6 @@
 /*
 Theme Name: Greathouse
-Author: iLawyermarketing - Garrett Cullen
+Author: 1Point21 - Garrett Cullen
 */
 
 
@@ -954,6 +954,10 @@ footer {
 			text-decoration: none;
 			font-size:15px;
 			letter-spacing: 0.2px;
+			transition: all .2s ease-in-out;
+			&:hover {
+				color:$bluedark;
+			}
 		}
 		.phone {
 			display: block;
@@ -1032,6 +1036,10 @@ footer {
 			a {
 				color:$grey;
 				text-decoration: none;
+				transition:all .2s ease-in-out;
+				&:hover {
+					color:$bluedark;
+				}
 			}
 			&:last-of-type {
 				margin-bottom:0;
@@ -6047,7 +6055,7 @@ header {
 		}
 		.header_logo_nav_wrapper {
 			background:$greylight;
-			height:49px;
+			height:52px;
 			border: none;
 			.logo_wrapper {
 				background: #000 none repeat scroll 0 0;
@@ -6183,6 +6191,7 @@ header {
 .desktop_menu_wrapper {
 	display: block;
 	float:right;
+	height:63px;
 	.desktop_menu.hide {
 		opacity: 0;
 		visibility: hidden;
