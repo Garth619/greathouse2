@@ -65,22 +65,27 @@
 				
 				<a href="<?php the_field('twitter','option');?>" target="_blank">
 					<img class="social_icon" src="<?php bloginfo('template_directory');?>/images/social_twitter.svg"/>
+					<img class="social_icon_hover" src="<?php bloginfo('template_directory');?>/images/social_twitter_hover.svg"/>
 				</a>
 				
 				<a href="<?php the_field('pinterest','option');?>" target="_blank">
 					<img class="social_icon" src="<?php bloginfo('template_directory');?>/images/social_pinterest.svg"/>
+					<img class="social_icon_hover" src="<?php bloginfo('template_directory');?>/images/social_pinterest_hover.svg"/>
 				</a>
 				
 				<a href="<?php the_field('yelp','option');?>" target="_blank">
 					<img class="social_icon" src="<?php bloginfo('template_directory');?>/images/social_yelp.svg"/>
+					<img class="social_icon_hover" src="<?php bloginfo('template_directory');?>/images/social_yelp_hover.svg"/>
 				</a>
 				
 				<a href="<?php the_field('instagram','option');?>" target="_blank">
 					<img class="social_icon" src="<?php bloginfo('template_directory');?>/images/social_instagram.svg"/>
+					<img class="social_icon_hover" src="<?php bloginfo('template_directory');?>/images/social_instagram_hover.svg"/>
 				</a>
 				
-				<a href="<?php the_field('google_plus','option');?>" target="_blank">
+				<a class="google_plus" href="<?php the_field('google_plus','option');?>" target="_blank">
 					<img class="social_icon" src="<?php bloginfo('template_directory');?>/images/social_google.svg"/>
+					<img class="social_icon_hover" src="<?php bloginfo('template_directory');?>/images/social_google_hover.svg"/>
 				</a>
 				
 			</div><!-- social_icons -->

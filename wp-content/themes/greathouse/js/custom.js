@@ -444,7 +444,20 @@ jQuery('img.search_img.desktop').click(function(){
 	
 	// SVG Footer Social Icons
 	
+	jQuery('.social_icons a').mouseenter(function(){
+		
+		jQuery(this).find('.social_icon').fadeOut(200);
+		jQuery(this).find('.social_icon_hover').fadeIn(200);
+		
+	});
 	
+	
+	jQuery('.social_icons a').mouseleave(function(){
+		
+		jQuery(this).find('.social_icon').fadeIn(200);
+		jQuery(this).find('.social_icon_hover').fadeOut(200);
+		
+	});
     
 
 

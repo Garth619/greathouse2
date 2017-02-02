@@ -989,7 +989,8 @@ footer {
 			width:46px;
 			height:46px;
 			border:$grey 1px solid;
-			padding: 11px;
+
+			position:relative;
 			&:hover {
 				background:#79b7c0;
 				border:1px #79b7c0 solid;
@@ -997,9 +998,22 @@ footer {
 			.social_icon, .social_icon_hover {
 				width:25px;
 				height:25px;
+				position: absolute;
+				top:8px;
+				left:11px;
 			}
 			.social_icon_hover {
 				display: none;
+				
+			}
+		}
+		a.google_plus {
+			.social_icon, .social_icon_hover {
+				width:32px;
+				height:32px;
+				position: absolute;
+				top:5px;
+				left:7px;
 			}
 		}
 	}
@@ -5579,11 +5593,17 @@ footer {
 	padding:55px 0 0;
 		.social_icons {
 		a {
-			
-			.social_icon {
-				width:55px;
-				height:53px;
-				padding:14px;
+				width: 54px;
+				height: 54px;
+			.social_icon, .social_icon_hover {
+				top:15px;
+				left:14px;
+			}
+		}
+		a.google_plus {
+			.social_icon, .social_icon_hover {
+				top:11px;
+				left:12px;
 			}
 		}
 	}
@@ -9004,9 +9024,16 @@ footer {
 	
 	.social_icons {
 		a {
-			.social_icon {
-				width:54px;
-				height:54px;
+				
+			.social_icon, .social_icon_hover {
+				top:15px;
+				left:14px;
+			}
+		}
+		a.google_plus {
+			.social_icon, .social_icon_hover {
+				top:11px;
+				left:12px;
 			}
 		}
 	}
