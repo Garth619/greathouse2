@@ -2528,6 +2528,7 @@ li#field_2_2 label.gfield_label {
 			top:0 !important;
 			padding: 17px 0 15px !important;
 			margin-bottom: 20px !important;
+			border-radius:0;
 		}
 		.single_add_to_cart_button {
 			border: 1px solid #000;
@@ -2631,6 +2632,7 @@ div.product_content_wrap div.summary.entry-summary div p {
 			padding:17px 0 15px 0px;
 			text-align: center;
 			margin-bottom:20px;
+			border-radius:0;
 		}
 		button.single_add_to_cart_button {
 			border:1px solid #000;
@@ -3891,6 +3893,7 @@ ul.products li a.woocommerce-LoopProduct-link span.price ins {
 
 	.input {
 		-webkit-appearance: none;
+		border-radius:0;
 	}
 	
 	
@@ -4061,6 +4064,7 @@ ul.products li a.woocommerce-LoopProduct-link span.price ins {
 		border: none;
 		position:relative;
 		top:-3px;
+		border-radius:0;
 	}
 	
 	
@@ -5204,22 +5208,69 @@ body.logged-in {
 
 .main_banner_wrapper {
 	height:615px;
-	
-	.awards {
-		display: block;
+	.awards_wrapper.awards_animate {
+		left:-43px;
+		}
+	.awards_wrapper {
 		position: absolute;
-		top: 270px;
-		left: -43px;
-		color:#000;
-		background:#fff;
-		font-size:19px;
-		font-family:$didotbold;
-		text-transform: uppercase;
-		padding:10px 15px;
-		letter-spacing: 1.2px;
-		-ms-transform: rotate(-90deg); 
-    -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg);
+			top: 270px;
+			left: -86px;
+			z-index:1000;
+			transition: all .4s ease-in-out;
+		.awards {
+			display: block;
+			position: absolute;
+			top:0;
+			left:0px;
+			z-index:30;
+			color:#000;
+			background:#fff;
+			font-size:19px;
+			font-family:$didotbold;
+			text-transform: uppercase;
+			padding:10px 15px;
+			letter-spacing: 1.2px;
+			-ms-transform: rotate(-90deg); 
+			-webkit-transform: rotate(-90deg);
+			transform: rotate(-90deg);
+			width:123px;
+			
+		}
+		
+		.awards_swing {
+			position: relative;
+			z-index:20;
+			height: 123px;
+			margin-left: 81px;
+			margin-top: -42px;
+			width: 246px;
+			-webkit-perspective:1000px;
+			perspective: 1000px;
+			.awards_inner_swing {
+				background: #fff none repeat scroll 0 0;
+				height: 123px;
+				width: 246px;
+				transition:all .5s ease-in-out;
+				-webkit-transform:rotateY(98deg);
+				transform: rotateY(98deg);
+				-webkit-transform-origin:0% 0%;
+				transform-origin: 0% 0%;
+				
+				img {
+					width:107px;
+					height:auto;
+					float:left;
+					margin-left:10px;
+					margin-top: 7px;
+				}
+			}
+			.awards_inner_swing.open {
+				-webkit-transform: rotateY(0deg);
+				transform: rotateY(0deg);
+				-webkit-transition:all .5s ease-in-out;
+				transition:all .5s ease-in-out;
+			}
+		}
 	}
 	.vertical_align {
 		 
@@ -7807,6 +7858,7 @@ width:9% !important;
 	
 	.input-text.qty {
 		font-size:25px;
+		border-radius:0;
 	}
 	
 	
@@ -8833,11 +8885,46 @@ ul.mycart {
 
 .main_banner_wrapper {
 	height:950px;
-	.awards {
-		font-size:30px;
-		padding:13px 27px;
+	.awards_wrapper.awards_animate {
+		left:-71px;
+	}
+	.awards_wrapper {
 		top:420px;
-		left:-71px; 
+		left:-127px;
+		.awards {
+			font-size:30px;
+			padding:13px 27px;
+			transition:all .5s ease-in-out;
+			width: 198px;
+		}
+		.awards_swing {
+			margin-top:-71px;
+			height: 198px;
+			 margin-left: 127px;
+			 width: 532px;
+			.awards_inner_swing {
+				height: 198px;
+				width: 532px;
+				-webkit-transform:rotateY(106deg);
+				transform: rotateY(106deg);
+				a {
+					float: left;
+					height: 165px;
+					margin-top: 16px;
+					width: 50%;
+					img {
+						max-width:100%;
+						height:auto;
+						width:150px;
+						margin:0 auto;
+						float:none;
+					}
+					&:last-of-type {
+						border-left:1px solid #ccc;
+					}
+				}
+			}
+		}
 	}
 	.vertical_align {
 		 span.large_header {

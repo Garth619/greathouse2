@@ -1785,7 +1785,8 @@ div.up-sells.upsells.products ul.products li {
   .share_quantity_wrapper .input-text.qty {
     top: 0 !important;
     padding: 17px 0 15px !important;
-    margin-bottom: 20px !important; }
+    margin-bottom: 20px !important;
+    border-radius: 0; }
   .share_quantity_wrapper .single_add_to_cart_button {
     border: 1px solid #000;
     cursor: pointer;
@@ -1859,7 +1860,8 @@ form.variations_form table.variations {
     width: 100px;
     padding: 17px 0 15px 0px;
     text-align: center;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    border-radius: 0; }
   .woocommerce-variation-add-to-cart button.single_add_to_cart_button {
     border: 1px solid #000;
     font-size: 14px;
@@ -2684,7 +2686,8 @@ td.product-quantity {
       margin: .125em .25em .125em 0; }
   .woocommerce .input,
   .woocommerce-page .input {
-    -webkit-appearance: none; }
+    -webkit-appearance: none;
+    border-radius: 0; }
   .woocommerce table.cart .product-thumbnail,
   .woocommerce #content table.cart .product-thumbnail,
   .woocommerce-page table.cart .product-thumbnail,
@@ -2835,7 +2838,8 @@ td.product-quantity {
     text-align: center;
     border: none;
     position: relative;
-    top: -3px; }
+    top: -3px;
+    border-radius: 0; }
   .woocommerce.woocommerce-checkout form.login .form-row,
   .woocommerce-page.woocommerce-checkout form.login .form-row {
     width: 100%;
@@ -3417,21 +3421,60 @@ div.woocommerce-MyAccount-content form fieldset {
   /* Main Banner */
   .main_banner_wrapper {
     height: 615px; }
-    .main_banner_wrapper .awards {
-      display: block;
+    .main_banner_wrapper .awards_wrapper.awards_animate {
+      left: -43px; }
+    .main_banner_wrapper .awards_wrapper {
       position: absolute;
       top: 270px;
-      left: -43px;
-      color: #000;
-      background: #fff;
-      font-size: 19px;
-      font-family: "Didot W01 Bold";
-      text-transform: uppercase;
-      padding: 10px 15px;
-      letter-spacing: 1.2px;
-      -ms-transform: rotate(-90deg);
-      -webkit-transform: rotate(-90deg);
-      transform: rotate(-90deg); }
+      left: -86px;
+      z-index: 1000;
+      transition: all .4s ease-in-out; }
+      .main_banner_wrapper .awards_wrapper .awards {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0px;
+        z-index: 30;
+        color: #000;
+        background: #fff;
+        font-size: 19px;
+        font-family: "Didot W01 Bold";
+        text-transform: uppercase;
+        padding: 10px 15px;
+        letter-spacing: 1.2px;
+        -ms-transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        width: 123px; }
+      .main_banner_wrapper .awards_wrapper .awards_swing {
+        position: relative;
+        z-index: 20;
+        height: 123px;
+        margin-left: 81px;
+        margin-top: -42px;
+        width: 246px;
+        -webkit-perspective: 1000px;
+        perspective: 1000px; }
+        .main_banner_wrapper .awards_wrapper .awards_swing .awards_inner_swing {
+          background: #fff none repeat scroll 0 0;
+          height: 123px;
+          width: 246px;
+          transition: all .5s ease-in-out;
+          -webkit-transform: rotateY(98deg);
+          transform: rotateY(98deg);
+          -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%; }
+          .main_banner_wrapper .awards_wrapper .awards_swing .awards_inner_swing img {
+            width: 107px;
+            height: auto;
+            float: left;
+            margin-left: 10px;
+            margin-top: 7px; }
+        .main_banner_wrapper .awards_wrapper .awards_swing .awards_inner_swing.open {
+          -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+          -webkit-transition: all .5s ease-in-out;
+          transition: all .5s ease-in-out; }
     .main_banner_wrapper .vertical_align span.large_header {
       font-size: 80px;
       max-width: 545px; }
@@ -4574,7 +4617,8 @@ div.woocommerce-MyAccount-content form fieldset {
       margin-bottom: 40px; }
     .woocommerce .input-text.qty,
     .woocommerce-page .input-text.qty {
-      font-size: 25px; }
+      font-size: 25px;
+      border-radius: 0; }
     .woocommerce .cart-collaterals,
     .woocommerce-page .cart-collaterals {
       width: 40%;
@@ -4804,11 +4848,39 @@ div.woocommerce-MyAccount-content form fieldset {
   /* Main Banner */
   .main_banner_wrapper {
     height: 950px; }
-    .main_banner_wrapper .awards {
-      font-size: 30px;
-      padding: 13px 27px;
-      top: 420px;
+    .main_banner_wrapper .awards_wrapper.awards_animate {
       left: -71px; }
+    .main_banner_wrapper .awards_wrapper {
+      top: 420px;
+      left: -127px; }
+      .main_banner_wrapper .awards_wrapper .awards {
+        font-size: 30px;
+        padding: 13px 27px;
+        transition: all .5s ease-in-out;
+        width: 198px; }
+      .main_banner_wrapper .awards_wrapper .awards_swing {
+        margin-top: -71px;
+        height: 198px;
+        margin-left: 127px;
+        width: 532px; }
+        .main_banner_wrapper .awards_wrapper .awards_swing .awards_inner_swing {
+          height: 198px;
+          width: 532px;
+          -webkit-transform: rotateY(106deg);
+          transform: rotateY(106deg); }
+          .main_banner_wrapper .awards_wrapper .awards_swing .awards_inner_swing a {
+            float: left;
+            height: 165px;
+            margin-top: 16px;
+            width: 50%; }
+            .main_banner_wrapper .awards_wrapper .awards_swing .awards_inner_swing a img {
+              max-width: 100%;
+              height: auto;
+              width: 150px;
+              margin: 0 auto;
+              float: none; }
+            .main_banner_wrapper .awards_wrapper .awards_swing .awards_inner_swing a:last-of-type {
+              border-left: 1px solid #ccc; }
     .main_banner_wrapper .vertical_align span.large_header {
       max-width: 1015px;
       font-size: 89px; }

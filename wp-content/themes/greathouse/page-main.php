@@ -11,7 +11,28 @@ get_header(); ?>
 	
 	<section class="main_banner_wrapper" style="background: linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.15)), url(<?php the_field('main_banner');?>) no-repeat scroll center top / cover ;">
 		
+		<div class="awards_wrapper">
+		
 		<div class="awards">Awards</div><!-- awards -->
+		
+		<div class="awards_swing">
+			
+			<div class="awards_inner_swing">
+				
+				<a href="" target="_blank">
+					<img class="alist" src="<?php bloginfo('template_directory');?>/images/alist.jpg"/>
+				</a>
+				
+				<a href="" target="_blank">
+					<img class="houzz" src="<?php bloginfo('template_directory');?>/images/houzz.jpg"/>
+				</a>
+				
+				
+			</div><!-- awards_inner_swing -->
+			
+		</div><!-- awards_swing -->
+		
+		</div><!-- awards_wrapper -->
 		
 		<div class="vertical_align">
 			

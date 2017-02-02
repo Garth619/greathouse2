@@ -34780,6 +34780,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/wp-content\/themes\/greathouse\/images\/alist.jpg": {
+		"ft": 16384,
+		"iS": 11181,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/greathouse\/images\/alist.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/wp-content\/themes\/greathouse\/images\/arrival_1.png": {
 		"ft": 32768,
 		"iS": 29741,
@@ -34853,6 +34861,14 @@
 		"iS": 43930,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/greathouse\/images\/before_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/greathouse\/images\/bullet copy.png": {
+		"ft": 32768,
+		"iS": 1001,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/greathouse\/images\/bullet copy.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -35243,6 +35259,14 @@
 		"iS": 66738,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/greathouse\/images\/hero_mob.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/greathouse\/images\/houzz.jpg": {
+		"ft": 16384,
+		"iS": 12055,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/greathouse\/images\/houzz.jpg",
 		"oF": 0,
 		"opt": 0
 		},

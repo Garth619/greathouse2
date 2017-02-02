@@ -458,6 +458,44 @@ jQuery('img.search_img.desktop').click(function(){
 		jQuery(this).find('.social_icon_hover').fadeOut(200);
 		
 	});
+	
+	
+	// Awards fadeIn on Page Load
+	
+	
+// 	jQuery('.awards').delay(500).animate({left: "-43px"}, 2000);
+
+
+
+	jQuery('.awards_wrapper').delay(2000).queue(function(){
+		
+		jQuery(this).addClass('awards_animate');
+		
+	});
+	
+	
+	
+	jQuery('.awards_wrapper').mouseenter(function(){
+		
+		jQuery('.awards_inner_swing').addClass('open');
+		
+		
+		
+	});
+
+
+	jQuery('.awards_wrapper').mouseleave(function(){
+		
+		jQuery('.awards_inner_swing').removeClass('open');
+		
+		
+	});
+
+
+
+
+
+
     
 
 
