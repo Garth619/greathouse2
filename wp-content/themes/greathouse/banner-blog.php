@@ -16,19 +16,19 @@
 
 	<?php if( get_field('banner_font_color_blog','option') == 'Black' ): ?>
 
-		<span style="color:#000;">Blog</span>
+		<h1 style="color:#000;">Blog</h1>
 		
 	<?php endif;?>
 	
 	<?php if( get_field('banner_font_color_blog','option') == 'White' ): ?>
 
-		<span style="color:#fff">Blog</span>
+		<h1 style="color:#fff">Blog</h1>
 		
 	<?php endif;?>
 	
 	<?php if( get_field('banner_font_color_blog','option') == 'Blue' ): ?>
 
-		<span style="color:#79b7c0">Blog</span>
+		<h1 style="color:#79b7c0">Blog</h1>
 		
 	<?php endif;?>
 	

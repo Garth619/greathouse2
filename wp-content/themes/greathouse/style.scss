@@ -151,7 +151,7 @@ body {
 	text-decoration: none;
 	font-size:14px;
 	padding:13px 30px;
-	letter-spacing: 0.1px;
+	letter-spacing: 0.4px;
 	transition:all .2s ease-in-out;
 	&:hover {
 		background:#000;
@@ -170,7 +170,7 @@ body {
 	text-decoration: none;
 	font-size:14px;
 	padding:11px 20px 9px;
-	letter-spacing: 1.1px;
+	letter-spacing: 0.4px;
 	cursor: pointer;
 }
 
@@ -182,6 +182,11 @@ body {
 	padding:18px 30px;
 	display:inline-block;
 	color:#fff;
+	letter-spacing: 0.4px;
+	transition: all .2s ease-in-out;
+	&:hover {
+		background: #000;
+	}
 }
 
 a.post-edit-link {
@@ -212,6 +217,8 @@ a {
 	display: inline-block;
 	margin-top:15px;
 	cursor: pointer;
+	font-size:21px;
+			padding: 17px 35px;
 }
 
 
@@ -281,7 +288,7 @@ header {
 			.logo_wrapper {
 				float:left;
 				background:#000;
-				padding: 18px 25px 13px;
+				padding: 18px 25px 11px;
 				width:225px;
 				img.logo {
 					max-width:100%;
@@ -1834,6 +1841,7 @@ img.aligncenter {
 				font-family: $voltagereg;
 				text-transform: lowercase;
 				font-size:26px;
+				text-decoration: none;
 				
 			}
 			iframe {
@@ -2003,13 +2011,18 @@ body.page-template-page-locations {
 		position: relative;
 		.overlay_shop_button {
 			display: inline-block;
+			font-size:21px;
+			padding: 17px 55px;
 		}
-		.gform_confirmation_message_2 {
-			font-family: $oswaldreg;
-			text-transform: uppercase;
-			font-size:20px;
+		.gform_confirmation_message_2, .gform_confirmation_message_3 {
+			font-family: $didot;
+			text-transform: normal;
+			font-size:19px;
 			padding-top:18px;
 			letter-spacing: .7px;
+			max-width:400px;
+			margin:0 auto;
+			line-height: 24px;
 		}
 	}
 	.overlay_close {
@@ -2105,6 +2118,11 @@ body.page-template-page-locations {
 			margin-top:25px;
 			-webkit-appearance: none;
 			border-radius:0;
+			transition:all .2s ease-in-out;
+			cursor: pointer;
+			&:hover {
+				background: #000;
+			}
 		}
 	}
 	
@@ -2115,7 +2133,7 @@ body.page-template-page-locations {
 	.validation_message {
 // 		margin-top:15px;
 		font-family: $oswaldreg;
-		color:$bluedark;
+		color:red;
 		position: absolute;
 		top:62px;
 		font-size:13px;
@@ -2185,6 +2203,10 @@ body.page-template-page-locations {
 						text-transform: uppercase;
 						margin-top:40px;
 						cursor: pointer;
+						transition:all .2s ease-in-out;
+						&:hover {
+							background: #000;
+						}
 				}
 			}
 		}
@@ -2268,6 +2290,10 @@ body.page-template-page-locations {
 	display: none;
 	color:red;
 	margin-top:6px;
+	font-family: $oswaldreg;
+	text-transform: uppercase;
+	font-size:12px;
+	letter-spacing: 1px;
 }
 
 
@@ -2494,6 +2520,10 @@ li#field_2_2 label.gfield_label {
 					border-radius: 0px !important;
 					font-size:14px;
 					width: 152px;
+					transition: all .2s ease-in-out;
+					&:hover {
+						background: #000;
+					}
 				}
 			}
 		}
@@ -2544,7 +2574,14 @@ li#field_2_2 label.gfield_label {
 			padding: 8px 20px;
 			margin-right:15px;
 			margin-bottom:15px;
+			transition:all .2s ease-in-out;
 			float:left;
+			&:hover {
+				background: #000;
+				color:#fff;
+			}
+
+			
 		}
 	}
 	
@@ -2627,6 +2664,7 @@ div.product_content_wrap div.summary.entry-summary div p {
 		padding:25px;
 		margin:0px 0 25px;
 		overflow: hidden;
+		
 		span.quantity {
 			display: block;
 			margin-bottom:20px;
@@ -2651,6 +2689,11 @@ div.product_content_wrap div.summary.entry-summary div p {
 			margin-right:15px;
 			text-transform: uppercase;
 			background:transparent;
+			transition:all .2s ease-in-out;
+			&:hover {
+			background: #000;
+			color:#fff;
+		}
 		}
 	}
 	
@@ -2854,8 +2897,13 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked, .ivpa_active {
 			font-size:14px;
 			display:inline-block;
 			margin:15px auto;
-			padding:11px 18px;
+			padding:13px 18px;
 			text-align: center;
+			transition: all .2s ease-in-out;
+			&:hover {
+				background:#000;
+				
+			}
 		}
 	}
 	
@@ -3072,6 +3120,12 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked, .ivpa_active {
 			}
 			.transparent_button {
 				font-size:16px;
+				transition:all .2s ease-in-out;
+				padding-bottom:11px;
+				&:hover {
+					background:#000;
+					color:#fff;
+				}
 				
 			}
 		}
@@ -3614,24 +3668,37 @@ ul.products li a.woocommerce-LoopProduct-link span.price ins {
 			border:none;
 			width:100%;
 			font-size:14px;
+			letter-spacing: 0.4px;
 			font-family: $oswaldreg;
 			text-transform: uppercase;
 			padding:15px;
 			-webkit-appearance: none;
 			border-radius: 0;
+			transition: all .2s ease-in-out;
+			&:hover {
+				background:#000;
+				
+			}
 		}
 		input#mycoupon_button {
 			margin-top:0px;
 		}
 		input[type="submit"] {
-			margin:35px auto 0;;
+			margin:35px auto 0;
 			width:200px;
 			display: inherit;
-			font-size:18px;
+			font-size:14px;
+			letter-spacing: 0.4px;
 			padding:12px 25px;
+			transition: all .2s ease-in-out;
+			cursor: pointer;
+			&:hover {
+				background:#000;
+				
+			}
 		}
 		.checkout-button {
-			font-size:18px;
+			font-size:14px;
 			letter-spacing: 0.2px;
 			width:250px !important;
 			margin-left:auto;
@@ -3948,7 +4015,7 @@ ul.products li a.woocommerce-LoopProduct-link span.price ins {
 				.button,
 				.input-text {
 // 					width: 50%;
-					padding:16px;
+					padding:11px;
 					
 				}
 				
@@ -3958,7 +4025,7 @@ ul.products li a.woocommerce-LoopProduct-link span.price ins {
 					border:none;
 					font-size:14px;
 					line-height:1;
-					height:50px;
+					height:40px;
 					border-radius: 0;
 				}
 				input#mycoupon_button {
@@ -3966,8 +4033,12 @@ ul.products li a.woocommerce-LoopProduct-link span.price ins {
 					font-size:14px;
 					line-height:1;
 					-webkit-appearance: none !important;
-					height:50px;
+					height:40px;
 					border-radius: 0;
+					transition:all .2s ease-in-out;
+					&:hover {
+						background: $bluedark;
+					}
 				}
 				.input-text + .button,
 				.button.alt {
@@ -4246,6 +4317,12 @@ form.checkout_coupon {
 		 padding:5px 20px;
 		 width:100%;
 		 -webkit-appearance: none;
+		 transition: all .2s ease-in-out;
+		 cursor: pointer;
+			&:hover {
+				background:$bluedark;
+				
+			}
 	}
 	.form-row-first {
 		width:60%;
@@ -4311,7 +4388,7 @@ form.register {
 		width:100%;
 		padding:10px;
 		font-family: $oswaldreg;
-		font-size:16px;
+		font-size:14px;
 	}
 	input[type="text"], input[type="password"], input[type="checkbox"] {
 			border: 1px solid #a6a6a6;
@@ -4334,6 +4411,12 @@ form.register {
 		color:#fff;
 		text-transform: uppercase;
 		letter-spacing: 0.7px;
+		cursor: pointer;
+		transition: all .2s ease-in-out;
+			&:hover {
+				background:#000;
+				
+			}
 	}
 }
 
@@ -4394,7 +4477,7 @@ form.register {
 	color:#fff;
 	font-family: $oswaldreg;
 	text-transform: uppercase;
-	font-size:16px;
+	font-size:14px;
 	padding: 10px;
 }
 
@@ -4597,7 +4680,7 @@ div.woocommerce-MyAccount-content {
 			float:left;
 			text-transform: uppercase;
 			background:transparent;
-		}
+					}
 	}
 
 
@@ -4704,8 +4787,9 @@ right:0;
 			padding:0;
 				p.price {
 					position:absolute;
-					top:29px;
+// 					top:29px;
 					right:0;
+					top:0;
 				}
 				p.call_for_quote {
 					top:0;
@@ -4725,8 +4809,9 @@ right:0;
 			.single_variation {
 				.woocommerce-variation-price {
 					position: absolute;
-					top:34px;
+// 					top:34px;
 					right:0;
+					top:0;
 					
 				}
 				.woocommerce-variation-availability {
@@ -5110,7 +5195,7 @@ header {
 		.header_logo_nav_wrapper {
 			background: #fff;
 			height:60px;
-			border-bottom: 1px solid #ccc;
+// 			border-bottom: 1px solid #ccc;
 			.logo_wrapper {
 				background: #000 none repeat scroll 0 0;
 				float: left;
@@ -5128,7 +5213,7 @@ header {
 				}
 			}
 			.mobile_menu_wrapper {
-				height:59px;
+				height:60px;
 				padding: 22px 0 0 17px;
 				.menu_bar {
 					
@@ -5760,6 +5845,7 @@ footer {
 		}
 		#gform_submit_button_2 {
 			  padding: 9px 65px;
+			  
 		}
 	}
 	
@@ -6091,13 +6177,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
 @media screen and (min-width: 1150px) {
 	
 	.single_variation_wrap {
@@ -6115,7 +6194,7 @@ header {
 		}
 		.header_logo_nav_wrapper {
 			background:$greylight;
-			height:52px;
+			height:50px;
 			border: none;
 			.logo_wrapper {
 				background: #000 none repeat scroll 0 0;
@@ -6253,7 +6332,7 @@ header {
 .desktop_menu_wrapper {
 	display: block;
 	float:right;
-	height:63px;
+	height:50px;
 	
 	.desktop_menu.hide {
 		opacity: 0;
@@ -6394,7 +6473,7 @@ header {
 		padding: 17px 6px 19px;
 		transition: all .2s ease-in-out;
 		&:hover {
-			background: #000;
+			background: rgba(47, 47, 47, 0.98);
 			color:#fff;
 		}
 	}
@@ -6564,9 +6643,9 @@ ul.mycart {
 				background: none;
 				
 				transition: all .2s ease-in-out;
-				padding: 11px 6px 13px;
+				padding: 11px 6px 14px;
 				&:hover {
-					background: $black;
+					background: rgba(47, 47, 47, 0.98);
 					color:#fff;
 				}
 			}
@@ -6617,8 +6696,14 @@ ul.mycart {
 						background: $bluedark;
 						padding:10px 15px;
 						float:none;
+						letter-spacing: 0.4px;
 						display: inline-block;
 						margin-top:6px;
+						transition: all .2s ease-in-out;
+						&:hover {
+							background:#000;
+							
+						}
 					}
 				}
 			}

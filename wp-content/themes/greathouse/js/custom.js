@@ -411,10 +411,11 @@ jQuery('img.search_img.desktop').click(function(){
 // Custom Overlays for the Color Pattern Variations on the single product page
 
 
-
-
-
-	jQuery('.ivpa_term').mouseenter(function() {
+function checkWidth() {
+    
+    if (jQuery(window).width() > 1150) {
+        
+       jQuery('.ivpa_term').mouseenter(function() {
 		
 		jQuery(this).children('img').clone().appendTo( ".overlay_pattern_inner" );
 		
@@ -432,7 +433,21 @@ jQuery('img.search_img.desktop').click(function(){
 		jQuery('.overlay_pattern_inner').find('img').remove().end().appendTo('.overlay_pattern_inner');
 		
 	});
-	
+
+    		
+    	   		
+    		
+    } else {
+
+    }
+};
+
+
+checkWidth();
+
+
+
+		
 	
 	// Hacky fix that corrects a bug that doesn't show the dimensions tabs on simple products
 	
@@ -475,7 +490,7 @@ jQuery('img.search_img.desktop').click(function(){
 	
 	
 	
-	jQuery('.awards_wrapper').mouseenter(function(){
+	jQuery('.awards').mouseenter(function(){
 		
 		jQuery('.awards_inner_swing').addClass('open');
 		
