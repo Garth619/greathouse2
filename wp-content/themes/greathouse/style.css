@@ -3666,7 +3666,11 @@ div.woocommerce-MyAccount-content form fieldset {
         top: 4px;
         left: 23px; }
   .keyholder:hover .keyholder_bg {
-    transform: scale(1.2); }
+    transform: scale(1.09); }
+  .keyholder:hover .transparent_button {
+    background: #7dccd8;
+    color: #fff;
+    border: #7dccd8 1px solid; }
   .keyholder {
     width: 49%;
     position: relative;
@@ -3703,19 +3707,29 @@ div.woocommerce-MyAccount-content form fieldset {
         line-height: 1.1; }
       .keyholder .inner_keyholder .transparent_button {
         transition: all .2s ease-in-out; }
-        .keyholder .inner_keyholder .transparent_button:hover {
-          background: #7dccd8;
-          color: #fff;
-          border: #7dccd8 1px solid; }
+  .shop_accessories:hover .shop_box_1_bg {
+    transform: scale(1.09); }
+  .shop_accessories:hover .shop_bar .shop {
+    background: #79b7c0;
+    color: #fff; }
   .shop_accessories {
     width: 49%;
     float: left;
-    background: url(images/grid_pillow.jpg) center center no-repeat;
-    background-size: cover;
+    overflow: hidden;
+    /*
+	background:url(images/grid_pillow.jpg) center center no-repeat;
+	background-size:cover;
+*/
     height: 400px;
     margin-left: 1%;
     position: relative;
     margin-bottom: 2%; }
+    .shop_accessories .shop_box_1_bg {
+      height: 400px;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      transition: all .3s ease-in-out; }
     .shop_accessories .shop_bar {
       background: rgba(255, 255, 255, 0.7);
       width: 279px;
@@ -3723,11 +3737,13 @@ div.woocommerce-MyAccount-content form fieldset {
       .shop_accessories .shop_bar .shop {
         background: #fff;
         transition: all .2s ease-in-out; }
-        .shop_accessories .shop_bar .shop:hover {
-          background: #79b7c0;
-          color: #fff; }
       .shop_accessories .shop_bar .shop_cta {
         color: #000; }
+  .seasonal_features:hover .shop_box_2_bg {
+    transform: scale(1.09); }
+  .seasonal_features:hover .shop_bar .shop {
+    color: #fff;
+    background: #79b7c0; }
   .seasonal_features {
     /*
 	background: url(images/grid_table.jpg) center center no-repeat;
@@ -3737,7 +3753,14 @@ div.woocommerce-MyAccount-content form fieldset {
     height: 400px;
     display: block;
     clear: both;
-    position: relative; }
+    position: relative;
+    overflow: hidden; }
+    .seasonal_features .shop_box_2_bg {
+      width: 100%;
+      height: 400px;
+      position: absolute;
+      top: 0;
+      transition: all .3s ease-in-out; }
     .seasonal_features .shop_bar {
       background: rgba(0, 0, 0, 0.7);
       width: 325px;
@@ -3746,9 +3769,6 @@ div.woocommerce-MyAccount-content form fieldset {
         background: #000;
         transition: all .2s ease-in-out;
         color: #79b7c0; }
-        .seasonal_features .shop_bar .shop:hover {
-          color: #fff;
-          background: #79b7c0; }
       .seasonal_features .shop_bar .shop_cta {
         color: #fff; }
   /* Footer */

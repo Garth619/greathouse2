@@ -284,7 +284,9 @@ if( $posts ): ?>
 		
 		<a href="<?php the_field('shop_box_1_link');?>">
 		
-		<div class="shop_accessories" style="background: rgba(0, 0, 0, 0) url(<?php the_field('shop_box_1_image');?>) no-repeat scroll center center / cover ;">
+		<div class="shop_accessories">
+			
+		<div class="shop_box_1_bg" style="background: rgba(0, 0, 0, 0) url(<?php the_field('shop_box_1_image');?>) no-repeat scroll center center / cover ;"></div><!-- shop_box_1_bg -->
 			
 			<div class="shop_bar">
 				
@@ -300,8 +302,9 @@ if( $posts ): ?>
 		
 		<a href="<?php the_field('shop_box_2_link');?>">
 		
-		<div class="seasonal_features" style="background: rgba(0, 0, 0, 0) url(<?php the_field('shop_box_2_image');?>) no-repeat scroll center center / cover ;">
+		<div class="seasonal_features">
 			
+			<div class="shop_box_2_bg" style="background: rgba(0, 0, 0, 0) url(<?php the_field('shop_box_2_image');?>) no-repeat scroll center center / cover ;"></div><!-- shop_box_2_bg -->
 			
 			<div class="shop_bar">
 				
