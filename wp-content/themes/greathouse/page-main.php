@@ -213,7 +213,7 @@ if( $posts ): ?>
 		
 		<span class="large_header"><?php the_field('personalize_section_main_header');?></span><!-- large_header -->
 		
-		<a href="<?php the_field('personalize_section_button_link');?>" class="white_button" style="border:1px solid #000;"><?php the_field('personalize_section_button_text');?></a><!-- white_button -->
+		<a  id="life_line_trigger" href="<?php the_field('personalize_section_button_link');?>" class="white_button" style="border:1px solid #000;"><?php the_field('personalize_section_button_text');?></a><!-- white_button -->
 		
 </section><!-- custom_design_services -->
 
@@ -223,11 +223,15 @@ if( $posts ): ?>
 
 	<section class="life_well_lived">
 		
+		<div class="life_line_desktop"></div><!-- life_line_desktop -->
+		
 		<div class="desktop_wrapper">
 		
 			<h1 class="large_header"><?php the_field('life_well_lived_title');?></h1><!-- large_header -->
 		
 			<div class="life_well_lived_content">
+				
+				<div class="life_line"></div><!-- life_line -->
 				
 				
 				<?php the_field('live_well_lived_content');?>

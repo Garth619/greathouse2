@@ -5503,7 +5503,7 @@ body.logged-in {
 	span.large_header {
 		font-size:100px;
 		margin-bottom:60px;
-		line-height: 68px;
+		line-height: 138px;
 	}
 }
 
@@ -5512,6 +5512,7 @@ body.logged-in {
 
 .life_well_lived {
 	padding: 78px 0px;
+	position: relative;
 	h1.large_header {
 		padding-left:45px;
 		margin-right:45px;
@@ -5520,11 +5521,13 @@ body.logged-in {
 		line-height:59px;
 	}
 	.life_well_lived_content {
-		border-top:1px solid $bluelight;
+// 		border-top:1px solid $bluelight;
 		padding-left:45px;
 		margin-right:45px;
 		padding-top: 47px;
+		position: relative;
 	}
+		
 	span.quote {
 		width:100%;
 		padding-left:45px;
@@ -5537,6 +5540,29 @@ body.logged-in {
 br.tablet_break {
 	display:inline;
 }
+
+
+
+.life_line, .life_line_desktop {
+		position:absolute;
+		left:0;
+		top:0;
+		width:0%;
+		height:1px;
+		background: $bluedark;
+		-webkit-transition: all 1100ms cubic-bezier(0.215, 0.61, 0.355, 1);
+		transition: all 1100ms cubic-bezier(0.215, 0.61, 0.355, 1);
+	}
+	
+	.life_line.animate_line, .life_line_desktop.animate_line {
+		width:100%;
+	}
+	.life_line_desktop {
+		display: none;
+	}
+
+
+
 
 
 /* Keyholder */
@@ -5591,7 +5617,7 @@ br.tablet_break {
 .keyholder {
 	&:hover {
 		.keyholder_bg {
-			 transform: scale(1.09);
+			 transform: scale(1.06);
 		}
 		.transparent_button {
 			background:#7dccd8;
@@ -5606,6 +5632,7 @@ br.tablet_break {
 		width:49%;
 		position: relative;
 		overflow: hidden;
+		cursor: pointer;
 /*
 		background:url(images/keytab.jpg) center center no-repeat;
 		background-size:cover;
@@ -5624,7 +5651,8 @@ br.tablet_break {
 			position: relative;
 			top: 50%;
 			transform: translateY(-50%);
-		
+			padding-left:10px;
+			padding-right:10px;
 			span.sub_header {
 				font-family: $voltagelight;
 				font-size:28px;
@@ -5651,7 +5679,7 @@ br.tablet_break {
 .shop_accessories {
 	&:hover {
 		.shop_box_1_bg {
-			transform: scale(1.09);
+			transform: scale(1.06);
 		}
 		.shop_bar {
 		.shop {
@@ -5703,7 +5731,7 @@ br.tablet_break {
 .seasonal_features {
 	&:hover {
 		.shop_box_2_bg {
-			transform: scale(1.09);
+			transform: scale(1.06);
 		}
 		.shop_bar {
 			.shop {
@@ -6903,7 +6931,7 @@ body.tax-product_cat, body.post-type-archive-product {
 	width:41%;
 	float:left;
 	margin-right:5%;
-	border-top:1px solid $bluelight;
+// 	border-top:1px solid $bluelight;
 	margin-top:75px;
 	padding-top:55px;
 	span.large_header {
@@ -6919,6 +6947,14 @@ body.tax-product_cat, body.post-type-archive-product {
 		padding-top:0;
 		margin-right:0;
 	}
+}
+
+.life_line {
+	display: none;
+}
+
+.life_line_desktop {
+	display:block;
 }
 
 

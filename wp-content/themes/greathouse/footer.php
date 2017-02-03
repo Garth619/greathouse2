@@ -371,6 +371,28 @@
 */
 
 		});
+		
+		
+		
+		<?php if(is_front_page()):?>
+		
+			
+// Animated Blueline in the Life Well Lived Section
+
+
+var lifeline = new Waypoint({
+  element: document.getElementById('life_line_trigger'),
+  handler: function(direction) {
+   
+   jQuery('.life_line').addClass('animate_line');
+   jQuery('.life_line_desktop').addClass('animate_line');
+   
+  }
+})
+		
+		<?php endif;?>
+		
+		
 
 </script>
 

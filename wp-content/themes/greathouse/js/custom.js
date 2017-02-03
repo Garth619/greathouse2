@@ -153,7 +153,7 @@ jQuery('html').click(function(event){
 	  // Keyholder Overlay 
 	  
 	  
-	  jQuery('.keyholder span.transparent_button, .member_banner span.transparent_button').click(function() {
+	  jQuery('.keyholder, .member_banner span.transparent_button').click(function() {
 	   
 	   jQuery('.keyholder_verbiage').fadeIn();
 	   
@@ -318,6 +318,12 @@ var sticky = new Waypoint.Sticky({
   element: jQuery('.mobile_fixed_wrapper')[0]
 })
 
+
+
+
+
+
+// Sticky bar for the Product Filter
 
 
 /*
