@@ -478,33 +478,64 @@ checkWidth();
 	// Awards fadeIn on Page Load
 	
 	
-// 	jQuery('.awards').delay(500).animate({left: "-43px"}, 2000);
 
 
 
-	jQuery('.awards_wrapper').delay(2000).queue(function(){
+function checkWidth() {
+    
+    if (jQuery(window).width() > 1400) {
+        
+       
+    		jQuery('.awards_wrapper').delay(2000).queue(function(){
 		
-		jQuery(this).addClass('awards_animate');
+					jQuery(this).addClass('awards_animate');
 		
-	});
+				});
 	
 	
 	
-	jQuery('.awards').mouseenter(function(){
+				jQuery('.awards').mouseenter(function(){
 		
-		jQuery('.awards_inner_swing').addClass('open');
+					jQuery('.awards_inner_swing').addClass('open');
 		
-		
-		
-	});
+				});
 
 
-	jQuery('.awards_wrapper').mouseleave(function(){
+				jQuery('.awards_wrapper').mouseleave(function(){
 		
-		jQuery('.awards_inner_swing').removeClass('open');
+					jQuery('.awards_inner_swing').removeClass('open');
 		
+				});
+    	   		
+    		
+    } else {
+	    
+	    
+	    jQuery('.awards_wrapper').delay(2000).queue(function(){
 		
-	});
+					jQuery(this).addClass('awards_animate');
+		
+				});
+				
+				
+			jQuery('.awards').click(function(){
+		
+					jQuery('.awards_inner_swing').addClass('open');
+		
+				});
+	    
+	    
+	    
+
+    }
+};
+
+
+checkWidth();
+
+
+
+	
 
 
 
