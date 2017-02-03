@@ -47,11 +47,11 @@ if( $posts ): ?>
 									<span class="large_header"><?php the_title();?></span><!-- large_header -->
 									<span class="sub_header"><?php the_field('designer_bios_job_title');?></span><!-- sub_header -->
 				
-								</div><!-- product_inner_wrapper -->
+								</div><!-- team_inner_wrapper -->
 			
-							</div><!-- product_overlay -->
+							</div><!-- team_overlay -->
 		
-						<div class="team_background" style="background: rgba(0, 0, 0, 0) url(<?php the_field('designer_image');?>) no-repeat scroll left top / cover ;">
+						<div class="team_background" style="background: rgba(0, 0, 0, 0) url(<?php the_field('designer_image');?>) no-repeat scroll center center / cover ;">
 							
 						</div><!-- product_background -->
 		

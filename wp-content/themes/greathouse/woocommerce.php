@@ -53,7 +53,7 @@ get_header(); ?>
 				
 					<?php $allnewproducts = wp_get_attachment_image_src(get_sub_field('image', $titlepost_id), 'allproducts'); ?>
   	    
-					<div class="product_background" style="background: rgba(0, 0, 0, 0) url(<?php echo $allnewproducts[0]; ?>) no-repeat scroll left top / cover ;">
+					<div class="product_background" style="background: rgba(0, 0, 0, 0) url(<?php echo $allnewproducts[0]; ?>) no-repeat scroll center center / cover ;">
 						
 					</div><!-- product_background -->
 		 			
@@ -145,7 +145,7 @@ get_header(); ?>
 				
 					<?php $allnewproducts = wp_get_attachment_image_src(get_sub_field('image'), 'allproducts'); ?>
   	    
-					<div class="product_background" style="background: rgba(0, 0, 0, 0) url(<?php echo $allnewproducts[0]; ?>) no-repeat scroll left top / cover ;">
+					<div class="product_background" style="background: rgba(0, 0, 0, 0) url(<?php echo $allnewproducts[0]; ?>) no-repeat scroll center center / cover ;">
 						
 					</div><!-- product_background -->
 		 			

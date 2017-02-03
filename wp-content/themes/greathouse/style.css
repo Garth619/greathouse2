@@ -453,11 +453,15 @@ input.woocommerce-Button.button {
     opacity: 0;
     visibility: hidden; }
 
+.single_product_square:hover .product_background {
+  transform: scale(1.04); }
+
 .single_product_square {
   width: 100%;
   text-align: center;
   position: relative;
-  margin-top: 12px; }
+  margin-top: 12px;
+  overflow: hidden; }
   .single_product_square a {
     text-decoration: none; }
   .single_product_square .product_overlay {
@@ -494,7 +498,8 @@ input.woocommerce-Button.button {
     height: 280px;
     position: absolute;
     top: 0;
-    left: 0; }
+    left: 0;
+    transition: all .2s ease-in-out; }
 
 .single_product_square:last-of-type {
   margin-bottom: 0px; }
@@ -1085,23 +1090,28 @@ body.page-template-page-designbios .no_sidebar_wrapper {
     width: 100%;
     text-align: center;
     position: relative;
-    margin-top: 12px; }
+    margin-top: 12px;
+    transition: all .2s ease-in-out;
+    overflow: hidden; }
+    #content .team_wrapper .single_team_square:hover .team_overlay {
+      background: transparent; }
+      #content .team_wrapper .single_team_square:hover .team_overlay .team_inner_wrapper span.large_header, #content .team_wrapper .single_team_square:hover .team_overlay .team_inner_wrapper span.sub_header {
+        opacity: 0;
+        visibility: hidden; }
+    #content .team_wrapper .single_team_square:hover .team_background {
+      transform: scale(1.07); }
     #content .team_wrapper .single_team_square a {
       text-decoration: none; }
+    #content .team_wrapper .single_team_square .team_background {
+      transition: all .2s ease-in-out; }
     #content .team_wrapper .single_team_square .team_overlay {
       background: rgba(0, 0, 0, 0.6);
       height: 280px;
       position: relative;
       z-index: 5;
-      transition: all .2s ease-in-out;
       display: flex;
       align-items: center;
-      padding: 95px 20px 0; }
-      #content .team_wrapper .single_team_square .team_overlay:hover {
-        background: transparent; }
-        #content .team_wrapper .single_team_square .team_overlay:hover .team_inner_wrapper span.large_header, #content .team_wrapper .single_team_square .team_overlay:hover .team_inner_wrapper span.sub_header {
-          opacity: 0;
-          visibility: hidden; }
+      padding: 128px 20px 0; }
       #content .team_wrapper .single_team_square .team_overlay .team_inner_wrapper {
         width: 100%;
         /*
@@ -1117,13 +1127,14 @@ body.page-template-page-designbios .no_sidebar_wrapper {
           display: block;
           transition: all .2s ease-in-out;
           opacity: 1;
-          visibility: visible; }
+          visibility: visible;
+          line-height: 50px; }
         #content .team_wrapper .single_team_square .team_overlay .team_inner_wrapper span.sub_header {
           color: #79b7c0;
           font-family: "Voltage W00 Regular", arial;
           font-size: 26px;
           text-transform: lowercase;
-          margin-top: -8px;
+          margin-top: 3px;
           display: block;
           transition: all .2s ease-in-out;
           opacity: 1;
@@ -1367,7 +1378,11 @@ body.page-template-page-locations .form_wrapper {
     margin-top: 15px;
     -webkit-appearance: none;
     border-radius: 0;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: all .2s ease-in-out; }
+    body.page-template-page-locations .form_wrapper .gform_button:hover {
+      background: #fff;
+      color: #000; }
   body.page-template-page-locations .form_wrapper .validation_error {
     display: none; }
   body.page-template-page-locations .form_wrapper .gfield_description, body.page-template-page-locations .form_wrapper .validation_message {
@@ -2919,7 +2934,12 @@ td.product-quantity {
     border-radius: 0;
     clear: left;
     padding-left: 30px;
-    padding-right: 30px; }
+    padding-right: 30px;
+    cursor: pointer;
+    transition: all .2s ease-in-out; }
+    .woocommerce #payment #place_order:hover,
+    .woocommerce-page #payment #place_order:hover {
+      background: #000; }
   .woocommerce .lost_reset_password .form-row-first,
   .woocommerce .lost_reset_password .form-row-last,
   .woocommerce-page .lost_reset_password .form-row-first,
@@ -3029,7 +3049,8 @@ ul.woocommerce-error {
   ul.woocommerce-error li {
     margin-bottom: 15px; }
     ul.woocommerce-error li strong {
-      color: red; }
+      color: red;
+      font-weight: 300; }
 
 .woocommerce-info, .login, .woocommerce-info {
   line-height: 1.2; }
@@ -3380,8 +3401,8 @@ div.woocommerce-MyAccount-content form fieldset {
     padding-top: 1px; }
   .woocommerce-error:before {
     content: "!";
-    padding-left: 9px;
-    padding-top: 0px;
+    padding-left: 8px;
+    padding-top: 1px;
     background: red;
     font-family: arial;
     font-size: 16px; }
@@ -4361,7 +4382,8 @@ div.woocommerce-MyAccount-content form fieldset {
           font-size: 18px;
           margin-bottom: 0; }
         #content .team_wrapper .single_team_square .team_overlay .team_inner_wrapper span.sub_header {
-          font-size: 26px; }
+          font-size: 26px;
+          margin-top: -13px; }
       #content .team_wrapper .single_team_square .team_background {
         height: 210px; }
   /* Form */
