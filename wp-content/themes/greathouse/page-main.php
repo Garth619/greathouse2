@@ -262,7 +262,10 @@ if( $posts ): ?>
 
 	<section class="threeboxes_desktop">
 		
-		<div class="keyholder" style="background: rgba(0, 0, 0, 0) url(<?php the_field('keyholder_box_image');?>) no-repeat scroll center center / cover ;">
+	
+		<div class="keyholder">
+			
+			<div class="keyholder_bg" style="background: rgba(0, 0, 0, 0) url(<?php the_field('keyholder_box_image');?>) no-repeat scroll center center / cover ;"></div><!-- keyholder_bg -->
 			
 			<div class="inner_keyholder">
 			
@@ -273,7 +276,11 @@ if( $posts ): ?>
 				
 			</div><!-- inner_keyholder -->
 			
+			
+			
 		</div><!-- keyholder -->
+		
+	
 		
 		<a href="<?php the_field('shop_box_1_link');?>">
 		

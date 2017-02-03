@@ -5589,18 +5589,37 @@ br.tablet_break {
 
 
 .keyholder {
+	&:hover {
+		.keyholder_bg {
+			 transform: scale(1.2);
+		}
+	}
+}
+
+
+.keyholder {
 		width:49%;
 		position: relative;
+		overflow: hidden;
+/*
 		background:url(images/keytab.jpg) center center no-repeat;
 		background-size:cover;
-		height:400px;
+*/
+	height:400px;
 		text-align: center;
 		float:left;
 		margin-right:1%;
+		.keyholder_bg {
+			height:400px;
+			position: absolute;
+			width:100%;
+			transition: all .2s ease-in-out;
+		}
 		.inner_keyholder {
 			position: relative;
 			top: 50%;
 			transform: translateY(-50%);
+		
 			span.sub_header {
 				font-family: $voltagelight;
 				font-size:28px;
