@@ -417,6 +417,8 @@ input.woocommerce-Button.button {
   position: relative;
   padding: 0 20px;
   overflow: hidden; }
+  .main_banner_wrapper .awards_wrapper {
+    display: none; }
   .main_banner_wrapper .awards {
     display: none; }
   .main_banner_wrapper .vertical_align {
@@ -3427,8 +3429,9 @@ div.woocommerce-MyAccount-content form fieldset {
       position: absolute;
       top: 270px;
       left: -86px;
-      z-index: 1000;
-      transition: all .4s ease-in-out; }
+      z-index: 100;
+      transition: all .4s ease-in-out;
+      display: block; }
       .main_banner_wrapper .awards_wrapper .awards {
         display: block;
         position: absolute;

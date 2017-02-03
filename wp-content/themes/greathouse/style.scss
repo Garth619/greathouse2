@@ -608,6 +608,9 @@ input.woocommerce-Button.button {
 	position: relative;
 	padding:0 20px;
 	overflow: hidden;
+	.awards_wrapper {
+			display: none;
+	}
 	.awards {
 		display:none;
 	}
@@ -626,6 +629,9 @@ input.woocommerce-Button.button {
 		}
 	}
 }
+
+
+
 
 /*
 #products {
@@ -5215,8 +5221,9 @@ body.logged-in {
 		position: absolute;
 			top: 270px;
 			left: -86px;
-			z-index:1000;
+			z-index:100;
 			transition: all .4s ease-in-out;
+			display:block;
 		.awards {
 			display: block;
 			position: absolute;
