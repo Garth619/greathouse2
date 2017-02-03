@@ -4562,6 +4562,8 @@ div.woocommerce-MyAccount-content form fieldset {
   /* Single Product Pages */
   .single_product_breadcrumb .woocommerce-breadcrumb {
     text-align: left; }
+  body.single-product .product_wrapper .inner_product_wrapper {
+    max-width: 1350px; }
   .product_wrapper .woocommerce-breadcrumb {
     padding-left: 0;
     margin-bottom: 65px; }

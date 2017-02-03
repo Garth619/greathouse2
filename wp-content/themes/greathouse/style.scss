@@ -7441,10 +7441,18 @@ width:9% !important;
 	}
 
 	
-	
-	
-	
-	
+
+				
+	body.single-product {
+		
+		.product_wrapper {
+			.inner_product_wrapper {
+    max-width: 1350px;
+    }
+		}
+		
+	} 
+
 	
 	
 	.product_wrapper {
@@ -7453,10 +7461,7 @@ width:9% !important;
 			padding-left:0;
 			margin-bottom:65px;
 		}
-		
-		
-		
-				.inner_product_wrapper {
+		.inner_product_wrapper {
 			max-width:1350px;
 			overflow: hidden;
 			padding:0 45px;
