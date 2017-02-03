@@ -1721,6 +1721,9 @@ div.product_wrapper div.inner_product_wrapper p.price span.woocommerce-Price-amo
   font-family: "oswaldregular", arial;
   font-size: 35px; }
 
+body.single-product .product_wrapper .inner_product_wrapper {
+  max-width: 540px; }
+
 .product_wrapper {
   font-family: "oswaldregular", arial;
   text-transform: uppercase;
@@ -1728,7 +1731,7 @@ div.product_wrapper div.inner_product_wrapper p.price span.woocommerce-Price-amo
   text-transform: uppercase;
   margin-top: 10px; }
   .product_wrapper .inner_product_wrapper {
-    max-width: 540px;
+    max-width: 780px;
     margin: 25px auto 0; }
   .product_wrapper h1.page-title {
     padding: 25px 25px 5px;
@@ -2227,11 +2230,16 @@ body.single-product .new_arrivals_wrapper {
     text-transform: uppercase;
     display: inline-block;
     padding: 11px 18px;
-    margin-top: 25px; }
+    margin-top: 25px;
+    transition: all .2s ease-in-out; }
+    body.single-product .new_arrivals_wrapper a.button:hover {
+      background: #000; }
   body.single-product .new_arrivals_wrapper a.added_to_cart {
     font-family: "oswaldregular", arial;
     font-size: 14px;
     padding-top: 15px; }
+    body.single-product .new_arrivals_wrapper a.added_to_cart:hover {
+      background: #000; }
 
 /*
 	.up-sells {

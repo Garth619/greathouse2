@@ -2433,6 +2433,18 @@ li#field_2_2 label.gfield_label {
 
 	}
 	
+	
+	
+	body.single-product {
+		.product_wrapper {
+			.inner_product_wrapper {
+				max-width:540px;
+			}
+		}
+	}
+	
+	
+	
 	.product_wrapper {
 		font-family: $oswaldreg;
 		text-transform: uppercase;
@@ -2440,7 +2452,7 @@ li#field_2_2 label.gfield_label {
 		text-transform: uppercase;
 		margin-top:10px;
 		.inner_product_wrapper {
-			max-width:540px;
+			max-width:780px;
 			margin:25px auto 0;
 		}
 		h1.page-title {
@@ -3171,11 +3183,18 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked, .ivpa_active {
 				display: inline-block;
 				padding: 11px 18px;
 				margin-top:25px;
+				transition:all .2s ease-in-out;
+				&:hover {
+					background: #000;
+				}
 			}
 			a.added_to_cart {
 				font-family: $oswaldreg;
 				font-size:14px;
 				padding-top:15px;
+				&:hover {
+					background: #000;
+				}
 			}
 		}
 	}
