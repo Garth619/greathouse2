@@ -267,7 +267,7 @@ body.logged-in .mobile_dropdown_wrapper {
 
 .mobile_fixed_wrapper .mysearch_wrapper.mobile {
   position: absolute;
-  top: 128px;
+  top: 137px;
   left: 0;
   width: 100%;
   height: 100%;
@@ -380,7 +380,7 @@ input.woocommerce-Button.button {
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 128px;
+  top: 137px;
   left: 0;
   background: #2f2f2f;
   z-index: 150;
@@ -3074,9 +3074,13 @@ form.register {
     font-size: 16px;
     padding: 10px;
     width: 100%;
-    font-family: "oswaldregular", arial; }
+    font-family: "oswaldregular", arial;
+    border-radius: 0;
+    -webkit-apperance: none;
+    box-shadow: none; }
   form.register input[type="submit"] {
-    width: 150px; }
+    width: 150px;
+    -webkit-apperance: none; }
 
 .login {
   max-width: 500px; }

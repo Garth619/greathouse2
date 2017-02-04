@@ -15,10 +15,10 @@ get_header(); ?>
 		
 		<div id="content">		
 						
-				<h1 style="margin-top:10px;">Page Not Found</h1>
+				<h1 style="margin-top:10px;line-height: 55px;">Page Not Found</h1>
 						
 					<?php _e( 'Apologies but this page could not be found.', 'twentyten' ); ?></p>
-					<?php get_search_form(); ?>
+					<div style="margin-bottom:45px;"><?php get_search_form(); ?></div>
 				
 	
 	
