@@ -4150,7 +4150,7 @@ ul.products li a.woocommerce-LoopProduct-link span.price ins {
 			.wc-proceed-to-checkout {
 				
 				a {
-					padding:19px 0;
+					padding:17px 0;
 				}
 			}
 
@@ -7845,7 +7845,7 @@ width:9% !important;
 	
 	
 	
-	.woocommerce,
+.woocommerce,
 .woocommerce-page {
 
 	table.shop_table_responsive {
@@ -8154,7 +8154,7 @@ width:9% !important;
 			
 			
 			.wc-proceed-to-checkout {
-				margin-top:28px;
+				margin-top:36px;
 				
 			}
 	
@@ -9955,4 +9955,12 @@ body.page-template-page-designbios {
 
 
 
-
+.slick-no-slide .slick-track {
+    width: 100% !important;
+    text-align: center;
+    transform: inherit !important;
+}
+.slick-no-slide .slick-slide {
+    float: none;
+    display: inline-block;
+}
