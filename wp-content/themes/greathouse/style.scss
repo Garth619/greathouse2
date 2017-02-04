@@ -293,6 +293,7 @@ header {
 				img.logo {
 					max-width:100%;
 					height:auto;
+					display: none;
 				}
 			}
 			.mobile_menu_wrapper {
@@ -5252,16 +5253,22 @@ header {
 				float: left;
 				padding: 15px 30px 10px;
 				width: 374px;
+				height:60px;
 				&:after {
 					content:"indoor + outdoor";
-					display:block;
+					opacity: 0;
+					visibility: hidden;
 					float:right;
 					margin:4px -213px 0 0px;
 					margin-right:-212px;
 					font-size:20px;
 					font-family: $didotbold;
-					
+					transition:all .2s ease-in-out;
 				}
+			}
+			.logo_wrapper.tagline_fade:after {
+				opacity: 1;
+				visibility: visible;
 			}
 			.mobile_menu_wrapper {
 				height:60px;
@@ -5526,7 +5533,7 @@ body.logged-in {
 	span.large_header {
 		font-size:100px;
 		margin-bottom:60px;
-		line-height: 138px;
+		line-height: 68px;
 	}
 }
 
@@ -5705,11 +5712,22 @@ br.tablet_break {
 			transform: scale(1.06);
 		}
 		.shop_bar {
+			background:#fff;
 		.shop {
-				background:#79b7c0;
+// 				background:#79b7c0;
 				color:#fff;
+				&:before {
+					-moz-transform: rotate(30deg) translateX(-30px) translateY(-20px);
+					-webkit-transform: rotate(30deg) translateX(-30px) translateY(-20px);
+					-o-transform: rotate(30deg) translateX(-30px) translateY(-20px);
+					-ms-transform: rotate(30deg) translateX(-30px) translateY(-20px);
+					transform: rotate(30deg) translateX(-30px) translateY(-20px);
+				}
 			}
-			}
+		.shop_cta {
+// 			color:$bluedark;
+		}
+		}
 	}
 }
 
@@ -5719,10 +5737,6 @@ br.tablet_break {
 	width:49%;
 	float:left;
 	overflow:hidden;
-/*
-	background:url(images/grid_pillow.jpg) center center no-repeat;
-	background-size:cover;
-*/
 	height:400px;
 	margin-left:1%;
 	position: relative;
@@ -5732,19 +5746,40 @@ br.tablet_break {
 		position: absolute;
 		top:0;
 		width:100%;
-		transition: all .3s ease-in-out;
+		transition: all .2s ease-in-out;
 	}
 	.shop_bar {
 		background: rgba(255, 255, 255, 0.7);
 		width: 279px;;
 		right:0;
+		transition:all .2s ease-in-out;
 		.shop {
 			background:#fff;
 			transition:all .2s ease-in-out;
+			position: relative;
+			z-index:1;
+			overflow: hidden;
+			&:before {
+				content:"";
+				background: $bluedark;
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				z-index:-1;
+				width: 164%;
+				height: 213%;
+				transition: all .3s ease-in-out;
+				-moz-transform: rotate(30deg) translateX(-130px) translateY(-20px);
+				-webkit-transform: rotate(30deg) translateX(-100px) translateY(-20px);
+				-o-transform: rotate(30deg) translateX(-130px) translateY(-20px);
+				-ms-transform: rotate(30deg) translateX(-130px) translateY(-20px);
+				transform: rotate(30deg) translateX(-130px) translateY(-20px);
+			}
 			
 		}
 		.shop_cta {
 			color:#000;
+			transition:all .2s ease-in-out;
 		}
 	}
 }
@@ -5757,9 +5792,16 @@ br.tablet_break {
 			transform: scale(1.06);
 		}
 		.shop_bar {
+				background: $black;
 			.shop {
 				color:#fff;
-				background:#79b7c0;
+				&:before {
+					-moz-transform: rotate(30deg) translateX(-30px) translateY(-20px);
+					-webkit-transform: rotate(30deg) translateX(-30px) translateY(-20px);
+					-o-transform: rotate(30deg) translateX(-30px) translateY(-20px);
+					-ms-transform: rotate(30deg) translateX(-30px) translateY(-20px);
+					transform: rotate(30deg) translateX(-30px) translateY(-20px);
+				}
 			}
 		}
 	}
@@ -5788,11 +5830,30 @@ br.tablet_break {
 		background: rgba(0, 0, 0, 0.7);
 		width:325px;
 		left:0;
+		transition:all .2s ease-in-out;
 		.shop {
 			background:#000;
 			transition: all .2s ease-in-out;
 			color:#79b7c0;
-			
+			position: relative;
+			z-index:1;
+			overflow: hidden;
+			&:before {
+				content:"";
+				background: $bluedark;
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				z-index:-1;
+				width: 164%;
+				height: 213%;
+				transition: all .3s ease-in-out;
+				-moz-transform: rotate(30deg) translateX(-130px) translateY(-20px);
+				-webkit-transform: rotate(30deg) translateX(-100px) translateY(-20px);
+				-o-transform: rotate(30deg) translateX(-130px) translateY(-20px);
+				-ms-transform: rotate(30deg) translateX(-130px) translateY(-20px);
+				transform: rotate(30deg) translateX(-130px) translateY(-20px);
+			}
 				
 				
 			
@@ -6346,7 +6407,7 @@ header {
 				float: left;
 				padding: 17px 15px 11px;
 				width: 230px;
-				
+				height:50px;
 				
 				img.logo {
 					max-width:90%;
@@ -8584,7 +8645,7 @@ header {
 		.header_logo_nav_wrapper {
 			height:63px;
 			.logo_wrapper {
-				
+				height:63px;
 				width: 374px;
 				img.logo {
 					max-width:100%;
@@ -9246,6 +9307,7 @@ ul.mycart {
 		margin-bottom: 160px;
 		margin-top: 78px;
 		display: block;
+		line-height:138px;
 	
 	}
 	.white_button {

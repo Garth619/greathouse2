@@ -203,7 +203,8 @@ header {
       width: 225px; }
       header .inner_header .header_logo_nav_wrapper .logo_wrapper img.logo {
         max-width: 100%;
-        height: auto; }
+        height: auto;
+        display: none; }
     header .inner_header .header_logo_nav_wrapper .mobile_menu_wrapper {
       background: #fff none repeat scroll 0 0;
       cursor: pointer;
@@ -3483,15 +3484,21 @@ div.woocommerce-MyAccount-content form fieldset {
       background: #000 none repeat scroll 0 0;
       float: left;
       padding: 15px 30px 10px;
-      width: 374px; }
+      width: 374px;
+      height: 60px; }
       header .inner_header .header_logo_nav_wrapper .logo_wrapper:after {
         content: "indoor + outdoor";
-        display: block;
+        opacity: 0;
+        visibility: hidden;
         float: right;
         margin: 4px -213px 0 0px;
         margin-right: -212px;
         font-size: 20px;
-        font-family: "Didot W01 Bold"; }
+        font-family: "Didot W01 Bold";
+        transition: all .2s ease-in-out; }
+    header .inner_header .header_logo_nav_wrapper .logo_wrapper.tagline_fade:after {
+      opacity: 1;
+      visibility: visible; }
     header .inner_header .header_logo_nav_wrapper .mobile_menu_wrapper {
       height: 60px;
       padding: 22px 0 0 17px; }
@@ -3620,7 +3627,7 @@ div.woocommerce-MyAccount-content form fieldset {
     .custom_design_services span.large_header {
       font-size: 100px;
       margin-bottom: 60px;
-      line-height: 138px; }
+      line-height: 68px; }
   /* A Life Well Lived */
   .life_well_lived {
     padding: 78px 0px;
@@ -3738,17 +3745,20 @@ div.woocommerce-MyAccount-content form fieldset {
         transition: all .2s ease-in-out; }
   .shop_accessories:hover .shop_box_1_bg {
     transform: scale(1.06); }
-  .shop_accessories:hover .shop_bar .shop {
-    background: #79b7c0;
-    color: #fff; }
+  .shop_accessories:hover .shop_bar {
+    background: #fff; }
+    .shop_accessories:hover .shop_bar .shop {
+      color: #fff; }
+      .shop_accessories:hover .shop_bar .shop:before {
+        -moz-transform: rotate(30deg) translateX(-30px) translateY(-20px);
+        -webkit-transform: rotate(30deg) translateX(-30px) translateY(-20px);
+        -o-transform: rotate(30deg) translateX(-30px) translateY(-20px);
+        -ms-transform: rotate(30deg) translateX(-30px) translateY(-20px);
+        transform: rotate(30deg) translateX(-30px) translateY(-20px); }
   .shop_accessories {
     width: 49%;
     float: left;
     overflow: hidden;
-    /*
-	background:url(images/grid_pillow.jpg) center center no-repeat;
-	background-size:cover;
-*/
     height: 400px;
     margin-left: 1%;
     position: relative;
@@ -3758,21 +3768,48 @@ div.woocommerce-MyAccount-content form fieldset {
       position: absolute;
       top: 0;
       width: 100%;
-      transition: all .3s ease-in-out; }
+      transition: all .2s ease-in-out; }
     .shop_accessories .shop_bar {
       background: rgba(255, 255, 255, 0.7);
       width: 279px;
-      right: 0; }
+      right: 0;
+      transition: all .2s ease-in-out; }
       .shop_accessories .shop_bar .shop {
         background: #fff;
-        transition: all .2s ease-in-out; }
+        transition: all .2s ease-in-out;
+        position: relative;
+        z-index: 1;
+        overflow: hidden; }
+        .shop_accessories .shop_bar .shop:before {
+          content: "";
+          background: #79b7c0;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          z-index: -1;
+          width: 164%;
+          height: 213%;
+          transition: all .3s ease-in-out;
+          -moz-transform: rotate(30deg) translateX(-130px) translateY(-20px);
+          -webkit-transform: rotate(30deg) translateX(-100px) translateY(-20px);
+          -o-transform: rotate(30deg) translateX(-130px) translateY(-20px);
+          -ms-transform: rotate(30deg) translateX(-130px) translateY(-20px);
+          transform: rotate(30deg) translateX(-130px) translateY(-20px); }
       .shop_accessories .shop_bar .shop_cta {
-        color: #000; }
+        color: #000;
+        transition: all .2s ease-in-out; }
   .seasonal_features:hover .shop_box_2_bg {
     transform: scale(1.06); }
-  .seasonal_features:hover .shop_bar .shop {
-    color: #fff;
-    background: #79b7c0; }
+  .seasonal_features:hover .shop_bar {
+    background: #000; }
+    .seasonal_features:hover .shop_bar .shop {
+      color: #fff; }
+      .seasonal_features:hover .shop_bar .shop:before {
+        -moz-transform: rotate(30deg) translateX(-30px) translateY(-20px);
+        -webkit-transform: rotate(30deg) translateX(-30px) translateY(-20px);
+        -o-transform: rotate(30deg) translateX(-30px) translateY(-20px);
+        -ms-transform: rotate(30deg) translateX(-30px) translateY(-20px);
+        transform: rotate(30deg) translateX(-30px) translateY(-20px); }
   .seasonal_features {
     /*
 	background: url(images/grid_table.jpg) center center no-repeat;
@@ -3793,11 +3830,30 @@ div.woocommerce-MyAccount-content form fieldset {
     .seasonal_features .shop_bar {
       background: rgba(0, 0, 0, 0.7);
       width: 325px;
-      left: 0; }
+      left: 0;
+      transition: all .2s ease-in-out; }
       .seasonal_features .shop_bar .shop {
         background: #000;
         transition: all .2s ease-in-out;
-        color: #79b7c0; }
+        color: #79b7c0;
+        position: relative;
+        z-index: 1;
+        overflow: hidden; }
+        .seasonal_features .shop_bar .shop:before {
+          content: "";
+          background: #79b7c0;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          z-index: -1;
+          width: 164%;
+          height: 213%;
+          transition: all .3s ease-in-out;
+          -moz-transform: rotate(30deg) translateX(-130px) translateY(-20px);
+          -webkit-transform: rotate(30deg) translateX(-100px) translateY(-20px);
+          -o-transform: rotate(30deg) translateX(-130px) translateY(-20px);
+          -ms-transform: rotate(30deg) translateX(-130px) translateY(-20px);
+          transform: rotate(30deg) translateX(-130px) translateY(-20px); }
       .seasonal_features .shop_bar .shop_cta {
         color: #fff; }
   /* Footer */
@@ -4004,7 +4060,8 @@ div.woocommerce-MyAccount-content form fieldset {
         background: #000 none repeat scroll 0 0;
         float: left;
         padding: 17px 15px 11px;
-        width: 230px; }
+        width: 230px;
+        height: 50px; }
         header .inner_header .header_logo_nav_wrapper .logo_wrapper img.logo {
           max-width: 90%; }
         header .inner_header .header_logo_nav_wrapper .logo_wrapper:after {
@@ -4893,6 +4950,7 @@ div.woocommerce-MyAccount-content form fieldset {
   header .inner_header .header_logo_nav_wrapper {
     height: 63px; }
     header .inner_header .header_logo_nav_wrapper .logo_wrapper {
+      height: 63px;
       width: 374px; }
       header .inner_header .header_logo_nav_wrapper .logo_wrapper img.logo {
         max-width: 100%; }
@@ -5072,7 +5130,8 @@ div.woocommerce-MyAccount-content form fieldset {
       font-size: 168px;
       margin-bottom: 160px;
       margin-top: 78px;
-      display: block; }
+      display: block;
+      line-height: 138px; }
     .custom_design_services .white_button {
       font-size: 18px;
       letter-spacing: 0.2px; }
