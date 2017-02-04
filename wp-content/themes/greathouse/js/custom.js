@@ -523,10 +523,20 @@ checkWidth();
 
 
 
-jQuery('img.logo').fadeIn(600);
 
 
-jQuery('.logo_wrapper').delay(200).queue(function(){
+
+
+jQuery('img.logo').delay(400).queue(function(){
+	
+	jQuery(this).addClass('fade');
+	
+	
+});
+
+
+
+jQuery('.logo_wrapper').delay(400).queue(function(){
 	
 	jQuery(this).addClass('tagline_fade');
 	
