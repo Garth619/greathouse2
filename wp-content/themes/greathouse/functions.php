@@ -960,7 +960,8 @@ add_filter( 'wc_city_select_cities', 'my_cities' );
 function my_cities( $cities ) {
 	$cities['US'] = array(
 		'City ',
-		'Another City'
+		'Another City',
+		'San Diego'
 	);
 	return $cities;
 }
