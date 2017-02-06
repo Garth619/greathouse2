@@ -1027,12 +1027,12 @@ add_action('woocommerce_checkout_update_order_meta', 'wps_select_checkout_field_
  
  add_action( 'woocommerce_admin_order_data_after_billing_address', 'wps_select_checkout_field_display_admin_order_meta', 10, 1 );
 function wps_select_checkout_field_display_admin_order_meta($order){
-	echo '<p><strong>'.__('Delivery option').':</strong> ' . get_post_meta( $order->id, 'daypart', true ) . '</p>';
+	echo '<p><strong>'.__('Salesperson').':</strong> ' . get_post_meta( $order->id, 'daypart', true ) . '</p>';
 }
 //* Add selection field value to emails
 add_filter('woocommerce_email_order_meta_keys', 'wps_select_order_meta_keys');
 function wps_select_order_meta_keys( $keys ) {
-	$keys['Daypart:'] = 'daypart';
+	$keys['Salesperson:'] = 'daypart';
 	return $keys;
 	
 }

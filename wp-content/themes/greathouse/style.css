@@ -3299,7 +3299,7 @@ body.woocommerce-order-received h2 {
   margin-bottom: 30px !important; }
 
 body.woocommerce-order-received address {
-  line-height: 45px;
+  line-height: 30px;
   margin-top: 25px; }
 
 body.woocommerce-order-received table.shop_table th, body.woocommerce-order-received table.shop_table td {
