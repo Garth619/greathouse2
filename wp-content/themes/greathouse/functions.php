@@ -993,19 +993,21 @@ function wps_add_select_checkout_field( $checkout ) {
 	woocommerce_form_field( 'daypart', array(
 	    'type'          => 'select',
 	    'class'         => array( 'wps-drop' ),
-	    'label'         => __( 'Did one of our designers help you?' ),
+	    'label'         => __( 'If you visited one of our showrooms, did anyone assist you?' ),
 	    'options'       => array(
 	    	'blank'		=> __( 'Select a designer', 'wps' ),
+	    		'gregdybeck'	=> __( 'Greg Dybeck', 'wps' ),
+	    		'sherrigilmour' 	=> __( 'Sherri Gilmour', 'wps' ),
+	    		'leslahage' 	=> __( 'Les Lahage', 'wps' ),
+	    		'sandilahage' 	=> __( 'Sandi Lahage', 'wps' ),
 	        'brianredfern'	=> __( 'Brian Redfern', 'wps' ),
 	        'davidhorst'	=> __( 'David Horst', 'wps' ),
-	        'katemellon' 	=> __( 'Kate Mellon', 'wps' ),
-	        'kevinlittlefield' 	=> __( 'Kevin Littlefield', 'wps' ),
-	        'leslahage' 	=> __( 'Les Lahage', 'wps' ),
-	        'lisagall' 	=> __( 'Lisa Gall', 'wps' ),
-	        'sandilahage' 	=> __( 'Sandi Lahage', 'wps' ),
-	        'sherrigilmour' 	=> __( 'Sherri Gilmour', 'wps' ),
 	        'thomasziska' 	=> __( 'Thomas Ziska', 'wps' ),
-	        'travisburton' 	=> __( 'Travis Burton', 'wps' )
+	        'daphnedorrell' 	=> __( 'Daphne Dorrell', 'wps' ),
+	        'kevinlittlefield' 	=> __( 'Kevin Littlefield', 'wps' ),
+	        'lisagall' 	=> __( 'Lisa Gall', 'wps' ),
+	        'katemellon' 	=> __( 'Kate Mellon', 'wps' )
+ 
 	        
 	    )
  ),

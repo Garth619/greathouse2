@@ -206,7 +206,7 @@ header {
         height: auto;
         opacity: 0;
         visibility: hidden;
-        transition: all .2s ease-in-out; }
+        transition: all .3s ease-in-out; }
       header .inner_header .header_logo_nav_wrapper .logo_wrapper img.logo.fade {
         opacity: 1;
         visibility: visible; }
@@ -3776,7 +3776,7 @@ div.woocommerce-MyAccount-content form fieldset {
       transition: all .2s ease-in-out; }
     .shop_accessories .shop_bar {
       background: rgba(255, 255, 255, 0.7);
-      width: 279px;
+      width: 314px;
       right: 0;
       transition: all .2s ease-in-out; }
       .shop_accessories .shop_bar .shop {
@@ -3795,11 +3795,11 @@ div.woocommerce-MyAccount-content form fieldset {
           width: 164%;
           height: 213%;
           transition: all .3s ease-in-out;
-          -moz-transform: rotate(30deg) translateX(-130px) translateY(-20px);
-          -webkit-transform: rotate(30deg) translateX(-100px) translateY(-20px);
-          -o-transform: rotate(30deg) translateX(-130px) translateY(-20px);
-          -ms-transform: rotate(30deg) translateX(-130px) translateY(-20px);
-          transform: rotate(30deg) translateX(-130px) translateY(-20px); }
+          -moz-transform: rotate(30deg) translateX(-135px) translateY(-20px);
+          -webkit-transform: rotate(30deg) translateX(-135px) translateY(-20px);
+          -o-transform: rotate(30deg) translateX(-135px) translateY(-20px);
+          -ms-transform: rotate(30deg) translateX(-135px) translateY(-20px);
+          transform: rotate(30deg) translateX(-135px) translateY(-20px); }
       .shop_accessories .shop_bar .shop_cta {
         color: #000;
         transition: all .2s ease-in-out; }
@@ -3834,7 +3834,7 @@ div.woocommerce-MyAccount-content form fieldset {
       transition: all .3s ease-in-out; }
     .seasonal_features .shop_bar {
       background: rgba(0, 0, 0, 0.7);
-      width: 325px;
+      width: 287px;
       left: 0;
       transition: all .2s ease-in-out; }
       .seasonal_features .shop_bar .shop {
