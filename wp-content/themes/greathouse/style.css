@@ -3270,6 +3270,14 @@ div.woocommerce-MyAccount-content form fieldset {
 .test_tab_tab, .testtwo_tab_tab {
   display: none; }
 
+#payment ul.wc_payment_methods {
+  list-style: none; }
+  #payment ul.wc_payment_methods li label img {
+    display: block; }
+
+#payment .payment_box {
+  background: #777777; }
+
 @media screen and (min-width: 455px) {
   /* Sidebar Template */
   #sidebar {

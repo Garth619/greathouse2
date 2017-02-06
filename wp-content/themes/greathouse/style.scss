@@ -4688,6 +4688,22 @@ div.woocommerce-MyAccount-content {
 	display:none;
 }
 
+#payment {
+	ul.wc_payment_methods {
+		list-style: none;
+		li {
+			label {
+				img {
+					display: block;
+				}
+			}
+		}
+	}
+	.payment_box {
+		background:#ccc;
+	}
+}
+
 
 
 @media screen and (min-width: 455px) {
