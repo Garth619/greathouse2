@@ -261,10 +261,10 @@
 		
 		<div class="inital_content">
 
-			<span class="sub_header">lorem ipsum</span>
-			<span class="large_header">zip code title</span>
+			<span class="sub_header">let yourself in</span>
+			<span class="large_header"> Please Enter Your Delivery Zip Code</span>
 			
-			<span class="additional">Lem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+<!-- 			<span class="additional">Lem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> -->
 		
 			<form  id="zip_form">
     	
@@ -286,18 +286,20 @@
 
 		<div id="zip_code_confirmation">
 			
-			<span class="sub_header">lorem ipsum</span>
+			<span class="sub_header">let yourself in</span>
 			<span class="large_header">We Deliver Here!</span>
 			
-			<span class="additional">We deliver to this area verbiage. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+			<span class="additional">Greathouse proudly offers White Glove Delivery anywhere in San Diego County.  Our Delivery Specialists will unbox, setup and take away all the trash so you don't have to worry about a thing, other than enjoying your new furniture!</span>
 			
+<!--
 			<div id="zip_code_discount">
 				
 					<span class="large_header">GET 15% off your next purchase</span>
 					
 					<span class="zip_discount_content">Use the Coupon Code <span class="coupon_code">MEGASALE</span> at Checkout</span>
 				
-			</div><!-- zip_code_discount -->
+			</div>
+--><!-- zip_code_discount -->
 			
 			<span class="blue_shop zip_code_button">Continue Shopping</span>
 			
@@ -310,28 +312,31 @@
 			
 			<span class="large_header">Outside of San&nbsp;Diego?</span>
 			
-			<span class="no_zip_content">Apologies but we don't deliver to zip codes outside of San Diego. Please try another zip code within San Diego or call our store for a quote verbiage.</span>
+			<span class="no_zip_content">Unfortunately, you are currently out of our automatic delivery area.  Please call us for a shipping quote and more information.  </span>
 			
-			<a href="tel:760.454.0013" class="phone_number">760.454.0013</a>
+			<a href="tel:800-507-4517" class="phone_number">800-507-4517</a>
 			
+				<span class="remove_add_to_cart blue_shop">Browse the Site</span>
+			
+<!--
 			<div class="no_zip_inner_wrapper">
 				
-				<span class="large_header">Continue Browsing</span><!-- large_header -->
+				<span class="large_header">Continue Browsing</span>
 			
 				<span class="no_zip_content">If you like to browse products anyways, you can add products to your wishlist</a></span>
 			
 				<form>
 				
-		<!-- 							<input type="checkbox" name="nozipcode" id="no_zipcode"/>
-	<label>I understand that my zip code is outside the delivery zone and need to call for a quote to purchase any products.</label> -->
+		
 				
 				
 				
-					<span class="remove_add_to_cart blue_shop">Browse the Site</span>
+				
 			
 				</form>
 			
-			</div><!-- no_zip_inner_wrapper -->
+			</div>
+--><!-- no_zip_inner_wrapper -->
 			
 			
 			
