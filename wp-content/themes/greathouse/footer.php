@@ -310,7 +310,7 @@
 		
 		<div id="zip_code_no_access">
 			
-			<span class="large_header">Outside of San&nbsp;Diego?</span>
+			<span class="large_header">Outside of San&nbsp;Diego County?</span>
 			
 			<span class="no_zip_content">Unfortunately, you are currently out of our automatic delivery area.  Please call us for a shipping quote and more information.  </span>
 			

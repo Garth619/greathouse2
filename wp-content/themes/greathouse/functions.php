@@ -959,9 +959,8 @@ add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 28;' ), 20 )
 add_filter( 'wc_city_select_cities', 'my_cities' );
 function my_cities( $cities ) {
 	$cities['US'] = array(
-		'City ',
-		'Another City',
-		'San Diego'
+		
+'Alpine','Bonita','Boulevard','Bonsall','Borrego Springs','Camp Pendleton','Campo','Cardiff By The Sea','Carlsbad','Chula Vista','Coronado','Del Mar','Descanso','Dulzura','El Cajon','Encinitas','Escondido','Fallbrook','Guatay','Imperial Beach','Jacumba','Jamul','Julian','La Jolla','La Mesa','Lakeside','Lemon Grove','Lincoln Acres','Mount Laguna','National City','Oceanside','Pala','Palomar Mountain','Pauma Valley','Pine Valley','Potrero','Poway','Ramona','Ranchita','Rancho Santa Fe','San Diego','San Luis Rey','San Marcos','San Ysidro','Santa Ysabel','Santee','Solana Beach','Spring Valley','Tecate','Valley Center','Vista','Warner Springs'
 	);
 	return $cities;
 }
