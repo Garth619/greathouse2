@@ -3298,6 +3298,14 @@ body.woocommerce-order-received .back_to_cart {
 body.woocommerce-order-received h2 {
   margin-bottom: 30px !important; }
 
+body.woocommerce-order-received address {
+  line-height: 45px;
+  margin-top: 25px; }
+
+body.woocommerce-order-received table.shop_table th, body.woocommerce-order-received table.shop_table td {
+  padding-right: 0px;
+  padding-left: 0px; }
+
 p.woocommerce-thankyou-order-received {
   color: #000;
   font-family: "oswaldregular", arial;

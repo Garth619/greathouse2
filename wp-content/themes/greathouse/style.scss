@@ -4736,6 +4736,14 @@ body.woocommerce-order-received {
 	h2 {
 		margin-bottom:30px !important;
 	}
+	address {
+		line-height: 45px;
+		margin-top:25px;
+	}
+	table.shop_table th, table.shop_table td {
+   	padding-right: 0px;
+    padding-left: 0px;
+}
 }
 
 
