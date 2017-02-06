@@ -3272,11 +3272,25 @@ div.woocommerce-MyAccount-content form fieldset {
 
 #payment ul.wc_payment_methods {
   list-style: none; }
-  #payment ul.wc_payment_methods li label img {
+  #payment ul.wc_payment_methods li label {
     display: block; }
+  #payment ul.wc_payment_methods li input {
+    margin-bottom: 5px;
+    letter-spacing: 1px; }
+  #payment ul.wc_payment_methods li input#wc-authorize-net-cim-credit-card-account-number {
+    padding-right: 70px; }
 
 #payment .payment_box {
-  background: #777777; }
+  background: #f8f8f8;
+  padding: 25px 15px;
+  margin-top: 15px;
+  margin-bottom: 25px; }
+  #payment .payment_box p {
+    margin-bottom: 20px;
+    float: none;
+    width: 100%; }
+  #payment .payment_box fieldset {
+    border: none; }
 
 @media screen and (min-width: 455px) {
   /* Sidebar Template */
@@ -4946,7 +4960,25 @@ div.woocommerce-MyAccount-content form fieldset {
     width: 61%;
     max-width: 1050px; }
   body.page-template-page-designbios .no_sidebar_wrapper .no_sidebar_spacer {
-    width: 20%; } }
+    width: 20%; }
+  #payment .payment_box {
+    /*
+		p#wc-authorize-net-cim-credit-card-csc_field {
+			float:left;
+		}
+		p#wc-authorize-net-cim-credit-card-expiry_field {
+			float:right;
+		}
+		p#wc-authorize-net-cim-credit-card-expiry_field {
+			float:left;
+		}
+*/ }
+    #payment .payment_box .js-wc-authorize-net-cim-credit-card-new-payment-method-form {
+      overflow: hidden; }
+    #payment .payment_box p#wc-authorize-net-cim-credit-card-csc_field, #payment .payment_box p#wc-authorize-net-cim-credit-card-expiry_field, #payment .payment_box p#wc-authorize-net-cim-credit-card-account-number_field {
+      width: 48%;
+      float: left;
+      margin-right: 20px; } }
 
 /* Media Query */
 @media screen and (min-width: 1200px) {

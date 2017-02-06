@@ -4689,18 +4689,42 @@ div.woocommerce-MyAccount-content {
 }
 
 #payment {
+	
 	ul.wc_payment_methods {
 		list-style: none;
 		li {
 			label {
+				display: block;
 				img {
-					display: block;
+					
 				}
+			}
+			input {
+				margin-bottom: 5px;
+				letter-spacing: 1px;
+				
+			}
+			input#wc-authorize-net-cim-credit-card-account-number {
+				padding-right:70px;
 			}
 		}
 	}
 	.payment_box {
-		background:#ccc;
+		background:#f8f8f8;
+		padding:25px 15px;
+		margin-top:15px;
+		margin-bottom:25px;
+	
+		p {
+			margin-bottom:20px;
+			float:none;
+			width:100%;
+		}
+		
+		
+		fieldset {
+			border:none;
+		}
 	}
 }
 
@@ -8522,7 +8546,57 @@ body.page-template-page-designbios {
 
 
 
-
+#payment {
+	
+	ul.wc_payment_methods {
+		
+		li {
+			label {
+				
+				img {
+					
+				}
+			}
+			input {
+				
+				
+			}
+			input#wc-authorize-net-cim-credit-card-account-number {
+				
+			}
+		}
+	}
+	.payment_box {
+		
+	.js-wc-authorize-net-cim-credit-card-new-payment-method-form {
+		overflow: hidden;
+	}
+		p {
+			
+		}
+		p#wc-authorize-net-cim-credit-card-csc_field, p#wc-authorize-net-cim-credit-card-expiry_field, p#wc-authorize-net-cim-credit-card-account-number_field {
+			width:48%;
+			float:left;
+			margin-right:20px;
+		}
+		
+/*
+		p#wc-authorize-net-cim-credit-card-csc_field {
+			float:left;
+		}
+		p#wc-authorize-net-cim-credit-card-expiry_field {
+			float:right;
+		}
+		p#wc-authorize-net-cim-credit-card-expiry_field {
+			float:left;
+		}
+*/
+		
+		fieldset {
+			
+		}
+	}
+}
 
 
 	
