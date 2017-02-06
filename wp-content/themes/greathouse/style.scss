@@ -4729,6 +4729,40 @@ div.woocommerce-MyAccount-content {
 }
 
 
+body.woocommerce-order-received {
+	.back_to_cart {
+		display: none;
+	}
+	h2 {
+		margin-bottom:30px !important;
+	}
+}
+
+
+p.woocommerce-thankyou-order-received {
+	color:#000;
+	font-family:$oswaldreg;
+	text-transform: uppercase;
+	font-size:30px;
+	margin-bottom:35px !important;
+}
+
+
+
+ul.woocommerce-thankyou-order-details {
+	list-style: none;
+	margin-bottom:40px;
+	li {
+		margin-bottom:15px;
+		strong {
+			font-weight: 300;
+			color:$bluedark;
+		}
+	}
+
+}
+
+
 
 @media screen and (min-width: 455px) {
 	

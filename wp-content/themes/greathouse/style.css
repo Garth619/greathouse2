@@ -3292,6 +3292,28 @@ div.woocommerce-MyAccount-content form fieldset {
   #payment .payment_box fieldset {
     border: none; }
 
+body.woocommerce-order-received .back_to_cart {
+  display: none; }
+
+body.woocommerce-order-received h2 {
+  margin-bottom: 30px !important; }
+
+p.woocommerce-thankyou-order-received {
+  color: #000;
+  font-family: "oswaldregular", arial;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 35px !important; }
+
+ul.woocommerce-thankyou-order-details {
+  list-style: none;
+  margin-bottom: 40px; }
+  ul.woocommerce-thankyou-order-details li {
+    margin-bottom: 15px; }
+    ul.woocommerce-thankyou-order-details li strong {
+      font-weight: 300;
+      color: #79b7c0; }
+
 @media screen and (min-width: 455px) {
   /* Sidebar Template */
   #sidebar {
