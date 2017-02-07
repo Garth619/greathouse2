@@ -3322,6 +3322,38 @@ ul.woocommerce-thankyou-order-details {
       font-weight: 300;
       color: #79b7c0; }
 
+tr.shipping {
+  display: none !important; }
+
+.pre_loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5000;
+  background: #79b7c0;
+  width: 100%;
+  height: 100%;
+  transition: all .5s ease-in-out;
+  text-align: center; }
+  .pre_loader .gh_logo {
+    color: #fff;
+    align-items: center;
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 45px; }
+
+.pre_loader.preloader_fade {
+  left: -100%; }
+  .pre_loader.preloader_fade .gh_logo {
+    line-height: 55px;
+    /*
+		opacity: 0;
+		visibility: hidden;
+*/ }
+
 @media screen and (min-width: 455px) {
   /* Sidebar Template */
   #sidebar {
@@ -4395,6 +4427,8 @@ ul.woocommerce-thankyou-order-details {
               margin-right: 12px; }
           ul.mycart li#widget_shopping_mini_cart-2 #widget_shopping_mini_cart-2-content .dropdown-cart-button .dropdown li.mini_cart_item dl.variation {
             margin-top: 15px; }
+            ul.mycart li#widget_shopping_mini_cart-2 #widget_shopping_mini_cart-2-content .dropdown-cart-button .dropdown li.mini_cart_item dl.variation dt {
+              margin-bottom: 10px; }
           ul.mycart li#widget_shopping_mini_cart-2 #widget_shopping_mini_cart-2-content .dropdown-cart-button .dropdown li.mini_cart_item span.quantity {
             width: 40%;
             text-align: right; }
@@ -5071,7 +5105,7 @@ ul.woocommerce-thankyou-order-details {
     float: left;
     border-top: 1px solid #a6a6a6;
     border-right: 1px solid #a6a6a6;
-    padding: 40px 40px 40px 0; }
+    padding: 40px 40px 70px 0; }
     .dekstop_logo_menu_wrapper .footer_logo {
       width: 50%;
       float: left;
