@@ -274,7 +274,22 @@ header {
 				a {
 					color:$greyfont;
 					text-decoration: none;
+					transition: all .2s ease-in-out;
+					&:hover {
+						color:$bluedark;
+					}
 				}
+				a.mylogin {
+					transition: all .2s ease-in-out;
+					&:hover {
+						color:$bluedark;
+					}
+				}
+/*
+				a.cart-contents {
+					color:red;
+				}
+*/
 				a:first-of-type {
 					margin-right:16px;
 				}
@@ -340,6 +355,15 @@ header {
 			}
 		}
 		
+	}
+}
+
+
+
+
+body.mycartadd {
+	a.cart-contents {
+		color:$bluedark !important;
 	}
 }
 

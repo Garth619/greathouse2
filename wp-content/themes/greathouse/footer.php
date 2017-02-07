@@ -398,6 +398,21 @@ var lifeline = new Waypoint({
 		<?php endif;?>
 		
 		
+<?php global $woocommerce;
+
+if ( sizeof( $woocommerce->cart->cart_contents) > 0 ) :?>
+	
+	
+	
+	
+	jQuery('body').addClass('mycartadd');
+
+
+
+
+<?php endif; ?>
+
+				
 
 </script>
 
@@ -447,7 +462,6 @@ var lifeline = new Waypoint({
 	</script>
 
 <?php endif;?>
-
 
 
 
