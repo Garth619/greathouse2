@@ -10,7 +10,7 @@ jQuery(window).load(function() {
        
 // 	jQuery("#status").fadeOut();
         
-	jQuery(".pre_loader").delay(800).addClass("preloader_fade");
+	jQuery(".pre_loader").delay(1400).addClass("preloader_fade");
 
 })
 
