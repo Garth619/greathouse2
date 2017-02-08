@@ -3340,6 +3340,12 @@ ul.woocommerce-thankyou-order-details {
 tr.shipping {
   display: none !important; }
 
+body.search-results .product_inner {
+  display: none; }
+
+body.search-results #outer_wrapper_id {
+  display: none; }
+
 /*
 .pre_loader {
 	position:fixed;

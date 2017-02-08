@@ -4806,6 +4806,17 @@ tr.shipping {
 
 
 
+body.search-results {
+	.product_inner {
+		display: none;
+	}
+	#outer_wrapper_id {
+		display: none;
+	}
+}
+
+
+
 /*
 .pre_loader {
 	position:fixed;
