@@ -298,7 +298,10 @@ jQuery('html').click(function(event){
  
 		 if($.cookie('disablecart') == null) {
  
-		 	jQuery(".single_add_to_cart_button").show();
+// 		 	jQuery(".single_add_to_cart_button").show();
+
+// add items here to bring back once zip code is turned back on
+		 
  
 		 	};
  
@@ -306,6 +309,7 @@ jQuery('html').click(function(event){
 		 	if($.cookie('disablecart') == 'activated') {
  
 		 		jQuery(".single_add_to_cart_button").hide();
+		 		jQuery(".add_to_cart_button").hide();
 		 		jQuery(".zipcode_checker").hide();
 		 		jQuery('.zip_code_prompt').hide();
  
@@ -315,6 +319,7 @@ jQuery('html').click(function(event){
  			jQuery(".remove_add_to_cart").click(function() {
  	
  				jQuery(".single_add_to_cart_button").hide();
+ 				jQuery(".add_to_cart_button").hide();
  				jQuery('.zipcode_checker').fadeOut();
  				jQuery('.zip_code_prompt').hide();
  				

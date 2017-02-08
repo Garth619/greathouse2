@@ -23,6 +23,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 
+<!--
+<div class="proceed_prompt">
+	
+<div class="zip_code_prompt"></div>
+--><!-- zip_code_prompt -->
+
 <a href="<?php echo esc_url( wc_get_checkout_url() ) ;?>" class="checkout-button button alt wc-forward">
 	<?php echo __( 'Proceed to Checkout', 'woocommerce' ); ?>
 </a>
+
+<!-- </div> --><!-- proceed_prompt -->

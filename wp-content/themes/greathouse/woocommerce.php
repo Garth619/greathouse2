@@ -305,15 +305,28 @@ if( $posts ): ?>
         
         
      <div class="slide">
+	     
+	   
 			
 			<a href="<?php the_permalink();?>">
 				
 				<?php the_post_thumbnail('shop_catalog');?>
 				<span class="new_arrival_title"><?php the_title();?></span>
 				<span><?php echo $product->get_price_html(); ?></span>
-				<?php woocommerce_template_loop_add_to_cart(); //output the woocommerce loop add to cart button ?>
+				
+				
+				
+				
 			
 			</a>
+			
+			<div class="prompt_wrapper">
+				
+					<div class="zip_code_prompt"></div><!-- zip_code_prompt -->
+					
+					<?php woocommerce_template_loop_add_to_cart(); //output the woocommerce loop add to cart button ?>
+					
+				</div><!-- prompt_wrapper -->
 			
 		</div><!-- slide -->
         

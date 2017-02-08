@@ -45,6 +45,11 @@ if ( ! $product->is_purchasable() ) {
 	
 	
 	<form class="cart mysingle_cart" method="post" enctype='multipart/form-data'>
+		
+		
+		<div class="zip_code_prompt"></div><!-- zip_code_prompt -->
+		
+		
 	 	<?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>
 	 	
 	 	

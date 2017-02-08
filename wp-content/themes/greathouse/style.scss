@@ -2620,6 +2620,8 @@ li#field_2_2 label.gfield_label {
 			padding:25px;
 			background:$greylight;
 			overflow: hidden;
+			position: relative;
+			
 		}
 		.myquantity {
 			display:block;
@@ -3228,6 +3230,14 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked, .ivpa_active {
 				}
 			}
 		}
+	}
+	
+	.prompt_wrapper {
+		position: relative;
+	}
+	
+	.proceed_prompt {
+		position: relative;
 	}
 	
 	
@@ -4853,6 +4863,16 @@ left:-100%;
 }
 */
 
+.zip_code_prompt {
+			
+			position: absolute;
+			top:0;
+			left:0;
+		
+			width:100%;
+			height:100%;
+			z-index:50;
+		}
 
 
 
@@ -5062,20 +5082,13 @@ right:0;
 		}
 	}
 	
+		
 	.woocommerce-variation-add-to-cart {
 		float:right;
 		width:60%;
 		margin: 0px 0 15px;
 		position: relative;
-		.zip_code_prompt {
-			position: absolute;
-			top:0;
-			left:0;
-// 			background: red;
-			width:100%;
-			height:100%;
-			z-index:50;
-		}
+		
 		span.quantity {
 			font-size:14px;
 		}
