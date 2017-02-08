@@ -250,7 +250,7 @@ header {
         transform-origin: 8px -3px 0;
         width: 26px; }
 
-body.mycartadd a.cart-contents {
+body.mycartadd a.cart-contents, body.mycartadd a.dropdown-total {
   color: #79b7c0 !important; }
 
 .mobile_fixed_wrapper.stuck {
