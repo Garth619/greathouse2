@@ -6,32 +6,16 @@ jQuery(document).ready(function(){
 
 
 
+/*
 jQuery(window).load(function() {
        
-// 	jQuery("#status").fadeOut();
+
         
 	jQuery(".pre_loader").delay(1400).addClass("preloader_fade");
 
 })
 
 
-
-/*
-jQuery('a').click(function (e) {
-    e.preventDefault();                   // prevent default anchor behavior
-    var goTo = this.getAttribute("href"); // store anchor href
-
-    
-    
-    jQuery('.pre_loader').removeClass(".preloader_fade");
-    
-    
-
-    setTimeout(function(){
-         window.location = goTo;
-    },3000);       
-}); 
-*/
 
 
 
@@ -41,6 +25,7 @@ jQuery('a').click(function(){
 	
 	
 });
+*/
 
   
 // Adds an inner wrapper div to the dekstop wordpress menu drop down, so it can scroll on small screens

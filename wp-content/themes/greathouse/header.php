@@ -29,7 +29,7 @@
 
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>?v=59" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>?v=60" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/js/slick/slick/slick.css"/>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/js/slick/slick/slick-theme.css"/>
@@ -39,11 +39,7 @@
 <body <?php body_class(); ?>>
 	
 	
-	<div class="pre_loader">
-		
-		<div class="gh_logo">Animated Greathouse Logo Here??</div><!-- gh_logo -->
-		
-	</div><!-- pre_loader -->
+	<!-- pre_loader -->
 
 		<header>
 				
@@ -54,10 +50,7 @@
 					<?php the_field('header_discount_mobile_version','option');?>
 					<?php the_field('header_discount_desktop_version','option');?>
 						
-<!--
-						<span class="mobile_deal emphasis">GET UP TO 25% off with code <span style="color:#fff">megasale</span></span>
-						<span class="tablet_deal">Buy More, Save MorE <span class="emphasis">&nbsp;GET UP TO 25% off with code <span style="color:#fff">megasale</span></span></span>
--->
+
 						
 					
 					</div><!-- header_special_deal -->
