@@ -201,6 +201,24 @@ jQuery('html').click(function(event){
    
    // Zip Code Validation 
    
+   
+   
+   
+   // Zip Code Overlay
+	
+	
+	jQuery('.zip_code_prompt').click(function(){
+		
+// 		jQuery('.zipcode_checker').addClass('initial_show');
+
+			jQuery('.zipcode_checker').fadeIn();
+		
+	});
+	
+   
+   
+   
+   
    jQuery(function(){
     
     var zipCodes = [
@@ -242,6 +260,7 @@ jQuery('html').click(function(event){
             jQuery('.zip_code_button').click(function(){
 	            
 	            jQuery('.overlay').fadeOut();
+	            jQuery('.zip_code_prompt').hide();
 	            
             
             });
@@ -288,6 +307,7 @@ jQuery('html').click(function(event){
  
 		 		jQuery(".single_add_to_cart_button").hide();
 		 		jQuery(".zipcode_checker").hide();
+		 		jQuery('.zip_code_prompt').hide();
  
  			};
  
@@ -296,6 +316,8 @@ jQuery('html').click(function(event){
  	
  				jQuery(".single_add_to_cart_button").hide();
  				jQuery('.zipcode_checker').fadeOut();
+ 				jQuery('.zip_code_prompt').hide();
+ 				
  	
  				$.cookie('disablecart', 'activated', { expires: 7, path: '/' }); 
  	
@@ -326,6 +348,7 @@ jQuery('html').click(function(event){
  
 		 		
 		 		jQuery(".zipcode_checker").hide();
+		 		jQuery('.zip_code_prompt').hide();
  
  			};
  
@@ -579,8 +602,6 @@ jQuery('.logo_wrapper').delay(400).queue(function(){
 
 
 	
-	
-
 	
 
 

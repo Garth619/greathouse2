@@ -3475,7 +3475,15 @@ left:-100%;
   .woocommerce-variation-add-to-cart {
     float: right;
     width: 60%;
-    margin: 0px 0 15px; }
+    margin: 0px 0 15px;
+    position: relative; }
+    .woocommerce-variation-add-to-cart .zip_code_prompt {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 50; }
     .woocommerce-variation-add-to-cart span.quantity {
       font-size: 14px; }
   #ivpa-content {

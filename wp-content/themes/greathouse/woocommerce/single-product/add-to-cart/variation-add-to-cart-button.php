@@ -15,7 +15,7 @@ global $product;
 ?>
 <div class="woocommerce-variation-add-to-cart variations_button">
 	
-	
+	<div class="zip_code_prompt"></div><!-- zip_code_prompt -->
 	
 	<span class="quantity">Quantity</span>
 	<?php if ( ! $product->is_sold_individually() ) : ?>

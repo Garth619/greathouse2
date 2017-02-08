@@ -362,7 +362,7 @@
 			<?php if(is_cart() || is_product() || is_checkout()):?>
 			
 				jQuery('.mycookie').addClass('hide_overlay');
-				jQuery('.zipcode_checker').addClass('initial_show');
+// 				jQuery('.zipcode_checker').addClass('initial_show');
 			
 			<?php endif;?>
 			
