@@ -5420,7 +5420,8 @@ margin:30px 0 15px;
       padding-left: 16px;
       padding-right: 16px; }
   .product_wrapper .woocommerce-breadcrumb {
-    max-width: 1510px; }
+    max-width: 1510px;
+    margin-bottom: 125px; }
   /* No Sidebar Template */
   .no_sidebar_wrapper .no_sidebar_inner {
     width: 66%; }
