@@ -80,6 +80,8 @@ Author: 1Point21 - Garrett Cullen
 a {outline: none;}
 a img {border:none}
 
+textarea, input, button {outline: none;}
+
 
 *, *:before, *:after {
 	-moz-box-sizing: border-box;
@@ -2817,7 +2819,7 @@ div.product_content_wrap div.summary.entry-summary div p {
 // 				border-bottom:3px solid #000;
 // 				margin:0 0 8px 0;
 			a {
-				color:$bluedark;
+				
 			}
 
 		}
@@ -3204,6 +3206,7 @@ div#ivpa-content .ivpa_clicked span.ivpa_term.ivpa_clicked, .ivpa_active {
 				font-size:58px;
 				font-family: $oswaldreg;
 				margin:27px 0 35px 0;
+				text-transform: uppercase;
 			}
 			.transparent_button {
 				font-size:16px;
@@ -5243,7 +5246,7 @@ right:0;
 .woocommerce-error,
 .woocommerce-info {
 	text-align: left;
-	max-width:800px;
+
 	&:before {
 		
 		font-family: georgia;
