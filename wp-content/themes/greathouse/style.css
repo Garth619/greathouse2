@@ -399,9 +399,6 @@ input.woocommerce-Button.button {
   color: #fff;
   text-transform: uppercase; }
 
-li.menu-item.menu-item-type-taxonomy.menu-item-object-product_cat.menu-item-11511, li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-2703 {
-  display: none; }
-
 /* Fixed Mobile Menu and Dropdown */
 .mobile_dropdown_wrapper {
   width: 100%;
@@ -3019,7 +3016,15 @@ td.product-quantity {
   margin-top: 29px; }
 
 .entry-content .woocommerce-checkout p.create-account {
-  width: 100%; }
+  width: 100%;
+  overflow: hidden; }
+  .entry-content .woocommerce-checkout p.create-account label {
+    float: left;
+    background: red !important;
+    width: 300px; }
+  .entry-content .woocommerce-checkout p.create-account input {
+    float: left;
+    margin-right: 10px; }
 
 .entry-content .woocommerce-checkout p {
   margin-bottom: 35px; }

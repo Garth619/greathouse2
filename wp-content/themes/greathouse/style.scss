@@ -576,12 +576,6 @@ input.woocommerce-Button.button {
 
 
 
-li.menu-item.menu-item-type-taxonomy.menu-item-object-product_cat.menu-item-11511, li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-2703 {
-	display: none;
-}
-
-
-
 
 
 /* Fixed Mobile Menu and Dropdown */
@@ -4332,6 +4326,17 @@ ul.products li a.woocommerce-LoopProduct-link span.price ins {
 	}
 	p.create-account {
 		width:100%;
+		overflow: hidden;
+		label {
+			float:left;
+			background: red !important;
+			width:300px;
+			
+		}
+		input {
+			float:left;
+			margin-right:10px;
+		}
 	}
 	p#billing_postcode_field {
 		
