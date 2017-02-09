@@ -559,6 +559,7 @@ input#user_login.woocommerce-Input.woocommerce-Input--text.input-text {
   font-size: 16px;
   padding: 10px;
   width: 100%;
+ 
 }
 
 input.woocommerce-Button.button {
@@ -569,7 +570,7 @@ input.woocommerce-Button.button {
   background: $bluedark;
   color:#fff;
   text-transform: uppercase;
-  
+  -webkit-appearance: none;
 }
 
 
@@ -960,7 +961,7 @@ br.tablet_break {
 footer {
 	background: url(images/footer_pattern.jpg) top left repeat;
 	width:100%;
-	padding: 55px 30px 45px;
+	padding: 55px 50px 45px;
 	
 	.inner_footer {
 		span.large_header {
@@ -1477,6 +1478,7 @@ body.single-product {
 	background:$greylight;
 	padding:35px;
 	overflow:hidden;
+	font-size:12px;
 	ul {
 		list-style: none;
 		text-align: center;
@@ -1492,7 +1494,7 @@ body.single-product {
 		li {
 			text-transform: uppercase;
 			font-family: $oswaldreg;
-			margin-bottom:30px;
+			margin-bottom:15px;
 			letter-spacing: 0.8px;
 			line-height:1.3;
 			a {
@@ -3330,12 +3332,15 @@ body.post-type-archive-product .myfilter_wrapper, body.tax-product_cat .myfilter
 		padding:15px 25px;
 		background:$greylight;
 		cursor: pointer;
+		
 		h2.my_filter_title {
 			font-size:25px;
 			font-family: $voltagelight;
 			text-transform: lowercase;
 			color:$bluedark;
 			width:100%;
+			font-style: normal;
+			font-weight: 300;
 			&:after {
 				content:"Close X";
 				float:right;
@@ -4928,6 +4933,13 @@ left:-100%;
 			z-index:50;
 		}
 
+body.tax-product_cat, body.post-type-archive-product {
+	.product_inner {
+		padding:0px 0 60px;
+		overflow: hidden;
+		
+	}
+}
 
 
 @media screen and (min-width: 455px) {
@@ -4960,7 +4972,7 @@ left:-100%;
 		overflow: hidden;
 		width:100%;
 		li:last-of-type {
-			margin-bottom:30px;
+			margin-bottom:15px;
 		}
 		li {
 			ul.sub-menu {
@@ -6202,7 +6214,7 @@ footer {
 .footer_menu {
 	width:40%;
 	float:left;
-	padding-top:73px;
+	padding-top:106px;
 	ul {
 		padding-top:0px;
 		li {
@@ -6507,11 +6519,11 @@ footer {
 
 
 #sidebar {
-	
+	font-size:16px;
 	ul {
 		text-align: left;
 		li {
-			
+			margin-bottom: 30px;
 			
 			ul.sub-menu {
 				li {
