@@ -4264,6 +4264,16 @@ ul.products li a.woocommerce-LoopProduct-link span.price ins {
 		}
 		p.wc-terms-and-conditions {
 			width:100%;
+			label {
+				width:500px;
+				float:left;
+				width:330px;
+				
+			}
+			input {
+				position: relative;
+				top:-3px;
+			}
 		}
 
 		#place_order {
@@ -4320,7 +4330,14 @@ ul.products li a.woocommerce-LoopProduct-link span.price ins {
 		text-transform: lowercase;
 		margin-bottom:35px;
 		color:$bluedark;
+		margin-left:6px;
 	}
+	
+		input#ship-to-different-address-checkbox {
+			position: relative;
+			top:-5px;
+		}
+	
 	p#billing_address_2_field {
 		margin-top:29px;
 	}
@@ -4329,13 +4346,16 @@ ul.products li a.woocommerce-LoopProduct-link span.price ins {
 		overflow: hidden;
 		label {
 			float:left;
-			background: red !important;
-			width:300px;
+			
+			width:155px;
 			
 		}
 		input {
-			float:left;
+// 			float:left;
 			margin-right:10px;
+			position: relative;
+			top:-3px;
+			
 		}
 	}
 	p#billing_postcode_field {
@@ -4597,7 +4617,7 @@ form.register {
 	color:#fff;
 	font-family: $oswaldreg;
 	text-transform: uppercase;
-	font-size:14px;
+	font-size:19px;
 	padding: 10px;
 }
 
@@ -4751,9 +4771,15 @@ div.woocommerce-MyAccount-content {
 }
 
 #payment {
-	
+	p.form_row {
+			}
 	ul.wc_payment_methods {
 		list-style: none;
+		input#wc-authorize-net-cim-credit-card-tokenize-payment-method {
+			margin-right:10px;
+			position: relative;
+			top:-3px;
+		}
 		li {
 			label {
 				display: block;

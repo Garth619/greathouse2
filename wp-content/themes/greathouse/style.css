@@ -2973,6 +2973,15 @@ td.product-quantity {
   .woocommerce #payment p.wc-terms-and-conditions,
   .woocommerce-page #payment p.wc-terms-and-conditions {
     width: 100%; }
+    .woocommerce #payment p.wc-terms-and-conditions label,
+    .woocommerce-page #payment p.wc-terms-and-conditions label {
+      width: 500px;
+      float: left;
+      width: 330px; }
+    .woocommerce #payment p.wc-terms-and-conditions input,
+    .woocommerce-page #payment p.wc-terms-and-conditions input {
+      position: relative;
+      top: -3px; }
   .woocommerce #payment #place_order,
   .woocommerce-page #payment #place_order {
     width: auto;
@@ -3010,7 +3019,12 @@ td.product-quantity {
   font-size: 40px;
   text-transform: lowercase;
   margin-bottom: 35px;
-  color: #79b7c0; }
+  color: #79b7c0;
+  margin-left: 6px; }
+
+.entry-content .woocommerce-checkout input#ship-to-different-address-checkbox {
+  position: relative;
+  top: -5px; }
 
 .entry-content .woocommerce-checkout p#billing_address_2_field {
   margin-top: 29px; }
@@ -3020,11 +3034,11 @@ td.product-quantity {
   overflow: hidden; }
   .entry-content .woocommerce-checkout p.create-account label {
     float: left;
-    background: red !important;
-    width: 300px; }
+    width: 155px; }
   .entry-content .woocommerce-checkout p.create-account input {
-    float: left;
-    margin-right: 10px; }
+    margin-right: 10px;
+    position: relative;
+    top: -3px; }
 
 .entry-content .woocommerce-checkout p {
   margin-bottom: 35px; }
@@ -3201,7 +3215,7 @@ form.register {
   color: #fff;
   font-family: "oswaldregular", arial;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 19px;
   padding: 10px; }
 
 /* Woocommerce Messages */
@@ -3314,6 +3328,10 @@ div.woocommerce-MyAccount-content form fieldset {
 
 #payment ul.wc_payment_methods {
   list-style: none; }
+  #payment ul.wc_payment_methods input#wc-authorize-net-cim-credit-card-tokenize-payment-method {
+    margin-right: 10px;
+    position: relative;
+    top: -3px; }
   #payment ul.wc_payment_methods li label {
     display: block; }
   #payment ul.wc_payment_methods li input {
