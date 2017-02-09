@@ -456,7 +456,7 @@ input.woocommerce-Button.button {
     top: 50%;
     transform: translateY(-50%); }
     .main_banner_wrapper .vertical_align span.large_header {
-      font-size: 40px;
+      font-size: 58px;
       display: inline-block; }
     .main_banner_wrapper .vertical_align span.sub_header {
       font-size: 22px;
@@ -657,18 +657,18 @@ br.tablet_break {
     transform: translateY(-50%); }
     .keyholder.mobile .inner_keyholder span.sub_header {
       font-family: "Voltage W00 Light", arial;
-      font-size: 21px;
+      font-size: 25px;
       display: block;
       margin-bottom: 12px; }
     .keyholder.mobile .inner_keyholder span.large_header {
       font-family: "oswaldregular", arial;
-      font-size: 30px;
+      font-size: 40px;
       text-transform: uppercase;
       letter-spacing: 0.4px;
       margin-bottom: 18px;
       display: block; }
   .keyholder.mobile .transparent_button {
-    padding: 7px 20px;
+    padding: 10px 24px;
     letter-spacing: .85px; }
 
 .threeboxes_desktop {
@@ -2223,7 +2223,7 @@ a.woocommerce-remove-coupon {
 /* member banner */
 .member_banner {
   width: 100%;
-  height: 485px;
+  height: 244px;
   background: #abcdd2 url(images/member-graphic.png) center center no-repeat;
   text-align: center;
   margin-top: 75px; }
@@ -2235,18 +2235,18 @@ a.woocommerce-remove-coupon {
     padding-right: 10px; }
     .member_banner .inner_banner_content span.sub_header {
       font-family: "Voltage W00 Light", arial;
-      font-size: 40px;
+      font-size: 25px;
       text-transform: lowercase; }
     .member_banner .inner_banner_content span.large_header {
       display: block;
-      font-size: 58px;
+      font-size: 40px;
       font-family: "oswaldregular", arial;
-      margin: 27px 0 35px 0;
+      margin: 12px 0 15px;
       text-transform: uppercase; }
     .member_banner .inner_banner_content .transparent_button {
-      font-size: 16px;
+      font-size: 14px;
       transition: all .2s ease-in-out;
-      padding-bottom: 11px; }
+      padding: 10px 24px; }
       .member_banner .inner_banner_content .transparent_button:hover {
         background: #000;
         color: #fff; }
@@ -4675,7 +4675,14 @@ left:-100%;
 */
   /* member banner */
   .member_banner {
-    margin-top: 150px; }
+    margin-top: 150px;
+    height: 400px; }
+    .member_banner .inner_banner_content span.sub_header {
+      font-size: 40px; }
+    .member_banner .inner_banner_content span.large_header {
+      font-size: 58px; }
+    .member_banner .inner_banner_content .transparent_button {
+      font-size: 16px; }
   /* Team Pics */
   #content .team_wrapper {
     padding: 2% 0px;
