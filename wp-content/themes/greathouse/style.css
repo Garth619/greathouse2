@@ -4688,11 +4688,12 @@ body.tax-product_cat .product_inner, body.post-type-archive-product .product_inn
   /* member banner */
   .member_banner {
     margin-top: 150px;
-    height: 400px; }
+    height: 440px; }
     .member_banner .inner_banner_content span.sub_header {
       font-size: 40px; }
     .member_banner .inner_banner_content span.large_header {
-      font-size: 58px; }
+      font-size: 58px;
+      margin: 15px 0 24px; }
     .member_banner .inner_banner_content .transparent_button {
       font-size: 16px; }
   /* Team Pics */
