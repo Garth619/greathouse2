@@ -2,7 +2,10 @@
 	
 	
 		
-		<div class="discount_wrapper" style="background: rgba(0, 0, 0, 0) url(<?php the_field('sidebar_discount_image','option');?>) no-repeat scroll center center / cover ;">
+		<div class="discount_wrapper" style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(<?php the_field('sidebar_discount_image','option');?>) top center no-repeat;background-size:cover;">
+			
+			
+			
 			
 			
 				
