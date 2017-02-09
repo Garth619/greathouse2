@@ -396,6 +396,9 @@ input.woocommerce-Button.button {
   color: #fff;
   text-transform: uppercase; }
 
+li.menu-item.menu-item-type-taxonomy.menu-item-object-product_cat.menu-item-11511, li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-2703 {
+  display: none; }
+
 /* Fixed Mobile Menu and Dropdown */
 .mobile_dropdown_wrapper {
   width: 100%;
