@@ -2975,13 +2975,11 @@ td.product-quantity {
     width: 100%; }
     .woocommerce #payment p.wc-terms-and-conditions label,
     .woocommerce-page #payment p.wc-terms-and-conditions label {
-      width: 500px;
-      float: left;
-      width: 330px; }
+      float: left; }
     .woocommerce #payment p.wc-terms-and-conditions input,
     .woocommerce-page #payment p.wc-terms-and-conditions input {
       position: relative;
-      top: -3px; }
+      top: -2px; }
   .woocommerce #payment #place_order,
   .woocommerce-page #payment #place_order {
     width: auto;
@@ -3435,6 +3433,9 @@ left:-100%;
   z-index: 50; }
 
 @media screen and (min-width: 455px) {
+  p.wc-terms-and-conditions label {
+    float: left !important;
+    width: 330px !important; }
   /* Sidebar Template */
   #sidebar {
     text-align: center;

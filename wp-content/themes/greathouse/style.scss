@@ -4265,14 +4265,14 @@ ul.products li a.woocommerce-LoopProduct-link span.price ins {
 		p.wc-terms-and-conditions {
 			width:100%;
 			label {
-				width:500px;
+				
 				float:left;
-				width:330px;
+// 				width:330px;
 				
 			}
 			input {
 				position: relative;
-				top:-3px;
+				top:-2px;
 			}
 		}
 
@@ -4931,6 +4931,21 @@ left:-100%;
 
 
 @media screen and (min-width: 455px) {
+	
+	
+	p.wc-terms-and-conditions {
+			
+			label {
+				
+				float:left !important;
+				width:330px !important;
+				
+			}
+			input {
+				
+			}
+		}
+	
 	
 	
 	
