@@ -1018,7 +1018,7 @@ body.single-product .product_wrapper .woocommerce-breadcrumb {
     list-style: none;
     text-align: center;
     /* Im using the top nav and manually hiding the other menu items I dont need, kinda hacky */ }
-    #sidebar ul li.menu-item-2642 > a, #sidebar ul li.menu-item-2703 > a, #sidebar ul li.menu-item-2703 > a, #sidebar ul li.menu-item-2704 > a, #sidebar ul li.menu-item-2705 > a, #sidebar ul li.menu-item-2706 > a, #sidebar ul li.menu-item-2707 > a, #sidebar ul li.menu-item-7459 > a {
+    #sidebar ul li.menu-item-2642 > a, #sidebar ul li.menu-item-2703 > a, #sidebar ul li.menu-item-2703 > a, #sidebar ul li.menu-item-2704 > a, #sidebar ul li.menu-item-2705 > a, #sidebar ul li.menu-item-2706 > a, #sidebar ul li.menu-item-2707 > a, #sidebar ul li.menu-item-7459 > a, #sidebar ul li.menu-item-11511 > a {
       display: none; }
     #sidebar ul li:last-of-type {
       margin-bottom: 0; }
