@@ -463,6 +463,9 @@ input.woocommerce-Button.button {
       display: block;
       margin: 7px 0 33px 0; }
 
+#products {
+  height: auto !important; }
+
 /*
 #products {
     margin-bottom: 140px;
