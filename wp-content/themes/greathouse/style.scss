@@ -3320,7 +3320,7 @@ body.single-product .outer_wrapper {
 
 
 body.tax-product_cat ul.products {
-	margin-top:100px;
+	margin-top:50px;
 }
 
 
@@ -4947,7 +4947,7 @@ left:-100%;
 
 body.tax-product_cat, body.post-type-archive-product {
 	.product_inner {
-		padding:0px 0 60px;
+// 		padding:0px 0 60px;
 		overflow: hidden;
 		
 	}
@@ -6709,6 +6709,14 @@ footer {
 
 
 @media screen and (min-width: 1150px) {
+	
+	
+	body.tax-product_cat ul.products {
+			margin-top:100px;
+	}
+	
+	
+	
 	
 	.single_variation_wrap {
 		border-bottom:4px solid #000;
