@@ -259,6 +259,8 @@
 	
 	<div class="overlay_inner">
 		
+		<img class="overlay_close zipcode_close" src="<?php bloginfo('template_directory');?>/images/x.png" />
+		
 		<div class="inital_content">
 
 			<span class="sub_header">let yourself in</span>

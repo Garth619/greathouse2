@@ -139,7 +139,7 @@ jQuery('html').click(function(event){
     
     $.cookie('popup', 'seen', { expires: 7, path: '/' }); 
     
-    jQuery(".mycookie").delay(2000).fadeIn();
+    // jQuery(".mycookie").delay(2000).fadeIn();
     
     
     jQuery('.mycookie_close').click(function(e) {
@@ -154,7 +154,7 @@ jQuery('html').click(function(event){
    
    jQuery('.header_special_deal').click(function() {
 	   
-	   jQuery('.discount_verbiage').fadeIn();
+	   // jQuery('.discount_verbiage').fadeIn();
 	   
 	   
    });
@@ -212,6 +212,15 @@ jQuery('html').click(function(event){
 // 		jQuery('.zipcode_checker').addClass('initial_show');
 
 			jQuery('.zipcode_checker').fadeIn();
+			
+		
+	});
+	
+	
+	jQuery('.zipcode_close').click(function(){
+		
+		jQuery('.zipcode_checker').fadeOut();
+		
 		
 	});
 	

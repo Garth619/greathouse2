@@ -165,8 +165,7 @@ header {
     font-family: "Didot W01 Bold";
     text-align: center;
     padding: 10px 0;
-    line-height: 1.5;
-    cursor: pointer; }
+    line-height: 1.5; }
     header .inner_header .header_special_deal .tablet_deal {
       display: none; }
     header .inner_header .header_special_deal .emphasis {
@@ -1976,7 +1975,7 @@ form.variations_form table.variations {
     margin: 0;
     background: #f3f3f3;
     overflow: hidden;
-    padding: 0 10px; }
+    padding: 0 10px 18px 0px; }
     .woocommerce-tabs.wc-tabs-wrapper ul.tabs.wc-tabs li {
       width: 50%;
       float: left;
@@ -4142,6 +4141,8 @@ div.col2-set.addresses div.col-2 header.title h3 {
     font-size: 20px; }
   .overlay #gform_submit_button_2 {
     padding: 9px 65px; }
+  .zipcode_checker .overlay_inner {
+    max-width: 780px; }
   /* Product Filters */
   .yit-wcan-container ul.products li {
     display: inline-block;
