@@ -614,6 +614,12 @@ jQuery('.logo_wrapper').delay(400).queue(function(){
 
 
 
+// Have the Terms and Conditions open in a new tab 
+
+
+
+
+
 
 	
 	

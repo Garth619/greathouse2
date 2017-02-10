@@ -966,7 +966,7 @@ function my_cities( $cities ) {
 }
 
 
-// Limits US staes to just Califonia 
+// Limits US states to just Califonia 
 
 
 add_filter( 'woocommerce_states', 'custom_woocommerce_states' );
