@@ -263,12 +263,12 @@ body.mycartadd a.cart-contents, body.mycartadd a.dropdown-total {
   z-index: 1000;
   width: 100%; }
   .mobile_fixed_wrapper.stuck .mobile_dropdown_wrapper {
-    top: 87px;
+    top: 94px;
     position: fixed;
     left: 0; }
   .mobile_fixed_wrapper.stuck .mysearch_wrapper.mobile {
     position: fixed;
-    top: 87px;
+    top: 94px;
     height: 100%;
     overflow-y: scroll; }
     .mobile_fixed_wrapper.stuck .mysearch_wrapper.mobile .mysearch_inner_wrapper {
@@ -1879,7 +1879,8 @@ div.up-sells.upsells.products ul.products li {
     margin-right: 15px;
     margin-bottom: 15px;
     transition: all .2s ease-in-out;
-    float: left; }
+    float: left;
+    text-transform: uppercase; }
     .share_quantity_wrapper .single_add_to_cart_button:hover {
       background: #000;
       color: #fff; }
@@ -2758,7 +2759,7 @@ td.product-quantity {
   .woocommerce table.shop_table_responsive tr,
   .woocommerce-page table.shop_table_responsive tr {
     display: block;
-    margin-bottom: 60px; }
+    margin-bottom: 25px; }
     .woocommerce table.shop_table_responsive tr td dl.variation,
     .woocommerce-page table.shop_table_responsive tr td dl.variation {
       width: 300px; }
@@ -4688,7 +4689,7 @@ body.tax-product_cat .product_inner, body.post-type-archive-product .product_inn
   /* member banner */
   .member_banner {
     margin-top: 150px;
-    height: 440px; }
+    height: 400px; }
     .member_banner .inner_banner_content span.sub_header {
       font-size: 40px; }
     .member_banner .inner_banner_content span.large_header {

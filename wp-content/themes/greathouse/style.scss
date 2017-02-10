@@ -378,13 +378,13 @@ body.mycartadd {
 	width:100%;
 	
 	.mobile_dropdown_wrapper {
-		top:87px;
+		top:94px;
 		position: fixed;
 		left:0;
 	}
 	.mysearch_wrapper.mobile {
 		position: fixed;
-		top:87px;
+		top:94px;
 		height:100%;
 		overflow-y:scroll;
 		
@@ -2661,6 +2661,7 @@ li#field_2_2 label.gfield_label {
 			margin-bottom:15px;
 			transition:all .2s ease-in-out;
 			float:left;
+			text-transform: uppercase;
 			&:hover {
 				background: #000;
 				color:#fff;
@@ -3992,7 +3993,7 @@ ul.products li a.woocommerce-LoopProduct-link span.price ins {
 		}
 		tr {
 			display: block;
-			margin-bottom:60px;
+			margin-bottom:25px;
 			td {
 				dl.variation {
 					width:300px;
