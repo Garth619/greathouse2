@@ -5707,18 +5707,14 @@ body.logged-in {
 			margin-left: 81px;
 			margin-top: -42px;
 			width: 246px;
-			-webkit-perspective:1000px;
-			perspective: 1000px;
+		
 			.awards_inner_swing {
 				background: #fff none repeat scroll 0 0;
 				height: 123px;
 				width: 246px;
-				transition:all .5s ease-in-out;
-				-webkit-transform:rotateY(98deg);
-				transform: rotateY(98deg);
-				-webkit-transform-origin:0% 0%;
-				transform-origin: 0% 0%;
-				
+				transition:all .5s ease-in-out;		
+					left:-248px;
+					position: relative;		
 				img {
 					width:107px;
 					height:auto;
@@ -5728,10 +5724,7 @@ body.logged-in {
 				}
 			}
 			.awards_inner_swing.open {
-				-webkit-transform: rotateY(0deg);
-				transform: rotateY(0deg);
-				-webkit-transition:all .5s ease-in-out;
-				transition:all .5s ease-in-out;
+				left:0px;
 			}
 		}
 	}
@@ -9636,11 +9629,11 @@ ul.mycart {
 			height: 198px;
 			 margin-left: 127px;
 			 width: 532px;
+			 
 			.awards_inner_swing {
 				height: 198px;
 				width: 532px;
-				-webkit-transform:rotateY(106deg);
-				transform: rotateY(106deg);
+				left:-545px;
 				a {
 					float: left;
 					height: 165px;

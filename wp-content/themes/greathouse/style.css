@@ -3755,18 +3755,14 @@ div.col2-set.addresses div.col-2 header.title h3 {
         height: 123px;
         margin-left: 81px;
         margin-top: -42px;
-        width: 246px;
-        -webkit-perspective: 1000px;
-        perspective: 1000px; }
+        width: 246px; }
         .main_banner_wrapper .awards_wrapper .awards_swing .awards_inner_swing {
           background: #fff none repeat scroll 0 0;
           height: 123px;
           width: 246px;
           transition: all .5s ease-in-out;
-          -webkit-transform: rotateY(98deg);
-          transform: rotateY(98deg);
-          -webkit-transform-origin: 0% 0%;
-          transform-origin: 0% 0%; }
+          left: -248px;
+          position: relative; }
           .main_banner_wrapper .awards_wrapper .awards_swing .awards_inner_swing img {
             width: 107px;
             height: auto;
@@ -3774,10 +3770,7 @@ div.col2-set.addresses div.col-2 header.title h3 {
             margin-left: 10px;
             margin-top: 7px; }
         .main_banner_wrapper .awards_wrapper .awards_swing .awards_inner_swing.open {
-          -webkit-transform: rotateY(0deg);
-          transform: rotateY(0deg);
-          -webkit-transition: all .5s ease-in-out;
-          transition: all .5s ease-in-out; }
+          left: 0px; }
     .main_banner_wrapper .vertical_align span.large_header {
       font-size: 80px;
       max-width: 545px; }
@@ -5328,8 +5321,7 @@ div.col2-set.addresses div.col-2 header.title h3 {
         .main_banner_wrapper .awards_wrapper .awards_swing .awards_inner_swing {
           height: 198px;
           width: 532px;
-          -webkit-transform: rotateY(106deg);
-          transform: rotateY(106deg); }
+          left: -545px; }
           .main_banner_wrapper .awards_wrapper .awards_swing .awards_inner_swing a {
             float: left;
             height: 165px;
