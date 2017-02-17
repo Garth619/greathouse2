@@ -295,7 +295,7 @@
 			
 			
 			
-			<span class="add_again">Please Click the 'Add To Cart' button again to add this product to your cart</span>
+			<span class="add_again">Please click the 'Add To Cart' button behind this overlay once again to add this product to your cart</span>
 			
 <!--
 			<div id="zip_code_discount">

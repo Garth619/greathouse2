@@ -1029,13 +1029,29 @@ add_action('woocommerce_checkout_update_order_meta', 'wps_select_checkout_field_
 function wps_select_checkout_field_display_admin_order_meta($order){
 	echo '<p><strong>'.__('Salesperson').':</strong> ' . get_post_meta( $order->id, 'daypart', true ) . '</p>';
 }
+
+
+
 //* Add selection field value to emails
+/*
 add_filter('woocommerce_email_order_meta_keys', 'wps_select_order_meta_keys');
 function wps_select_order_meta_keys( $keys ) {
 	$keys['Salesperson:'] = 'daypart';
 	return $keys;
 	
 }
+*/
+
+// Use something like this to add an extra add to cart to the zip code overlay
+
+/*
+add_action( 'woocommerce_single_product_summary', 'my_extra_button_on_product_page', 30 );
+
+function my_extra_button_on_product_page() {
+  global $product;
+  echo '<a href="URL">Extra Button</a>';
+}
+*/
 
 
 
