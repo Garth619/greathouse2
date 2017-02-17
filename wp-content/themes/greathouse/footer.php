@@ -141,7 +141,7 @@
 	
 	<img class="ssl_icon" src="<?php bloginfo('template_directory');?>/images/ssl.svg"/>
 	
-	<span>Copyright 2016&copy; Greathouse Furniture. <br class="copy_mobile"/>All rights reserved. <!-- Sitemap --> &nbsp;|&nbsp; <a href="<?php bloginfo('url');?>/private-policy">Private Policy</a> &nbsp;|&nbsp; <a href="<?php bloginfo('url');?>/terms-and-conditions">Terms & Conditions</a></span>
+	<span>Copyright 2017&copy; Greathouse Furniture. <br class="copy_mobile"/>All rights reserved. <!-- Sitemap --> &nbsp;|&nbsp; <a href="<?php bloginfo('url');?>/private-policy">Private Policy</a> &nbsp;|&nbsp; <a href="<?php bloginfo('url');?>/terms-and-conditions">Terms & Conditions</a></span>
 	
 	
 	
@@ -215,7 +215,7 @@
 				
 				<span class="step_circle">1</span><!-- step_circle -->
 				
-				<span class="step_content">Access to Private Sales not available to the General Public</span><!-- step_content -->
+				<span class="step_content">Invitations to Special Events & mixers featuring local personalities & designers and of course, Happy Hour Gratis!</span><!-- step_content -->
 				
 			</div><!-- step -->
 			
@@ -223,7 +223,7 @@
 				
 				<span class="step_circle">2</span><!-- step_circle -->
 				
-				<span class="step_content">Undivided access to preview the latest additions & collections</span><!-- step_content -->
+				<span class="step_content">Early access to sale pricing before the general public</span><!-- step_content -->
 				
 			</div><!-- step -->
 			
@@ -231,7 +231,7 @@
 				
 				<span class="step_circle">3</span><!-- step_circle -->
 				
-				<span class="step_content">Access to certain <strong>SALE PRICING</strong> before and after major sales events</span><!-- step_content -->
+				<span class="step_content">Access to Private Flash Sales exclusively reserved for Key Holder members</span><!-- step_content -->
 				
 			</div><!-- step -->
 			
@@ -239,7 +239,7 @@
 				
 				<span class="step_circle">4</span><!-- step_circle -->
 				
-				<span class="step_content">Invitations to Special Events including: guest speakers, “How To” seminars, happy hour beverages & much more</span><!-- step_content -->
+				<span class="step_content">Early notification of new lines and collections before they arrive!</span><!-- step_content -->
 				
 			</div><!-- step -->
 			
@@ -292,6 +292,10 @@
 			<span class="large_header">We Deliver Here!</span>
 			
 			<span class="additional">Greathouse proudly offers White Glove Delivery anywhere in San Diego County.  Our Delivery Specialists will unbox, setup and take away all the trash so you don't have to worry about a thing, other than enjoying your new furniture!</span>
+			
+			
+			
+			<span class="add_again">Please Click the 'Add To Cart' button again to add this product to your cart</span>
 			
 <!--
 			<div id="zip_code_discount">
