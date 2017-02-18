@@ -3391,9 +3391,12 @@ ul.woocommerce-thankyou-order-details {
       font-weight: 300;
       color: #79b7c0; }
 
-tr.shipping {
-  display: none !important; }
+/*
 
+tr.shipping {
+	display: none !important;
+}
+*/
 body.search-results .product_inner, body.search-no-results .product_inner {
   display: none; }
 
