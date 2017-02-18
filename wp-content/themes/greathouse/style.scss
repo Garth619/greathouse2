@@ -4891,7 +4891,10 @@ body.woocommerce-checkout div.product_wrapper div.inner_product_wrapper div.entr
 }
 
 
-tr.shipping {
+
+body.woocommerce-cart {
+	
+	tr.shipping {
 	td {
 		padding-left:0 !important;
 		padding-right:0 !important;
@@ -4901,6 +4904,33 @@ tr.shipping {
 			li {
 				margin-bottom:20px;
 				text-align: right;
+				label {
+					
+				}
+				input {
+					margin-right:10px;
+				}
+			}
+		}
+	}
+}
+	
+}
+
+
+
+
+
+tr.shipping {
+	td {
+		padding-left:0 !important;
+		padding-right:0 !important;
+		ul#shipping_method {
+			list-style: none;
+			color:#000 !important;
+			li {
+				margin-bottom:20px;
+				text-align: left;
 				label {
 					
 				}
@@ -8343,6 +8373,8 @@ body.woocommerce-checkout div.product_wrapper div.inner_product_wrapper div.entr
 	
 	/* Woocommerce Resonsive Tables from assets/css/smallscreen.scss */
 	
+	
+	
 	tr.shipping {
 	td {
 		
@@ -8693,7 +8725,7 @@ body.woocommerce-checkout div.product_wrapper div.inner_product_wrapper div.entr
 			
 			span.woocommerce-Price-amount {
 				position: relative;
-				right:-30%;
+				right:-34%;
 			}
 		}
 	}
