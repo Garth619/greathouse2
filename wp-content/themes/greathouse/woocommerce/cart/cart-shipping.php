@@ -59,3 +59,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<?php endif; ?>
 	</td>
 </tr>
+
+<tr>
+	<td style="text-align:center">
+		<span class="local_pick_up_address_wrapper"> Local Pick Up Address: <a class="https://www.google.com/maps/place/8940+Kenamar+Dr,+San+Diego,+CA+92121/@32.8854178,-117.1579916,17z/data=!3m1!4b1!4m5!3m4!1s0x80dbf8b481eb12dd:0xab80aadbf205e588!8m2!3d32.8854178!4d-117.1558029" href="" target="_blank">8940 Kenamar Dr, San Diego, CA 92121</a></span>
+	</td>
+</tr>
