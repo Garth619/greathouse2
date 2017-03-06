@@ -362,6 +362,22 @@ header {
 
 
 
+.term-description {
+	font-size: 18px;
+	font-family: $didot;
+	text-transform: none;
+	line-height: 27px;
+	margin:70px auto;
+	max-width: 600px;
+	padding:0 30px;
+	p {
+		 margin-bottom: 20px;
+		 &:last-of-type {
+			 margin-bottom:0;
+		 }
+	}
+}
+
 
 
 
@@ -6518,6 +6534,20 @@ footer {
 
 
 
+
+.term-description {
+
+	max-width: 799px;
+
+	
+}
+
+
+
+
+
+
+
 	ul.products {
 		
 		li {
@@ -7565,6 +7595,18 @@ body.single {
 
 
 /* Product Feed */
+
+
+
+
+
+
+.term-description {
+	max-width: 1210px;
+}
+
+
+
 
 
 
@@ -10457,6 +10499,15 @@ margin:30px 0 15px;
 		}
 		
 	}
+	
+	
+	
+	
+	
+.term-description {
+	max-width: 1560px;
+}
+	
 	
 	
 	
