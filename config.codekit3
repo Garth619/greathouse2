@@ -21,24 +21,6 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
-	"\/greathouse.com.crt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/greathouse.com.crt",
-		"oF": 0
-		},
-	"\/greathouse.com.key": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/greathouse.com.key",
-		"oF": 0
-		},
-	"\/gus-migrate-20161210001402.sql.gz": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/gus-migrate-20161210001402.sql.gz",
-		"oF": 0
-		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -49,12 +31,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-mainproducts.php",
-		"oF": 0
-		},
-	"\/robots.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/robots.txt",
 		"oF": 0
 		},
 	"\/wp-activate.php": {
