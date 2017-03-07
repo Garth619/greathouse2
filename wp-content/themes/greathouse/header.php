@@ -58,6 +58,52 @@
   ga('send', 'pageview');
 
 </script>
+
+<!-- gc -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93071472-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "FurnitureStore",
+    "name": "Greathouse",
+    "alternateName": " Greathouse Furniture",
+        "description": "San Diego Furniture Store",
+    "url" : "http://www.greathouse.com/",
+    "logo" : "https://www.greathouse.com/wp-content/themes/greathouse/images/logo.png",
+    "image" : "https://www.greathouse.com/wp-content/themes/greathouse/images/logo.png",
+    "telephone": " (858) 271-9400",
+    "openingHours" : "Mo,Tu,We,Th,Fr 10:00-18:00",
+    "hasMap": "https://maps.google.com/?cid=8107737128740527247",
+    "address":
+         {
+         "@type": "PostalAddress",
+         "streetAddress": "9050 Kenamar Drive",
+         "addressLocality": "San Diego",
+         "addressRegion": "CA",
+         "postalCode": "92121",
+         "addressCountry": "USA"
+         },
+    "sameAs": [
+    "https://www.instagram.com/greathousefp/",
+    "http://www.houzz.com/pro/greathousesandiego/greathouse",
+    "https://twitter.com/greathousefp",
+    "https://plus.google.com/101059326247870466948"
+    ]
+}
+</script>
+
+
 </head>
 
 <body <?php body_class(); ?>>
