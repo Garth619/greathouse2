@@ -99,6 +99,8 @@ Author: 1Point21 - Garrett Cullen
 .slick-slide img
 {
     display: block;
+    max-width:100%;
+    height:auto;
 }
 .slick-slide.slick-loading img
 {
