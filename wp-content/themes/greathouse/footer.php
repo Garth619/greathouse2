@@ -139,7 +139,7 @@
 
 <div class="copyright">
 	
-	<img class="ssl_icon" src="<?php bloginfo('template_directory');?>/images/ssl.svg"/>
+	<img class="ssl_icon" src="<?php bloginfo('template_directory');?>/images/ssl.png"/>
 	
 	<span>Copyright 2017&copy; Greathouse Furniture. <br class="copy_mobile"/>All rights reserved. <!-- Sitemap --> &nbsp;|&nbsp; <a href="<?php bloginfo('url');?>/private-policy">Private Policy</a> &nbsp;|&nbsp; <a href="<?php bloginfo('url');?>/terms-and-conditions">Terms & Conditions</a></span>
 	
