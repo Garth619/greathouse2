@@ -617,27 +617,27 @@ if( function_exists('acf_add_options_page') ) {
  
 function disable_styles() {
 
-/* woocommerce-dropdown-cart */
+// woocommerce-dropdown-cart
 
 
 wp_dequeue_style( 'jquery-dropdown-cart' );
 wp_deregister_style( 'jquery-dropdown-cart' );
 
 
-/* yith-woocommerce-ajax-search-premium */ 
+// yith-woocommerce-ajax-search-premium  
 
 
 wp_dequeue_style( 'yith_wcas_frontend' );
 wp_deregister_style( 'yith_wcas_frontend' );
 
 
-/* improved-variable-product-attributes */
+// improved-variable-product-attributes 
 
 wp_dequeue_style( 'ivpa-style' );
 wp_deregister_style( 'ivpa-style' );
 
 
-/* yith-woocommerce-wishlist-premium */
+// yith-woocommerce-wishlist-premium 
 
 
 wp_dequeue_style( 'jquery-selectBox' );
@@ -651,7 +651,7 @@ wp_deregister_style( 'yith-wcwl-main' );
 wp_dequeue_style( 'yith-wcwl-font-awesome' );
 wp_deregister_style( 'yith-wcwl-font-awesome' );
 
-/* wooswipe */
+// wooswipe 
 
 wp_deregister_style( 'pswp-css' );
 wp_deregister_style( 'pswp-css' );
@@ -670,6 +670,11 @@ wp_deregister_style( 'slick-theme' );
 
 wp_deregister_style( 'wooswipe-css' );
 wp_deregister_style( 'wooswipe-css' );
+
+// Pretty Photo inside woocommerce
+
+wp_deregister_style( 'woocommerce_prettyPhoto_css' );
+wp_deregister_style( 'woocommerce_prettyPhoto_css' );
 
 }
 
