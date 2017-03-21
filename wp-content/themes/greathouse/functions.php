@@ -603,7 +603,7 @@ if( function_exists('acf_add_options_page') ) {
 
  function load_my_styles_scripts() {
      // Load my stylesheet
-     wp_enqueue_style( 'styles', get_stylesheet_uri(), '', 1, 'all' ); 
+     wp_enqueue_style( 'styles', get_stylesheet_uri(), '', 2, 'all' ); 
 
      // Load my javascripts
      wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js',
@@ -611,8 +611,69 @@ if( function_exists('acf_add_options_page') ) {
  }
  
  add_action( 'wp_enqueue_scripts', 'load_my_styles_scripts', 20 );
+ 
+ 
+// Dequeue Styles in all plugins used, this is to try and pass the wondeful google page speed rules. These styles can be found at the bottom of themes styles.scss
+ 
+function disable_styles() {
+
+/* woocommerce-dropdown-cart */
 
 
+wp_dequeue_style( 'jquery-dropdown-cart' );
+wp_deregister_style( 'jquery-dropdown-cart' );
+
+
+/* yith-woocommerce-ajax-search-premium */ 
+
+
+wp_dequeue_style( 'yith_wcas_frontend' );
+wp_deregister_style( 'yith_wcas_frontend' );
+
+
+/* improved-variable-product-attributes */
+
+wp_dequeue_style( 'ivpa-style' );
+wp_deregister_style( 'ivpa-style' );
+
+
+/* yith-woocommerce-wishlist-premium */
+
+
+wp_dequeue_style( 'jquery-selectBox' );
+wp_deregister_style( 'jquery-selectBox' );
+
+
+wp_dequeue_style( 'yith-wcwl-main' );
+wp_deregister_style( 'yith-wcwl-main' );
+
+
+wp_dequeue_style( 'yith-wcwl-font-awesome' );
+wp_deregister_style( 'yith-wcwl-font-awesome' );
+
+/* wooswipe */
+
+wp_deregister_style( 'pswp-css' );
+wp_deregister_style( 'pswp-css' );
+
+
+wp_deregister_style( 'pswp-skin' );
+wp_deregister_style( 'pswp-skin' );
+
+
+wp_deregister_style( 'slick-css' );
+wp_deregister_style( 'slick-css' );
+
+wp_deregister_style( 'slick-theme' );
+wp_deregister_style( 'slick-theme' );
+
+
+wp_deregister_style( 'wooswipe-css' );
+wp_deregister_style( 'wooswipe-css' );
+
+}
+
+add_action( 'wp_enqueue_scripts', 'disable_styles', 20 );
 
 // Force Gravity Forms to init scripts in the footer and ensure that the DOM is loaded before scripts are executed
 

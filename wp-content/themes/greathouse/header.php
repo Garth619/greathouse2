@@ -32,6 +32,37 @@
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
+<style id='yith_wcas_frontend-inline-css' type='text/css'>
+
+                .autocomplete-suggestion{
+                    padding-right: 0px;
+                }
+                .woocommerce .autocomplete-suggestion  span.yith_wcas_result_on_sale,
+                .autocomplete-suggestion  span.yith_wcas_result_on_sale{
+                        background: #79b7c0;
+                        color: #ffffff
+                }
+                .woocommerce .autocomplete-suggestion  span.yith_wcas_result_outofstock,
+                .autocomplete-suggestion  span.yith_wcas_result_outofstock{
+                        background: #7a7a7a;
+                        color: #ffffff
+                }
+                .woocommerce .autocomplete-suggestion  span.yith_wcas_result_featured,
+                .autocomplete-suggestion  span.yith_wcas_result_featured{
+                        background: #c0392b;
+                        color: #ffffff
+                }
+                .autocomplete-suggestion img{
+                    width: 50px;
+                }
+                .autocomplete-suggestion .yith_wcas_result_content .title{
+                    color: #000000;
+                }
+                .autocomplete-suggestion{
+                                    min-height: 60px;
+                                }
+</style>
+
 <?php wp_head(); ?>
 <script>
     !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
