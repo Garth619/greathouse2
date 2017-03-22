@@ -603,7 +603,7 @@ if( function_exists('acf_add_options_page') ) {
 
  function load_my_styles_scripts() {
      // Load my stylesheet
-     wp_enqueue_style( 'styles', get_stylesheet_uri(), '', 2, 'all' ); 
+     wp_enqueue_style( 'styles', get_stylesheet_uri(), '', 3, 'all' ); 
 
      // Load my javascripts
      wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js',
