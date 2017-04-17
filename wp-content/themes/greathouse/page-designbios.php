@@ -45,7 +45,7 @@ get_header(); ?>
 										
 										<?php else:?>
 										
-										<h1>Design Services</h1>
+<!-- 										<h1>Design Services</h1> -->
 									
 									<?php endif;?>
 									
@@ -56,7 +56,7 @@ get_header(); ?>
 										
 										<?php else:?>
 										
-										<span class="designer_title">Before + Afters</span>
+<!-- 										<span class="designer_title">Before + Afters</span> -->
 									
 									<?php endif;?>
 						
